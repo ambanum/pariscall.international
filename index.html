@@ -49,23 +49,23 @@ bodyClass: page-home
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded',function() {
-      const filterInput = document.querySelector('#name-filter');
+  document.addEventListener('DOMContentLoaded', function() {
+      var filterInput = document.querySelector('#name-filter');
       filterInput.onkeyup = changeEventHandler;
   }, false);
 
   function changeEventHandler(event) {
-      const filterValue = event.target.value;
+      var filterValue = event.target.value;
 
-      document.querySelectorAll('[data-supporter-name]').forEach((element) => {
-        if (!filterValue) {
+      document.querySelectorAll('[data-supporter-name]').forEach(function(element) {
+        if (! filterValue) {
           showElement(element);
           return;
         }
 
-        const elementValue = element.attributes["data-supporter-name"].value;
+        var elementValue = element.attributes["data-supporter-name"].value;
 
-        if (!elementValue.toLowerCase().includes(filterValue)) {
+        if (! elementValue.toLowerCase().includes(filterValue)) {
           hideElement(element);
         } else {
           showElement(element);
