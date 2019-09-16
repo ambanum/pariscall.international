@@ -3,6 +3,7 @@ name: CITRIS (Center for Information Technology Research in the Interest of Soci
 category: civil_society
 nature: Centre de recherche
 nationality: Etats-Unis
+alliance: 
 date_signed: '2018-11-12'
 ---
     
