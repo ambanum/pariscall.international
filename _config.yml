@@ -1,0 +1,24 @@
+# This file is *NOT* reloaded automatically when you use 'jekyll serve'.
+# If you change this file, please restart the server process.
+
+include: ['_pages']
+
+title: Paris Call
+baseurl: /ParisCall
+url: https://ambanum.github.io
+
+defaults:
+  -
+    scope:
+      path: "" # means "all files"
+    values:
+      nav_exclude: true
+      numbered_headers: false
+      search_exclude: true
+
+exclude:
+  - .circleci
+  - .gitignore
+  - .ruby_version
+  - Gemfile
+  - Gemfile.lock
