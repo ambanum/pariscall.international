@@ -1,20 +1,4 @@
 .page-home {
-  background-image: url('../images/undraw_taking_notes_tjaf.svg');
-  background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
-  @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 159px -40px;
-  }
-  @include media-breakpoint-up(md) {
-    background-size: 70%;
-    background-position: 100% -50px;
-  }
-  @include media-breakpoint-up(lg) {
-    background-size: 60%;
-    background-position: 100% -70px;
-  }
   .call {
     position: relative;
     overflow: hidden;
@@ -115,6 +99,27 @@
         width: 70%;
       }
     }
+  }
+}
+
+.logo {
+  img {
+    width: 400px;
+  }
+}
+
+.intro {
+  background-image: url('../images/undraw_taking_notes_tjaf.svg');
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center right;
+  @include media-breakpoint-up(md) {
+    background-size: 50%;
+  }
+
+  h1 {
+    color: #6696CD;
+    margin-bottom: 3rem;
   }
 }
 
