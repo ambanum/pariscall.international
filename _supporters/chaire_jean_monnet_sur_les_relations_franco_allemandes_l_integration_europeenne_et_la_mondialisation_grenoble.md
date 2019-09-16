@@ -3,6 +3,7 @@ name: Chaire Jean Monnet sur les Relations franco-allemandes, l’intégration e
 category: civil_society
 nature: Université
 nationality: France
+alliance: 
 date_signed: '2018-11-12'
 ---
     

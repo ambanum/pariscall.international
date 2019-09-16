@@ -3,6 +3,7 @@ name: Centre d'Etudes sur la Sécurité Internationale et les Coopérations Euro
 category: civil_society
 nature: Centre de recherche
 nationality: France
+alliance: 
 date_signed: '2018-11-12'
 ---
     

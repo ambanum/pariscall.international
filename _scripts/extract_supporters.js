@@ -16,17 +16,28 @@ const CATEGORIES = {
 };
 
 function generateContent(supporter) {
-    const content =
-    `---
+    supporter.alliance = [];
+
+    if (supporter.Nom.includes('**')) {
+        supporter.alliance.push('Cyber Tech Accord');
+        supporter.Nom = supporter.Nom.replace('\*\*', '');
+    }
+
+    if (supporter.Nom.includes('*')) {
+        supporter.alliance.push('Charter of Trust');
+        supporter.Nom = supporter.Nom.replace('\*', '');
+    }
+
+
+    return `---
 name: ${ supporter.Nom }
 category: ${ CATEGORIES[supporter.Catégorie] || '' }
 nature: ${ supporter.Nature || '' }
-nationality: ${supporter.Nationalité || '' }
+nationality: ${ supporter.Nationalité || '' }
+alliance: ${ supporter.alliance.join(', ') }
 date_signed: '2018-11-12'
 ---
     `;
-
-    return content;
 }
 
 const supportersXLSX = XLSX.readFile(SOURCE_FILE);  // this source file contains private data, it is voluntary not to include it in the repository
