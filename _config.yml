@@ -11,7 +11,7 @@ collections:
 
 defaults:
   - scope:
-      type: supporter
+      path: _supporters
     values:
       layout: supporter
 
