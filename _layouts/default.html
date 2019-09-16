@@ -10,12 +10,9 @@
 <body class='page {{page.bodyClass}}'>
   {% include main-menu-mobile.html %}
   <div id="wrapper" class="wrapper">
-    {% include header.html headerClass='header-extra' %}
     {{content}}
   </div>
   {% include footer.html %}
-  {% include sub-footer.html %}
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
-  {% include google-analytics.html %}
 </body>
 </html>

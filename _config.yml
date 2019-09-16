@@ -29,8 +29,6 @@ defaults:
 sass:
   style: compact # possible values: nested expanded compact compressed
 
-google_analytics_id: null
-
 exclude:
   - .circleci
   - .gitignore
