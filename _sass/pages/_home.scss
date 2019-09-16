@@ -117,3 +117,20 @@
     }
   }
 }
+
+.card-footer {
+  padding: 0.25rem 1.25rem;
+  font-size: 75%;
+}
+
+.card-footer.private_sector {
+  background: #F6E8F6;
+}
+
+.card-footer.civil_society {
+  background: #E7EDFB;
+}
+
+.card-footer.state {
+  background: #E0FFCE;
+}
