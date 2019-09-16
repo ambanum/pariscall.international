@@ -122,6 +122,8 @@ GEM
       rouge (~> 2)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
+    jekyll-environment-variables (1.0.1)
+      jekyll (>= 3.0, < 5.x)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
     jekyll-gist (1.5.0)
@@ -255,6 +257,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 198)
   html-proofer
+  jekyll-environment-variables
 
 BUNDLED WITH
    2.0.1

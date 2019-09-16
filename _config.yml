@@ -1,20 +1,35 @@
 # This file is *NOT* reloaded automatically when you use 'jekyll serve'.
 # If you change this file, please restart the server process.
 
-include: ['_pages']
-
 title: Paris Call
 baseurl: /ParisCall
 url: https://ambanum.github.io
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
+  team:
+    output: true
+    permalink: /team/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/:path/
 
 defaults:
-  -
-    scope:
-      path: "" # means "all files"
+  - scope:
+      type: services
     values:
-      nav_exclude: true
-      numbered_headers: false
-      search_exclude: true
+      layout: service
+      bodyClass: page-services-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+google_analytics_id: null
 
 exclude:
   - .circleci
@@ -22,3 +37,5 @@ exclude:
   - .ruby_version
   - Gemfile
   - Gemfile.lock
+plugins:
+  - jekyll-environment-variables

@@ -41,6 +41,10 @@ rescue => standard_error
   gem 'github-pages'
 end
 
+group :jekyll_plugins do
+  gem 'jekyll-environment-variables'
+ end
+
 group :test do
   gem 'html-proofer'
 end
