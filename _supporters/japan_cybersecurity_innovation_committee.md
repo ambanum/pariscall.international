@@ -1,6 +1,8 @@
+---
 name: Japan Cybersecurity Innovation Committee 
 category: civil_society
-nature:  Think-tank
+nature: Think-tank
 nationality: Japon
-date_signed:
+date_signed: '2018-11-12'
+---
     

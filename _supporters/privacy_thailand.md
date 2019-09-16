@@ -1,6 +1,8 @@
+---
 name: Privacy Thailand
 category: private_sector
-nature:  Entreprise
+nature: Entreprise
 nationality: Thailande
-date_signed:
+date_signed: '2018-11-12'
+---
     

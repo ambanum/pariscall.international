@@ -1,6 +1,8 @@
+---
 name: Asociación de Constitucionalistas
 category: civil_society
-nature:  Fondation 
+nature: Fondation 
 nationality: Espagne
-date_signed:
+date_signed: '2018-11-12'
+---
     

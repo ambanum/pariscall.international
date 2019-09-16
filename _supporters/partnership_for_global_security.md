@@ -1,6 +1,8 @@
+---
 name: Partnership For Global Security
 category: civil_society
-nature:  Centre de recherche
+nature: Centre de recherche
 nationality: Etats-Unis
-date_signed:
+date_signed: '2018-11-12'
+---
     

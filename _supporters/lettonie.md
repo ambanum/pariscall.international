@@ -1,6 +1,8 @@
+---
 name: Lettonie
 category: state
-nature:  
+nature: 
 nationality: UE
-date_signed:
+date_signed: '2018-11-12'
+---
     

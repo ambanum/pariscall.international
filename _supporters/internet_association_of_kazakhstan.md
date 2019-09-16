@@ -1,6 +1,8 @@
+---
 name: Internet Association of Kazakhstan
 category: civil_society
-nature:  ONG
+nature: ONG
 nationality: Kazakhstan
-date_signed:
+date_signed: '2018-11-12'
+---
     

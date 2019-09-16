@@ -1,6 +1,8 @@
+---
 name: E-Civis Association
 category: civil_society
-nature:  
+nature: 
 nationality: Roumanie
-date_signed:
+date_signed: '2018-11-12'
+---
     

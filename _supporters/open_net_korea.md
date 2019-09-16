@@ -1,6 +1,8 @@
+---
 name: Open Net Korea 
 category: civil_society
-nature:  ONG
+nature: ONG
 nationality: Corée du Sud
-date_signed:
+date_signed: '2018-11-12'
+---
     

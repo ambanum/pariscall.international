@@ -1,6 +1,8 @@
+---
 name: Asia Cybersecurity Exchange (Asiacyberx) 
 category: private_sector
-nature:  Entreprise
+nature: Entreprise
 nationality: Malaisie
-date_signed:
+date_signed: '2018-11-12'
+---
     

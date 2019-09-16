@@ -1,6 +1,8 @@
+---
 name: Cyber Security Coalition 
 category: civil_society
-nature:  Think Tank
+nature: Think Tank
 nationality: Belgique
-date_signed:
+date_signed: '2018-11-12'
+---
     

@@ -1,6 +1,8 @@
+---
 name: Cyberwayfinder
 category: civil_society
-nature:  ONG
+nature: ONG
 nationality: Belgique
-date_signed:
+date_signed: '2018-11-12'
+---
     

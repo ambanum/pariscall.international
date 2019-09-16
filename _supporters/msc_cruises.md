@@ -1,6 +1,8 @@
+---
 name: MSC Cruises 
 category: private_sector
-nature:  Entreprise
+nature: Entreprise
 nationality: International
-date_signed:
+date_signed: '2018-11-12'
+---
     

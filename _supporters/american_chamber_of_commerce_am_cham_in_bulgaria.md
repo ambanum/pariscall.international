@@ -1,6 +1,8 @@
+---
 name: American Chamber of Commerce (AmCham) in Bulgaria 
 category: private_sector
-nature:  Chambre de commerce
+nature: Chambre de commerce
 nationality: Bulgarie
-date_signed:
+date_signed: '2018-11-12'
+---
     

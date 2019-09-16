@@ -1,6 +1,8 @@
+---
 name: Temple university
 category: civil_society
-nature:  Université
+nature: Université
 nationality: Etats-Unis
-date_signed:
+date_signed: '2018-11-12'
+---
     

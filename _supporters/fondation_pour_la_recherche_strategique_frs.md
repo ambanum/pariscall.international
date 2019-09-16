@@ -1,6 +1,8 @@
+---
 name: Fondation pour la Recherche Stratégique (FRS)
 category: civil_society
-nature:  Fondation 
+nature: Fondation 
 nationality: France
-date_signed:
+date_signed: '2018-11-12'
+---
     

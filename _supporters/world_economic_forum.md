@@ -1,6 +1,8 @@
+---
 name: World Economic Forum
 category: civil_society
-nature:  Organisation Internationale
+nature: Organisation Internationale
 nationality: International
-date_signed:
+date_signed: '2018-11-12'
+---
     

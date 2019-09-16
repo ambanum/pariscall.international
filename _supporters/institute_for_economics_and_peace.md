@@ -1,6 +1,8 @@
+---
 name: Institute for Economics and Peace
 category: civil_society
-nature:  Think-tank
+nature: Think-tank
 nationality: International
-date_signed:
+date_signed: '2018-11-12'
+---
     
