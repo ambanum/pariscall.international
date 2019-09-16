@@ -1,0 +1,42 @@
+---
+title: Appel de Paris pour la confiance et la sécurité dans le cyberespace
+layout: default
+bodyClass: page-home
+---
+
+<div class="intro pb-4">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    <p>Cette déclaration de haut niveau en faveur de l’élaboration de principes communs de sécurisation du cyberespace a déjà reçu l’appui de 564 soutiens.</p>
+  </div>
+</div>
+
+<div class="container pt-2">
+  <div class="call">
+    <div class="call-box-top">
+      Tous les États, entreprises et associations<br>
+      peuvent s’engager.
+    </div>
+    <div class="call-box-bottom">
+      <a href="{{site.baseurl}}/contact" class="button">Signer l’appel</a>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-8 pt-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-3">Les soutiens</h2>
+    </div>
+    {% for supporter in site.supporters %}
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">{{ supporter.name }}</h2>
+          {{ supporter.nature }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

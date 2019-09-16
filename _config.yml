@@ -1,0 +1,39 @@
+# This file is *NOT* reloaded automatically when you use 'jekyll serve'.
+# If you change this file, please restart the server process.
+
+title: Paris Call
+baseurl: /ParisCall
+url: https://ambanum.github.io
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
+  team:
+    output: true
+    permalink: /team/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/:path/
+
+defaults:
+  - scope:
+      type: services
+    values:
+      layout: service
+      bodyClass: page-services-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+exclude:
+  - .circleci
+  - .gitignore
+  - .ruby_version
+  - Gemfile
+  - Gemfile.lock
+plugins:
+  - jekyll-environment-variables
