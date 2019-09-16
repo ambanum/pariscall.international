@@ -1,6 +1,8 @@
+---
 name: Canadian Institute for Cybersecurity (University of New Brunswick) 
 category: civil_society
-nature:  Fondation 
+nature: Fondation 
 nationality: Canada
-date_signed:
+date_signed: '2018-11-12'
+---
     

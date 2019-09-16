@@ -1,6 +1,8 @@
+---
 name: Renaissance Numérique
 category: civil_society
-nature:  Think-tank
+nature: Think-tank
 nationality: France
-date_signed:
+date_signed: '2018-11-12'
+---
     

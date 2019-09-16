@@ -1,6 +1,8 @@
+---
 name: Canadian Information Processing Society (CIPS) 
 category: private_sector
-nature:  Association professionnelle 
+nature: Association professionnelle 
 nationality: Canada
-date_signed:
+date_signed: '2018-11-12'
+---
     

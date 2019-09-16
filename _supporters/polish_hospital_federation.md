@@ -1,6 +1,8 @@
+---
 name: Polish Hospital Federation
 category: private_sector
-nature:  Association professionnelle 
+nature: Association professionnelle 
 nationality: Pologne
-date_signed:
+date_signed: '2018-11-12'
+---
     

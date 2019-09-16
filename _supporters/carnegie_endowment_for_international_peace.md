@@ -1,6 +1,8 @@
+---
 name: Carnegie Endowment for International Peace
 category: civil_society
-nature:  Think-tank
+nature: Think-tank
 nationality: Etats-Unis
-date_signed:
+date_signed: '2018-11-12'
+---
     

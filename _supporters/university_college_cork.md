@@ -1,6 +1,8 @@
+---
 name: University College Cork
 category: civil_society
-nature:  Université
+nature: Université
 nationality: Irlande
-date_signed:
+date_signed: '2018-11-12'
+---
     

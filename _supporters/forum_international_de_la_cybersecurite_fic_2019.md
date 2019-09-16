@@ -1,6 +1,8 @@
+---
 name: Forum International de la Cybersécurité – FIC 2019
 category: civil_society
-nature:  Forum
+nature: Forum
 nationality: France
-date_signed:
+date_signed: '2018-11-12'
+---
     

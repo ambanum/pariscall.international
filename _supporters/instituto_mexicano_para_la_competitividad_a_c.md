@@ -1,6 +1,8 @@
+---
 name: Instituto Mexicano para la Competitividad A.C. 
 category: civil_society
-nature:  Think-tank
+nature: Think-tank
 nationality: Mexique
-date_signed:
+date_signed: '2018-11-12'
+---
     

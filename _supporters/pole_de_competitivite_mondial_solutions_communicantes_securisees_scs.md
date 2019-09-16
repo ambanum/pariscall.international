@@ -1,6 +1,8 @@
+---
 name: Pôle de compétitivité mondial Solutions Communicantes Sécurisées (SCS)
 category: private_sector
-nature:  Association professionnelle 
+nature: Association professionnelle 
 nationality: France
-date_signed:
+date_signed: '2018-11-12'
+---
     

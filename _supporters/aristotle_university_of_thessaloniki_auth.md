@@ -1,6 +1,8 @@
+---
 name: Aristotle University of Thessaloniki (AUTH)
 category: civil_society
-nature:  Université
+nature: Université
 nationality: Grèce
-date_signed:
+date_signed: '2018-11-12'
+---
     

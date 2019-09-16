@@ -5,26 +5,15 @@ title: Paris Call
 baseurl: /ParisCall
 url: https://ambanum.github.io
 collections:
-  services:
+  supporters:
     output: true
-    permalink: /services/:path/
-  team:
-    output: true
-    permalink: /team/:path/
-  testimonials:
-    output: true
-    permalink: /testimonials/:path/
+    permalink: /supporter/:path/
 
 defaults:
   - scope:
-      type: services
+      type: supporter
     values:
-      layout: service
-      bodyClass: page-services-single
-  - scope:
-      path: 'images'
-    values:
-      image: true
+      layout: supporter
 
 sass:
   style: compact # possible values: nested expanded compact compressed
@@ -35,5 +24,6 @@ exclude:
   - .ruby_version
   - Gemfile
   - Gemfile.lock
+
 plugins:
   - jekyll-environment-variables

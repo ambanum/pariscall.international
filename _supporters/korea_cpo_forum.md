@@ -1,6 +1,8 @@
+---
 name: Korea CPO Forum 
 category: civil_society
-nature:  
+nature: 
 nationality: Corée du Sud
-date_signed:
+date_signed: '2018-11-12'
+---
     

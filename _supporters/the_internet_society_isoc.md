@@ -1,6 +1,8 @@
+---
 name: The Internet Society (ISOC)
 category: civil_society
-nature:  
+nature: 
 nationality: International
-date_signed:
+date_signed: '2018-11-12'
+---
     

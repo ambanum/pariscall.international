@@ -1,6 +1,8 @@
+---
 name: EastWest Institute 
 category: civil_society
-nature:  NGO
+nature: NGO
 nationality: Etats-Unis
-date_signed:
+date_signed: '2018-11-12'
+---
     

@@ -1,6 +1,8 @@
+---
 name: Maldon&Wat
 category: private_sector
-nature:  Entreprise
+nature: Entreprise
 nationality: Roumanie
-date_signed:
+date_signed: '2018-11-12'
+---
     

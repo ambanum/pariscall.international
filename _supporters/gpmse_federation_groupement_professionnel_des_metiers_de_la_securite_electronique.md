@@ -1,6 +1,8 @@
+---
 name: GPMSE Fédération (Groupement Professionnel des Métiers de la Sécurité Electronique)
 category: private_sector
-nature:  Syndicat 
+nature: Syndicat 
 nationality: France
-date_signed:
+date_signed: '2018-11-12'
+---
     

@@ -1,6 +1,8 @@
+---
 name: VU Security **
 category: private_sector
-nature:  
+nature: 
 nationality: 
-date_signed:
+date_signed: '2018-11-12'
+---
     
