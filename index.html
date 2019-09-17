@@ -37,22 +37,24 @@ bodyClass: page-home
     </div>
   </div>
   <div class="row justify-content-start">
-    {% assign supporters_by_category = site.supporters | sort: "category" %}
-    {% for supporter in supporters_by_category %}
-    {%- if supporter.name -%}
-    <div class="col-12 col-md-4 mb-1" data-supporter-name="{{ supporter.name }}">
-      <div class="card service service-summary">
-        <div class="card-body">
-          <h5 class="card-title"><a href="{{ site.baseurl }}/{{ supporter.url }}">{{ supporter.name }}</a></h5>
-          <h6 class="card-subtitle text-muted">{{ supporter.nature }}</h6>
+    {% for category in site.supporter_categories %}
+      {% assign supporters_by_category = site.supporters | where: "category", category %}
+      {% for supporter in supporters_by_category %}
+        {%- if supporter.name -%}
+        <div class="col-12 col-md-4 mb-1" data-supporter-name="{{ supporter.name }}">
+          <div class="card service service-summary">
+            <div class="card-body">
+              <h5 class="card-title"><a href="{{ site.baseurl }}/{{ supporter.url }}">{{ supporter.name }}</a></h5>
+              <h6 class="card-subtitle text-muted">{{ supporter.nature }}</h6>
+            </div>
+            <div class="card-footer {{ supporter.category }}">
+                {{ supporter.category | replace: "civil_society", "Société civile" | replace: "private_sector", "Secteur privé" | replace: "state", "État" }}
+                {%- if supporter.nationality -%}&nbsp;({{ supporter.nationality }}){%- endif -%}
+            </div>
+          </div>
         </div>
-        <div class="card-footer {{ supporter.category }}">
-            {{ supporter.category | replace: "civil_society", "Société civile" | replace: "private_sector", "Secteur privé" | replace: "state", "État" }}
-            {%- if supporter.nationality -%}&nbsp;({{ supporter.nationality }}){%- endif -%}
-        </div>
-      </div>
-    </div>
-    {%- endif -%}
+        {%- endif -%}
+      {% endfor %}
     {% endfor %}
   </div>
 </div>
