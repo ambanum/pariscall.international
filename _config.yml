@@ -4,6 +4,9 @@
 title: Paris Call
 baseurl: /ParisCall
 url: https://ambanum.github.io
+
+supporter_categories: [ "private_sector", "civil_society", "state" ]
+
 collections:
   supporters:
     output: true

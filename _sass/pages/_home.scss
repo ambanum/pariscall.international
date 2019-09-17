@@ -1,20 +1,4 @@
 .page-home {
-  background-image: url('../images/undraw_taking_notes_tjaf.svg');
-  background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
-  @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 159px -40px;
-  }
-  @include media-breakpoint-up(md) {
-    background-size: 70%;
-    background-position: 100% -50px;
-  }
-  @include media-breakpoint-up(lg) {
-    background-size: 60%;
-    background-position: 100% -70px;
-  }
   .call {
     position: relative;
     overflow: hidden;
@@ -116,4 +100,42 @@
       }
     }
   }
+}
+
+.logo-text {
+  img {
+    width: 400px;
+  }
+}
+
+.intro {
+  background-image: url('../images/undraw_taking_notes_tjaf.svg');
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center right;
+  @include media-breakpoint-up(md) {
+    background-size: 50%;
+  }
+
+  h1 {
+    color: #6696CD;
+    margin-bottom: 3rem;
+  }
+}
+
+.card-footer {
+  padding: 0.25rem 1.25rem;
+  font-size: 75%;
+}
+
+.card-footer.private_sector {
+  background: #F6E8F6;
+}
+
+.card-footer.civil_society {
+  background: #E7EDFB;
+}
+
+.card-footer.state {
+  background: #E0FFCE;
 }
