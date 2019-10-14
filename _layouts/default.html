@@ -8,10 +8,8 @@
   <link href="{{site.baseurl}}/assets/css/style.css" rel="stylesheet">
 </head>
 <body class='page {{page.bodyClass}}'>
-  {% include main-menu-mobile.html %}
-  <div id="wrapper" class="wrapper">
-    {{content}}
-  </div>
+  {% include header.html %}
+  {{content}}
   {% include footer.html %}
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 </body>
