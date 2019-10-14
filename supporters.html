@@ -1,0 +1,86 @@
+---
+title: Les soutiens
+layout: default
+bodyClass: supporters
+---
+<div class="container pt-2">
+  <div class="call">
+    <div class="call-box-top">
+      Tous les États, entreprises et associations<br>
+      peuvent s’engager.
+    </div>
+    <div class="call-box-bottom">
+      <a href="{{ site.baseurl }}/support" class="button">Signer l’appel</a>
+    </div>
+  </div>
+</div>
+<div class="container pt-8 pt-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12">
+      <h2 class="title-3 text-dark mb-3">Les soutiens</h2>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <form class="">
+        <input id="name-filter" type="search" class="form-control" placeholder="Filtrer les soutiens"
+          autocomplete="false" autocorrect="off" autocapitalize="off" spellcheck="false" />
+      </form>
+    </div>
+  </div>
+  <div class="row justify-content-start">
+    {% for category in site.supporter_categories %}
+    {% assign supporters_by_category = site.supporters | where: "category", category %}
+    {% for supporter in supporters_by_category %}
+    {%- if supporter.name -%}
+    <div class="col-12 col-md-4 mb-1" data-supporter-name="{{ supporter.name }}">
+      <div class="card service service-summary">
+        <div class="card-body">
+          <h5 class="card-title"><a href="{{ site.baseurl }}/{{ supporter.url }}">{{ supporter.name }}</a>
+          </h5>
+          <h6 class="card-subtitle text-muted">{{ supporter.nature }}</h6>
+        </div>
+        <div class="card-footer {{ supporter.category }}">
+          {{ supporter.category | replace: "civil_society", "Société civile" | replace: "private_sector", "Secteur privé" | replace: "state", "État" }}
+          {%- if supporter.nationality -%}&nbsp;({{ supporter.nationality }}){%- endif -%}
+        </div>
+      </div>
+    </div>
+    {%- endif -%}
+    {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var filterInput = document.querySelector('#name-filter');
+    filterInput.onkeyup = changeEventHandler;
+  }, false);
+
+  function changeEventHandler(event) {
+    var filterValue = event.target.value;
+
+    document.querySelectorAll('[data-supporter-name]').forEach(function (element) {
+      if (!filterValue) {
+        showElement(element);
+        return;
+      }
+
+      var elementValue = element.attributes["data-supporter-name"].value;
+
+      if (!elementValue.toLowerCase().includes(filterValue)) {
+        hideElement(element);
+      } else {
+        showElement(element);
+      }
+    });
+  }
+
+  function hideElement(element) {
+    element.style.display = "none";
+  }
+
+  function showElement(element) {
+    element.style.display = "block";
+  }
+
+</script>
