@@ -5,12 +5,28 @@
 
 $baseurl: "{{ site.baseurl }}";
 
+$black: hsl(0, 0%, 4%);
+$black-bis: hsl(0, 0%, 7%);
+$black-ter: hsl(0, 0%, 14%);
+$grey-darker: hsl(0, 0%, 21%);
+$grey-dark: hsl(0, 0%, 29%);
+$grey: hsl(0, 0%, 48%);
+$grey-light: hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+$white-ter: hsl(0, 0%, 96%);
+$white-bis: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
 $purple: #372b7B;
+$light-blue: #6DA3D7;
 
 // Update Bulma's global variables
 $family-sans-serif: "Avenir Next", sans-serif;
 $primary: $purple;
-$secondary: #6DA3D7;
+$secondary: $light-blue;
+
+$link: $light-blue;
+$text: $grey-darker;
 
 // Import the rest of Bulma
 @import "bulma/utilities/_all";
@@ -28,3 +44,9 @@ $secondary: #6DA3D7;
 // Pages
 @import 'pages/landing';
 @import 'pages/call';
+@import 'pages/supporters';
+
+.button {
+    font-variant: all-small-caps;
+    font-weight: 500;
+}
