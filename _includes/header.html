@@ -1,49 +1,55 @@
-<section class="hero is-fullheight {{include.headerClass}}">
-  <div class="hero-head">
-    <nav class="main-navbar navbar" role="navigation" aria-label="main navigation">
-        <div class="container">
-          <div class="navbar-brand">
-              <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-            </div>
+<nav class="main-navbar navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
 
-            <div id="navbarBasicExample" class="navbar-menu">
-              <div class="navbar-start">
-                <a class="navbar-item" href="{{ site.baseurl }}/call">Lire l'appel</a>
-                <a class="navbar-item" href="{{ site.baseurl }}/principles">Les principes</a>
-              </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="{{ site.baseurl }}/call">Lire l'appel</a>
+        <a class="navbar-item" href="{{ site.baseurl }}/principles">Les principes</a>
+      </div>
 
-              <div class="navbar-end">
-                <a class="navbar-item" href="{{ site.baseurl }}/supporters">Les soutiens</a>
-                <a class="navbar-item" href="{{ site.baseurl }}/support">Signer l'appel</a>
-              </div>
-            </div>
-        </div>
-      </nav>
-  </div>
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <img class="hero-logo" alt="Appel de Paris" src="{{site.baseurl}}/assets/images/full-logo.png" />
-      <h1 class="title">
-        La cybersécurité mondiale a besoin<br /> d'une collaboration multipartie
-      </h1>
-      <h2 class="subtitle">
-        La plus grande communauté rassemblé autour de la cybersécurité
-      </h2>
-      <div class="counters">
-        <div class="counter"></div>
-        <div class="counter"></div>
-        <div class="counter"></div>
+      <div class="navbar-center is-hidden-touch">
+        <img class="logo" alt="Appel de Paris" src="{{site.baseurl}}/assets/images/full-logo.png" />
+      </div>
+
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{ site.baseurl }}/supporters">Les soutiens</a>
+        <a class="navbar-item" href="{{ site.baseurl }}/support">Signer l'appel</a>
       </div>
     </div>
   </div>
+</nav>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
 
-  <div class="hero-foot">
-    <div class="container has-text-centered">
-      <a class="button is-large is-primary is-rounded">Learn more</a>
-    </div>
-  </div>
-</section>
+    // Get all "navbar-burger" elements
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    // Check if there are any navbar burgers
+    if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
+      });
+    }
+
+  });
+</script>

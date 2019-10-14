@@ -4,22 +4,47 @@ layout: default
 bodyClass: landing
 ---
 
+<section class="header hero is-fullheight {{include.headerClass}}">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        {{ page.title }}
+      </h1>
+      {%- if page.subtitle -%}
+      <h2 class="subtitle">
+        {{ page.subtitle }}
+      </h2>
+      {%- endif -%}
+      <div class="counters">
+        <div class="counter"></div>
+        <div class="counter"></div>
+        <div class="counter"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <div class="container has-text-centered">
+      <a class="button is-large is-primary is-rounded">Learn more</a>
+    </div>
+  </div>
+</section>
 <section class="details section is-medium">
   <div class="container">
     <p>L'Appel de Paris pour la confiance et la sécurité dans le
-    cyberespace est une déclaration de haut niveau en faveur de
-    l'élaboration de principes communs de sécurisation du
-    cyberespace. Cette initiative a déjà reçu l'appui de nombreux
-    États ainsi que d'entreprises privées et d'organisations de la
-    société civile.</p>
+      cyberespace est une déclaration de haut niveau en faveur de
+      l'élaboration de principes communs de sécurisation du
+      cyberespace. Cette initiative a déjà reçu l'appui de nombreux
+      États ainsi que d'entreprises privées et d'organisations de la
+      société civile.</p>
     <p>Le cyberespace est un lieu d’opportunités mais également de
-    nouvelles menaces. Le développement de la cybercriminalité et
-    d'activités malicieuses peuvent aussi bien mettre en danger nos
-    données privées que certaines infrastructures vitales.</p>
+      nouvelles menaces. Le développement de la cybercriminalité et
+      d'activités malicieuses peuvent aussi bien mettre en danger nos
+      données privées que certaines infrastructures vitales.</p>
     <p>Afin de faire respecter les droits des personnes et les
-    protéger en ligne comme dans le monde physique, les États
-    doivent donc agir de concert et s'associer à des partenaires du
-    secteur privé, du monde de la recherche ou encore de la société
-    civile.</p>
+      protéger en ligne comme dans le monde physique, les États
+      doivent donc agir de concert et s'associer à des partenaires du
+      secteur privé, du monde de la recherche ou encore de la société
+      civile.</p>
   </div>
 </section>
