@@ -3,11 +3,25 @@
 # only Main files contain this front matter, not partials.
 ---
 
+$baseurl: "{{ site.baseurl }}";
 
+$purple: #372b7B;
 
 // Libraries
 @import 'libraries/hamburgers/hamburgers';
+// Update Bulma's global variables
+$family-sans-serif: "Avenir Next", sans-serif;
+$primary: $purple;
+$secondary: #6DA3D7;
 
+// Import the rest of Bulma
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/elements/_all";
+@import "bulma/form/_all";
+@import "bulma/components/_all";
+@import "bulma/grid/_all";
+@import "bulma/layout/_all";
 
 // Pages
 @import 'pages/home';
