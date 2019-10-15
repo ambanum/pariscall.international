@@ -81,7 +81,7 @@ $text: $grey-darker;
 }
 
 
-.section-title {
+.page-title {
   text-align: center;
   margin: 5em 0 10em;
 
@@ -114,20 +114,9 @@ $text: $grey-darker;
     width: 140%;
     bottom: -0.4em;
   }
-
-  &.is-white {
-    .title {
-      color: #fff;
-    }
-
-    .title:before,
-    .title:after {
-      background-color: #fff;
-    }
-  }
 }
 
-.is-inverted .section-title {
+.is-inverted .page-title {
   .title {
     color: #fff;
   }
@@ -142,4 +131,180 @@ $text: $grey-darker;
 .bg-secondary {
   background: $blue-700;
   color: #FFF;
+}
+
+.aspect-ratio-box {
+  &::before { /* To keep aspect ratio 1:1 see https://css-tricks.com/aspect-ratio-boxes/ */
+    content: "";
+    width: 1px;
+    margin-left: -1px;
+    float: left;
+    height: 0;
+    padding-top: 100%;
+  }
+  &::after { /* to clear float */
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.section-title {
+  .title {
+    color: $blue-900;
+  }
+
+  &.is-inverted {
+    .title {
+      color: #FFF;
+    }
+  }
+}
+
+// .section-title {
+//   margin-bottom: 1em;
+//   .title {
+//     display: inline-block;
+//     font-weight: 300;
+//     position: relative;
+//     color: $primary;
+//   }
+
+//   .title:before,
+//   .title:after {
+//     content: " ";
+//     position: absolute;
+//     left: 0;
+//     height: 1px;
+//     background-color: $purple-300;
+//     width: 100%;
+//   }
+
+//   .title:before {
+//     bottom: -0.1em;
+//   }
+
+//   .title:after {
+//     bottom: -0.3em;
+//   }
+
+//   @include desktop {
+//     .title:before {
+//       width: 105%;
+//     }
+
+//     .title:after {
+//       width: calc(105% + 15px);
+//       bottom: -0.4em;
+//     }
+//   }
+
+//   &.is-inverted {
+//     .title {
+//       color: #fff;
+//     }
+
+//     .title:before,
+//     .title:after {
+//       background-color: #fff;
+//     }
+//   }
+// }
+
+
+.date {
+  flex-direction: row;
+  display: flex;
+  min-height: 2.5rem;
+  flex: 1 1 2rem;
+}
+
+.date__day {
+  flex: 0;
+  text-transform: capitalize;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-right: .5rem;
+  color: $purple-400;
+  font-weight: 300;
+  white-space: nowrap;
+}
+
+.date__date {
+  font-size: .85rem;
+  line-height: .85rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.date__month {
+  color: #4a4a4a;
+  text-transform: capitalize;
+  font-size: .85rem;
+  line-height: 1.2;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.date__weekday {
+  font-size: .75em;
+  color: $blue-700;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.media-header {
+  margin-bottom: 1em;
+
+  .title {
+    font-weight: bold;
+  }
+}
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "paris-call-icons";
+  src:url($baseurl + "/assets/fonts/paris-call-icons.eot");
+  src:url($baseurl + "/assets/fonts/paris-call-icons.eot?#iefix") format("embedded-opentype"),
+    url($baseurl + "/assets/fonts/paris-call-icons.woff") format("woff"),
+    url($baseurl + "/assets/fonts/paris-call-icons.ttf") format("truetype"),
+    url($baseurl + "/assets/fonts/paris-call-icons.svg#paris-call-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "paris-call-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "paris-call-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map:before {
+  content: "\62";
 }

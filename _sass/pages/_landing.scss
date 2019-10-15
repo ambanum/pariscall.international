@@ -75,7 +75,7 @@
 
     .round-image {
       width: 100%;
-      background-image: url("/ParisCall/assets/images/duotone3.jpg");
+      background-image: url($baseurl + "/assets/images/duotone3.jpg");
       background-position: center;
       background-size: cover;
       border-radius: 100%;
@@ -87,23 +87,43 @@
     .button {
       text-transform: uppercase;
       transform: translateY(50%);
+      padding-left: 4em;
+      padding-right: 4em;
+      box-shadow: 0 1px 1px rgba(0,0,0,0.11),
+              0 2px 2px rgba(0,0,0,0.11),
+              0 4px 4px rgba(0,0,0,0.11),
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
     }
   }
 }
 
-
-.aspect-ratio-box {
-  &::before { /* To keep aspect ratio 1:1 see https://css-tricks.com/aspect-ratio-boxes/ */
-    content: "";
-    width: 1px;
-    margin-left: -1px;
-    float: left;
-    height: 0;
-    padding-top: 100%;
+.feed {
+  .column-title {
+    color: $blue-500;
   }
-  &::after { /* to clear float */
-    content: "";
-    display: table;
-    clear: both;
+}
+
+.media-content {
+  .column {
+    padding-bottom: 0.2em;
+  }
+}
+
+.location {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    font-size: 1.8em;
+    color: $purple-400;
+    margin-right: 0.1em;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  &__text {
+    font-size: 0.85em;
+    line-height: 1.2;
   }
 }
