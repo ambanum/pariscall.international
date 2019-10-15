@@ -1,0 +1,39 @@
+.principles-page {
+    .principles {
+        flex-wrap: wrap;
+    }
+
+    .principle {
+        padding: 2em;
+    }
+
+    .card-image {
+        padding: 1em;
+
+        svg {
+            fill: $secondary;
+        }
+    }
+
+    .card-content {
+        border-top: 1px solid $grey-lighter;
+        background-color: #f4f8fc;
+    }
+
+    .card-label {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: $secondary;
+        border: 1px solid $primary;
+        color: #FFF;
+        padding: 0.2em 1em;
+        font-variant: all-petite-caps;
+    }
+
+    .card-footer {
+        padding: 1em;
+        justify-content: center;
+    }
+}

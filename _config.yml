@@ -17,6 +17,7 @@ defaults:
       path: _supporters
     values:
       layout: supporter
+      bodyClass: supporter-page
 
 sass:
   style: compact # possible values: nested expanded compact compressed

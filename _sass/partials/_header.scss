@@ -1,0 +1,63 @@
+.main-navbar {
+  min-height: 6em;
+
+  @include desktop {
+    .navbar-start,
+    .navbar-end {
+      min-width: 30%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding-top: 1em;
+    }
+  }
+
+  .navbar-item {
+    font-variant: all-small-caps;
+    color: $primary;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
+}
+
+.logo {
+  width: 450px;
+}
+
+.hero-body {
+  .title {
+    max-width: 960px;
+    font-size: 4em;
+    font-weight: 300;
+    position: relative;
+    color: $primary;
+    margin: 1.5em auto 1.5em auto;
+  }
+
+  .title:before,
+  .title:after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    background-color: $primary;
+    opacity: 0.5;
+  }
+
+  .title:before {
+    width: 110%;
+    bottom: -0.2em;
+  }
+
+  .title:after {
+    width: 120%;
+    bottom: -0.45em;
+  }
+
+  .subtitle {
+    max-width: 960px;
+    margin: auto;
+    font-size: 2em;
+  }
+}

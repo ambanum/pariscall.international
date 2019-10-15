@@ -3,88 +3,143 @@
 # only Main files contain this front matter, not partials.
 ---
 
-// Font
-@import url('https://fonts.googleapis.com/css?family=Lora:400|Open+Sans:400,700');
+$baseurl: "{{ site.baseurl }}";
 
-// Bootstrap
-@import 'bootstrap/functions';
-@import 'bootstrap-variables';
-@import 'bootstrap/variables';
-@import 'bootstrap/mixins';
-@import 'bootstrap/root';
-@import 'bootstrap/reboot';
-@import 'bootstrap/grid';
-@import 'bootstrap/type';
-@import 'bootstrap/tables';
-// @import "bootstrap/images";
-// @import "bootstrap/code";
-@import "bootstrap/forms";
-// @import "bootstrap/buttons";
-// @import "bootstrap/transitions";
-// @import "bootstrap/dropdown";
-// @import "bootstrap/button-group";
-// @import "bootstrap/input-group";
-// @import "bootstrap/custom-forms";
-// @import "bootstrap/nav";
-// @import "bootstrap/navbar";
-@import "bootstrap/card";
-// @import "bootstrap/breadcrumb";
-// @import "bootstrap/pagination";
-// @import "bootstrap/badge";
-// @import "bootstrap/jumbotron";
-// @import "bootstrap/alert";
-// @import "bootstrap/progress";
-// @import "bootstrap/media";
-// @import "bootstrap/list-group";
-// @import "bootstrap/close";
-// @import "bootstrap/modal";
-// @import "bootstrap/tooltip";
-// @import "bootstrap/popover";
-// @import "bootstrap/carousel";
-// @import "bootstrap/print";
-@import 'bootstrap/utilities';
+$black: hsl(0, 0%, 4%);
+$black-bis: hsl(0, 0%, 7%);
+$black-ter: hsl(0, 0%, 14%);
+$grey-darker: hsl(0, 0%, 21%);
+$grey-dark: hsl(0, 0%, 29%);
+$grey: hsl(0, 0%, 48%);
+$grey-light: hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+$white-ter: hsl(0, 0%, 96%);
+$white-bis: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
 
-// Libraries
-@import 'libraries/hamburgers/hamburgers';
+$purple-50: #e8e5f0;
+$purple-100: #c5bed9;
+$purple-200: #9e93c0;
+$purple-300: #7767a6;
+$purple-400: #594793;
+$purple-500: #3c2680;
+$purple-600: #362278;
+$purple-700: #2e1c6d;
+$purple-800: #271763;
+$purple-900: #1a0d50;
 
-// Components
-@import 'components/page';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/sub-footer';
-@import 'components/logo';
-@import 'components/main-menu';
-@import 'components/main-menu-mobile';
-@import 'components/social';
-@import 'components/hamburger';
-@import 'components/buttons';
-@import 'components/title';
-@import 'components/content';
-@import 'components/intro';
-@import 'components/strip';
-@import 'components/whitebox';
-@import 'components/feature';
+$blue-50: #edf4fa;
+$blue-100: #d3e3f3;
+$blue-200: #b6d1eb;
+$blue-300: #99bfe3;
+$blue-400: #83b1dd;
+$blue-500: #6da3d7;
+$blue-600: #659bd3;
+$blue-700: #5a91cd;
+$blue-800: #5088c7;
+$blue-900: #3e77be;
+
+$white-blue: #f4f8fc;
+
+// Update Bulma's global variables
+$family-sans-serif: "Avenir Next", sans-serif;
+$primary: $purple-500;
+$secondary: $blue-500;
+
+$link: $purple-500;
+$text: $grey-darker;
+
+// Import the rest of Bulma
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/elements/_all";
+@import "bulma/form/_all";
+@import "bulma/components/_all";
+@import "bulma/grid/_all";
+@import "bulma/layout/_all";
+
+// Partials
+@import 'partials/header';
+@import 'partials/footer';
 
 // Pages
-@import 'pages/home';
+@import 'pages/landing';
+@import 'pages/call';
+@import 'pages/supporters';
+@import 'pages/supporter';
+@import 'pages/support';
+@import 'pages/principles';
 
-// Display breakpoints for DEV
-// body:after {
-//   color: #000000;
-//   font-size: 12px;
-//   padding: 5px;
-//   font-weight: bold;
-//   right: 10px;
-//   position: fixed;
-//   text-align: center;
-//   text-transform: uppercase;
-//   bottom: 10px;
-//   width: 200px;
-//   z-index: 9999;
-//   border: solid 1px #000000;
-//   @each $name, $value in $grid-breakpoints {
-//     @include media-breakpoint-up($name) {
-//       content: "#{$name} - min-width: #{$value}";
-//     }
-//   }
-// }
+.button {
+  font-variant: all-small-caps;
+  font-weight: 500;
+}
+
+.page.is-inverted {
+  color: #fff;
+  background: #3B297F;
+}
+
+
+.section-title {
+  text-align: center;
+  margin: 5em 0 10em;
+
+  .title {
+    display: inline-block;
+    min-width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+    position: relative;
+    color: $primary;
+  }
+
+  .title:before,
+  .title:after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    background-color: $primary;
+  }
+
+  .title:before {
+    width: 130%;
+    bottom: -0.1em;
+  }
+
+  .title:after {
+    width: 140%;
+    bottom: -0.4em;
+  }
+
+  &.is-white {
+    .title {
+      color: #fff;
+    }
+
+    .title:before,
+    .title:after {
+      background-color: #fff;
+    }
+  }
+}
+
+.is-inverted .section-title {
+  .title {
+    color: #fff;
+  }
+
+  .title:before,
+  .title:after {
+    background-color: #fff;
+  }
+}
+
+
+.bg-secondary {
+  background: $blue-700;
+  color: #FFF;
+}

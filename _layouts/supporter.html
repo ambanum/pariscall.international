@@ -2,26 +2,25 @@
 layout: default
 ---
 
-<div class="intro intro-small">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1>{{ page.name }}</h1>
-      </div>
-    </div>
+<div class="section-title">
+  <h1 class="title is-1">{{ page.name }}</h1>
+</div>
+<section class="section bg-secondary">
+  <div class="container content">
+    <p class="details">
+      La {{ page.nature }} {{ page.name }} soutient l’Appel de Paris pour la confiance et la sécurité dans le
+      cyberespace depuis le {{ page.date_signed }}.
+    </p>
+    <p class="call-to-action">
+      <span>Tous les États, entreprises et associations peuvent s’engager.</span><br/>
+      <span>Vous aussi,</span>
+      <a href="{{ site.baseurl }}/support" class="button is-primary is-rounded is-outlined is-inverted">signez l’appel</a>
+    </p>
+
+    <p class="back">
+      <a href="{{ site.baseurl }}/supporters" class="button is-primary is-rounded is-outlined is-inverted">
+        Voir les autres signataires
+      </a>
+    </p>
   </div>
-</div>
-
-<div class="container">
-  La {{ page.nature }} {{ page.name }} soutient l’Appel de Paris pour la confiance et la sécurité dans le cyberespace depuis le {{ page.date_signed }}.
-</div>
-
-<hr/>
-
-<div class="container">
-  <h3>Tous les États, entreprises et associations peuvent s’engager.</h3>
-  Vous aussi, <a href="{{ site.baseurl }}/support" class="button">signez l’appel</a>
-
-  <h3><a href="{{ site.baseurl }}/">Voir les autres signataires</a></h3>
-</div>
-
+</section>
