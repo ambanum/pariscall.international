@@ -68,12 +68,69 @@ $text: $grey-darker;
 @import 'pages/supporters';
 
 .button {
-    font-variant: all-small-caps;
-    font-weight: 500;
+  font-variant: all-small-caps;
+  font-weight: 500;
 }
 
 .page.is-inverted {
-    color: #fff;
-    background: #3B297F;
+  color: #fff;
+  background: #3B297F;
 }
 
+
+.section-title {
+  text-align: center;
+  margin: 5em 0 10em;
+
+  .title {
+    display: inline-block;
+    min-width: 30%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+    position: relative;
+    color: $primary;
+  }
+
+  .title:before,
+  .title:after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    background-color: $primary;
+  }
+
+  .title:before {
+    width: 130%;
+    bottom: -0.1em;
+  }
+
+  .title:after {
+    width: 140%;
+    bottom: -0.4em;
+  }
+
+  &.is-white {
+    .title {
+      color: #fff;
+    }
+
+    .title:before,
+    .title:after {
+      background-color: #fff;
+    }
+  }
+}
+
+.is-inverted .section-title {
+  .title {
+    color: #fff;
+  }
+
+  .title:before,
+  .title:after {
+    background-color: #fff;
+  }
+}

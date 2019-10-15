@@ -1,0 +1,46 @@
+.supporters-page {
+  .supporters-cards {
+    background: $secondary;
+    position: relative;
+  }
+
+  .call-to-action {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .button {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+  }
+
+  .box {
+    margin-bottom: 1em;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-footer.private_sector {
+    background: #F6E8F6;
+  }
+
+  .card-footer.civil_society {
+    background: #E7EDFB;
+  }
+
+  .card-footer.state {
+    background: #E0FFCE;
+  }
+}
