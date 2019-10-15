@@ -55,8 +55,34 @@
   }
 
   .details {
-    background: $secondary;
-    color: #fff;
+    background: $blue-700;
+    color: #FFF;
+    font-size: 1.3em;
+
+    .columns {
+      align-items: center;
+    }
+
+    p:not(:last-child) {
+      margin-bottom: 1em;
+    }
+
+    p {
+      margin-right: 2em;
+    }
+
+    img {
+      border: 1px solid $primary;
+    }
+
+    .round-image {
+      width: 100%;
+      background-image: url("/ParisCall/assets/images/duotone3.jpg");
+      background-position: center;
+      background-size: cover;
+      border-radius: 100%;
+      border: 10px solid #fff;
+    }
   }
 
   .hero-foot {
