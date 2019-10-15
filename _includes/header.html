@@ -1,4 +1,4 @@
-<nav class="main-navbar navbar" role="navigation" aria-label="main navigation">
+<nav class="main-navbar navbar {%if page.invertColors %}is-primary{% endif %}" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
@@ -16,7 +16,9 @@
       </div>
 
       <div class="navbar-center is-hidden-touch">
-        <img class="logo" alt="Appel de Paris" src="{{site.baseurl}}/assets/images/full-logo.png" />
+        <a href="{{ site.baseurl }}/">
+          <img class="logo" alt="Appel de Paris" src="{{site.baseurl}}/assets/images/full-logo{%if page.invertColors %}-white{% endif %}.png" />
+        </a>
       </div>
 
       <div class="navbar-end">

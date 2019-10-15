@@ -7,7 +7,7 @@
   <link rel="icon" href="{{site.baseurl}}/images/favicon.png">
   <link href="{{site.baseurl}}/assets/css/style.css" rel="stylesheet">
 </head>
-<body class='page {{page.bodyClass}}'>
+<body class='page {{page.bodyClass}} {%if page.invertColors %}is-inverted{% endif %}'>
   {% include header.html %}
   {{content}}
   {% include footer.html %}
