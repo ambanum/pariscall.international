@@ -41,16 +41,16 @@
     }
 
     &__number {
-      flex: 2;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       font-size: 8em;
       line-height: 1;
       font-variant: normal;
       font-weight: 600;
       color: $blue-500;
       padding-top: 0.06em;
+      background: linear-gradient(45deg, rgba(48, 160, 200, 0.36) 0%, rgba(48, 160, 200, 0.36) 27%,rgba(66, 208, 212, 0.36) 27%, rgba(66, 208, 212, 0.36) 30%,rgba(57, 184, 206, 0.36) 30%, rgba(57, 184, 206, 0.36) 38%,rgba(75, 232, 218, 0.36) 38%, rgba(75, 232, 218, 0.36) 41%,rgba(38, 135, 193, 0.36) 41%, rgba(38, 135, 193, 0.36) 67%,rgba(29, 111, 187, 0.36) 67%, rgba(29, 111, 187, 0.36) 68%,rgba(20, 87, 181, 0.36) 68%, rgba(20, 87, 181, 0.36) 71%,rgba(11, 63, 175, 0.36) 71%, rgba(11, 63, 175, 0.36) 100%),linear-gradient(45deg, rgba(120, 161, 172, 0.37) 0%, rgba(120, 161, 172, 0.37) 12.5%,rgba(83, 81, 120, 0.37) 12.5%, rgba(83, 81, 120, 0.37) 25%,rgba(132, 188, 189, 0.37) 25%, rgba(132, 188, 189, 0.37) 37.5%,rgba(95, 108, 137, 0.37) 37.5%, rgba(95, 108, 137, 0.37) 50%,rgba(144, 215, 206, 0.37) 50%, rgba(144, 215, 206, 0.37) 62.5%,rgba(107, 135, 154, 0.37) 62.5%, rgba(107, 135, 154, 0.37) 75%,rgba(156, 242, 223, 0.37) 75%, rgba(156, 242, 223, 0.37) 87.5%,rgba(71, 54, 103, 0.37) 87.5%, rgba(71, 54, 103, 0.37) 100%),linear-gradient(63deg, rgb(156, 214, 233),rgb(74, 10, 132));
+      background: linear-gradient(45deg, #3e77be 0%, #3e77be 12.5%, #5a91cd 12.5%,  #5a91cd 25%,#6da3d7 25%, #6da3d7 37.5%,#99bfe3 37.5%, #99bfe3 50%,#659bd3 50%, #659bd3 50.5%,#99bfe3 50.5%, #99bfe3 53%,#659bd3 53%, #659bd3 53.5%,#99bfe3 53.5%, #99bfe3 75%,#83b1dd 75%, #83b1dd 100%),linear-gradient(135deg, #7767a6,#271763);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
