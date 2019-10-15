@@ -46,7 +46,7 @@ $family-sans-serif: "Avenir Next", sans-serif;
 $primary: $purple-500;
 $secondary: $blue-500;
 
-$link: $blue-500;
+$link: $purple-500;
 $text: $grey-darker;
 
 // Import the rest of Bulma
@@ -66,6 +66,7 @@ $text: $grey-darker;
 @import 'pages/landing';
 @import 'pages/call';
 @import 'pages/supporters';
+@import 'pages/support';
 
 .button {
   font-variant: all-small-caps;
@@ -133,4 +134,10 @@ $text: $grey-darker;
   .title:after {
     background-color: #fff;
   }
+}
+
+
+.bg-secondary {
+  background: $blue-700;
+  color: #FFF;
 }
