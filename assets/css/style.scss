@@ -17,15 +17,36 @@ $white-ter: hsl(0, 0%, 96%);
 $white-bis: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
 
-$purple: #372b7B;
-$light-blue: #6DA3D7;
+$purple-50: #e8e5f0;
+$purple-100: #c5bed9;
+$purple-200: #9e93c0;
+$purple-300: #7767a6;
+$purple-400: #594793;
+$purple-500: #3c2680;
+$purple-600: #362278;
+$purple-700: #2e1c6d;
+$purple-800: #271763;
+$purple-900: #1a0d50;
+
+$blue-50: #edf4fa;
+$blue-100: #d3e3f3;
+$blue-200: #b6d1eb;
+$blue-300: #99bfe3;
+$blue-400: #83b1dd;
+$blue-500: #6da3d7;
+$blue-600: #659bd3;
+$blue-700: #5a91cd;
+$blue-800: #5088c7;
+$blue-900: #3e77be;
+
+$white-blue: #f4f8fc;
 
 // Update Bulma's global variables
 $family-sans-serif: "Avenir Next", sans-serif;
-$primary: $purple;
-$secondary: $light-blue;
+$primary: $purple-500;
+$secondary: $blue-500;
 
-$link: $light-blue;
+$link: $blue-500;
 $text: $grey-darker;
 
 // Import the rest of Bulma
