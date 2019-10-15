@@ -1,6 +1,5 @@
 .footer {
-  .footer-menu {
-    list-style: none;
-    padding: 0;
+  &__logo {
+    max-width: 300px;
   }
 }
