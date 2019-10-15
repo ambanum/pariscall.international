@@ -1,5 +1,16 @@
-.call-page p,
-.call-page ul {
-    max-width: 500px;
+.call-page {
+  p,
+  ul {
+    max-width: 600px;
     margin: auto;
+  }
+
+  p::first-letter {
+    font-weight: 600;
+  }
+
+  .download {
+    text-align: center;
+    margin-top: 3em;
+  }
 }
