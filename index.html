@@ -1,90 +1,124 @@
 ---
 title: Appel de Paris pour la confiance et la sécurité dans le cyberespace
-layout: default
+layout: hero
 bodyClass: landing-page
 ---
 
-<section class="header hero is-fullheight {{include.headerClass}}">
+<section class="header hero is-medium {{include.headerClass}}">
+  <div class="hero-head">
+    {% include header.html %}
+  </div>
   <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title">
-        Rassembler pour un monde numérique pacifique.
+        <img class="logo" alt="Appel de Paris" src="{{site.baseurl}}/assets/images/logo.png" />
       </h1>
       <h2 class="subtitle">
-        Les conflits et menaces du monde physique se retrouvent de plus en plus souvent dans le cyberespace (l’ensemble des appareils numériques interconnectés et les données qui y sont manipulées). L’Appel de Paris permet à tous les acteurs qui souhaitent préserver la paix et la sécurité des personnes de montrer leur engagement.
+        Pour la confiance et la sécurité dans le cyberespace
       </h2>
-      <div class="counters">
-        <div class="counter aspect-ratio-box">
-          <div class="counter__content">
-            <header class="counter__header">plus de</header>
-            <div class="counter__number">65</div>
-            <footer class="counter__footer">pays</footer>
-          </div>
-        </div>
-        <div class="counter aspect-ratio-box">
-          <div class="counter__content">
-            <header class="counter__header">plus de</header>
-            <div class="counter__number">140</div>
-            <footer class="counter__footer">membres de la société civile</footer>
-          </div>
-        </div>
-        <div class="counter aspect-ratio-box">
-          <div class="counter__content">
-            <header class="counter__header">plus de</header>
-            <div class="counter__number">345</div>
-            <footer class="counter__footer">entreprises</footer>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="hero-foot">
-    <div class="container has-text-centered call-to-action">
-      <a class="button is-large is-primary is-rounded" href="{{ site.baseurl }}/support">Soutenir l’Appel</a>
     </div>
   </div>
 </section>
-<section class="details section is-medium bg-secondary">
-  <div class="container">
-    <div class="section-title is-inverted">
-      <h2 class="title is-2">Pour la confiance et la sécurité dans le cyberespace</h2>
-    </div>
+<section class="section is-medium bg-blue-500">
+  <div class="container content is-size-5">
+    <h2 class="title is-2">Pour un monde numérique pacifique</h2>
     <div class="columns">
       <div class="column">
-        <p>L'Appel de Paris pour la confiance et la sécurité dans le
-          cyberespace est une déclaration de haut niveau en faveur de
-          l'élaboration de principes communs de sécurisation du
-          cyberespace.<br />Cette initiative a déjà reçu l'appui de nombreux
-          États ainsi que d'entreprises privées et d'organisations de la
-          société civile.</p>
-        <p>Le cyberespace est un lieu d’opportunités mais également de
-          nouvelles menaces. Le développement de la cybercriminalité et
-          d'activités malicieuses peuvent aussi bien mettre en danger nos
-          données privées que certaines infrastructures vitales.</p>
-        <p>Afin de faire respecter les droits des personnes et les
-          protéger en ligne comme dans le monde physique, les États
-          doivent donc agir de concert et s'associer à des partenaires du
-          secteur privé, du monde de la recherche ou encore de la société
-          civile.</p>
+        <p><strong>L’espace numérique, ou « cyberespace »,</strong> est l'ensemble des appareils numériques
+          interconnectés et toutes les données qui y sont manipulées.
+          <br />Il est aujourd'hui devenu le support vital d’une grande partie de nos activités humaines et offre un
+          lieu d’opportunités mais également de <strong>nouvelles menaces.</strong></p>
+        <p><strong>Tous les conflits et menaces du monde physique</strong> peuvent être transposés dans le
+          cyberespace, et ce dernier peut s’avérer être un théâtre d’opérations militaires au moyen de
+          cyberattaques et de manipulations de l’information.</p>
+        <p>Même si toutes les cyberattaques ne relèvent pas du terrorisme ou de la guerre entre États, elles n'en
+          restent pas moins dangereuses et peuvent menacer le <strong>bon fonctionnement de nos infrastrucures
+            vitales.</strong>
+          <br />
+          Ce fut par exemple le cas lors de la cyberattaque qui a frappé la communauté internationale en mai 2017 en
+          affectant notamment le National Health Service, le système de santé publique du Royaume Uni ou encore la
+          Deutsche Bahn, l'entreprise ferroviaire publique Allemande.</p>
+        <p>Le cyberespace est toujours plus au centre de nos existences et les menaces qui pèsent sur lui <strong>s’intensifieront sans aucun doute au cours des prochaines
+            années</strong>, il est donc crucial de traiter les enjeux de cybersécurité et de <strong>rassembler la
+            communauté internationale</strong> pour un monde numérique pacifique.</p>
       </div>
+      <div class="column is-1"></div>
       <div class="column is-5">
-        <div class="round-image aspect-ratio-box">
+        <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6003fl7Kn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <div class="duotone">
+          <img alt="" src="{{site.baseurl}}/assets/images/devices.jpg" />
         </div>
       </div>
     </div>
   </div>
 </section>
-
+<section class="section is-medium">
+  <div class="container content is-size-5">
+    <div class="columns">
+      <div class="column is-5">
+        <div class="duotone">
+          <img alt="" src="{{site.baseurl}}/assets/images/united.jpg" />
+        </div>
+      </div>
+      <div class="column is-1"></div>
+      <div class="column">
+        <h2 class="title is-2">Rassembler autour de principes</h2>
+        <p>L’Appel de Paris propose d’agir sur un ensemble de points précis, et se découpe en neuf axes de réflexion et d’action sous forme de <strong>principes communs de sécurisation du cyberespace</strong>.
+        </p>
+        <p class="button-in-text has-text-centered">
+          <a  href="{{ site.baseurl }}/principles" class="button is-primary is-rounded is-medium">En savoir plus sur les principes</a>
+        </p>
+        <p>Il invite <strong>toutes les parties prenantes du cyberespace à collaborer</strong>, et propose aux États d'agir de concert et de s'associer à des partenaires du secteur privé, du monde de la recherche ou encore de la société civile, afin de faire respecter les droits des personnes et les
+            protéger en ligne comme dans le monde physique.
+        </p>
+        <p>
+          Il permet à tous les acteurs qui souhaitent préserver la paix et la sécurité des personnes de
+          <strong>montrer leur engagement.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section stats is-medium bg-blue-50">
+  <div class="container content is-size-5">
+    <h3 class="title is-3 has-text-centered">Cette initiative a déjà reçu de nombreux soutiens</h3>
+    <div class="counters">
+      <div class="counter aspect-ratio-box">
+        <div class="counter__content">
+          <div class="counter__number">67</div>
+          <footer class="counter__footer">États</footer>
+        </div>
+      </div>
+      <div class="counter aspect-ratio-box">
+        <div class="counter__content">
+          <div class="counter__number">139</div>
+          <footer class="counter__footer">membres de la société civile</footer>
+        </div>
+      </div>
+      <div class="counter aspect-ratio-box">
+        <div class="counter__content">
+          <div class="counter__number">358</div>
+          <footer class="counter__footer">entités du secteur privé</footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section call is-medium bg-blue-300">
+  <div class="container content is-size-5">
+    <div class="has-text-centered">
+      <h3 class="title is-4">Tous les États, entreprises et associations peuvent s’engager</h3>
+      <p>
+        <a  href="{{ site.baseurl }}/support" class="button is-primary is-rounded is-large">Soutenir l'Appel</a>
+      </p>
+    </div>
+  </div>
+</section>
 <section class="feed section is-medium">
   <div class="container">
-    <div class="section-title">
-      <h2 class="title is-2">Actualités</h2>
-    </div>
+    <h2 class="title is-2 has-text-centered">Actualités</h2>
     <div class="columns">
-      <div class="column">
-        <h3 class="title column-title is-3">Évènements à venir</h3>
-
+      <div class="column is-half is-offset-one-quarter">
         <article class="media">
           <div class="media-content">
             <header class="media-header">
@@ -128,6 +162,36 @@ bodyClass: landing-page
         <article class="media">
           <div class="media-content">
             <header class="media-header">
+              <h4 class="title is-6">Mongolie </h4>
+            </header>
+            <div class="content">
+              <p>
+                État
+                <br>
+                <small>Le 10 septembre 2019</small>
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="media">
+          <div class="media-content">
+            <header class="media-header">
+              <h4 class="title is-6">Universidad Panamericana (México)</h4>
+            </header>
+            <div class="content">
+              <p>
+                Société civile
+                <br>
+                <small>Le 10 septembre 2019</small>
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="media">
+          <div class="media-content">
+            <header class="media-header">
               <h4 class="title is-6">14th Annual Meeting of the Internet Governance Forum</h4>
               <div class="columns">
                 <div class="column">
@@ -162,25 +226,6 @@ bodyClass: landing-page
           </div>
         </article>
 
-      </div>
-
-      <div class="column">
-        <h3 class="title column-title is-3">Derniers signataires</h3>
-
-        <article class="media">
-          <div class="media-content">
-            <header class="media-header">
-              <h4 class="title is-6">Mongolie</h4>
-            </header>
-            <div class="content">
-              <p>
-                État
-                <br>
-                <small>Le 10 septembre 2019</small>
-              </p>
-            </div>
-          </div>
-        </article>
         <article class="media">
           <div class="media-content">
             <header class="media-header">
@@ -195,20 +240,7 @@ bodyClass: landing-page
             </div>
           </div>
         </article>
-        <article class="media">
-          <div class="media-content">
-            <header class="media-header">
-              <h4 class="title is-6">Universidad Panamericana (México)</h4>
-            </header>
-            <div class="content">
-              <p>
-                Société civile
-                <br>
-                <small>Le 10 septembre 2019</small>
-              </p>
-            </div>
-          </div>
-        </article>
+
       </div>
     </div>
   </div>

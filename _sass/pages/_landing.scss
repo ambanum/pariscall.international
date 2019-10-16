@@ -1,8 +1,4 @@
 .landing-page {
-  .title {
-    margin-bottom: 1em;
-  }
-
   .counters {
     display: flex;
     justify-content: space-around;
@@ -10,25 +6,17 @@
   }
 
   .counter {
-    background: $white-blue;
-    border: 1px solid $purple-100;
+    background: #fff;
+    box-shadow: 0 0 0 1px $purple-100, 0 0 0 10px #FFF, 0 0 0 11px $purple-100;
     width: 30%;
     max-width: 300px;
 
-    &__header,
     &__footer {
       font-size: 1.6em;
       color: $purple-500;
       font-weight: 500;
       padding: 0 0.5em;
       line-height: 1;
-      flex: 1;
-    }
-
-    &__header {
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
     }
 
     &__content {
@@ -41,7 +29,7 @@
     }
 
     &__number {
-      font-size: 8em;
+      font-size: 6em;
       line-height: 1;
       font-variant: normal;
       font-weight: 600;
@@ -51,35 +39,6 @@
       background: linear-gradient(45deg, #3e77be 0%, #3e77be 12.5%, #5a91cd 12.5%,  #5a91cd 25%,#6da3d7 25%, #6da3d7 37.5%,#99bfe3 37.5%, #99bfe3 50%,#659bd3 50%, #659bd3 50.5%,#99bfe3 50.5%, #99bfe3 53%,#659bd3 53%, #659bd3 53.5%,#99bfe3 53.5%, #99bfe3 75%,#83b1dd 75%, #83b1dd 100%),linear-gradient(135deg, #7767a6,#271763);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-    }
-  }
-
-  .details {
-    font-size: 1.3em;
-
-    .columns {
-      align-items: center;
-    }
-
-    p:not(:last-child) {
-      margin-bottom: 1em;
-    }
-
-    p {
-      margin-right: 2em;
-    }
-
-    img {
-      border: 1px solid $primary;
-    }
-
-    .round-image {
-      width: 100%;
-      background-image: url($baseurl + "/assets/images/duotone3.jpg");
-      background-position: center;
-      background-size: cover;
-      border-radius: 100%;
-      border: 10px solid #fff;
     }
   }
 
@@ -95,6 +54,31 @@
               0 6px 8px rgba(0,0,0,0.11),
               0 8px 16px rgba(0,0,0,0.11);
     }
+  }
+}
+
+.content .button-in-text {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.stats {
+  .title {
+    color: $blue-900;
+  }
+
+  @include tablet {
+    .title {
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.call {
+  .title {
+    color: $purple-900;
   }
 }
 

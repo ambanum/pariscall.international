@@ -39,8 +39,6 @@ $blue-700: #5a91cd;
 $blue-800: #5088c7;
 $blue-900: #3e77be;
 
-$white-blue: #f4f8fc;
-
 // Update Bulma's global variables
 $family-sans-serif: "Avenir Next", sans-serif;
 $primary: $purple-500;
@@ -127,11 +125,81 @@ $text: $grey-darker;
   }
 }
 
+.bg-purple-50,
+.bg-purple-100,
+.bg-purple-200,
+.bg-purple-300,
+.bg-purple-400,
+.bg-purple-500,
+.bg-purple-600,
+.bg-purple-700,
+.bg-purple-800,
+.bg-purple-900,
+.bg-blue-50,
+.bg-blue-100,
+.bg-blue-200,
+.bg-blue-300,
+.bg-blue-400,
+.bg-blue-500,
+.bg-blue-600,
+.bg-blue-700,
+.bg-blue-800,
+.bg-blue-900 {
+  position: relative;
 
-.bg-secondary {
-  background: $blue-700;
-  color: #FFF;
+  &:before {
+    position: absolute;
+    transform: skewY(-3deg);
+    bottom: 0vw;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+  }
 }
+
+.bg-purple-500,
+.bg-purple-600,
+.bg-purple-700,
+.bg-purple-800,
+.bg-purple-900,
+.bg-blue-500,
+.bg-blue-600,
+.bg-blue-700,
+.bg-blue-800,
+.bg-blue-900 {
+  color: #FFF;
+
+  .title {
+    color: #FFF;
+  }
+
+  strong {
+    color: #FFF;
+  }
+}
+
+.bg-blue-50:before { background: linear-gradient(138deg, $blue-50 75%, $purple-50) $blue-50; }
+.bg-blue-100:before { background: linear-gradient(138deg, $blue-100 75%, $purple-100) $blue-100; }
+.bg-blue-200:before { background: linear-gradient(138deg, $blue-200 75%, $purple-100) $blue-200; }
+.bg-blue-300:before { background: linear-gradient(138deg, $blue-300 75%, $purple-100) $blue-300; }
+.bg-blue-400:before { background: linear-gradient(138deg, $blue-400 75%, $purple-400) $blue-400; }
+.bg-blue-500:before { background: linear-gradient(138deg, $blue-500 75%, $purple-300) $blue-500; }
+.bg-blue-600:before { background: linear-gradient(138deg, $blue-600 75%, $purple-300) $blue-600; }
+.bg-blue-700:before { background: linear-gradient(138deg, $blue-700 75%, $purple-300) $blue-700; }
+.bg-blue-800:before { background: linear-gradient(138deg, $blue-800 75%, $purple-300) $blue-500; }
+.bg-blue-900:before { background: linear-gradient(138deg, $blue-900 75%, $purple-300) $blue-900; }
+
+.bg-purple-50:before { background: linear-gradient(138deg, $purple-50 75%, $blue-50) $purple-50; }
+.bg-purple-100:before { background: linear-gradient(138deg, $purple-100 75%, $blue-100) $purple-100; }
+.bg-purple-200:before { background: linear-gradient(138deg, $purple-200 75%, $blue-200) $purple-200; }
+.bg-purple-300:before { background: linear-gradient(138deg, $purple-300 75%, $blue-300) $purple-300; }
+.bg-purple-400:before { background: linear-gradient(138deg, $purple-400 75%, $blue-400) $purple-400; }
+.bg-purple-500:before { background: linear-gradient(138deg, $purple-500 75%, $blue-300) $purple-500; }
+.bg-purple-600:before { background: linear-gradient(138deg, $purple-600 75%, $blue-300) $purple-600; }
+.bg-purple-700:before { background: linear-gradient(138deg, $purple-700 75%, $blue-300) $purple-700; }
+.bg-purple-800:before { background: linear-gradient(138deg, $purple-800 75%, $blue-300) $purple-500; }
+.bg-purple-900:before { background: linear-gradient(138deg, $purple-900 75%, $blue-300) $purple-900; }
 
 .aspect-ratio-box {
   &::before { /* To keep aspect ratio 1:1 see https://css-tricks.com/aspect-ratio-boxes/ */
@@ -149,17 +217,17 @@ $text: $grey-darker;
   }
 }
 
-.section-title {
-  .title {
-    color: $blue-900;
-  }
+// .section-title {
+//   .title {
+//     color: $blue-900;
+//   }
 
-  &.is-inverted {
-    .title {
-      color: #FFF;
-    }
-  }
-}
+//   &.is-inverted {
+//     .title {
+//       color: #FFF;
+//     }
+//   }
+// }
 
 // .section-title {
 //   margin-bottom: 1em;
@@ -307,4 +375,43 @@ $text: $grey-darker;
 
 .icon-map:before {
   content: "\62";
+}
+
+.duotone {
+  background-color:    $blue-500;
+  display:             flex;
+  flex:                1 1 100%;
+  height:              100%;
+  overflow:            hidden;
+  position:            relative;
+  border-radius: 3px;
+}
+
+.duotone img {
+  filter:              grayscale(100%) contrast(1);
+  flex:                1 0 100%;
+  height:              100%;
+  max-width:           100%;
+  mix-blend-mode:      multiply;
+  object-fit:          cover;
+  position:            relative;
+  width:               100%;
+}
+
+.duotone::before {
+  background-color:    $purple-500;
+  bottom:              0;
+  content:             '';
+  height:              100%;
+  left:                0;
+  mix-blend-mode:      lighten;
+  position:            absolute;
+  right:               0;
+  top:                 0;
+  width:               100%;
+  z-index:             1;
+}
+
+.title.is-inverted {
+  color: #FFF;
 }
