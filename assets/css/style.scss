@@ -85,7 +85,6 @@ $text: $grey-darker;
 
   .title {
     display: inline-block;
-    min-width: 30%;
     text-align: center;
     font-weight: 300;
     position: relative;
@@ -108,8 +107,8 @@ $text: $grey-darker;
   }
 
   .title:after {
-    width: 140%;
-    bottom: -0.4em;
+    width: 133%;
+    bottom: -0.35em;
   }
 }
 
