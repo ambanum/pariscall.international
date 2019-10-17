@@ -172,11 +172,7 @@ $private-sector-color: #FEE4A5;
 .bg-blue-900 {
   color: #FFF;
 
-  h1, h2, h3, h4, h5 {
-    color: inherit;
-  }
-
-  strong {
+  h1, h2, h3, h4, h5, strong, a {
     color: inherit;
   }
 }
