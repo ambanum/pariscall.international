@@ -12,11 +12,15 @@
     max-width: 300px;
 
     &__footer {
-      font-size: 1.6em;
       color: $purple-500;
-      font-weight: 500;
       padding: 0 0.5em;
       line-height: 1;
+
+      strong {
+        color: inherit;
+        font-size: 1.6em;
+        display: block;
+      }
     }
 
     &__content {
