@@ -2,6 +2,7 @@
 title: Appel de Paris pour la confiance et la sécurité dans le cyberespace
 layout: hero
 bodyClass: landing-page
+language: fr
 ---
 
 <section class="header hero is-medium {{include.headerClass}}">
@@ -21,26 +22,11 @@ bodyClass: landing-page
 </section>
 <section class="section is-medium bg-blue-500">
   <div class="container content is-size-5">
-    <h2 class="title is-2">Pour un monde numérique pacifique</h2>
+    <h2 class="title is-2"></h2>
     <div class="columns">
       <div class="column">
-        <p><strong>L’espace numérique, ou « cyberespace »,</strong> est l'ensemble des appareils numériques
-          interconnectés et toutes les données qui y sont manipulées.
-          <br />Il est aujourd'hui devenu le support vital d’une grande partie de nos activités humaines et offre un
-          lieu d’opportunités mais également de <strong>nouvelles menaces.</strong></p>
-        <p><strong>Tous les conflits et menaces du monde physique</strong> peuvent être transposés dans le
-          cyberespace, et ce dernier peut s’avérer être un théâtre d’opérations militaires au moyen de
-          cyberattaques et de manipulations de l’information.</p>
-        <p>Même si toutes les cyberattaques ne relèvent pas du terrorisme ou de la guerre entre États, elles n'en
-          restent pas moins dangereuses et peuvent menacer le <strong>bon fonctionnement de nos infrastrucures
-            vitales.</strong>
-          <br />
-          Ce fut par exemple le cas lors de la cyberattaque qui a frappé la communauté internationale en mai 2017 en
-          affectant notamment le National Health Service, le système de santé publique du Royaume Uni ou encore la
-          Deutsche Bahn, l'entreprise ferroviaire publique Allemande.</p>
-        <p>Le cyberespace est toujours plus au centre de nos existences et les menaces qui pèsent sur lui <strong>s’intensifieront sans aucun doute au cours des prochaines
-            années</strong>, il est donc crucial de traiter les enjeux de cybersécurité et de <strong>rassembler la
-            communauté internationale</strong> pour un monde numérique pacifique.</p>
+        {% capture cyberspace_text %}{% include_relative _texts/{{ page.language }}/cyberspace.md %}{% endcapture %}
+        {{ cyberspace_text | markdownify }}
       </div>
       <div class="column is-1"></div>
       <div class="column is-5">
@@ -62,18 +48,11 @@ bodyClass: landing-page
       </div>
       <div class="column is-1"></div>
       <div class="column">
-        <h2 class="title is-2">Rassembler autour de principes</h2>
-        <p>L’Appel de Paris propose d’agir sur un ensemble de points précis, et se découpe en neuf axes de réflexion et d’action sous forme de <strong>principes communs de sécurisation du cyberespace</strong>.
-        </p>
+        {% capture intention_text %}{% include_relative _texts/{{ page.language }}/intention.md %}{% endcapture %}
+        {{ intention_text | markdownify }}
+
         <p class="button-in-text has-text-centered">
-          <a  href="{{ site.baseurl }}/principles" class="button is-primary is-rounded is-medium">En savoir plus sur les principes</a>
-        </p>
-        <p>Il invite <strong>toutes les parties prenantes du cyberespace à collaborer</strong>, et propose aux États d'agir de concert et de s'associer à des partenaires du secteur privé, du monde de la recherche ou encore de la société civile, afin de faire respecter les droits des personnes et les
-            protéger en ligne comme dans le monde physique.
-        </p>
-        <p>
-          Il permet à tous les acteurs qui souhaitent préserver la paix et la sécurité des personnes de
-          <strong>montrer leur engagement.</strong>
+          <a href="{{ site.baseurl }}/principles" class="button is-primary is-rounded is-medium">En savoir plus sur les principes</a>
         </p>
       </div>
     </div>
