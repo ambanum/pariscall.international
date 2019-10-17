@@ -18,8 +18,12 @@ bodyClass: supporters-page
     <div class="box">
       <div class="field has-addons">
         <div class="control is-expanded">
-          <input class="input has-text-centered" id="name-filter" type="search" placeholder="Filtrer les soutiens"
-            autocomplete="false" autocorrect="off" autocapitalize="off" spellcheck="false">
+          <input id="name-filter" class="input" type="text" placeholder="Nom d'un État, d'une organisation, d'une entreprise…" autocomplete="false" autocorrect="off" autocapitalize="off" spellcheck="false">
+        </div>
+        <div class="control">
+          <a class="button is-primary">
+            Filtrer les soutiens
+          </a>
         </div>
       </div>
     </div>
@@ -67,13 +71,13 @@ bodyClass: supporters-page
 </section>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var filterInput = document.querySelector('#name-filter');
+    let filterInput = document.querySelector('#name-filter');
     filterInput.onkeyup = changeEventHandler;
     filterInput.addEventListener("search", changeEventHandler);
   }, false);
 
   function changeEventHandler(event) {
-    var filterValue = event.target.value;
+    let filterValue = event.target.value;
 
     document.querySelectorAll('[data-supporter-name]').forEach(function (element) {
       if (!filterValue) {
@@ -81,9 +85,9 @@ bodyClass: supporters-page
         return;
       }
 
-      var elementValue = element.attributes["data-supporter-name"].value;
-
-      if (!elementValue.toLowerCase().includes(filterValue)) {
+      let elementValue = element.attributes["data-supporter-name"].value;
+      let lowercasedFilterValue = filterValue.toLowerCase();
+      if (!elementValue.toLowerCase().includes(lowercasedFilterValue)) {
         hideElement(element);
       } else {
         showElement(element);
