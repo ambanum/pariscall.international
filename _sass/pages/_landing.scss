@@ -111,3 +111,32 @@
     line-height: 1.2;
   }
 }
+
+.new-supporter .media-content {
+  text-align: center;
+
+  .tags {
+    justify-content: center;
+  }
+
+  .tag {
+    font-size: 0.8em;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .tag.is-state {
+    background: $state-color;
+    font-weight: 600;
+  }
+  .tag.is-civil-society {
+    background: $civil-society-color;
+    font-weight: 600;
+  }
+  .tag.is-private-sector {
+    background: $private-sector-color;
+    font-weight: 600;
+  }
+}

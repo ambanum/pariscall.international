@@ -37,14 +37,14 @@
   }
 
   .card-footer.private_sector {
-    background: #F6E8F6;
+    background: $private-sector-color;
   }
 
   .card-footer.civil_society {
-    background: #E7EDFB;
+    background: $civil-society-color;
   }
 
   .card-footer.state {
-    background: #E0FFCE;
+    background: $state-color;
   }
 }
