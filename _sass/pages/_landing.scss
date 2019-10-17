@@ -11,9 +11,17 @@
     width: 30%;
     max-width: 300px;
 
+    &__header {
+      flex: 1;
+    }
+
+    &__footer {
+      flex: 2;
+    }
+
     &__footer {
       color: $purple-500;
-      padding: 0 0.5em;
+      padding: 0 1em;
       line-height: 1;
 
       strong {
@@ -33,6 +41,7 @@
     }
 
     &__number {
+      flex: 3;
       font-size: 6em;
       line-height: 1;
       font-variant: normal;
