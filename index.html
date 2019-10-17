@@ -131,84 +131,38 @@ language: fr
           {% endif %}
         {% endfor %}
 
+        {% assign events = site.events | sort: 'start_date' %}
+        {% for event in events %}
         <article class="media">
           <div class="media-content">
             <header class="media-header">
-              <h4 class="title is-6">Forum de Paris sur la paix</h4>
+              <h4 class="title is-6">{{ event.name }}</h4>
               <div class="columns">
                 <div class="column">
                   <div class="date">
-                    <div class="date__day">11-13</div>
+                    <div class="date__day">{{ event.start_date | date: "%d"}}-{{ event.end_date | date: "%d"}}</div>
                     <div class="date__date">
-                      <div class="date__month">Novembre 2019</div>
-                      <div class="date__weekday">Lundi-Mercredi</div>
+                      <div class="date__month">{{ event.start_date | date: "%B %Y"}}</div>
+                      <div class="date__weekday">{{ event.start_date | date: "%A"}}-{{ event.end_date | date: "%A"}}</div>
                     </div>
                   </div>
                 </div>
                 <div class="column">
                   <a class="location" target="_blank"
-                    href="https://www.google.com/maps/place/La+Grande+Halle+de+La+Villette/@48.8908544,2.3887244,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66dca22033c8b:0xae411bb4ada21c9e!8m2!3d48.8908544!4d2.3909131">
+                    href="https://www.openstreetmap.org/search?query={{ event.address | append: ' ' | append: event.city | append: ' '  | append: event.country | url_encode }}">
                     <i class="location__icon icon icon-map"></i>
-                    <span class="location__text">La Grande Halle de La Villette<br /><small>Paris, France</small></span>
+                    <span class="location__text">{{ event.address }}<br /><small>{{ event.city }}, {{ event.country }}</small></span>
                   </a>
                 </div>
               </div>
             </header>
             <div class="content">
-              <p>
-                As the crisis of the international system worsens, global cooperation is slowing with states competing
-                and expanding military expenditures. International norms and human rights are disregarded, questioning
-                international justice. Globalization lacks regulation, the Internet is dominated by abusive
-                corporations, propagandists and hackers, and the race against global warming carries on.
-                <br />
-                The Paris Peace Forum was created to counter these tendencies and to convene all those among States and
-                civil society that believe in collective action, multilateralism and the good stewardship of common
-                public goods to address common challenges and maintain peace.
-                <br />
-                <small><a href="https://parispeaceforum.org">parispeaceforum.org</a></small>
-              </p>
+              {{ event.content | markdownify }}
+              <small><a href="{{ event.link }}">{{ event.link_title }}</a></small>
             </div>
           </div>
         </article>
-        <article class="media new-supporter">
-          <div class="media-content">
-            <header class="media-header">
-              <h4 class="title is-6">Mongolie</h4>
-            </header>
-            <div class="content">
-              <div class="tags has-addons">
-                <span class="tag">a rejoint les soutiens le&nbsp;<span>10 septembre 2019</span></span>
-                <span class="tag is-state">État</span>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="media new-supporter">
-          <div class="media-content">
-            <header class="media-header">
-              <h4 class="title is-6">Universidad Panamericana (México)</h4>
-            </header>
-            <div class="content">
-              <div class="tags has-addons">
-                <span class="tag">a rejoint les soutiens le&nbsp;<span>10 septembre 2019</span></span>
-                <span class="tag is-civil-society">Société civile</span>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="media new-supporter">
-          <div class="media-content">
-            <header class="media-header">
-              <h4 class="title is-6">Awara IT</h4>
-            </header>
-            <div class="content">
-              <div class="tags has-addons">
-                <span class="tag">a rejoint les soutiens le&nbsp;<span>10 septembre 2019</span></span>
-                <span class="tag is-private-sector">Entreprise</span>
-              </div>
-            </div>
-          </div>
-        </article>
+        {% endfor %}
       </div>
     </div>
   </div>
