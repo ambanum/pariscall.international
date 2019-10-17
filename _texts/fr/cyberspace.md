@@ -1,7 +1,6 @@
 ## Pour un espace numérique pacifique
 
-L’espace numérique, ou « cyberespace », est l'ensemble des appareils numériques
-interconnectés et toutes les données qui y sont manipulées : nos ordinateurs, téléphones, courriels, sites web, comptes bancaires, services d’achat en ligne…
+L’espace numérique, ou « cyberespace », est l'ensemble des appareils numériques interconnectés, des logiciels et de toutes les données qui y sont traitées : nos ordinateurs, téléphones, courriels, sites web, comptes bancaires, services d’achat en ligne…
 
 Le cyberespace est devenu le support d’une grande partie des activités humaines. C’est un espace d’opportunités, d’échanges et de collaboration. Mais plus il est important, plus il comporte des menaces.
 
