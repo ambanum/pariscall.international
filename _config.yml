@@ -2,7 +2,7 @@
 # If you change this file, please restart the server process.
 
 title: Paris Call
-baseurl: /ParisCall
+baseurl: ""
 url: https://ambanum.github.io
 
 supporter_categories: [ "private_sector", "civil_society", "state" ]
