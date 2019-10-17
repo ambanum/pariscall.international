@@ -7,21 +7,27 @@ bodyClass: supporters-page
 
 <div class="page-title">
   <h1 class="title is-1 is-spaced">Les soutiens</h1>
-  <h2 class="subtitle is-3">Tous les États, entreprises et associations peuvent s’engager</h2>
 </div>
 
+<section class="section call bg-blue-50">
+    <div class="container content is-size-5">
+      <div class="has-text-centered">
+        <h3 class="title is-4">Tous les États, entreprises et associations peuvent s’engager</h3>
+        <p>
+          <a href="{{ site.baseurl }}/support" class="button is-primary is-rounded is-large">Soutenir l'Appel</a>
+        </p>
+      </div>
+    </div>
+  </section>
 <section class="section supporters-cards is-medium bg-blue-500">
-  <div class="call-to-action">
-    <a class="button is-primary is-large is-rounded" href="{{ '/support' | relative_url }}">Signer l’appel</a>
-  </div>
   <div class="container">
     <div class="box">
       <div class="field has-addons">
         <div class="control is-expanded">
-          <input id="name-filter" class="input" type="text" placeholder="Nom d'un État, d'une organisation, d'une entreprise…" autocomplete="false" autocorrect="off" autocapitalize="off" spellcheck="false">
+          <input id="name-filter" class="input is-medium" type="text" placeholder="Nom d'un État, d'une organisation, d'une entreprise…" autocomplete="false" autocorrect="off" autocapitalize="off" spellcheck="false">
         </div>
         <div class="control">
-          <a class="button is-primary">
+          <a class="button is-primary is-medium">
             Filtrer les soutiens
           </a>
         </div>
