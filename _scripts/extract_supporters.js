@@ -1,4 +1,3 @@
-const parse = require('csv-parse')
 const XLSX = require('xlsx');
 const sanitize = require("sanitize-filename");
 const changeCase = require('change-case');
@@ -35,7 +34,7 @@ category: ${ CATEGORIES[supporter.Catégorie] || '' }
 nature: ${ supporter.Nature || '' }
 nationality: ${ supporter.Nationalité || '' }
 alliance: ${ supporter.alliance.join(', ') }
-date_signed: '2018-11-12'
+date_signed: '2019-10-10'
 ---
     `;
 }
@@ -43,15 +42,20 @@ date_signed: '2018-11-12'
 const supportersXLSX = XLSX.readFile(SOURCE_FILE);  // this source file contains private data, it is voluntary not to include it in the repository
 
 const supporters = XLSX.utils.sheet_to_json(supportersXLSX.Sheets[supportersXLSX.SheetNames[0]]);
-
+debugger
 supporters.forEach((supporter) => {
-    const filename = `${diacritics.remove(changeCase.snakeCase(sanitize(supporter.Nom)))}.md`;
+    if (typeof supporter.Nom === 'string') {
+        const filename = `${diacritics.remove(changeCase.snakeCase(sanitize(supporter.Nom)))}.md`;
+        const path = `${DEST_FOLDER}/${filename}`;
 
-    fs.writeFile(`${DEST_FOLDER}/${filename}`, generateContent(supporter), function(err) {
-        if (err) {
-            return console.log(err);
+        if (!fs.existsSync(path)) {
+            fs.writeFile(path, generateContent(supporter), function(err) {
+                if (err) {
+                    return console.log(err);
+                }
+
+                console.log(`${filename} file was saved!`);
+            });
         }
-
-        console.log(`${filename} file was saved!`);
-    });
+    }
 });
