@@ -106,42 +106,31 @@ language: fr
     <h2 class="title is-2 has-text-centered">Actualités</h2>
     <div class="columns">
       <div class="column is-half is-offset-one-quarter">
-        <article class="media">
-          <div class="media-content">
-            <header class="media-header">
-              <h4 class="title is-6">14th Annual Meeting of the Internet Governance Forum</h4>
-              <div class="columns">
-                <div class="column">
-                  <div class="date">
-                    <div class="date__day">25-29</div>
-                    <div class="date__date">
-                      <div class="date__month">Novembre 2019</div>
-                      <div class="date__weekday">Lundi-Vendredi</div>
-                    </div>
+
+        {% assign last_month_date = 'now' | date: '%s' | minus : 2629743 | date: '%s' %}
+        {% assign count = 0 %}
+        {% for supporter in site.supporters %}
+        {% assign supporter_date = supporter.date_signed | date: '%s' %}
+          {% if supporter_date > last_month_date %}
+            {% if count < 5 %}
+            {% assign count = count | plus: 1 %}
+            <article class="media new-supporter">
+              <div class="media-content">
+                <header class="media-header">
+                  <h4 class="title is-6">{{ supporter.name }}</h4>
+                </header>
+                <div class="content">
+                  <div class="tags has-addons">
+                    <span class="tag">à rejoint les soutiens le&nbsp;<span>{{ supporter.date_signed | date: "%d/%m/%Y" }}</span></span>
+                    <span class="tag is-{{ supporter.category | replace: '_', '-' }}">{% if supporter.nature %}{{ supporter.nature }}{% else %}{{ supporter.category | replace: 'state', 'État' | replace: 'private_sector', 'Entreprise' | replace: 'civil_society', 'Associations' }}{% endif %}</span>
                   </div>
                 </div>
-                <div class="column">
-                  <a class="location" target="_blank"
-                    href="https://www.google.fr/maps/place/Estrel+Berlin/@52.4731102,13.4565932,17z/data=!3m1!4b1!4m8!3m7!1s0x47a84f0d6da07c6f:0xe9c76f7638dbeb43!5m2!4m1!1i2!8m2!3d52.473107!4d13.4587819">
-                    <i class="location__icon icon icon-map"></i>
-                    <span class="location__text">Estrel Congress Centre<br /><small>Berlin, Germany</small></span>
-                  </a>
-                </div>
               </div>
-            </header>
-            <div class="content">
-              <p>
-                The Internet Governance Forum (IGF) is a multi-stakeholder forum for policy dialogue on issues of
-                Internet governance. It brings together all stakeholders in the Internet governance debate, whether they
-                represent governments, the private sector or civil society, including the technical and academic
-                community, on an equal basis and through an open and inclusive process
-                <br />
-                <small><a
-                    href="https://www.igf2019.berlin/IGF/Navigation/DE/Home/home.html">www.igf2019.berlin</a></small>
-              </p>
-            </div>
-          </div>
-        </article>
+            </article>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
         <article class="media">
           <div class="media-content">
             <header class="media-header">
