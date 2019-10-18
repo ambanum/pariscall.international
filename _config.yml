@@ -1,5 +1,6 @@
 # This file is *NOT* reloaded automatically when you use 'jekyll serve'.
 # If you change this file, please restart the server process.
+include: ['_pages']
 
 title: Paris Call
 baseurl: ""
