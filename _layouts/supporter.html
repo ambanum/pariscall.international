@@ -3,12 +3,12 @@ layout: default
 ---
 
 <div class="page-title">
-  <h1>{{ page.name }}</h1>
+  <h1>{{ page.name | xml_escape}}</h1>
 </div>
 <section class="section is-small bg-purple-500">
   <div class="container content is-size-5">
     <p class="details">
-      La {{ page.nature }} {{ page.name }} soutient l’Appel de Paris pour la confiance et la sécurité dans le
+      La {{ page.nature }} {{ page.name | xml_escape }} soutient l’Appel de Paris pour la confiance et la sécurité dans le
       cyberespace depuis le {{ page.date_signed }}.
     </p>
     <p class="back has-text-centered">
