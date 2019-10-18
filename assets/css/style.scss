@@ -66,6 +66,8 @@ $private-sector-color: #FEE4A5;
 // Utils
 @import "utils/_mixins";
 
+// Components
+@import "components/_spinner";
 // Partials
 @import 'partials/header';
 @import 'partials/footer';
