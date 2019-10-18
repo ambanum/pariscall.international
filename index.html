@@ -11,10 +11,10 @@ language: fr
   </div>
   <div class="hero-body">
     <div class="container has-text-centered">
-      <h1 class="title">
+      <h1 class="title is-1">
         <img class="logo" alt="Appel de Paris" src="{{site.baseurl}}/assets/images/logo.png" />
       </h1>
-      <h2 class="subtitle">
+      <h2 class="subtitle is-2">
         Pour la confiance et la sécurité dans le cyberespace
       </h2>
     </div>
@@ -30,7 +30,6 @@ language: fr
       </div>
       <div class="column is-1"></div>
       <div class="column is-5">
-        <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z6003fl7Kn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         <div class="duotone">
           <img alt="" src="{{site.baseurl}}/assets/images/devices.jpg" />
         </div>
@@ -58,7 +57,7 @@ language: fr
     </div>
   </div>
 </section>
-<section class="section stats is-medium bg-blue-50">
+<section class="section is-medium bg-blue-50">
   <div class="container content is-size-5">
     <h3 class="title is-3 has-text-centered">L’Appel de Paris est déjà soutenu par</h3>
     <div class="counters">
@@ -84,24 +83,20 @@ language: fr
         </div>
       </div>
     </div>
-    <div class="has-text-centered">
-      <p>
-        <a href="{{ site.baseurl }}/supporters" class="button is-primary is-rounded is-large">Voir les soutiens</a>
-      </p>
-    </div>
+    <p class="has-text-centered">
+      <a href="{{ site.baseurl }}/supporters" class="button is-primary is-rounded is-large">Voir les soutiens</a>
+    </p>
   </div>
 </section>
-<section class="section call is-medium bg-blue-300">
-  <div class="container content is-size-5">
-    <div class="has-text-centered">
-      <h3 class="title is-4">Tous les États, entreprises et associations peuvent s’engager</h3>
-      <p>
-        <a href="{{ site.baseurl }}/support" class="button is-primary is-rounded is-large">Soutenir l'Appel</a>
-      </p>
-    </div>
+<section class="section is-medium bg-blue-300">
+  <div class="container content is-size-5 has-text-centered">
+    <h3 class="title is-4">Tous les États, entreprises et associations peuvent s’engager</h3>
+    <p>
+      <a href="{{ site.baseurl }}/support" class="button is-primary is-rounded is-large">Soutenir l'Appel</a>
+    </p>
   </div>
 </section>
-<section class="feed section is-medium">
+<section class="section is-medium">
   <div class="container">
     <h2 class="title is-2 has-text-centered">Actualités</h2>
     <div class="columns">
@@ -115,14 +110,22 @@ language: fr
             {% if count < 5 %}
             {% assign count = count | plus: 1 %}
             <article class="media new-supporter">
-              <div class="media-content">
+              <div class="media-content has-text-centered">
                 <header class="media-header">
                   <h4 class="title is-6">{{ supporter.name }}</h4>
                 </header>
                 <div class="content">
-                  <div class="tags has-addons">
-                    <span class="tag">à rejoint les soutiens le&nbsp;<span>{{ supporter.date_signed | date: "%d/%m/%Y" }}</span></span>
-                    <span class="tag is-{{ supporter.category | replace: '_', '-' }}">{% if supporter.nature %}{{ supporter.nature }}{% else %}{{ supporter.category | replace: 'state', 'État' | replace: 'private_sector', 'Entreprise' | replace: 'civil_society', 'Associations' }}{% endif %}</span>
+                  <div class="tags has-addons is-size-7">
+                    <span class="tag">
+                      à rejoint les soutiens le&nbsp;{{ supporter.date_signed | date: "%d/%m/%Y" }}
+                    </span>
+                    <span class="tag is-{{ supporter.category | replace: '_', '-' }}">
+                      {% if supporter.nature %}
+                        {{ supporter.nature }}
+                      {% else %}
+                        {{ supporter.category | replace: 'state', 'État' | replace: 'private_sector', 'Entreprise' | replace: 'civil_society', 'Organisations' }}
+                      {% endif %}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -133,10 +136,10 @@ language: fr
 
         {% assign events = site.events | sort: 'start_date' %}
         {% for event in events %}
-        <article class="media">
+        <article class="media event">
           <div class="media-content">
             <header class="media-header">
-              <h4 class="title is-6">{{ event.name }}</h4>
+              <h4 class="title is-5">{{ event.name }}</h4>
               <div class="columns">
                 <div class="column">
                   <div class="date">

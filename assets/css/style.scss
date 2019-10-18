@@ -177,6 +177,24 @@ $private-sector-color: #FEE4A5;
   }
 }
 
+.bg-blue-50,
+.bg-blue-100 {
+  color: $blue-900;
+
+  h1, h2, h3, h4, h5, strong, a {
+    color: inherit;
+  }
+}
+
+.bg-blue-200,
+.bg-blue-300 {
+  color: $purple-900;
+
+  h1, h2, h3, h4, h5, strong, a {
+    color: inherit;
+  }
+}
+
 .bg-blue-50:before { background: linear-gradient(138deg, $blue-50 75%, $blue-100) $blue-50; }
 .bg-blue-100:before { background: linear-gradient(138deg, $blue-100 75%, $blue-200) $blue-100; }
 .bg-blue-200:before { background: linear-gradient(138deg, $blue-200 75%, $blue-300) $blue-200; }
