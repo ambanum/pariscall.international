@@ -63,6 +63,9 @@ $private-sector-color: #FEE4A5;
 // Icons
 @import "_icons-font";
 
+// Utils
+@import "utils/_mixins";
+
 // Partials
 @import 'partials/header';
 @import 'partials/footer';
@@ -75,9 +78,22 @@ $private-sector-color: #FEE4A5;
 @import 'pages/support';
 @import 'pages/principles';
 
+// Global Bulma customization
 .button {
   font-variant: all-small-caps;
   font-weight: 500;
+}
+
+.title {
+  &.is-underline {
+    @include is-underline;
+  }
+}
+
+@include desktop {
+  .section.is-small {
+    padding: 6rem 1.5rem;
+  }
 }
 
 
@@ -85,32 +101,18 @@ $private-sector-color: #FEE4A5;
   text-align: center;
   margin: 5em 0 10em;
 
-  .title {
-    display: inline-block;
+  h1 {
     text-align: center;
     font-weight: 300;
-    position: relative;
+    font-size: $size-1;
+    margin-bottom: 0.75em;
     color: $primary;
+
+    @include is-underline;
   }
 
-  .title:before,
-  .title:after {
-    content: " ";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 1px;
-    background-color: $primary;
-  }
-
-  .title:before {
-    width: 130%;
-    bottom: -0.1em;
-  }
-
-  .title:after {
-    width: 133%;
-    bottom: -0.35em;
+  h2 {
+    font-size: $size-3;
   }
 }
 

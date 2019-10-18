@@ -6,27 +6,6 @@
       max-width: 960px;
       position: relative;
       margin: 1em auto 0.75em auto;
-
-
-      &:before,
-      &:after {
-        content: " ";
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 1px;
-        background-color: $primary;
-      }
-
-      &:before {
-        width: 103%;
-        bottom: -0.1em;
-      }
-
-      &:after {
-        width: 105%;
-        bottom: -0.35em;
-      }
     }
 
     .subtitle {
