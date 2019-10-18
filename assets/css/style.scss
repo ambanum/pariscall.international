@@ -70,6 +70,7 @@ $private-sector-color: #FEE4A5;
 @import "components/_page-title";
 @import "components/_spinner";
 @import "components/_duotone";
+@import "components/_aspect-ratio-box";
 
 // Partials
 @import 'partials/header';
@@ -189,22 +190,6 @@ $private-sector-color: #FEE4A5;
 .bg-purple-700:before { background: linear-gradient(138deg, $purple-700 75%, $purple-800) $purple-700; }
 .bg-purple-800:before { background: linear-gradient(138deg, $purple-800 75%, $purple-900) $purple-800; }
 .bg-purple-900:before { background: linear-gradient(138deg, $purple-900 75%, $purple-900) $purple-900; }
-
-.aspect-ratio-box {
-  &::before { /* To keep aspect ratio 1:1 see https://css-tricks.com/aspect-ratio-boxes/ */
-    content: "";
-    width: 1px;
-    margin-left: -1px;
-    float: left;
-    height: 0;
-    padding-top: 100%;
-  }
-  &::after { /* to clear float */
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
 
 .date {
   flex-direction: row;
