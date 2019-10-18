@@ -77,11 +77,6 @@ $private-sector-color: #FEE4A5;
   font-weight: 500;
 }
 
-.page.is-inverted {
-  color: #fff;
-  background: #3B297F;
-}
-
 
 .page-title {
   text-align: center;
@@ -113,17 +108,6 @@ $private-sector-color: #FEE4A5;
   .title:after {
     width: 133%;
     bottom: -0.35em;
-  }
-}
-
-.is-inverted .page-title {
-  .title {
-    color: #fff;
-  }
-
-  .title:before,
-  .title:after {
-    background-color: #fff;
   }
 }
 
@@ -232,69 +216,6 @@ $private-sector-color: #FEE4A5;
     clear: both;
   }
 }
-
-// .section-title {
-//   .title {
-//     color: $blue-900;
-//   }
-
-//   &.is-inverted {
-//     .title {
-//       color: #FFF;
-//     }
-//   }
-// }
-
-// .section-title {
-//   margin-bottom: 1em;
-//   .title {
-//     display: inline-block;
-//     font-weight: 300;
-//     position: relative;
-//     color: $primary;
-//   }
-
-//   .title:before,
-//   .title:after {
-//     content: " ";
-//     position: absolute;
-//     left: 0;
-//     height: 1px;
-//     background-color: $purple-300;
-//     width: 100%;
-//   }
-
-//   .title:before {
-//     bottom: -0.1em;
-//   }
-
-//   .title:after {
-//     bottom: -0.3em;
-//   }
-
-//   @include desktop {
-//     .title:before {
-//       width: 105%;
-//     }
-
-//     .title:after {
-//       width: calc(105% + 15px);
-//       bottom: -0.4em;
-//     }
-//   }
-
-//   &.is-inverted {
-//     .title {
-//       color: #fff;
-//     }
-
-//     .title:before,
-//     .title:after {
-//       background-color: #fff;
-//     }
-//   }
-// }
-
 
 .date {
   flex-direction: row;
@@ -426,8 +347,4 @@ $private-sector-color: #FEE4A5;
   top:                 0;
   width:               100%;
   z-index:             1;
-}
-
-.title.is-inverted {
-  color: #FFF;
 }
