@@ -4,20 +4,5 @@
     margin: auto;
   }
 
-  .details {
-    font-size: 1.3em;
-  }
-
-  .call-to-action {
-    > * {
-      vertical-align: middle;
-      display: inline-block;
-    }
-  }
-
-  .call-to-action,
-  .back {
-    margin-top: 3em;
-    text-align: center;
-  }
+  .back { margin-top: 3em; }
 }
