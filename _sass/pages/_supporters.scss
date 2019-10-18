@@ -1,8 +1,4 @@
 .supporters-page {
-  .supporters-cards {
-    position: relative;
-  }
-
   .call-to-action {
     position: absolute;
     top: 0;
@@ -20,13 +16,9 @@
     }
   }
 
-  .box {
-    margin-bottom: 1em;
-  }
+  .box { margin-bottom: 1em; }
 
-  .cards {
-    flex-wrap: wrap;
-  }
+  .cards { flex-wrap: wrap; }
 
   .card {
     height: 100%;
@@ -40,23 +32,15 @@
   .card-footer {
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
+
+    &.private_sector { background: $private-sector-color; }
+    &.civil_society { background: $civil-society-color; }
+    &.state { background: $state-color; }
   }
 
   .card-footer-item {
     padding: 0.5em 0.75rem;
     font-weight: 500;
     font-size: 0.85em;
-  }
-
-  .card-footer.private_sector {
-    background: $private-sector-color;
-  }
-
-  .card-footer.civil_society {
-    background: $civil-society-color;
-  }
-
-  .card-footer.state {
-    background: $state-color;
   }
 }
