@@ -7,11 +7,10 @@
         <span aria-hidden="true"></span>
       </a>
     </div>
-
     <div id="navbar-menu" class="navbar-menu is-size-5">
       <div class="navbar-start">
-        <a class="navbar-item" href="{{ site.baseurl }}/">Accueil</a>
-        <a class="navbar-item" href="{{ site.baseurl }}/principles">L'appel et les 9 principes</a>
+        <a class="navbar-item {% if page.url == '/' %}is-active{% endif %}" href="{{ site.baseurl }}/">Accueil</a>
+        <a class="navbar-item {% if page.url == '/principles' %}is-active{% endif %}" href="{{ site.baseurl }}/principles">L'appel et les 9 principes</a>
       </div>
 
       <div class="navbar-center is-hidden-touch">
@@ -21,7 +20,7 @@
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item" href="{{ site.baseurl }}/supporters">Les soutiens</a>
+        <a class="navbar-item {% if page.url == '/supporters' %}is-active{% endif %}" href="{{ site.baseurl }}/supporters">Les soutiens</a>
         <a class="navbar-item button is-primary is-rounded is-medium" href="{{ site.baseurl }}/support">Soutenir l'appel</a>
       </div>
     </div>
