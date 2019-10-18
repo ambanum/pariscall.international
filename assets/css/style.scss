@@ -101,3 +101,28 @@ $private-sector-color: #FEE4A5;
     padding: 6rem 1.5rem;
   }
 }
+
+.content {
+  a {
+    position: relative;
+    z-index: 1;
+
+    &:not(.button)::before {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      left: -0.15em;
+      right: -0.15em;
+      background-color: $blue-200;
+      transform-origin: bottom center;
+      transform: scaleY(0.05);
+      transition: all 0.1s ease-in-out;
+    }
+
+    &:hover::before {
+      transform: scaleY(1);
+    }
+  }
+}
