@@ -67,6 +67,7 @@ $private-sector-color: #FEE4A5;
 @import "utils/_mixins";
 
 // Components
+@import "components/_page-title";
 @import "components/_spinner";
 @import "components/_duotone";
 
@@ -81,7 +82,7 @@ $private-sector-color: #FEE4A5;
 @import 'pages/supporter';
 @import 'pages/support';
 
-// Global Bulma customization
+// Customize Bulma components
 .button {
   font-variant: all-small-caps;
   font-weight: 500;
@@ -96,26 +97,6 @@ $private-sector-color: #FEE4A5;
 @include desktop {
   .section.is-small {
     padding: 6rem 1.5rem;
-  }
-}
-
-
-.page-title {
-  text-align: center;
-  margin: 5em 0 10em;
-
-  h1 {
-    text-align: center;
-    font-weight: 300;
-    font-size: $size-1;
-    margin-bottom: 0.75em;
-    color: $primary;
-
-    @include is-underline;
-  }
-
-  h2 {
-    font-size: $size-3;
   }
 }
 
