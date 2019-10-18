@@ -25,6 +25,8 @@ sass:
   style: compact # possible values: nested expanded compact compressed
 
 exclude:
+  - vendor
+  - README.md
   - .circleci
   - .gitignore
   - .ruby_version
