@@ -1,10 +1,7 @@
 .main-navbar {
-  min-height: 6em;
   padding-top: 1em;
 
-  .navbar-menu {
-    align-items: center;
-  }
+  .navbar-menu { align-items: center; }
 
   @include desktop {
     .navbar-start,
@@ -12,7 +9,6 @@
       min-width: 30%;
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
     }
   }
 
@@ -25,12 +21,9 @@
 
   .navbar-item {
     font-variant: all-small-caps;
-    font-weight: 600;
-    font-size: 1.1em;
+    font-weight: 500;
 
-    &:not(.button) {
-      color: $primary;
-    }
+    &:not(.button) { color: $primary; }
   }
 
   .logo {
