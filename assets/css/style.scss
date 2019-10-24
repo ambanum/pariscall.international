@@ -63,17 +63,17 @@ $private-sector-color: #FEE4A5;
 @import "bulma/layout/_all";
 
 // Icons
-@import "_icons-font";
+@import "icons-font";
 
 // Utils
-@import "utils/_mixins";
+@import "utils/mixins";
 
 // Components
-@import "components/_page-title";
-@import "components/_spinner";
-@import "components/_duotone";
-@import "components/_aspect-ratio-box";
-@import "components/_bg";
+@import "components/page-title";
+@import "components/spinner";
+@import "components/duotone";
+@import "components/aspect-ratio-box";
+@import "components/bg";
 
 // Partials
 @import 'partials/header';
