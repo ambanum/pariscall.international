@@ -45,7 +45,7 @@
           <div class="dropdown-menu" id="dropdown-menu4" role="menu">
             <div class="dropdown-content">
               {% for lang in site.available_languages %}
-              <a href="{{ page.url | replace: page.lang, lang | relative_url }}" class="dropdown-item {% if lang == page.lang %}is-active{% endif %}">
+              <a href="{{ page.url | replace_first: page.lang, lang | relative_url }}" class="dropdown-item {% if lang == page.lang %}is-active{% endif %}">
                 {{ site.data.translations.lang[lang] }}
               </a>
               {% endfor %}
