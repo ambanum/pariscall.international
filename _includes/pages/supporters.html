@@ -29,7 +29,7 @@
         <div class="card">
           <div class="card-content">
             <p class="title">
-              <a href="{{ supporter.url | prepend: page.lang | relative_url }}">{{ supporter.name | xml_escape }}</a>
+              {{ supporter.name | xml_escape }}
             </p>
             <p class="subtitle">
               {{ supporter.nature }}

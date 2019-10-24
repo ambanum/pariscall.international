@@ -11,8 +11,6 @@ available_languages: [ "en", "fr" ]
 
 collections:
   supporters:
-    output: true
-    permalink: /supporter/:path/
   events:
 
 defaults:
