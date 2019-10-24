@@ -8,23 +8,14 @@ layout: default
 <section class="section is-small bg-purple-500">
   <div class="container content is-size-5">
     <p class="details">
-      La {{ page.nature }} {{ page.name | xml_escape }} soutient l’Appel de Paris pour la confiance et la sécurité dans le
-      cyberespace depuis le {{ page.date_signed }}.
+      {{ page.nature }} {{ page.name | xml_escape }} {{ site.data.translations.supporter.support-since[page.lang] }} {{ page.date_signed }}.
     </p>
     <p class="back has-text-centered">
-      <a href="{{ site.baseurl }}/supporters" class="button is-primary is-rounded is-outlined is-inverted">
-        Voir les autres signataires
+      <a href="{{ '/supporters' | prepend: page.lang | relative_url }}" class="button is-primary is-rounded is-outlined is-inverted">
+        {{ site.data.translations.supporter.see-others-button[page.lang] }}
       </a>
     </p>
   </div>
 </section>
-<section class="section call is-medium">
-  <div class="container content is-size-5">
-    <div class="has-text-centered">
-      <h3 class="title is-4">Tous les États, entreprises et associations peuvent s’engager</h3>
-      <p>
-        <a href="{{ site.baseurl }}/support" class="button is-primary is-rounded is-large">Soutenir l'Appel</a>
-      </p>
-    </div>
-  </div>
-</section>
+
+{% include support-section.html %}

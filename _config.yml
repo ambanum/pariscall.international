@@ -10,14 +10,26 @@ supporter_categories: [ "private_sector", "civil_society", "state" ]
 available_languages: [ "en", "fr" ]
 
 collections:
-  supporters:
+  supporters_en:
+    output: true
+    permalink: en/supporter/:path/
+  supporters_fr:
+    output: true
+    permalink: fr/supporter/:path/
   events:
 
 defaults:
   - scope:
-      path: _supporters
+      path: _supporters_fr
     values:
       layout: supporter
+      lang: fr
+      bodyClass: supporter-page
+  - scope:
+      path: _supporters_en
+    values:
+      layout: supporter
+      lang: en
       bodyClass: supporter-page
 
 sass:
