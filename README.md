@@ -23,5 +23,5 @@ menu:
     es: "Inicio"
 ```
 
-Duplicate `_pages/en` content in `_pages/es` and translate its content.
+Duplicate `_pages/en` content in `_pages/$language_code` and translate its content.
 Its important to change all `lang` and `permalink` in all front matter.
