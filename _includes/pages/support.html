@@ -1,14 +1,7 @@
----
-title: Soutenir l’appel
-layout: default
-bodyClass: support-page
-permalink: /support
----
-
 <div class="container">
   <div class="page-title">
-    <h1>Soutenir l’appel</h1>
-    <h2>Tous les États, entreprises et associations peuvent s’engager</h2>
+      <h1>{{ site.data.translations.support.title[page.lang] }}</h1>
+      <h2>{{ site.data.translations.support.subtitle[page.lang] }}</h2>
   </div>
 </div>
 <section class="section is-small bg-blue-100">
@@ -43,7 +36,7 @@ permalink: /support
 <section class="section call is-medium">
   <div class="container content is-size-5">
     <p class="has-text-centered">
-      <a href="{{ site.baseurl }}/supporters" class="button is-primary is-rounded is-large">Voir les soutiens</a>
+      <a href="{{ '/supporters' | prepend: page.lang | relative_url }}" class="button is-primary is-rounded is-large">{{ site.data.translations.global.see-supporters[page.lang] }}</a>
     </p>
   </div>
 </section>
