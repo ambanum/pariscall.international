@@ -9,19 +9,49 @@
     </div>
     <div id="navbar-menu" class="navbar-menu is-size-5">
       <div class="navbar-start">
-        <a class="navbar-item {% if page.url == '/' %}is-active{% endif %}" href="{{ site.baseurl }}/">Accueil</a>
-        <a class="navbar-item {% if page.url == '/principles' %}is-active{% endif %}" href="{{ site.baseurl }}/principles">L'appel et les 9 principes</a>
+        {% assign homeUrl = '/' | prepend: page.lang | prepend: '/' %}
+        <a class="navbar-item {% if page.url == homeUrl %}is-active{% endif %}"
+          href="{{ homeUrl | relative_url }}">{{ site.data.translations.menu.home[page.lang] }}</a>
+
+        {% assign principlesUrl = '/principles' | prepend: page.lang | prepend: '/' %}
+        <a class="navbar-item {% if page.url == principlesUrl %}is-active{% endif %}"
+          href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
       </div>
 
       <div class="navbar-center is-hidden-touch">
-        <a href="{{ site.baseurl }}/">
-          <img class="logo" alt="Appel de Paris" src="{{site.baseurl}}/assets/images/logo-circle.jpg" />
+        <a href="{{ homeUrl | relative_url }}">
+          <img class="logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}" src="{{site.baseurl}}/assets/images/logo-circle-{{ page.lang }}.png" />
         </a>
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item {% if page.url == '/supporters' %}is-active{% endif %}" href="{{ site.baseurl }}/supporters">Les soutiens</a>
-        <a class="navbar-item button is-primary is-rounded is-medium" href="{{ site.baseurl }}/support">Soutenir l'appel</a>
+        {% assign supportersUrl = '/supporters' | prepend: page.lang | prepend: '/' %}
+        <a class="navbar-item {% if page.url == supportersUrl %}is-active{% endif %}"
+          href="{{ supportersUrl | relative_url }}">{{ site.data.translations.menu.supporters[page.lang] }}</a>
+
+        {% assign supportUrl = '/support' | prepend: page.lang | prepend: '/' %}
+        <a class="navbar-item button is-primary is-rounded is-medium"
+          href="{{ supportUrl | relative_url }}">{{ site.data.translations.menu.support[page.lang] }}</a>
+
+        <div class="dropdown is-right is-hoverable">
+          <div class="dropdown-trigger">
+            <button class="button is-size-5" aria-haspopup="true" aria-controls="dropdown-menu4">
+              <span>{{ page.lang }}</span>
+              <span class="icon is-small">
+                <i class="icon icon-angle-down" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+          <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+            <div class="dropdown-content">
+              {% for lang in site.available_languages %}
+              <a href="{{ page.url | replace: page.lang, lang | relative_url }}" class="dropdown-item {% if lang == page.lang %}is-active{% endif %}">
+                {{ site.data.translations.lang[lang] }}
+              </a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

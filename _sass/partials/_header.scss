@@ -6,7 +6,7 @@
   @include desktop {
     .navbar-start,
     .navbar-end {
-      min-width: 30%;
+      min-width: 35%;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -67,5 +67,9 @@
 
   .logo {
     width: 150px;
+  }
+
+  .dropdown-trigger .button {
+    border: none;
   }
 }
