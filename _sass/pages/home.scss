@@ -15,7 +15,7 @@
     }
 
     .logo {
-      max-height: 100px;
+      max-height: 2em;
     }
   }
 
@@ -29,7 +29,7 @@
     background: #fff;
     box-shadow: 0 0 0 1px $purple-100, 0 0 0 10px #FFF, 0 0 0 11px $purple-100;
     width: 30%;
-    max-width: 300px;
+    max-width: 15em;
 
     &__header { flex: 1; }
 
