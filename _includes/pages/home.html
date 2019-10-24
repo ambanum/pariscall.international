@@ -52,19 +52,21 @@
 </section>
 <section class="section is-medium bg-blue-50">
   <div class="container content is-size-5">
+    {% assign supporterLang = 'supporters' | append: '_' | append: page.lang %}
+    {% assign supporters = site[supporterLang] %}
     <h3 class="title is-3 has-text-centered">{{ site.data.translations.home.counter-section-title[page.lang] }}</h3>
     <div class="counters">
       <div class="counter aspect-ratio-box">
         <div class="counter__content">
           <div class="counter__header"></div>
-          <div class="counter__number">{{ site.supporters | where: "category", "state" | size }}</div>
+          <div class="counter__number">{{ supporters | where: "category", "state" | size }}</div>
           <footer class="counter__footer"><strong>{{ site.data.translations.home.states[page.lang] }}</strong></footer>
         </div>
       </div>
       <div class="counter aspect-ratio-box">
         <div class="counter__content">
           <div class="counter__header"></div>
-          <div class="counter__number">{{ site.supporters | where: "category", "civil_society" | size }}</div>
+          <div class="counter__number">{{ supporters | where: "category", "civil_society" | size }}</div>
           <footer class="counter__footer">
             <strong>{{ site.data.translations.home.organizations[page.lang] }}</strong>{{ site.data.translations.home.and-members-of-civil-society[page.lang] }}
           </footer>
@@ -73,7 +75,7 @@
       <div class="counter aspect-ratio-box">
         <div class="counter__content">
           <div class="counter__header"></div>
-          <div class="counter__number">{{ site.supporters | where: "category", "private_sector" | size }}</div>
+          <div class="counter__number">{{ supporters | where: "category", "private_sector" | size }}</div>
           <footer class="counter__footer">
             <strong>{{ site.data.translations.home.companies[page.lang] }}</strong>{{ site.data.translations.home.and-private-sector-entities[page.lang] }}
           </footer>
