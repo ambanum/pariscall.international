@@ -6,22 +6,20 @@ Public website for the Paris Call for Trust and Security in Cyberspace / Site pu
 Add the language in `_config.yml`:
 
 ```
-available_languages: [ "en", "fr" ]
+available_languages: [ en, fr ]
 ```
 
-Add translations for the language in the `data/translations.yml`:
+Add translations for the language in the `data/translations` files:
 
 ```
 lang:
-  en: "English"
-  fr: "Français"
-  es: "Español"
+  en: English
+  fr: Français
 menu:
   home:
-    en: "Home"
-    fr: "Accueil"
-    es: "Inicio"
+    en: Home
+    fr: Accueil
 ```
 
 Duplicate `_pages/en` content in `_pages/$language_code` and translate its content.
-Change all `lang` and `permalink`  attributes in front matters.
+Change all `permalink` attributes in front matters.

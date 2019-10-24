@@ -20,6 +20,14 @@ collections:
 
 defaults:
   - scope:
+      path: _pages/en
+    values:
+      lang: en
+  - scope:
+      path: _pages/fr
+    values:
+      lang: fr
+  - scope:
       path: _supporters_fr
     values:
       layout: supporter
