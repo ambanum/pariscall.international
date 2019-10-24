@@ -128,3 +128,13 @@ $private-sector-color: #FEE4A5;
     }
   }
 }
+
+.tag {
+  &.is-state,
+  &.is-civil-society,
+  &.is-private-sector { font-weight: 600; }
+
+  &.is-state { background: $state-color; }
+  &.is-civil-society { background: $civil-society-color; }
+  &.is-private-sector { background: $private-sector-color; }
+}
