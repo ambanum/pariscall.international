@@ -24,4 +24,4 @@ menu:
 ```
 
 Duplicate `_pages/en` content in `_pages/$language_code` and translate its content.
-Its important to change all `lang` and `permalink` in all front matter.
+Change all `lang` and `permalink`  attributes in front matters.
