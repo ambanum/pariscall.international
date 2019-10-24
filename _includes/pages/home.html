@@ -1,0 +1,167 @@
+<section class="header hero is-medium {{include.headerClass}}">
+  <div class="hero-head">
+    {% include header.html %}
+  </div>
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title is-1 is-underline">
+        <img class="logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}" src="{{site.baseurl}}/assets/images/logo-title-{{ page.lang }}.png" />
+      </h1>
+      <h2 class="subtitle is-2">
+        {{ site.data.translations.home.subtitle[page.lang] }}
+      </h2>
+    </div>
+  </div>
+</section>
+<section class="section is-medium bg-blue-500">
+  <div class="container content is-size-5">
+    <h2 class="title is-2"></h2>
+    <div class="columns">
+      <div class="column">
+        {% capture cyberspace_text %}{% include pages/texts/{{ page.lang }}/home/cyberspace.md %}{% endcapture %}
+        {{ cyberspace_text | markdownify }}
+      </div>
+      <div class="column is-1"></div>
+      <div class="column is-5">
+        <div class="duotone">
+          <img alt="" src="{{site.baseurl}}/assets/images/devices.jpg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section is-medium">
+  <div class="container content is-size-5">
+    <div class="columns">
+      <div class="column is-5">
+        <div class="duotone">
+          <img alt="" src="{{site.baseurl}}/assets/images/united.jpg" />
+        </div>
+      </div>
+      <div class="column is-1"></div>
+      <div class="column">
+        {% capture intention_text %}{% include pages/texts/{{ page.lang }}/home/intention.md %}{% endcapture %}
+        {{ intention_text | markdownify }}
+        <p class="button-in-text has-text-centered">
+          <a href="{{ '/principles' | prepend: page.lang | relative_url }}"
+            class="button is-primary is-rounded is-medium">{{ site.data.translations.home.principles-button[page.lang] }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section is-medium bg-blue-50">
+  <div class="container content is-size-5">
+    <h3 class="title is-3 has-text-centered">{{ site.data.translations.home.counter-section-title[page.lang] }}</h3>
+    <div class="counters">
+      <div class="counter aspect-ratio-box">
+        <div class="counter__content">
+          <div class="counter__header"></div>
+          <div class="counter__number">{{ site.supporters | where: "category", "state" | size }}</div>
+          <footer class="counter__footer"><strong>{{ site.data.translations.home.states[page.lang] }}</strong></footer>
+        </div>
+      </div>
+      <div class="counter aspect-ratio-box">
+        <div class="counter__content">
+          <div class="counter__header"></div>
+          <div class="counter__number">{{ site.supporters | where: "category", "civil_society" | size }}</div>
+          <footer class="counter__footer">
+            <strong>{{ site.data.translations.home.organizations[page.lang] }}</strong>{{ site.data.translations.home.and-members-of-civil-society[page.lang] }}
+          </footer>
+        </div>
+      </div>
+      <div class="counter aspect-ratio-box">
+        <div class="counter__content">
+          <div class="counter__header"></div>
+          <div class="counter__number">{{ site.supporters | where: "category", "private_sector" | size }}</div>
+          <footer class="counter__footer">
+            <strong>{{ site.data.translations.home.companies[page.lang] }}</strong>{{ site.data.translations.home.and-private-sector-entities[page.lang] }}
+          </footer>
+        </div>
+      </div>
+    </div>
+    <p class="has-text-centered">
+      <a href="{{ '/supporters' | prepend: page.lang | relative_url }}"
+        class="button is-primary is-rounded is-large">{{ site.data.translations.global.see-supporters[page.lang] }}</a>
+    </p>
+  </div>
+</section>
+
+{% include support-section.html bg-color="bg-blue-300" %}
+
+<section class="section is-medium">
+  <div class="container">
+    <h2 class="title is-2 has-text-centered">{{ site.data.translations.home.events[page.lang] }}</h2>
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+
+        {% assign last_month_date = 'now' | date: '%s' | minus : 2629743 | date: '%s' %}
+        {% assign count = 0 %}
+        {% for supporter in site.supporters %}
+        {% assign supporter_date = supporter.date_signed | date: '%s' %}
+        {% if supporter_date > last_month_date %}
+        {% if count < 5 %}
+        {% assign count = count | plus: 1 %}
+        <article class="media new-supporter">
+          <div class="media-content has-text-centered">
+            <header class="media-header">
+              <h4 class="title is-6">{{ supporter.name }}</h4>
+            </header>
+            <div class="content">
+              <div class="tags has-addons is-size-7">
+                <span class="tag">
+                  {{ site.data.translations.home.joined[page.lang] }}&nbsp;{{ supporter.date_signed | date: "%d/%m/%Y" }}
+                </span>
+                <span class="tag is-{{ supporter.category | replace: '_', '-' }}">
+                  {% if supporter.nature %}
+                  {{ supporter.nature }}
+                  {% else %}
+                  {{ supporter.category | replace: 'state', site.data.translations.home.state[page.lang] | replace: 'private_sector', site.data.translations.home.company[page.lang] | replace: 'civil_society', site.data.translations.home.organization[page.lang] }}
+                  {% endif %}
+                </span>
+              </div>
+            </div>
+          </div>
+        </article>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+        {% assign events = site.events | sort: 'start_date' %}
+        {% for event in events %}
+        <article class="media event">
+          <div class="media-content">
+            <header class="media-header">
+              <h4 class="title is-5">{{ event.name }}</h4>
+              <div class="columns">
+                <div class="column">
+                  <div class="date">
+                    <div class="date__day">{{ event.start_date | date: "%d"}}-{{ event.end_date | date: "%d"}}</div>
+                    <div class="date__date">
+                      <div class="date__month">{{ event.start_date | date: "%B %Y"}}</div>
+                      <div class="date__weekday">{{ event.start_date | date: "%A"}}-{{ event.end_date | date: "%A"}}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <a class="location" target="_blank"
+                    href="https://www.openstreetmap.org/search?query={{ event.address | append: ' ' | append: event.city | append: ' '  | append: event.country | url_encode }}">
+                    <i class="location__icon icon icon-map"></i>
+                    <span class="location__text">{{ event.address }}<br /><small>{{ event.city }},
+                        {{ event.country }}</small></span>
+                  </a>
+                </div>
+              </div>
+            </header>
+            <div class="content">
+              {{ event.content | markdownify }}
+              <small><a href="{{ event.link }}">{{ event.link_title }}</a></small>
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

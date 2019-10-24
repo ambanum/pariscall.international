@@ -1,4 +1,4 @@
-.landing-page {
+.home-page {
   .hero-body {
     margin-bottom: 5em;
 
@@ -12,6 +12,10 @@
       max-width: 960px;
       margin: auto;
       color: $purple-500;
+    }
+
+    .logo {
+      max-height: 100px;
     }
   }
 
