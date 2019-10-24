@@ -6,8 +6,8 @@ title: Paris Call
 baseurl: ""
 url: https://ambanum.github.io
 
-supporter_categories: [ "private_sector", "civil_society", "state" ]
-available_languages: [ "en", "fr" ]
+supporter_categories: [ private_sector, civil_society, state ]
+available_languages: [ en, fr ]
 
 collections:
   supporters_en:

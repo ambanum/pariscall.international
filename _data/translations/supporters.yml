@@ -1,18 +1,18 @@
 title:
-  en: "Supporters"
-  fr: "Les soutiens"
+  en: The supporters
+  fr: Les soutiens
 filter-placeholder:
-  en: "Name of a State, an organization, a company…"
-  fr: "Nom d'un État, d'une organisation, d'une entreprise…"
+  en: Name of a State, an organization, a company…
+  fr: Nom d'un État, d'une organisation, d'une entreprise…
 filter-button:
-  en: "Filter supporters"
-  fr: "Filtrer les soutiens"
+  en: Filter supporters
+  fr: Filtrer les soutiens
 civil-society:
-  en: "Civil society"
-  fr: "Société civile"
+  en: Civil society
+  fr: Société civile
 private-sector:
-  en: "Private sector"
-  fr: "Secteur privé"
+  en: Private sector
+  fr: Secteur privé
 state:
-  en: "State"
-  fr: "État"
+  en: State
+  fr: État
