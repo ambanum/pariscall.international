@@ -20,6 +20,10 @@ collections:
 
 defaults:
   - scope:
+      path: _pages
+    values:
+      layout: page
+  - scope:
       path: _pages/en
     values:
       lang: en
@@ -32,13 +36,11 @@ defaults:
     values:
       layout: supporter
       lang: fr
-      bodyClass: supporter-page
   - scope:
       path: _supporters_en
     values:
       layout: supporter
       lang: en
-      bodyClass: supporter-page
 
 sass:
   style: compact # possible values: nested expanded compact compressed
