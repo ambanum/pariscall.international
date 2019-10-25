@@ -2,7 +2,6 @@
 # If you change this file, please restart the server process.
 include: ['_pages']
 
-title: Paris Call
 baseurl: ""
 url: https://ambanum.github.io
 
@@ -20,6 +19,10 @@ collections:
 
 defaults:
   - scope:
+      path: _pages
+    values:
+      layout: page
+  - scope:
       path: _pages/en
     values:
       lang: en
@@ -28,17 +31,23 @@ defaults:
     values:
       lang: fr
   - scope:
+      path: _pages/en/by-email
+    values:
+      layout: by-email
+  - scope:
+      path: _pages/fr/by-email
+    values:
+      layout: by-email
+  - scope:
       path: _supporters_fr
     values:
       layout: supporter
       lang: fr
-      bodyClass: supporter-page
   - scope:
       path: _supporters_en
     values:
       layout: supporter
       lang: en
-      bodyClass: supporter-page
 
 sass:
   style: compact # possible values: nested expanded compact compressed
