@@ -2,7 +2,7 @@
   <h1>{{ site.data.translations.supporters.title[page.lang] }}</h1>
 </div>
 
-{% include support-section.html bg-color="bg-blue-50" spacing="is-small" %}
+{% include support-cta.html bg-color="bg-blue-50" spacing="is-small" %}
 
 <section class="section is-medium bg-blue-500">
   <div class="container">
@@ -52,7 +52,7 @@
     </div>
   </div>
 </section>
-{% include support-section.html %}
+{% include support-cta.html %}
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     let filterInput = document.querySelector('#name-filter');
