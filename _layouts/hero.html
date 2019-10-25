@@ -4,12 +4,15 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="{{site.baseurl}}/assets/images/favicon.png">
-  <link href="{{site.baseurl}}/assets/css/style.css" rel="stylesheet">
+  <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
+  <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
 </head>
-<body class='page {{page.bodyClass}}'>
-  {{content}}
+<body class="page {{ page.bodyClass }}">
+
+  {{ content }}
+
   {% include footer.html %}
+
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
 </body>
 </html>
