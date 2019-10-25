@@ -8,7 +8,7 @@
   <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
   <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
 </head>
-<body class="page {{ page.name | replace: '.md','' | replace: '.html','' }}-page {{ page.layout }}-page">
+<body class="page {{ page.name | replace: '.md','' | replace: '.html','' | replace: '&','_' }}-page {{ page.layout }}-page">
 
   {{ content }}
 
