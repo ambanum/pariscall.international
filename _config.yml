@@ -32,6 +32,14 @@ defaults:
     values:
       lang: fr
   - scope:
+      path: _pages/en/by-email
+    values:
+      layout: by-email
+  - scope:
+      path: _pages/fr/by-email
+    values:
+      layout: by-email
+  - scope:
       path: _supporters_fr
     values:
       layout: supporter
