@@ -6,19 +6,38 @@ title: Paris Call
 baseurl: ""
 url: https://ambanum.github.io
 
-supporter_categories: [ "private_sector", "civil_society", "state" ]
+supporter_categories: [ private_sector, civil_society, state ]
+available_languages: [ en, fr ]
 
 collections:
-  supporters:
+  supporters_en:
     output: true
-    permalink: /supporter/:path/
+    permalink: en/supporter/:path/
+  supporters_fr:
+    output: true
+    permalink: fr/supporter/:path/
   events:
 
 defaults:
   - scope:
-      path: _supporters
+      path: _pages/en
+    values:
+      lang: en
+  - scope:
+      path: _pages/fr
+    values:
+      lang: fr
+  - scope:
+      path: _supporters_fr
     values:
       layout: supporter
+      lang: fr
+      bodyClass: supporter-page
+  - scope:
+      path: _supporters_en
+    values:
+      layout: supporter
+      lang: en
       bodyClass: supporter-page
 
 sass:

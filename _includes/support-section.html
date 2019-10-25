@@ -1,0 +1,9 @@
+<section class="section {% if include.spacing %}{{ include.spacing }}{% else %}is-medium{% endif %} {{ include.bg-color }}">
+  <div class="container content is-size-5 has-text-centered">
+    <h3 class="title is-4">{{ site.data.translations.global.all-can-commmit[page.lang] }}</h3>
+    <p>
+      <a href="{{ '/support' | prepend: page.lang | relative_url }}"
+        class="button is-primary is-rounded is-large">{{ site.data.translations.global.support[page.lang] }}</a>
+    </p>
+  </div>
+</section>

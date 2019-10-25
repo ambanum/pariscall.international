@@ -1,0 +1,6 @@
+should-be-redirected:
+  en: You should be redirected to the page with the most appropriate language given by your browser.
+  fr: Vous devriez être redirigé‧e vers une page dans la langue la plus appropriée d'après votre navigateur.
+if-not-auto:
+  en: If this does not happen automatically, you can go to the <a href="/en">English version</a> directly.
+  fr: Si cela n’a pas lieu automatiquement, vous pouvez aller à la <a href="/fr">version française</a> directement.

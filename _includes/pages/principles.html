@@ -1,0 +1,146 @@
+<div class="container">
+  <div class="page-title">
+    <h1>{{ site.data.translations.principles.title[page.lang] }}</h1>
+    <h2>{{ site.data.translations.principles.subtitle[page.lang] }}</h2>
+  </div>
+</div>
+
+<section class="section is-medium bg-purple-50" id="full-text">
+  <div class="container content is-size-5">
+    <div class="columns">
+      <div class="column">
+        {% capture paris-call-first-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-first-part.md %}{% endcapture %}
+        {{ paris-call-first-part_text | markdownify }}
+      </div>
+      <div class="column">
+        {% capture paris-call-second-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-second-part.md %}{% endcapture %}
+        {{ paris-call-second-part_text | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section is-medium bg-purple-500" id="principles">
+  <div class="container">
+    <h2 class="title is-2 has-text-centered">
+      {{ site.data.translations.principles.principles-section-title[page.lang] }}
+    </h2>
+    <div class="columns principles">
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 1</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-1[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 2</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-2[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 3</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-3[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 4</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-4[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 5</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-5[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 6</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-6[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 7</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-7[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 8</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-8[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-4">
+        <div class="principle aspect-ratio-box">
+          <div class="principle__content">
+            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 9</div>
+            <div class="principle__header">
+              <h2 class="title is-4">
+                {{ site.data.translations.principles.principle-9[page.lang] }}
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include support-section.html %}
