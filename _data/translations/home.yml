@@ -37,3 +37,6 @@ events:
 joined:
   en: joined the supporters on the
   fr: a rejoint les soutiens le
+suggest-event:
+  en: Suggest an event
+  fr: Suggérer un évènement

@@ -5,7 +5,8 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title is-1 is-underline">
-        <img class="logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}" src="{{site.baseurl}}/assets/images/logo-title-{{ page.lang }}.png" />
+        <img class="logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}"
+          src="{{site.baseurl}}/assets/images/logo-title-{{ page.lang }}.png" />
       </h1>
       <h2 class="subtitle is-2">
         {{ site.data.translations.home.subtitle[page.lang] }}
@@ -163,6 +164,31 @@
           </div>
         </article>
         {% endfor %}
+        <hr />
+        <p class="has-text-centered">
+          <a class="typeform-share button is-primary is-rounded" href="https://nicolasdupont.typeform.com/to/OYvfQd"
+            data-mode="drawer_right" data-hide-headers=true data-hide-footer=true data-submit-close-delay="1"
+            target="_blank" id="suggestEvent">
+            {{ site.data.translations.home.suggest-event[page.lang] }}
+          </a>
+          <script>
+            (function () {
+              var qs, js, q, s, d = document,
+                gi = d.getElementById,
+                ce = d.createElement,
+                gt = d.getElementsByTagName,
+                id = "typef_orm_share",
+                b = "https://embed.typeform.com/";
+              if (!gi.call(d, id)) {
+                js = ce.call(d, "script");
+                js.id = id;
+                js.src = b + "embed.js";
+                q = gt.call(d, "script")[0];
+                q.parentNode.insertBefore(js, q)
+              }
+            })()
+          </script>
+        </p>
       </div>
     </div>
   </div>
