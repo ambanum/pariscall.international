@@ -23,3 +23,4 @@ menu:
 
 Duplicate `_pages/en` content in `_pages/$language_code` and translate its content.
 Change all `permalink` attributes in front matters.
+Duplicate `_supporters_en` content in `_supporters_$language_code`.
