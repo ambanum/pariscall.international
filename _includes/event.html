@@ -1,0 +1,35 @@
+<article class="media event">
+  <div class="media-content">
+    <header class="media-header">
+      <h4 class="title is-5">{{ include.event.name }}</h4>
+      <div class="columns">
+        <div class="column">
+          <div class="date">
+            <div class="date__day">{{ include.event.start_date | date: "%d"}}{%if include.event.end_date != include.event.start_date %}-{{ include.event.end_date | date: "%d"}}{% endif %}</div>
+            <div class="date__date">
+              <div class="date__month">{{ include.event.start_date | date: "%B %Y"}}</div>
+              <div class="date__weekday">{{ include.event.start_date | date: "%A"}}{%if include.event.end_date != include.event.start_date %}-{{ include.event.end_date | date: "%A"}}{% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <a class="location" target="_blank"
+            href="https://www.openstreetmap.org/search?query={{ include.event.address | append: ' ' | append: include.event.city | append: ' '  | append: include.event.country | url_encode }}">
+            <i class="location__icon icon icon-map"></i>
+            <span class="location__text">{{ include.event.address }}<br />
+              <small>
+                {%if include.event.city %}{{ include.event.city }},{% endif %}
+                {%if include.event.country %}{{ include.event.country }}{% endif %}
+              </small>
+            </span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      {{ include.event.content | markdownify }}
+      <small><a href="{{ include.event.link }}">{{ include.event.link_title }}</a></small>
+    </div>
+  </div>
+</article>

@@ -132,37 +132,7 @@
 
         {% assign events = site.events | sort: 'start_date' %}
         {% for event in events %}
-        <article class="media event">
-          <div class="media-content">
-            <header class="media-header">
-              <h4 class="title is-5">{{ event.name }}</h4>
-              <div class="columns">
-                <div class="column">
-                  <div class="date">
-                    <div class="date__day">{{ event.start_date | date: "%d"}}-{{ event.end_date | date: "%d"}}</div>
-                    <div class="date__date">
-                      <div class="date__month">{{ event.start_date | date: "%B %Y"}}</div>
-                      <div class="date__weekday">{{ event.start_date | date: "%A"}}-{{ event.end_date | date: "%A"}}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="column">
-                  <a class="location" target="_blank"
-                    href="https://www.openstreetmap.org/search?query={{ event.address | append: ' ' | append: event.city | append: ' '  | append: event.country | url_encode }}">
-                    <i class="location__icon icon icon-map"></i>
-                    <span class="location__text">{{ event.address }}<br /><small>{{ event.city }},
-                        {{ event.country }}</small></span>
-                  </a>
-                </div>
-              </div>
-            </header>
-            <div class="content">
-              {{ event.content | markdownify }}
-              <small><a href="{{ event.link }}">{{ event.link_title }}</a></small>
-            </div>
-          </div>
-        </article>
+          {% include event.html event=event %}
         {% endfor %}
         <hr />
         <p class="has-text-centered">
