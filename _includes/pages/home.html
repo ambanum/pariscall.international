@@ -101,10 +101,11 @@
         {% assign last_month_date = 'now' | date: '%s' | minus : 2629743 | date: '%s' %}
         {% assign count = 0 %}
         {% assign supporterLang = 'supporters' | append: '_' | append: page.lang %}
-        {% for supporter in site[supporterLang] %}
+        {% assign supportersSorted = (site[supporterLang] | sort: 'date_signed') | reverse %}
+        {% for supporter in supportersSorted %}
         {% assign supporter_date = supporter.date_signed | date: '%s' %}
         {% if supporter_date > last_month_date %}
-        {% if count < 5 %}
+        {% if count < 3 %}
         {% assign count = count | plus: 1 %}
         <article class="media new-supporter">
           <div class="media-content has-text-centered">
