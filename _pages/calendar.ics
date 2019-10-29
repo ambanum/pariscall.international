@@ -1,0 +1,13 @@
+---
+layout: none
+permalink: /calendar.ics
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pariscall.diplomatie.fr//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+{% for event in site.events %}
+{% include event.ics event=event %}
+{% endfor %}
+END:VCALENDAR
