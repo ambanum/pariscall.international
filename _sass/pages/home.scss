@@ -143,6 +143,10 @@
   }
 
   .new-supporter {
+    .title {
+      text-transform: capitalize;
+    }
+
     .tags {
       justify-content: center;
     }
