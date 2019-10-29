@@ -31,9 +31,15 @@ company:
 and-private-sector-entities:
   en: and private sector entities
   fr: et entités du secteur privé
-events:
-  en: Events
+news-title:
+  en: News
   fr: Actualités
+events-title:
+  en: Events
+  fr: Évènements
+last-supporters-title:
+  en: Last supporters
+  fr: Derniers signataires
 joined:
   en: joined the supporters on the
   fr: a rejoint les soutiens le
