@@ -100,7 +100,8 @@
 
         {% assign last_month_date = 'now' | date: '%s' | minus : 2629743 | date: '%s' %}
         {% assign count = 0 %}
-        {% for supporter in site.supporters %}
+        {% assign supporterLang = 'supporters' | append: '_' | append: page.lang %}
+        {% for supporter in site[supporterLang] %}
         {% assign supporter_date = supporter.date_signed | date: '%s' %}
         {% if supporter_date > last_month_date %}
         {% if count < 5 %}
