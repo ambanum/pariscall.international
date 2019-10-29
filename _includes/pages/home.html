@@ -134,7 +134,7 @@
 
         {% assign events = site.events | sort: 'start_date' %}
         {% for event in events %}
-          {% include event.html event=event %}
+        {% include event.html event=event %}
         {% endfor %}
         <hr />
         <p class="has-text-centered">
