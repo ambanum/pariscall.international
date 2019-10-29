@@ -16,8 +16,14 @@ collections:
     output: true
     permalink: fr/supporter/:path/
   events:
+    output: true
 
 defaults:
+  - scope:
+      path: _events
+    values:
+      layout: event
+      permalink: events/:name.ics
   - scope:
       path: _pages
     values:

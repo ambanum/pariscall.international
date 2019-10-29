@@ -122,26 +122,6 @@
     }
   }
 
-  .event {
-    .location {
-      display: flex;
-      align-items: center;
-
-      &__icon {
-        font-size: 1.8em;
-        color: $purple-400;
-        margin-right: 0.1em;
-        height: 2.5rem;
-        width: 2.5rem;
-      }
-
-      &__text {
-        font-size: 0.85em;
-        line-height: 1.2;
-      }
-    }
-  }
-
   .new-supporter {
     .title {
       text-transform: capitalize;

@@ -95,6 +95,11 @@
 <section class="section is-medium">
   <div class="container">
     <h2 class="title is-2 has-text-centered">{{ site.data.translations.home.events[page.lang] }}</h2>
+    <h3 class="subtitle is-5 has-text-centered">
+      <a class="button is-link is-light is-small" href="webcal://localhost:4000/calendar.ics">
+        {{ site.data.translations.events.subscribe-to-calendar-button[page.lang] }}
+      </a>
+    </h3>
     <div class="columns">
       <div class="column is-half is-offset-one-quarter">
 
@@ -134,7 +139,7 @@
 
         {% assign events = site.events | sort: 'start_date' %}
         {% for event in events %}
-          {% include event.html event=event %}
+        {% include event.html event=event %}
         {% endfor %}
         <hr />
         <p class="has-text-centered">
@@ -159,6 +164,7 @@
                 q.parentNode.insertBefore(js, q)
               }
             })()
+
           </script>
         </p>
       </div>

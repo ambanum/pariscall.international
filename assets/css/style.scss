@@ -17,7 +17,7 @@ $white-ter: hsl(0, 0%, 96%);
 $white-bis: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
 
-$purple-50: #e8e5f0;
+$purple-50: #f2effa;
 $purple-100: #c5bed9;
 $purple-200: #9e93c0;
 $purple-300: #7767a6;
@@ -44,7 +44,7 @@ $family-sans-serif: "Avenir Next", sans-serif;
 $primary: $purple-500;
 $secondary: $blue-500;
 
-$link: $purple-500;
+$link: darken($blue-900, 5%);
 $text: $grey-darker;
 
 $dropdown-menu-min-width: 6rem;
@@ -53,7 +53,8 @@ $state-color: #DEECFF;
 $civil-society-color: #EEC1E9;
 $private-sector-color: #FEE4A5;
 
-// Import the rest of Bulma
+@charset "utf-8";
+/*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
 @import "bulma/utilities/_all";
 @import "bulma/base/_all";
 @import "bulma/elements/_all";
@@ -76,6 +77,7 @@ $private-sector-color: #FEE4A5;
 @import "components/bg";
 
 // Partials
+@import 'partials/event';
 @import 'partials/header';
 @import 'partials/footer';
 

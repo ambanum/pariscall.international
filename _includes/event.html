@@ -5,10 +5,13 @@
       <div class="columns">
         <div class="column">
           <div class="date">
-            <div class="date__day">{{ include.event.start_date | date: "%d"}}{%if include.event.end_date != include.event.start_date %}-{{ include.event.end_date | date: "%d"}}{% endif %}</div>
+            <div class="date__day">
+              {{ include.event.start_date | date: "%d"}}{%if include.event.end_date != include.event.start_date %}-{{ include.event.end_date | date: "%d"}}{% endif %}
+            </div>
             <div class="date__date">
               <div class="date__month">{{ include.event.start_date | date: "%B %Y"}}</div>
-              <div class="date__weekday">{{ include.event.start_date | date: "%A"}}{%if include.event.end_date != include.event.start_date %}-{{ include.event.end_date | date: "%A"}}{% endif %}
+              <div class="date__weekday">
+                {{ include.event.start_date | date: "%A"}}{%if include.event.end_date != include.event.start_date %}-{{ include.event.end_date | date: "%A"}}{% endif %}
               </div>
             </div>
           </div>
@@ -29,7 +32,18 @@
     </header>
     <div class="content">
       {{ include.event.content | markdownify }}
-      <small><a href="{{ include.event.link }}">{{ include.event.link_title }}</a></small>
+      <div class="level">
+        <div class="level-left">
+          <small><a href="{{ include.event.link }}">{{ include.event.link_title }}</a></small>
+        </div>
+        <div class="level-right">
+          <small>
+            <a class="button is-link is-light is-small" href="{{ include.event.url }}">
+              {{ site.data.translations.events.add-to-calendar-button[page.lang] }}
+            </a>
+          </small>
+        </div>
+      </div>
     </div>
   </div>
 </article>
