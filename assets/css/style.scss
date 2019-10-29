@@ -17,7 +17,7 @@ $white-ter: hsl(0, 0%, 96%);
 $white-bis: hsl(0, 0%, 98%);
 $white: hsl(0, 0%, 100%);
 
-$purple-50: #e8e5f0;
+$purple-50: #f2effa;
 $purple-100: #c5bed9;
 $purple-200: #9e93c0;
 $purple-300: #7767a6;
@@ -44,7 +44,7 @@ $family-sans-serif: "Avenir Next", sans-serif;
 $primary: $purple-500;
 $secondary: $blue-500;
 
-$link: $purple-500;
+$link: darken($blue-900, 5%);
 $text: $grey-darker;
 
 $dropdown-menu-min-width: 6rem;
