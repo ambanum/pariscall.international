@@ -3,7 +3,7 @@
 include: ['_pages']
 
 baseurl: ""
-url: https://ambanum.github.io
+url: https://pariscall.diplomatie.fr/
 
 supporter_categories: [ private_sector, civil_society, state ]
 available_languages: [ en, fr ]

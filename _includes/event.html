@@ -19,7 +19,7 @@
         <div class="column">
           <a class="location" target="_blank"
             href="https://www.openstreetmap.org/search?query={{ include.event.address | append: ' ' | append: include.event.city | append: ' '  | append: include.event.country | url_encode }}">
-            <i class="location__icon icon icon-map"></i>
+            <i class="location__icon icon icon-marker"></i>
             <span class="location__text">{{ include.event.address }}<br />
               <small>
                 {%if include.event.city %}{{ include.event.city }},{% endif %}
@@ -39,7 +39,8 @@
         <div class="level-right">
           <small>
             <a class="button is-link is-light is-small" href="{{ include.event.url }}">
-              {{ site.data.translations.events.add-to-calendar-button[page.lang] }}
+              <span class="icon is-small"><i class="icon icon-calendar-plus-o" aria-hidden="true"></i></span>
+              <span>{{ site.data.translations.events.add-to-calendar-button[page.lang] }}</span>
             </a>
           </small>
         </div>

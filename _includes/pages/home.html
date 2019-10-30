@@ -97,12 +97,49 @@
     <h2 class="title is-2 has-text-centered">{{ site.data.translations.home.news-title[page.lang] }}</h2>
     <div class="columns">
       <div class="column is-7">
-        <h3 class="title is-4">
-          {{ site.data.translations.home.events-title[page.lang] }}
-          <a class="button is-link is-light is-small" target="_blank" href="{{ 'calendar.ics' | relative_url | replace: 'https://', 'webcal://' | replace: 'http://', 'webcal://' }}">
-            {{ site.data.translations.events.subscribe-to-calendar-button[page.lang] }}
-          </a>
-        </h3>
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <h3 class="title is-4">
+                {{ site.data.translations.home.events-title[page.lang] }}
+              </h3>
+            </div>
+            <div class="level-item">
+              {% assign calendarUrl = 'calendar.ics' | absolute_url %}
+              {% assign calendarWebcalUrl = calendarUrl | replace: 'https://', 'webcal://' | replace: 'http://', 'webcal://' %}
+              <div class="dropdown is-hoverable">
+                <div class="dropdown-trigger">
+                  <button class="button is-link is-light is-small" aria-haspopup="true" aria-controls="dropdown-menu2">
+                    <span class="icon is-small">
+                      <i class="icon icon-calendar" aria-hidden="true"></i>
+                    </span>
+                    <span>{{ site.data.translations.events.calendar-dropdown[page.lang] }}</span>
+                    <span class="icon is-small">
+                      <i class="icon icon-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                  <div class="dropdown-content">
+                    <a href="{{ calendarUrl }}" class="dropdown-item">
+                      <span class="icon is-small"><i class="icon icon-arrow-circle-o-down" aria-hidden="true"></i></span>
+                      <span>{{ site.data.translations.events.download-calendar-dropdown-item[page.lang] }}</span>
+                    </a>
+                    <hr class="dropdown-divider">
+                    <a href="{{ calendarWebcalUrl }}" class="dropdown-item">
+                      <span class="icon is-small"><i class="icon icon-rss" aria-hidden="true"></i></span>
+                      <span>{{ site.data.translations.events.subscribe-to-calendar-dropdown-item[page.lang] }}</span>
+                    </a>
+                    <div class="dropdown-item is-size-7">
+                      <p>{{ site.data.translations.events.subscribe-alternative-dropdown-item[page.lang] }}</p>
+                      <p><strong>{{ calendarWebcalUrl }}</strong></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         {% assign events = site.events | sort: 'start_date' %}
         {% for event in events %}
         {% include event.html event=event %}

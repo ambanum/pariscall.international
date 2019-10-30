@@ -141,3 +141,9 @@ $private-sector-color: #FEE4A5;
 }
 
 iframe { height: 100%; }
+
+.dropdown-item {
+  > span {
+    vertical-align: middle;
+  }
+}
