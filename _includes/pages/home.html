@@ -99,7 +99,7 @@
       <div class="column is-7">
         <h3 class="title is-4">
           {{ site.data.translations.home.events-title[page.lang] }}
-          <a class="button is-link is-light is-small" target="_blank" href="{{ 'calendar.ics' | absolute_url | replace: 'https://', 'webcal://' | replace: 'http://', 'webcal://' }}">
+          <a class="button is-link is-light is-small" target="_blank" href="{{ 'calendar.ics' | relative_url | replace: 'https://', 'webcal://' | replace: 'http://', 'webcal://' }}">
             {{ site.data.translations.events.subscribe-to-calendar-button[page.lang] }}
           </a>
         </h3>
