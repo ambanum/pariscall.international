@@ -31,11 +31,20 @@
     color: $purple-500;
     padding: 0 1em;
     line-height: 1;
+    font-size: 1em;
 
     strong {
       color: inherit;
       font-size: 1.6em;
       display: block;
+
+      @include tablet-only {
+        font-size: 1.1em;
+      }
+    }
+
+    @include tablet-only {
+      font-size: 0.8em;
     }
   }
 
@@ -50,7 +59,7 @@
 
   &__number {
     flex: 3;
-    font-size: 6em;
+    font-size: 4em;
     line-height: 1;
     font-variant: normal;
     font-weight: 600;
@@ -59,5 +68,9 @@
     background: linear-gradient(45deg, #3e77be 0%, #3e77be 12.5%, #5a91cd 12.5%,  #5a91cd 25%,#6da3d7 25%, #6da3d7 37.5%,#99bfe3 37.5%, #99bfe3 50%,#659bd3 50%, #659bd3 50.5%,#99bfe3 50.5%, #99bfe3 53%,#659bd3 53%, #659bd3 53.5%,#99bfe3 53.5%, #99bfe3 75%,#83b1dd 75%, #83b1dd 100%),linear-gradient(135deg, #7767a6,#271763);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @include desktop {
+      font-size: 6em;
+    }
   }
 }
