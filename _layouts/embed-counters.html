@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title | escape }} —
+    {% else %}{{ site.data.translations[page_name].title[page.lang] | escape }} — {% endif %}
+    {{ site.data.translations.global.paris-call[page.lang] | escape }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="{{ site.baseurl }}/assets/css/embed-counters.css" rel="stylesheet">
+  <script>
+    let height;
+    const sendPostMessage = () => {
+      if (height !== document.getElementById('container').offsetHeight) {
+        height = document.getElementById('container').offsetHeight;
+        window.parent.postMessage({
+          frameHeight: height
+        }, '*');
+      }
+    }
+    window.onload = () => sendPostMessage();
+    window.onresize = () => sendPostMessage();
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    {{ content }}
+  </div>
+</body>
+
+</html>

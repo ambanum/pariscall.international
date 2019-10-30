@@ -77,9 +77,10 @@ $private-sector-color: #FEE4A5;
 @import "components/bg";
 
 // Partials
-@import 'partials/event';
 @import 'partials/header';
 @import 'partials/footer';
+@import 'partials/event';
+@import 'partials/counters';
 
 // Pages
 @import 'pages/home';
