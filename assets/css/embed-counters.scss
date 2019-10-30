@@ -1,0 +1,80 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+$baseurl: "{{ site.baseurl }}";
+
+$black: hsl(0, 0%, 4%);
+$black-bis: hsl(0, 0%, 7%);
+$black-ter: hsl(0, 0%, 14%);
+$grey-darker: hsl(0, 0%, 21%);
+$grey-dark: hsl(0, 0%, 29%);
+$grey: hsl(0, 0%, 48%);
+$grey-light: hsl(0, 0%, 71%);
+$grey-lighter: hsl(0, 0%, 86%);
+$white-ter: hsl(0, 0%, 96%);
+$white-bis: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+
+$purple-50: #f2effa;
+$purple-100: #c5bed9;
+$purple-200: #9e93c0;
+$purple-300: #7767a6;
+$purple-400: #594793;
+$purple-500: #3c2680;
+$purple-600: #362278;
+$purple-700: #2e1c6d;
+$purple-800: #271763;
+$purple-900: #1a0d50;
+
+$blue-50: #edf4fa;
+$blue-100: #d3e3f3;
+$blue-200: #b6d1eb;
+$blue-300: #99bfe3;
+$blue-400: #83b1dd;
+$blue-500: #6da3d7;
+$blue-600: #659bd3;
+$blue-700: #5a91cd;
+$blue-800: #5088c7;
+$blue-900: #3e77be;
+// Update Bulma's global variables
+$family-sans-serif: sans-serif;
+$primary: $purple-500;
+
+$text: $grey-darker;
+
+@charset "utf-8";
+/*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/elements/button";
+
+// Layout
+@import 'layouts/embed-counters';
+
+// Components
+@import "components/aspect-ratio-box";
+
+@import 'partials/counters';
+
+// Customize Bulma components
+.button {
+  font-variant: all-small-caps;
+  font-weight: 500;
+  height: 2em;
+}
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+#container {
+  padding: 10px 0;
+}
