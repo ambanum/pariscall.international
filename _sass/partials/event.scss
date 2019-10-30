@@ -21,3 +21,48 @@
     height: 2em;
   }
 }
+
+.date {
+  flex-direction: row;
+  display: flex;
+  min-height: 2.5rem;
+  flex: 1 1 2rem;
+
+  &__day {
+    flex: 0;
+    text-transform: capitalize;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-right: .5rem;
+    color: $purple-400;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  &__date {
+    font-size: .85rem;
+    line-height: .85rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+  }
+
+  &__month {
+    color: #4a4a4a;
+    text-transform: capitalize;
+    font-size: .85rem;
+    line-height: 1.2;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+  }
+
+  &__weekday {
+    font-size: .75em;
+    color: $blue-700;
+    text-transform: capitalize;
+    text-align: left;
+  }
+}
