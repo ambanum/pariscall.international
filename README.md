@@ -28,7 +28,7 @@ Duplicate `_supporters_en` content in `_supporters_$language_code`.
 - - -
 
 [ENGLISH]
-## How to embed supporters counters
+## How to embed supporters counters into your website
 
 Copy and paste the following code into your HTML page where you want the counters:
 
@@ -43,7 +43,7 @@ You can choose the language by modifying the URL of the iframe, the two possible
 _Note_: The piece of script is used to correctly size the iframe height according to the size of its content, so that all its content is visible but it does not take up more space than necessary.
 
 [FRANÇAIS]
-## Comment intégrer des compteurs de supporters dans sa page
+## Comment intégrer les compteurs de signataires dans son site Web
 
 Copiez et collez le code suivant dans votre page HTML à l'endroit ou vous souhaitez avoir les compteurs :
 
