@@ -1,7 +1,43 @@
 <footer class="footer">
   <div class="container has-text-centered">
-    <a href="{{ site.baseurl }}/">
-      <img class="footer__logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}" src="{{site.baseurl}}/assets/images/full-logo-{{ page.lang }}.png" />
-    </a>
+    <div class="columns">
+      <div class="column is-full">
+        <a href="https://github.com/ambanum/ParisCall">
+        {{ site.data.translations.footer.source-code-link[page.lang] }}
+        </a>
+        <span class="footer__dot">∙</span>
+        <a href="mailto:matti.schneider@diplomatie.gouv.fr">
+        {{ site.data.translations.footer.contact-us-link[page.lang] }}
+        </a>
+        <span class="footer__dot">∙</span>
+        {% assign trackingUrl = '/tracking' | prepend: page.lang | prepend: '/' %}
+        <a href="{{ trackingUrl | relative_url }}">
+        {{ site.data.translations.footer.analytics-and-privacy-link[page.lang] }}
+        </a>
+        <span class="footer__dot">∙</span>
+        {% assign legalNoticeUrl = '/legal-notice' | prepend: page.lang | prepend: '/' %}
+        <a href="{{ legalNoticeUrl | relative_url }}">
+        {{ site.data.translations.footer.legal-notice-link[page.lang] }}
+        </a>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-full">
+        <a href="{{ site.baseurl }}/">
+          <img class="footer__logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}"
+            src="{{site.baseurl}}/assets/images/full-logo-{{ page.lang }}.png" />
+        </a>
+      </div>
+    </div>
+    <div class="columns">
+        <div class="column is-full">
+          {% for lang in site.available_languages %}
+          {% if forloop.index > 1 %}<span class="footer__dot">∙</span>{% endif %}
+          <a href="{{ page.url | replace_first: page.lang, lang | relative_url }}">
+            {{ site.data.translations.lang[lang] }}
+          </a>
+          {% endfor %}
+        </div>
+      </div>
   </div>
 </footer>

@@ -66,6 +66,12 @@
   }
 }
 
+.bg-blue-200,
+.bg-blue-300 {
+  .content a:not(.button)::before { background-color: $blue-500; }
+}
+
+.bg-blue-400,
 .bg-blue-500,
 .bg-blue-600 {
   .content a:not(.button)::before { background-color: $blue-900; }
