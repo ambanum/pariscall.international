@@ -33,8 +33,12 @@ Duplicate `_supporters_en` content in `_supporters_$language_code`.
 Copy and paste the following code into your HTML page where you want the counters:
 
 ```html
-<iframe id="paris-call-iframe-counters" src="https://fb234666.ngrok.io/fr/embed/counters" style="width:100%;border:none;"></iframe><script>window.onmessage=function(e){e.data.hasOwnProperty("frameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.frameHeight}px`)}</script>
+<iframe id="paris-call-iframe-counters" src="https://pariscall.diplomatie.fr/en/embed/counters" style="width:100%;border:none;"></iframe><script>window.addEventListener('message',function(e){e.origin==="https://pariscall.diplomatie.fr"&&e.data.hasOwnProperty("parisCallFrameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.parisCallFrameHeight}px`)});</script>
 ```
+
+You can choose the language by modifying the URL of the iframe, the two possible options are English and French:
+- https://pariscall.diplomatie.fr/**en**/embed/counters
+- https://pariscall.diplomatie.fr/**fr**/embed/counters
 
 _Note_: The piece of script is used to correctly size the iframe height according to the size of its content, so that all its content is visible but it does not take up more space than necessary.
 
@@ -44,7 +48,11 @@ _Note_: The piece of script is used to correctly size the iframe height accordin
 Copiez et collez le code suivant dans votre page HTML à l'endroit ou vous souhaitez avoir les compteurs :
 
 ```html
-<iframe id="paris-call-iframe-counters" src="https://fb234666.ngrok.io/fr/embed/counters" style="width:100%;border:none;"></iframe><script>window.onmessage=function(e){e.data.hasOwnProperty("frameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.frameHeight}px`)}</script>
+<iframe id="paris-call-iframe-counters" src="https://pariscall.diplomatie.fr/fr/embed/counters" style="width:100%;border:none;"></iframe><script>window.addEventListener('message',function(e){e.origin==="https://pariscall.diplomatie.fr"&&e.data.hasOwnProperty("parisCallFrameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.parisCallFrameHeight}px`)});</script>
 ```
+
+Vous pouvez choisir la langue en modifiant l'URL de l'iframe, les deux options possibles sont Anglais et Français :
+- https://pariscall.diplomatie.fr/**en**/embed/counters
+- https://pariscall.diplomatie.fr/**fr**/embed/counters
 
 _Note_: Le morceau de script sert à dimensionner correctement l'iframe en hauteur en fonction de la taille de son contenu, de sorte que l'ensemble de son contenu soit visible mais qu'elle ne prenne pas plus de place que nécessaire.
