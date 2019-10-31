@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="page-title">
+    <h1>{{ site.data.translations.legal-notice.title[page.lang] }}</h1>
+  </div>
+</div>
+
+<section class="section bg-blue-200 is-small">
+  <div class="container content">
+    <div class="columns">
+      <div class="column is-half is-offset-one-quarter">
+        {% capture intention_text %}{% include pages/texts/{{ page.lang }}/tracking.md %}{% endcapture %}
+        {{ intention_text | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
