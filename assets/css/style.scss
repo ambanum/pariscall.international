@@ -148,3 +148,7 @@ iframe { height: 100%; }
     vertical-align: middle;
   }
 }
+
+.section + .footer {
+  margin-top: 5em;
+}
