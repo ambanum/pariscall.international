@@ -13,3 +13,6 @@ subscribe-alternative-dropdown-item:
 add-to-calendar-button:
   en: Download iCal file
   fr: Télécharger au format iCal
+event-online:
+  en: Event online
+  fr: Événement en ligne

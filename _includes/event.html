@@ -28,6 +28,15 @@
               </div>
             </div>
           </div>
+          {% if include.event.address contains '://' %}
+          <a class="location" target="_blank"
+            href="{{ include.event.address }}">
+            <i class="location__icon icon icon-globe"></i>
+            <span class="location__text">
+              {{ site.data.translations.events.event-online[page.lang] }}
+            </span>
+          </a>
+          {% else %}
           <a class="location" target="_blank"
             href="https://www.openstreetmap.org/search?query={{ include.event.address | append: ' ' | append: include.event.city | append: ' '  | append: include.event.country | url_encode }}">
             <i class="location__icon icon icon-marker"></i>
@@ -38,6 +47,7 @@
               </small>
             </span>
           </a>
+          {% endif %}
         </div>
       </div>
     </header>
