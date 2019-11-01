@@ -83,7 +83,7 @@
               {% assign calendarWebcalUrl = calendarUrl | replace: 'https://', 'webcal://' | replace: 'http://', 'webcal://' %}
               <div class="dropdown is-hoverable">
                 <div class="dropdown-trigger">
-                  <button class="button is-link is-light is-small" aria-haspopup="true" aria-controls="dropdown-menu2">
+                  <button class="button is-link is-light is-small is-rounded" aria-haspopup="true" aria-controls="calendar-dropdown-menu">
                     <span class="icon is-small">
                       <i class="icon icon-calendar" aria-hidden="true"></i>
                     </span>
@@ -93,7 +93,7 @@
                     </span>
                   </button>
                 </div>
-                <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                <div class="dropdown-menu" id="calendar-dropdown-menu" role="menu">
                   <div class="dropdown-content">
                     <a href="{{ calendarUrl }}" class="dropdown-item">
                       <span class="icon is-small"><i class="icon icon-arrow-circle-o-down" aria-hidden="true"></i></span>

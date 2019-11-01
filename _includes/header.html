@@ -35,14 +35,14 @@
 
         <div class="dropdown is-right is-hoverable">
           <div class="dropdown-trigger">
-            <button class="button is-size-5" aria-haspopup="true" aria-controls="dropdown-menu4">
+            <button class="button is-size-5" aria-haspopup="true" aria-controls="lang-dropdown-menu">
               <span>{{ page.lang }}</span>
               <span class="icon is-small">
                 <i class="icon icon-angle-down" aria-hidden="true"></i>
               </span>
             </button>
           </div>
-          <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+          <div class="dropdown-menu" id="lang-dropdown-menu" role="menu">
             <div class="dropdown-content">
               {% for lang in site.available_languages %}
               <a href="{{ page.url | replace_first: page.lang, lang | relative_url }}" class="dropdown-item {% if lang == page.lang %}is-active{% endif %}">

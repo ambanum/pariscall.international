@@ -1,7 +1,7 @@
 <div class="container">
   <div class="page-title">
-      <h1>{{ site.data.translations.support.title[page.lang] }}</h1>
-      <h2>{{ site.data.translations.support.subtitle[page.lang] }}</h2>
+    <h1>{{ site.data.translations.support.title[page.lang] }}</h1>
+    <h2>{{ site.data.translations.support.subtitle[page.lang] }}</h2>
   </div>
 </div>
 <section class="section is-small bg-blue-100">
@@ -36,7 +36,10 @@
 <section class="section call is-medium">
   <div class="container content is-size-5">
     <p class="has-text-centered">
-      <a href="{{ '/supporters' | prepend: page.lang | relative_url }}" class="button is-primary is-rounded is-large">{{ site.data.translations.global.see-supporters[page.lang] }}</a>
+      <a href="{{ '/supporters' | prepend: page.lang | relative_url }}"
+         class="button is-primary is-rounded is-large">
+        {{ site.data.translations.global.see-supporters[page.lang] }}
+      </a>
     </p>
   </div>
 </section>

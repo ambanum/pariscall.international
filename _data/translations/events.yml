@@ -11,5 +11,5 @@ subscribe-alternative-dropdown-item:
   en: "If your system does not support the subscription link, here is the URL:"
   fr: "Si votre système ne supporte pas le lien d'abonnement, voici l'URL :"
 add-to-calendar-button:
-  en: Add to calendar
-  fr: Ajouter au calendrier
+  en: Download iCal file
+  fr: Télécharger au format iCal
