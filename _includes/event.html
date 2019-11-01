@@ -49,6 +49,11 @@
           </a>
           {% endif %}
         </div>
+        {% if include.event.type == 'invitation' %}
+        <div class="level-right">
+          <span class="tag is-warning">{{ site.data.translations.events.by-invitation-only[page.lang] }}</span>
+        </div>
+        {% endif %}
       </div>
     </header>
     <div class="content">

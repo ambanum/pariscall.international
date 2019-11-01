@@ -16,3 +16,6 @@ add-to-calendar-button:
 event-online:
   en: Event online
   fr: Événement en ligne
+by-invitation-only:
+  en: By invitation only
+  fr: Sur invitation seulement
