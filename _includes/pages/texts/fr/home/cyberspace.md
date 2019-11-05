@@ -1,14 +1,7 @@
-## Pour un espace numérique pacifique
+## Garantir la sécurité internationale du cyberespace
 
-L’espace numérique, ou « cyberespace », est l'ensemble des appareils numériques interconnectés, des logiciels et de toutes les données qui y sont traitées : nos ordinateurs, téléphones, courriels, sites web, comptes bancaires, services d’achat en ligne…
+**La révolution numérique a précipité l’émergence d’un espace numérique mondial**. Cet espace numérique, ou « cyberespace », est l’espace de communication constitué par les infrastructures de réseau (comme les serveurs et les câbles), les appareils numériques (comme les ordinateurs et les téléphones), les logiciels (interfaces homme-machine et protocoles de communication entre machines) et les données transportées par le réseau.
 
-Le cyberespace est devenu le support d’une grande partie des activités humaines. C’est un espace d’opportunités, d’échanges et de collaboration. Mais plus il est important, plus il comporte des menaces.
+L’espace numérique offre d’importantes opportunités d’innovation, de progrès économique, de développement culturel et d’accès à l’information. Si son développement rapide en fait le support d’une grande partie des activités humaines, il s’accompagne aussi de nouvelles menaces. 
 
-**Les conflits du monde physique se transposent dans le cyberespace**, qui peut devenir le théâtre d’opérations militaires au moyen de cyberattaques et de manipulations de l’information : voler des informations personnelles, des données confidentielles, mais aussi empêcher l’accès à un service voire modifier le fonctionnement d’infrastructures physiques ou influencer des élections.
-
-Même si toutes les cyberattaques ne relèvent pas du terrorisme ou de la guerre entre États, elles n'en
-restent pas moins dangereuses et peuvent menacer le bon fonctionnement de nos infrastrucures vitales.
-
-Par exemple, la [cyberattaque WannaCry](https://fr.wikipedia.org/wiki/WannaCry) de mai 2017 a bloqué l’accès aux ordinateurs et effacé les données aussi bien d’individus que de grandes entreprises, d’hôpitaux publics et de réseaux ferrés, **paralysant des services critiques de communication, de mobilité et de santé**.
-
-Le cyberespace est toujours plus au centre de nos existences et les menaces qui pèsent sur lui s’intensifieront sans aucun doute. C’est pourquoi il est crucial de **rassembler la communauté internationale pour garantir la paix et la sécurité dans le monde numérique** au même titre que dans le monde physique.
+De nouvelles pratiques dangereuses se développent ainsi dans le cyberespace : cybercriminalité, diffusion de fausses informations et manipulation, espionnage à visée politique ou économique, attaques contre des infrastructures critiques ou des individus, vols d’informations personnelles ou de données confidentielles, mise en péril des systèmes d’information et de communication utilisés par les citoyens, les entreprises et les administrations, etc. Ces attaques peuvent émaner de groupes étatiques ou non-étatiques, qui se jouent des frontières. Face à ces attaques, dont la sophistication et l’intensité augmentent, il est crucial de **rassembler la communauté internationale pour garantir la paix et la sécurité dans l’espace numérique**.
