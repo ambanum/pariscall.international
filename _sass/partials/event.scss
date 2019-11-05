@@ -1,14 +1,22 @@
 .event {
+  .date {
+    margin-right: 2em;
+  }
+
   .location {
     display: inline-flex;
     align-items: center;
 
     &__icon {
-      font-size: 1.8em;
+      font-size: 2em;
       color: $purple-400;
       margin-right: 0.1em;
       height: 2.5rem;
       width: 2.5rem;
+
+      &.icon-globe {
+        font-size: 1.7em;
+      }
     }
 
     &__text {

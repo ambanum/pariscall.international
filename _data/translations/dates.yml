@@ -1,0 +1,120 @@
+days:
+  short:
+    Sunday:
+      en: Sun
+      fr: Dim
+    Monday:
+      en: Mon
+      fr: Lun
+    Tuesday:
+      en: Tue
+      fr: Mar
+    Wednesday:
+      en: Wed
+      fr: Mer
+    Thursday:
+      en: Thu
+      fr: Jeu
+    Friday:
+      en: Fri
+      fr: Ven
+    Saturday:
+      en: Sat
+      fr: Sam
+  long:
+    Sunday:
+      en: Sunday
+      fr: Dimanche
+    Monday:
+      en: Monday
+      fr: Lundi
+    Tuesday:
+      en: Tuesday
+      fr: Mardi
+    Wednesday:
+      en: Wednesday
+      fr: Mercredi
+    Thursday:
+      en: Thursday
+      fr: Jeudi
+    Friday:
+      en: Friday
+      fr: Vendredi
+    Saturday:
+      en: Saturday
+      fr: Samedi
+months:
+  short:
+    January:
+      en: Jan
+      fr: Jan
+    February:
+      en: Feb
+      fr: Fév
+    March:
+      en: Mar
+      fr: Mar
+    April:
+      en: Apr
+      fr: Avr
+    May:
+      en: May
+      fr: Mai
+    June:
+      en: Jun
+      fr: Juin
+    July:
+      en: Jul
+      fr: Juil
+    August:
+      en: Aug
+      fr: Août
+    September:
+      en: Sep
+      fr: Sept
+    October:
+      en: Oct
+      fr: Oct
+    November:
+      en: Nov
+      fr: Nov
+    December:
+      en: Dec
+      fr: Déc
+  long:
+    January:
+      en: January
+      fr: Janvier
+    February:
+      en: February
+      fr: Février
+    March:
+      en: March
+      fr: Mars
+    April:
+      en: April
+      fr: Avril
+    May:
+      en: May
+      fr: Mai
+    June:
+      en: June
+      fr: Juin
+    July:
+      en: July
+      fr: Juillet
+    August:
+      en: August
+      fr: Août
+    September:
+      en: September
+      fr: Septembre
+    October:
+      en: October
+      fr: Octobre
+    November:
+      en: November
+      fr: Novembre
+    December:
+      en: December
+      fr: Décembre
