@@ -1,4 +1,5 @@
 # ParisCall
+
 Public website for the Paris Call for Trust and Security in Cyberspace / Site public de l'Appel de Paris pour la confiance et la sécurité dans le cyberespace
 
 ## How to add a language
@@ -37,8 +38,8 @@ Copy and paste the following code into your HTML page where you want the counter
 
 You can choose the language by modifying the URL of the iframe. For example:
 
-- French: https://pariscall.diplomatie.fr/en/embed/counters
-- English: https://pariscall.diplomatie.fr/fr/embed/counters
+- French: `https://pariscall.diplomatie.fr/en/embed/counters`
+- English: `https://pariscall.diplomatie.fr/fr/embed/counters`
 
 The list of available languages is available [here](https://github.com/ambanum/ParisCall/blob/master/_config.yml#L9).
 
@@ -58,12 +59,12 @@ Copiez et collez le code suivant dans votre page HTML à l'endroit ou vous souha
 
 Vous pouvez choisir la langue en modifiant l'URL de l'iframe, par exemple :
 
-- français : https://pariscall.diplomatie.fr/en/embed/counters
-- anglais : https://pariscall.diplomatie.fr/fr/embed/counters
+- français : `https://pariscall.diplomatie.fr/en/embed/counters`
+- anglais : `https://pariscall.diplomatie.fr/fr/embed/counters`
 
 La liste des langues disponibles est disponible [ici](https://github.com/ambanum/ParisCall/blob/master/_config.yml#L9).
 
-Pour rendre l'iframe réactive (i.e. la dimensionner correctement en hauteur en fonction de la taille de l'écran), vous pouvez ajouter le script suivant dans la page hôte, par exemple immédiatement après le tag fermant `</iframe>` :
+Pour rendre l'iframe réactive (çàd la dimensionner correctement en hauteur en fonction de la taille de l'écran), vous pouvez ajouter le script suivant dans la page hôte, par exemple immédiatement après le tag fermant `</iframe>` :
 
 ```html
 <script>window.addEventListener('message',function(e){e.origin==="https://pariscall.diplomatie.fr"&&e.data.hasOwnProperty("parisCallFrameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.parisCallFrameHeight}px`)});</script>
