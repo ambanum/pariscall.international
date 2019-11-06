@@ -6,18 +6,18 @@
         {{ site.data.translations.footer.source-code-link[page.lang] }}
         </a>
         <span class="footer__dot">∙</span>
-        <a href="mailto:matti.schneider@diplomatie.gouv.fr">
+        <a href="mailto:paris.call@diplomatie.gouv.fr">
         {{ site.data.translations.footer.contact-us-link[page.lang] }}
         </a>
         <span class="footer__dot">∙</span>
         {% assign trackingUrl = '/tracking' | prepend: page.lang | prepend: '/' %}
         <a href="{{ trackingUrl | relative_url }}">
-        {{ site.data.translations.footer.analytics-and-privacy-link[page.lang] }}
+        {{ site.data.translations.tracking.title[page.lang] }}
         </a>
         <span class="footer__dot">∙</span>
         {% assign legalNoticeUrl = '/legal-notice' | prepend: page.lang | prepend: '/' %}
         <a href="{{ legalNoticeUrl | relative_url }}">
-        {{ site.data.translations.footer.legal-notice-link[page.lang] }}
+        {{ site.data.translations.legal-notice.title[page.lang] }}
         </a>
       </div>
     </div>

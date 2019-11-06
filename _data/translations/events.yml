@@ -9,12 +9,12 @@ subscribe-to-calendar-dropdown-item:
   fr: S'abonner au calendrier
 subscribe-alternative-dropdown-item:
   en: "If your system does not support the subscription link, here is the URL:"
-  fr: "Si votre système ne supporte pas le lien d'abonnement, voici l'URL :"
+  fr: "Si votre système ne prend pas en charge le lien d'abonnement, voici l'URL :"
 add-to-calendar-button:
   en: Download iCal file
   fr: Télécharger au format iCal
 event-online:
-  en: Event online
+  en: Online event
   fr: Événement en ligne
 by-invitation-only:
   en: By invitation only

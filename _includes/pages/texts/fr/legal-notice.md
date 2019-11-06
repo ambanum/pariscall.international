@@ -1,26 +1,28 @@
 ## Éditeur
 
-Bureau de l’Ambassadeur pour le numérique
-
 Ministère de l'Europe et des affaires étrangères<br>
-48 rue de Javel, 75015 Paris, France
+37 Quai d'Orsay, 75007 Paris, France
 
-## Directeur de rédaction
+## Direction de rédaction
 
-Adjointe de l'Ambassadeur pour le numériques, Marine Guillaume
+Directeur des Affaires Stratégiques et de la Cybersécurité (Florian Escudié).
 
-## Fournisseur d'hébergement
+## Hébergeurs
 
-### Pour le contenu du site de l'Appel de Paris
+### Contenu du site
 
-GitHub Pages
-
-[GitHub, Inc](https://github.com)<br>
+GitHub Pages, un service de [GitHub, Inc](https://github.com)<br>
 Inc88 Colin P Kelly Jr St, San Francisco, CA 94107, United States<br>
 +1 877 448-4820
 
-### Pour le serveur du site de l'Appel de Paris
+### Interactions courriel
 
 [CloudWatt private cloud](https://www.cloudwatt.com/fr/solutions/cloudprivevirtuel.html)<br>
 DSI, Ministère de l'Europe et des affaires étrangères, 48 rue de Javel, 75015 Paris, France<br>
 +33 1 43 17 53 53
+
+### Formulaires
+
+[Typeform](https://www.typeform.com)<br>
+Carrer Bac de Roda, 163, local, 08018, Barcelona, Espagne<br>
+support@typeform.com
