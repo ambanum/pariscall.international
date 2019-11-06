@@ -1,13 +1,9 @@
-## For a peaceful digital space
+## Ensuring international cyberspace security
 
-Digital space, or "cyberspace", is made of all the interconnected digital devices, software and all the data processed in it: our computers, telephones, emails, websites, bank accounts, online shopping services…
+**The digital revolution has sped up the emergence of a global digital space**. This digital space, or “cyberspace” is the communication space made up of network infrastructure (such as servers and cables), digital devices (like computers and telephones), software (human-machine interfaces and communication protocols between machines) and data carried by the network.
 
-Cyberspace has become the support for a large part of human activities. It is a space for opportunities, exchanges and collaboration. But the more important it is, the more threatened it becomes.
+The digital space provides major opportunities for innovation, economic progress, cultural development and access to information. While its quick development has proved hugely useful for many human activities, it also brings new threats.
 
-**Conflicts in the physical world are transposed into cyberspace**, which can become the scene of military operations through cyber attacks and information manipulation: stealing personal information, confidential data, but also preventing access to a service or even changing the function of physical infrastructure or influencing elections.
+New and dangerous practices are developing in cyberspace: cybercrime, spread of false information and manipulation, political or economic espionage, attacks on critical infrastructure or individuals, theft of personal information or confidential data, compromising of information and communications systems used by citizens, companies and administrations, etc.These attacks can come from State or non-State groups, which respect no borders.
 
-While not all cyber attacks are terrorism or inter-State warfare, they are no less dangerous and can threaten the proper functioning of our vital infrastructure.
-
-For example, the [WannaCry cyber attack](https://en.wikipedia.org/wiki/WannaCry) in May 2017 blocked access to computers and erased data from individuals and large companies, public hospitals and rail networks, **stopping critical communication, mobility and health services**.
-
-Cyberspace is increasingly at the centre of our lives and it will be increasingly attacked. It is thus crucial to **bring the international community together to ensure peace and security in the digital world**, just like in the physical world.
+In the face of these attacks, which are becoming increasingly sophisticated and intense, it is essential to **bring the international community together to ensure peace and security in the digital space**.

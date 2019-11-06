@@ -1,7 +1,7 @@
-## Gathering around principles
+## United around principles
 
-The Paris Call proposes to act on a set of **nine common principles for securing cyberspace**, which are all areas for reflection and action.
+The Paris Call for Trust and Security in Cyberspace of 12 November 2018 is a call to come together to face the new threats endangering citizens and infrastructure. It is based around **nine common principles to secure cyberspace**, all of which are areas for discussion and action.
 
-It invites all cyberspace stakeholders to collaborate, and proposes that States act together and engage with partners from the private sector, research and civil society to ensure that the rights of individuals are respected and protected online and in the physical world.
+The Paris Call invites all cyberspace actors to work together and encourage States to cooperate with private sector partners, the world of research and civil society. The supporters of the Paris Call are committed to working together to adopt responsible behaviour and implement within cyberspace the fundamental principles which apply in the physical world.
 
-It allows all actors who wish to preserve peace and security of people to **demonstrate their commitment**.
+The Paris Call was launched in 2018 by the President of the French Republic, Emmanuel Macron, at the meeting at UNESCO of the Internet Governance Forum (IGF) and Paris Peace Forum. 
