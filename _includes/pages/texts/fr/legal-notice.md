@@ -5,7 +5,7 @@ Ministère de l'Europe et des Affaires étrangères<br>
 
 ## Direction de rédaction
 
-Sous-directeur des Affaires Stratégiques et de la Cybersécurité
+Sous-directeur des Affaires Stratégiques et de la Cybersécurité (Florian Escudié)
 
 ## Hébergeurs
 
