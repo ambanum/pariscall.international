@@ -1,11 +1,11 @@
 ## Éditeur
 
-Ministère de l'Europe et des affaires étrangères<br>
+Ministère de l'Europe et des Affaires étrangères<br>
 37 Quai d'Orsay, 75007 Paris, France
 
 ## Direction de rédaction
 
-Directeur des Affaires Stratégiques et de la Cybersécurité (Florian Escudié).
+Directeur des Affaires Stratégiques et de la Cybersécurité (Florian Escudié)
 
 ## Hébergeurs
 
@@ -18,7 +18,7 @@ Inc88 Colin P Kelly Jr St, San Francisco, CA 94107, United States<br>
 ### Interactions courriel
 
 [CloudWatt private cloud](https://www.cloudwatt.com/fr/solutions/cloudprivevirtuel.html)<br>
-DSI, Ministère de l'Europe et des affaires étrangères, 48 rue de Javel, 75015 Paris, France<br>
+DSI, Ministère de l'Europe et des Affaires étrangères, 48 rue de Javel, 75015 Paris, France<br>
 +33 1 43 17 53 53
 
 ### Formulaires
