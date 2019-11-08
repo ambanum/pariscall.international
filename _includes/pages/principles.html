@@ -43,18 +43,31 @@
 </section>
 
 <section class="section is-medium bg-blue-200 case-study">
-	<div class="container">
-		<div class="columns">
-			<div class="column is-5">
-				<div class="duotone">
-					<img alt="" src="{{site.baseurl}}/assets/images/case-studies/principle-{{ number }}.jpg" />
-				</div>
-			</div>
-			<div class="column content">
-				{% capture case_study %}{% include pages/texts/{{ page.lang }}/case-studies/principle-{{ number }}.md %}{% endcapture %}
-				{{ case_study | markdownify }}
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="columns">
+      {% assign image_path = '' %}
+      {% for image in site.static_files %}
+        {% capture image_path_jpg %}/assets/images/case-studies/principle-{{ number }}.jpg{% endcapture %}
+        {% capture image_path_png %}/assets/images/case-studies/principle-{{ number }}.png{% endcapture %}
+        {% if image.path contains image_path_jpg %}
+          {% assign image_path = image_path_jpg %}
+        {% elsif image.path contains image_path_png %}
+          {% assign image_path = image_path_png %}
+        {% endif %}
+      {% endfor %}
+
+      {% if image_path != '' %}
+      <div class="column is-5">
+        <div class="duotone">
+          <img alt="" src="{{ image_path | relative_url }}" />
+        </div>
+      </div>
+      {% endif %}
+      <div class="column content">
+        {% capture case_study %}{% include pages/texts/{{ page.lang }}/case-studies/principle-{{ number }}.md %}{% endcapture %}
+        {{ case_study | markdownify }}
+      </div>
+    </div>
+  </div>
 </section>
 {% endfor %}
