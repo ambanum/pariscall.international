@@ -1,3 +1,9 @@
-Nous aimerions présenter ici une étude de cas d’un de nos soutiens.
+### La Fondation Carnegie propose aux pouvoirs publics et aux entreprises des recommandations pour renforcer l’intégrité de la chaîne d’approvisionnement dans le domaine des technologies de l'information et des technologies opérationnelles
 
-[Suggérer une étude de cas](mailto:paris.call@diplomatie.gouv.fr?subject=Etude%20de%20cas).
+La Fondation Carnegie pour la paix internationale a publié un rapport sur l’intégrité de la chaîne d’approvisionnement des TIC, rédigé par Ariel E. Levite, dans l’esprit du sixième principe de l’Appel de Paris. Ce rapport appelle à agir de manière urgente pour mettre un terme aux évolutions en cours qui nuisent à la confiance dans les produits et services numériques et fragmentent la chaîne d’approvisionnement mondiale des TIC.
+
+Accroître la sécurité des produits et services numériques d’un bout à l’autre de la chaîne d’approvisionnement est un principe fondamental de l’Appel de Paris. Des acteurs malveillants peuvent mettre en danger les pouvoirs publics, les entreprises et les citoyens en attaquant le maillon faible de la chaîne, ce qui peut avoir des conséquences néfastes en matière de géopolitique, d’espionnage, d’échanges commerciaux et de protection des consommateurs. Des efforts de coopération sont nécessaires pour rétablir la confiance dans l’intégrité des chaînes d’approvisionnement.
+
+Le rapport souligne notamment l'importance pour les pouvoirs publics et les entreprises de prendre des mesures complémentaires pour renforcer l’intégrité de la chaîne d’approvisionnement dans le domaine des TIC et des technologies opérationnelles. Il précise les obligations concrètes que les pouvoirs publics et les entreprises doivent accepter à cet égard. Le rapport définit également un ensemble de critères objectifs pour identifier les fournisseurs de confiance et propose des mécanismes pour vérifier le respect de ces critères de confiance, ainsi qu’une structure incitative pour récompenser ceux qui assument et respectent leurs engagements. 
+
+[Le rapport de la Fondation Carnegie pour la paix internationale - Carnegie Endowment for International Peace](https://carnegieendowment.org/files/Levite_SupplyChain_final.pdf)
