@@ -8,4 +8,4 @@ It is particularly critical to ensure the prohibition does not capture positive 
 
 They will start the discussions with a meeting at the Internet Governance Forum in Berlin, where they hope to gather views of not just industry, but civil society on this critical topic. Organizations interested in participating in this effort can send an email to info@cybertechaccord.org. 
 
-[Tech Accord](https://cybertechaccord.org/).
+[Tech Accord](https://cybertechaccord.org/)
