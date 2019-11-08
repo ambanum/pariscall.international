@@ -1,52 +1,30 @@
 .principles-page {
-  .principles {
-    flex-wrap: wrap;
-
-    .column { padding: 2em; }
+  .principle {
+    margin-top: 0.5em;
   }
 
-  .principle {
-    position: relative;
-    padding: 10px;
-    height: 100%;
-    background: #fff;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08),
-      0 2px 2px rgba(0, 0, 0, 0.08),
-      0 4px 4px rgba(0, 0, 0, 0.08),
-      0 6px 8px rgba(0, 0, 0, 0.08),
-      0 8px 16px rgba(0, 0, 0, 0.08);
-    border: 1px solid $purple-900;
+  .index {
+    color: darken($blue-900, 15%);
+    position: absolute;
+    left: 1.5rem;
+    bottom: 0;
+    transform: translateY(95%);
 
-    &__label {
-      background: $blue-500;
-      color: #FFF;
-      position: absolute;
-      top: 5px;
-      left: 50%;
-      transform: translate(-50%, -50%);
+    &__prefix {
+      font-size: 2em;
+      font-weight: 400;
       font-variant: all-small-caps;
-      padding: 0.2em 1em;
-      font-weight: 600;
-      border: 1px solid $blue-800;
+      vertical-align: middle;
     }
-
-    &__content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 100%;
-      text-align: center;
-      border: 1px solid $purple-50;
-      padding: 1em;
+    &__number {
+      font-weight: 700;
+      font-size: 10em;
+      vertical-align: middle;
     }
+  }
 
-    &__header {
-      flex: 1;
-      font-variant: all-small-caps;
-      display: flex;
-      align-items: center;
-
-      .title { color: $text-strong; }
-    }
+  .index-mobile {
+    font-variant: all-small-caps;
+    color: darken($blue-900, 15%);
   }
 }

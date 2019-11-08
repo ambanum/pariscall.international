@@ -1,0 +1,9 @@
+### Protéger le système de noms de domaines (DNS), pierre angulaire de l’internet : comment l’entreprise française Nameshield garantit-elle la protection de l’identité et la résilience ?
+
+La protection de la disponibilité et de l’intégrité du cœur public de l'internet exige une étroite coopération entre différents types d’acteurs, notamment la Société pour l’attribution des noms de domaines et des numéros sur Internet (ICANN), organisation à but non lucratif, et des entreprises privées comme Nameshield. Cette entreprise française indépendante garantit la protection de l’identité et la résilience de l’internet grâce à ses propres infrastructures DNS résilientes et basées sur la diffusion.
+
+Le système de noms de domaines est une sorte d’annuaire de l’internet, dont il est un pilier fondamental. Ce dispositif traduit un nom de domaine en une adresse de protocole internet, à partir d’une base de données répartie sur des milliers d’ordinateurs. En cas de défaillance du système de noms de domaines provoquée par une altération des données ou par une attaque par déni de service, les sites internet et les messageries électroniques ne sont plus accessibles. Il est donc indispensable de garantir la protection et la disponibilité du système de noms de domaines.
+
+Pour traiter les vulnérabilités de ce système, un nouveau protocole, appelé extensions de sécurité du système des noms de domaine (DNSSEC), a été élaboré avec le soutien de l’ICANN. D’autres solutions, comme le verrouillage de registre ou les certificats SSL (Secure Socket Layer) peuvent aussi permettre de garantir la résilience de l’identité. En protégeant les données sur des cartes d’identité de noms de domaines et en offrant un service de haute disponibilité, Nameshield contribue au deuxième principe de l’Accord de Paris et protège le cœur public de l’internet.
+
+[Nameshield](https://www.nameshield.com/)

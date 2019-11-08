@@ -5,7 +5,7 @@
   </div>
 </div>
 
-<section class="section is-medium bg-purple-50" id="full-text">
+<section class="section is-medium bg-blue-50" id="full-text">
   <div class="container content is-size-5">
     <div class="columns">
       <div class="column">
@@ -19,128 +19,57 @@
     </div>
   </div>
 </section>
-<section class="section is-medium bg-purple-500" id="principles">
+
+{% for number in (1..9) %}
+{% capture principle_id %}principle-{{ number }}{% endcapture %}
+<section class="section is-medium bg-blue-800 principle" id="principle-{{ number }}">
   <div class="container">
-    <h2 class="title is-2 has-text-centered">
-      {{ site.data.translations.principles.principles-section-title[page.lang] }}
-    </h2>
-    <div class="columns principles">
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 1</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-1[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 2</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-2[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 3</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-3[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 4</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-4[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 5</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-5[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 6</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-6[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 7</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-7[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 8</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-8[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-4">
-        <div class="principle aspect-ratio-box">
-          <div class="principle__content">
-            <div class="principle__label">{{ site.data.translations.principles.principle-card-label[page.lang] }} 9</div>
-            <div class="principle__header">
-              <h2 class="title is-4">
-                {{ site.data.translations.principles.principle-9[page.lang] }}
-              </h2>
-            </div>
-          </div>
-        </div>
+    <div class="index is-hidden-touch">
+      <span class="index__prefix">{{ site.data.translations.principles.principle[page.lang] }}</span>
+      <span class="index__number">{{ number }}</span>
+    </div>
+    <div class="columns">
+      <div class="column is-offset-3 is-7">
+        <h4 class="index-mobile title is-4 is-hidden-desktop">{{ site.data.translations.principles.principle[page.lang] }}&nbsp;{{ number }}</h4>
+        <h2 class="title is-3 is-spaced">
+          {{ site.data.translations.principles[principle_id].short[page.lang] }}
+        </h2>
+        <h3 class="subtitle is-4">
+          {{ site.data.translations.principles[principle_id].full[page.lang] }}
+        </h3>
       </div>
     </div>
   </div>
 </section>
+
+<section class="section is-medium bg-blue-200 case-study">
+  <div class="container">
+    <div class="columns">
+      {% assign image_path = '' %}
+      {% for image in site.static_files %}
+        {% capture image_path_jpg %}/assets/images/case-studies/principle-{{ number }}.jpg{% endcapture %}
+        {% capture image_path_png %}/assets/images/case-studies/principle-{{ number }}.png{% endcapture %}
+        {% if image.path contains image_path_jpg %}
+          {% assign image_path = image_path_jpg %}
+        {% elsif image.path contains image_path_png %}
+          {% assign image_path = image_path_png %}
+        {% endif %}
+      {% endfor %}
+
+      {% if image_path != '' %}
+      <div class="column is-5">
+        <div class="duotone">
+          <img alt="" src="{{ image_path | relative_url }}" />
+        </div>
+      </div>
+      {% endif %}
+      <div class="column content">
+        {% capture case_study %}{% include pages/texts/{{ page.lang }}/case-studies/principle-{{ number }}.md %}{% endcapture %}
+        {{ case_study | markdownify }}
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}
 
 {% include support-cta.html %}

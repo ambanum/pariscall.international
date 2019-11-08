@@ -1,0 +1,9 @@
+### Instaurer un point de contact dans chaque État pour échanger des informations sur les incidents liés aux TIC : la France met en œuvre des mesures de développement de la confiance au sein de l’OSCE
+
+L'Organisation pour la sécurité et la coopération en Europe (OSCE) lutte contre divers types de cybermenaces, notamment la cybercriminalité et l’utilisation de l’internet à des fins terroristes. L’élaboration de mesures de développement de la confiance entre les États participants est un élément essentiel pour réduire les risques de conflit. Seize mesures de développement de la confiance ont ainsi été adoptées. Elles ont pour objectif de renforcer la coopération entre États, la transparence et la prévisibilité, afin de réduire les risques d’erreur d’interprétation et d’escalade.
+
+L’une de ces mesures oblige les États participants à nommer un point de contact pour faciliter les communications et le dialogue sur les incidents liés aux TIC, ainsi que pour coordonner les réactions. La France est l'un des pays responsables de la mise en œuvre de cette mesure, notamment grâce à des contrôles et des exercices de communication. Les échanges d’informations et la communication entre États peuvent empêcher un conflit non souhaité, en apaisant les possibles tensions et en interrompant ou en freinant l’engrenage de l’escalade.
+
+Les organisations régionales comme l’OSCE sont des enceintes privilégiées pour renforcer la confiance dans le cyberespace, parce qu’elles ont souvent été conçues pour la prévention des conflits et disposent d'une expérience concrète des mesures de développement de la confiance. Jusqu'à présent, le secrétariat de l'OSCE a lancé avec succès des exercices de "comcheck", ce qui souligne l'utilité de telles mesures pour renforcer la stabilité dans le cyberespace par un dialogue permanent entre les Etats.
+
+[OSCE - Cybersécurité/sécurité des TIC](https://www.osce.org/fr/cyber-ict-security)

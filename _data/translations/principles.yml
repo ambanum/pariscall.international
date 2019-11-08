@@ -2,38 +2,74 @@ title:
   en: The Paris Call of the 12 November 2018
   fr: L'Appel de Paris du 12 novembre 2018
 subtitle:
-  en: <a href="#full-text">Full text</a> and <a href="#principles">9 principles</a>
-  fr: <a href="#full-text">Le texte intégral</a> et <a href="#principles">les 9 principes</a>
+  en: <a href="#full-text">Full text</a> and <a href="#principle-1">9 principles</a>
+  fr: <a href="#full-text">Le texte intégral</a> et <a href="#principle-1">les 9 principes</a>
 principles-section-title:
   en: The 9 principles
   fr: Les 9 principes
-principle-card-label:
+principle:
   en: Principle
   fr: Principe
 principle-1:
-  en: Prevent and recover from malicious cyber activities that threaten individuals and critical infrastructure
-  fr: Empêcher les cyberactivités malveillantes qui menacent des individus et des infrastructures critiques
+  short:
+    en: Protect individuals and infrastructure
+    fr: Protéger les individus et les infrastructures
+  full:
+    en: Prevent and recover from malicious cyber activities that threaten or cause significant, indiscriminate or systemic harm to individuals and critical infrastructure
+    fr: Empêcher les cyberactivités malveillantes qui menacent des individus et des infrastructures critiques ou qui leur causent des dommages importants, sans discernement ou systémiques, et d’y remédier.
 principle-2:
-  en: Prevent activity that damages the general availability or integrity of the public core of the Internet
-  fr: Empêcher les activités qui portent atteinte à la disponibilité ou à l'intégrité du coeur public de l'internet
+  short:
+    en: Protect the Internet
+    fr: Protéger l'internet
+  full:
+    en: Prevent activity that intentionally and substantially damages the general availability or integrity of the public core of the Internet
+    fr: Empêcher les activités qui portent atteinte intentionnellement et dans une large mesure à la disponibilité ou à l’intégrité du cœur public de l’internet
 principle-3:
-  en: Prevent malign interference by foreign actors aimed at undermining electoral processes
-  fr: Empêcher les interférences de la part d'acteurs étrangers destinées à déstabiliser des processus électoraux
+  short:
+    en: Defend electoral processes
+    fr: Défendre les processus électoraux
+  full:
+    en: Strengthen our capacity to prevent malign interference by foreign actors aimed at undermining electoral processes through malicious cyber activities
+    fr: Développer notre capacité de prévenir les interférences de la part d’acteurs étrangers destinées à déstabiliser des processus électoraux au moyen de cyberactivités malveillantes
 principle-4:
-  en: Prevent ICT-enabled theft of intellectual property
-  fr: Empêcher le vol de propriété intellectuelle à l'aide des TIC
+  short:
+    en: Defend intellectual property
+    fr: Défendre la propriété intellectuelle
+  full:
+    en: Prevent ICT-enabled theft of intellectual property, including trade secrets or other confidential business information, with the intent of providing competitive advantages to companies or commercial sector
+    fr: Empêcher le vol de propriété intellectuelle à l’aide des TIC, notamment des secrets industriels ou autres informations commerciales confidentielles, dans l’intention de procurer des avantages concurrentiels à des entreprises ou à un secteur commercial
 principle-5:
-  en: Prevent the proliferation of malicious ICT tools and practices intended to cause harm
-  fr: Empêcher la prolifération d’outils malveillants et de pratiques informatiques destinés à nuire
+  short:
+    en: Non-proliferation
+    fr: Non-prolifération
+  full:
+    en: Develop ways to prevent the proliferation of malicious software and practices intended to cause harm
+    fr: Elaborer des moyens d’empêcher la prolifération de logiciels malveillants et de pratiques informatiques destinés à nuire
 principle-6:
-  en: Strengthen the security of digital products and services throughout their lifecycle and supply chain
-  fr: Accroître la sécurité des produits et services numériques au cours de leur cycle de vie et de la chaîne d'approvisionnement
+  short:
+    en: Lifecycle security
+    fr: Sécurité tout au long du cycle de vie
+  full:
+    en: Strengthen the security of digital processes, products and services, throughout their lifecycle and supply chain
+    fr: Accroître la sécurité des processus, produits et services numériques tout au long de leur cycle de vie et d’un bout à l’autre de la chaîne d’approvisionnement
 principle-7:
-  en: Strengthen an advanced cyber hygiene for all
-  fr: Soutenir le développement d'une hygiène informatique avancée pour tous
+  short:
+    en: Cyber hygiene
+    fr: Hygiène informatique
+  full:
+    en: Support efforts to strengthen an advanced cyber hygiene for all actors
+    fr: Soutenir les actions visant à développer une hygiène informatique avancée pour tous les acteurs
 principle-8:
-  en: Prevent non-state actors, including the private sector, from hacking-back
-  fr: Empêcher les acteurs non étatiques, y compris le secteur privé, de mener des actions cyber offensives en réponse à une attaque
+  short:
+    en: No private hack back
+    fr: Pas de cyber-riposte privée
+  full:
+    en: Take steps to prevent non-State actors, including the private sector, from hacking-back, for their own purposes or those of other non-State actors
+    fr: Prendre des mesures pour empêcher les acteurs non étatiques, y compris le secteur privé, de mener des actions cyber offensives en réponse à une attaque dont ils seraient victimes, pour leur propre compte ou pour celui d’autres acteurs non étatiques
 principle-9:
-  en: Promote international norms of responsible behavior as well as confidence-building measures
-  fr: Promouvoir des normes internationales de comportement responsable ainsi que des mesures de développement de la confiance
+  short:
+    en: International norms
+    fr: Normes internationales
+  full:
+    en: Promote the widespread acceptance and implementation of international norms of responsible behavior as well as confidence-building measures in cyberspace
+    fr: Favoriser une large acceptation et la mise en œuvre de normes internationales de comportement responsable ainsi que de mesures de développement de la confiance dans le cyberespace
