@@ -1,4 +1,4 @@
-### The Transatlantic Commission on Election Integrity (TCEI) helps advancing solutions to protect the integrity of democratic elections
+### Protecting the integrity of democratic elections: The Transatlantic Commission on Election Integrity (TCEI) helps advancing solutions
 
 Election interference is a major threat to the universal right of people to take part in the democratic process. Still, democratic governments and technology companies around the world are scrambling to meet the challenges of the latest election meddling tactics and technologies. This is a global phenomenon, with instances of election interference seen in countries from Mexico to North-Macedonia, Ukraine to Kenya, Taiwan to Turkey.
 
@@ -8,7 +8,7 @@ The TCEI brings together committed and eminent persons from different background
 
 [Transatlantic Commission on Election Integrity](https://www.allianceofdemocracies.org/transatlantic-commission-on-election-integrity/)
 
-### The Paris Call Community on Countering Election Interference: a multistakeholder project focused on implementing Principle 3 of the Paris Call
+### The Paris Call Community on Countering Election Interference: a multistakeholder project focuses on preventing malign interference by foreign actors
 
 Microsoft and the Alliance for Securing Democracy are pleased to announce the formation of the Paris Call Community on Countering Election Interference, a community of concerned Paris Call supporters across three stakeholder groups – governments, industry, and civil society – that will strengthen the capacity to prevent malign interference by foreign actors in electoral processes in line with Principle 3 of the Paris Call.
 
