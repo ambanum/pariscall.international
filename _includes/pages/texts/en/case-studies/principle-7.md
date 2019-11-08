@@ -6,4 +6,4 @@ The Ecuadorian Cybersecurity Association (AECI) launched the “Seguros en la Re
 
 Awareness, culture and prevention are the three pillars around which AECI aims at creating an ecosystem of digital security programs, in conjunction with educational institutions, public and private organizations. 
 
-[Asociación Ecuatoriana de Ciberseguridad](https://aeci.org.ec/proyectos/)
+[Ecuadorian Cybersecurity Association - Asociación Ecuatoriana de Ciberseguridad (AECI)](https://aeci.org.ec/proyectos/)
