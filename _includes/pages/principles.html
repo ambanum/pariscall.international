@@ -1,25 +1,308 @@
 <div class="container">
-  <div class="page-title">
-    <h1>{{ site.data.translations.principles.title[page.lang] }}</h1>
-    <h2>{{ site.data.translations.principles.subtitle[page.lang] }}</h2>
-  </div>
+	<div class="page-title">
+		<h1>{{ site.data.translations.principles.title[page.lang] }}</h1>
+		<h2>{{ site.data.translations.principles.subtitle[page.lang] }}</h2>
+	</div>
 </div>
 
-<section class="section is-medium bg-purple-50" id="full-text">
-  <div class="container content is-size-5">
-    <div class="columns">
-      <div class="column">
-        {% capture paris-call-first-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-first-part.md %}{% endcapture %}
-        {{ paris-call-first-part_text | markdownify }}
-      </div>
-      <div class="column">
-        {% capture paris-call-second-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-second-part.md %}{% endcapture %}
-        {{ paris-call-second-part_text | markdownify }}
+<section class="section is-medium bg-blue-50" id="full-text">
+	<div class="container content is-size-5">
+		<div class="columns">
+			<div class="column">
+				{% capture paris-call-first-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-first-part.md %}{% endcapture %}
+				{{ paris-call-first-part_text | markdownify }}
+			</div>
+			<div class="column">
+				{% capture paris-call-second-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-second-part.md %}{% endcapture %}
+				{{ paris-call-second-part_text | markdownify }}
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section is-medium bg-blue-800 principle">
+	<div class="container">
+		<div class="index">
+			<span>Principe</span>
+			<span>1</span>
+		</div>
+		<div class="columns header">
+			<div class="column name is-offset-3 is-7">
+				<h4 class="index-mobile title is-4 is-hidden-desktop">Principe 1</h4>
+				<h2 class="title is-3 is-spaced">
+					Protéger les individus et les infrastructures
+				</h2>
+				<h3 class="subtitle is-4">
+					Empêcher les cyberactivités malveillantes qui menacent des
+					individus et des infrastructures critiques ou qui leur causent des
+					dommages importants, sans discernement ou systémiques, et
+					d’y remédier.
+				</h3>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section is-medium bg-blue-200 case-study">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-5">
+				<div class="duotone">
+					<img alt="" src="{{site.baseurl}}/assets/images/case-study/principle-1.jpg" />
+				</div>
+			</div>
+			<div class="column is-offset-1 content">
+				<h3 class="title is-4">
+					The European Emergency Number Association provides emergency services with cybersecurity guidelines for the
+					safety of citizens
+				</h3>
+				<p>
+					Recent cyberattacks around the world, including against hospitals, remind us about the need to be better
+					prepared. Public safety organizations are not exempt from these ever-evolving cyber risks. When emergency call
+					centers suffer cyberattacks, interference with first response from rescue organizations can result in the
+					death of individuals. The European Emergency Number Association (EENA) believes that, for the safety of
+					citizens, it is essential to ensure public safety services remain uninterrupted. To protect critical
+					infrastructure and sensitive information, emergency services must implement appropriate and effective
+					safeguards. After the WannaCry ransomware attacks in 2017, EENA launched its Cybersecurity Working Group to
+					help share best practices and develop a set of concrete, specific recommendations for emergency response
+					organisations. The group held a dedicated webinar and published cybersecurity guidelines. The importance of
+					this issue has been highlighted at the annual EENA Conference for several years and during the EENA Members
+					Workshop 2018. Recommendations include the need to include cybersecurity as part of general risk assessment,
+					train employees, implement technological solutions, and perform vulnerability tests and cyber incident
+					exercises.
+				</p>
+				<a href="">European Emergency Number Association (EENA)</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section is-medium bg-blue-800 principle">
+	<div class="container">
+		<div class="index">
+			<span>Principe</span>
+			<span>2</span>
+		</div>
+		<div class="columns header">
+			<div class="column name is-offset-3 is-7">
+				<h4 class="index-mobile title is-4 is-hidden-desktop">Principe 2</h4>
+				<h2 class="title is-3 is-spaced">
+					Protéger l'intégrité d'internet
+				</h2>
+				<h3 class="subtitle is-4">
+					Empêcher les activités qui portent atteinte intentionnellement et
+					dans une large mesure à la disponibilité ou à l’intégrité du cœur
+					public de l’internet.
+				</h3>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section is-medium bg-blue-200 case-study">
+	<div class="container">
+		<div class="columns">
+			<div class="column content">
+				<h3 class="title is-4">
+					Protecting the Domain Name System, cornerstone of the web: how French company Nameshield ensures identity
+					integrity and resilience
+				</h3>
+				<p>
+					Protecting the availability and the integrity of the public core of the Internet requires close cooperation
+					between different types of actors, including non-profit organization ICANN (Internet Corporation for Assigned
+					Names and Numbers) and private companies such as Nameshield. An independent French company, Nameshield ensures
+					identity integrity and resilience on the Internet with its own caste-based, resilient DNS infrastructures.
+					Cornerstone of the Web, the Domain Name System (DNS) serves as the Internet directory. This protocol
+					translates a domain name into an IP address, based on a database distributed on thousands of machines. If the
+					DNS falls because of data corruption or a denial of service attack, websites and emails become inaccessible.
+					It is crucial to guarantee the protection and availability of DNS. A new protocol, DNSSEC, has thus been
+					developed with the support of ICANN to address vulnerabilities in the DNS. Other solutions can help ensure
+					identity resilience, such as Registry Lock or SSL certificates. By protecting data on domain name identity
+					cards and providing a high availability service, Nameshield contributes to the second principle of the Paris
+					Call and protects the public core of the Internet.
+				</p>
+				<a href="">Nameshield</a>
+			</div>
+			<div class="column  is-offset-1 is-5">
+				<div class="duotone">
+					<img alt="" src="{{site.baseurl}}/assets/images/case-study/principle-2.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section is-medium bg-blue-800 principle">
+	<div class="container">
+		<div class="index">
+			<span>Principe</span>
+			<span>3</span>
+		</div>
+		<div class="columns header">
+			<div class="column name is-offset-3 is-7">
+				<h4 class="index-mobile title is-4 is-hidden-desktop">Principe 3</h4>
+				<h2 class="title is-3 is-spaced">
+					Empêcher les interférences dans les processus électoraux
+				</h2>
+				<h3 class="subtitle is-4">
+					Développer notre capacité de prévenir les interférences de la
+					part d’acteurs étrangers destinées à déstabiliser des processus
+					électoraux au moyen de cyberactivités malveillantes
+				</h3>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section is-medium bg-blue-200 case-study">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-5">
+				<div class="duotone">
+					<img alt="" src="{{site.baseurl}}/assets/images/case-study/principle-3.jpg" />
+				</div>
+			</div>
+			<div class="column is-offset-1 content">
+				<h3 class="title is-3">
+					The Transatlantic Commission on Election Integrity (TCEI) helps advancing solutions to protect the integrity
+					of democratic elections.
+				</h3>
+				<p>
+					Election interference is a major threat to the universal right of people to take part in the democratic
+					process. Still, democratic governments and technology companies around the world are scrambling to meet the
+					challenges of the latest election meddling tactics and technologies. This is a global phenomenon, with
+					instances of election interference seen in countries from Mexico to North-Macedonia, Ukraine to Kenya, Taiwan
+					to Turkey. Yet, attacks and coordinated manipulation are no longer coming from foreign malign powers alone:
+					increasingly, the cross-border disinformation playbook is used by domestic actors trying to sow division and
+					polarization in both authoritarian and democratic contexts. The TCEI brings together committed and eminent
+					persons from different backgrounds with one shared goal: to ensure people decide freely, based on independent
+					information, who should represent them. Transatlantic and bipartisan in nature, the TCEI seeks to share best
+					practice between decision-makers and institutions across the democratic world, raise public awareness about
+					the risks of interference while applying on the ground new models and technologies to empower civil society
+					and governments to defend democracy. The TCEI is an initiative of the Alliance of Democracies Foundation
+					founded by Anders Fogh Rasmussen in 2017.
+				</p>
+				<a href="">Transatlantic Commission on Election Integrity</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="section is-medium bg-blue-800 principle">
+  <div class="container">
+    <div class="index">
+      <span>Principe</span>
+      <span>4</span>
+    </div>
+    <div class="columns header">
+      <div class="column name is-offset-3 is-7">
+        <h4 class="index-mobile title is-4 is-hidden-desktop">Principe 4</h4>
+        <h2 class="title is-3 is-spaced">
+          Protéger la propriété intellectuelle
+        </h2>
+        <h3 class="subtitle is-4">
+          Empêcher le vol de propriété intellectuelle à l’aide des TIC,
+          notamment des secrets industriels ou autres informations
+          commerciales confidentielles, dans l’intention de procurer des
+          avantages concurrentiels à des entreprises ou à un secteur
+          commercial
+        </h3>
       </div>
     </div>
   </div>
 </section>
-<section class="section is-medium bg-purple-500" id="principles">
+<section class="section is-medium bg-blue-200 case-study">
+  <div class="container">
+    <div class="columns">
+      <div class="column content">
+        <h3 class="title is-4">
+          Protecting the Domain Name System, cornerstone of the web: how French company Nameshield ensures identity
+          integrity and resilience
+        </h3>
+        <p>
+          Protecting the availability and the integrity of the public core of the Internet requires close cooperation
+          between different types of actors, including non-profit organization ICANN (Internet Corporation for Assigned
+          Names and Numbers) and private companies such as Nameshield. An independent French company, Nameshield ensures
+          identity integrity and resilience on the Internet with its own caste-based, resilient DNS infrastructures.
+          Cornerstone of the Web, the Domain Name System (DNS) serves as the Internet directory. This protocol
+          translates a domain name into an IP address, based on a database distributed on thousands of machines. If the
+          DNS falls because of data corruption or a denial of service attack, websites and emails become inaccessible.
+          It is crucial to guarantee the protection and availability of DNS. A new protocol, DNSSEC, has thus been
+          developed with the support of ICANN to address vulnerabilities in the DNS. Other solutions can help ensure
+          identity resilience, such as Registry Lock or SSL certificates. By protecting data on domain name identity
+          cards and providing a high availability service, Nameshield contributes to the second principle of the Paris
+          Call and protects the public core of the Internet.
+        </p>
+        <a href="">Nameshield</a>
+      </div>
+      <div class="column  is-offset-1 is-5">
+        <div class="duotone">
+          <img alt="" src="{{site.baseurl}}/assets/images/case-study/principle-2.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section is-medium bg-blue-800 principle">
+	<div class="container">
+		<div class="index">
+			<span>Principe</span>
+			<span>5</span>
+		</div>
+		<div class="columns header">
+			<div class="column name is-offset-3 is-7">
+				<h4 class="index-mobile title is-4 is-hidden-desktop">Principe 5</h4>
+				<h2 class="title is-3 is-spaced">
+          Empêcher la prolifération d'outils et de pratiques malveillantes
+				</h2>
+				<h3 class="subtitle is-4">
+          Élaborer des moyens d’empêcher la prolifération d’outils
+          malveillants et de pratiques informatiques destinés à nuire
+				</h3>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section is-medium bg-blue-200 case-study">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-5">
+				<div class="duotone">
+					<img alt="" src="{{site.baseurl}}/assets/images/case-study/principle-3.jpg" />
+				</div>
+			</div>
+			<div class="column is-offset-1 content">
+				<h3 class="title is-3">
+					The Transatlantic Commission on Election Integrity (TCEI) helps advancing solutions to protect the integrity
+					of democratic elections.
+				</h3>
+				<p>
+					Election interference is a major threat to the universal right of people to take part in the democratic
+					process. Still, democratic governments and technology companies around the world are scrambling to meet the
+					challenges of the latest election meddling tactics and technologies. This is a global phenomenon, with
+					instances of election interference seen in countries from Mexico to North-Macedonia, Ukraine to Kenya, Taiwan
+					to Turkey. Yet, attacks and coordinated manipulation are no longer coming from foreign malign powers alone:
+					increasingly, the cross-border disinformation playbook is used by domestic actors trying to sow division and
+					polarization in both authoritarian and democratic contexts. The TCEI brings together committed and eminent
+					persons from different backgrounds with one shared goal: to ensure people decide freely, based on independent
+					information, who should represent them. Transatlantic and bipartisan in nature, the TCEI seeks to share best
+					practice between decision-makers and institutions across the democratic world, raise public awareness about
+					the risks of interference while applying on the ground new models and technologies to empower civil society
+					and governments to defend democracy. The TCEI is an initiative of the Alliance of Democracies Foundation
+					founded by Anders Fogh Rasmussen in 2017.
+				</p>
+				<a href="">Transatlantic Commission on Election Integrity</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% include support-cta.html %}
+
+<!-- <section class="section is-medium bg-purple-500" id="principles">
   <div class="container">
     <h2 class="title is-2 has-text-centered">
       {{ site.data.translations.principles.principles-section-title[page.lang] }}
@@ -141,6 +424,4 @@
       </div>
     </div>
   </div>
-</section>
-
-{% include support-cta.html %}
+</section> -->
