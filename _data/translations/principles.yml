@@ -15,61 +15,61 @@ principle-1:
     en: Protect individuals and infrastructure
     fr: Protéger les individus et les infrastructures
   full:
-    en: Prevent and recover from malicious cyber activities that threaten individuals and critical infrastructure
+    en: Prevent and recover from malicious cyber activities that threaten or cause significant, indiscriminate or systemic harm to individuals and critical infrastructure
     fr: Empêcher les cyberactivités malveillantes qui menacent des individus et des infrastructures critiques ou qui leur causent des dommages importants, sans discernement ou systémiques, et d’y remédier.
 principle-2:
   short:
     en: Prevent activity that damages the general availability or integrity of the public core of the Internet
     fr: Empêcher les activités qui portent atteinte à la disponibilité ou à l'intégrité du coeur public de l'internet
   full:
-    en: FULL VERSION ENGLISH
-    fr: FULL VERSION FRENCH
+    en: Prevent activity that intentionally and substantially damages the general availability or integrity of the public core of the Internet
+    fr: Empêcher les activités qui portent atteinte intentionnellement et dans une large mesure à la disponibilité ou à l’intégrité du cœur public de l’internet 
 principle-3:
   short:
     en: Prevent malign interference by foreign actors aimed at undermining electoral processes
     fr: Empêcher les interférences de la part d'acteurs étrangers destinées à déstabiliser des processus électoraux
   full:
-    en: FULL VERSION ENGLISH
-    fr: FULL VERSION FRENCH
+    en: Strengthen our capacity to prevent malign interference by foreign actors aimed at undermining electoral processes through malicious cyber activities
+    fr: Développer notre capacité de prévenir les interférences de la part d’acteurs étrangers destinées à déstabiliser des processus électoraux au moyen de cyberactivités malveillantes 
 principle-4:
   short:
     en: Prevent ICT-enabled theft of intellectual property
     fr: Empêcher le vol de propriété intellectuelle à l'aide des TIC
   full:
-    en: FULL VERSION ENGLISH
-    fr: FULL VERSION FRENCH
+    en: Prevent ICT-enabled theft of intellectual property, including trade secrets or other confidential business information, with the intent of providing competitive advantages to companies or commercial sector
+    fr: Empêcher le vol de propriété intellectuelle à l’aide des TIC, notamment des secrets industriels ou autres informations commerciales confidentielles, dans l’intention de procurer des avantages concurrentiels à des entreprises ou à un secteur commercial 
 principle-5:
   short:
     en: Prevent the proliferation of malicious ICT tools and practices intended to cause harm
     fr: Empêcher la prolifération d’outils malveillants et de pratiques informatiques destinés à nuire
   full:
-    en: FULL VERSION ENGLISH
-    fr: FULL VERSION FRENCH
+    en: Develop ways to prevent the proliferation of malicious ICT tools and practices intended to cause harm
+    fr: Elaborer des moyens d’empêcher la prolifération d’outils malveillants et de pratiques informatiques destinés à nuire 
 principle-6:
   short:
     en: Strengthen the security of digital products and services throughout their lifecycle and supply chain
     fr: Accroître la sécurité des produits et services numériques au cours de leur cycle de vie et de la chaîne d'approvisionnement
   full:
-    en: FULL VERSION ENGLISH
-    fr: FULL VERSION FRENCH
+    en: Strengthen the security of digital processes, products and services, throughout their lifecycle and supply chain
+    fr: Accroître la sécurité des processus, produits et services numériques tout au long de leur cycle de vie et d’un bout à l’autre de la chaîne d’approvisionnement 
 principle-7:
   short:
     en: Strengthen an advanced cyber hygiene for all
     fr: Soutenir le développement d'une hygiène informatique avancée pour tous
   full:
-    en: FULL VERSION ENGLISH
-    fr: FULL VERSION FRENCH
+    en: Support efforts to strengthen an advanced cyber hygiene for all actors
+    fr: Soutenir les actions visant à développer une hygiène informatique avancée pour tous les acteurs 
 principle-8:
   short:
     en: Prevent non-state actors, including the private sector, from hacking-back
     fr: Empêcher les accteurs non étatiques, y compris le secteur privé, de mener des actions cyber offensives en réponse à une attaque
   full:
-    en: FULL VERSION ENGLISH
-    fr: FULL VERSION FRENCH
+    en: Take steps to prevent non-State actors, including the private sector, from hacking-back, for their own purposes or those of other non-State actors
+    fr: Prendre des mesures pour empêcher les acteurs non étatiques, y compris le secteur privé, de mener des actions cyber offensives en réponse à une attaque dont ils seraient victimes, pour leur propre compte ou pour celui d’autres acteurs non étatiques 
 principle-9:
   short:
     en: Promote international norms of responsible behavior as well as confidence-building measures
     fr: Promouvoir des normes internationales de comportement responsable ainsi que des mesures de développement de la confiance
   full:
-    en: FULL VERSION ENGLISH
-    fr: FULL VERSION FRENCH
+    en: Promote the widespread acceptance and implementation of international norms of responsible behavior as well as confidence-building measures in cyberspace
+    fr: Favoriser une large acceptation et la mise en œuvre de normes internationales de comportement responsable ainsi que de mesures de développement de la confiance dans le cyberespace
