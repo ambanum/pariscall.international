@@ -7,10 +7,10 @@ filter-placeholder:
 filter-button:
   en: Filter supporters
   fr: Filtrer les soutiens
-civil-society:
+civil_society:
   en: Civil society
   fr: Société civile
-private-sector:
+private_sector:
   en: Private sector
   fr: Secteur privé
 state:

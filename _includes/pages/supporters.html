@@ -24,8 +24,6 @@
       {% assign supporterLang = 'supporters' | append: '_' | append: page.lang %}
       {% assign supporters_by_category = site[supporterLang] | where: "category", category %}
       {% for supporter in supporters_by_category %}
-      {%- if supporter.name -%}
-
       <div class="column is-4" data-supporter-name="{{ supporter.name | escape }}">
         <div class="card">
           <div class="card-content">
@@ -39,14 +37,13 @@
           <footer class="card-footer {{ supporter.category }}">
             <p class="card-footer-item">
               <span>
-                {{ supporter.category | replace: "civil_society", site.data.translations.supporters.civil-society[page.lang] | replace: "private_sector", site.data.translations.supporters.private-sector[page.lang] | replace: "state", site.data.translations.supporters.state[page.lang] }}
+                {{ site.data.translations.supporters[supporter.category][page.lang] }}
                 {%- if supporter.nationality -%}&nbsp;({{ supporter.nationality }}){%- endif -%}
               </span>
             </p>
           </footer>
         </div>
       </div>
-      {%- endif -%}
       {% endfor %}
       {% endfor %}
     </div>
