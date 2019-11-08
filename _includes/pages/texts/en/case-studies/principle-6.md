@@ -1,4 +1,4 @@
-### Carnegie Endowment for International Peace presents government and corporations with recommendations to enhance ICT/OT supply chain integrity
+### ICT/OT supply chain integrity: Carnegie Endowment for International Peace presents government and corporations with recommendations
 
 In line with the sixth principle of the Paris Call, the Carnegie Endowment has released a report on ICT supply chain integrity authored by Ariel E. Levite. It calls for urgent action to arrest the current trends undermining trust in digital products and services and fracturing the global ICT supply chain.
 
@@ -8,7 +8,7 @@ In particular, the new report underscores the importance of complimentary govern
 
 [Read the Carnegie Endowment's report](https://carnegieendowment.org/files/Levite_SupplyChain_final.pdf)
 
-### Members of the Charter of Trust strengthen cybersecurity along the entire supply chain of their products and services
+### Charter of Trust: member companies strengthen cybersecurity along the entire supply chain of their products and services
 
 The digital world is changing everything. Today, billions of devices are connected through the Internet of Things. While this creates great opportunities, it also harbors great risks. To make the digital world more secure, partners from industry have joined forces with the Charter of Trust.
 
@@ -16,6 +16,6 @@ The Charter of Trust is a unique initiative now gathering 16 leading global comp
  
 After two years of work, members have achieved a lot, especially regarding the security of digital processes, products and services. In their businesses, they successfully strengthened cybersecurity along the entire supply chain and established “Security by Default” as a must-have product feature. The Charter of Trust provides its members with an aligned view on security along the digital supply chain and has defined 12 baseline cybersecurity supply chain requirements.
 
-Members of the Charter of Trust are committed to build capacity on this important matter, as well as on other principles outlined in the Paris Call. They commit not only to providing advanced training for our workforce but also for business and society.They also continue to firmly anchor cybersecurity on the agenda at the highest political level - locally and globally. 
+Members of the Charter of Trust are committed to build capacity on this important matter, as well as on other principles outlined in the Paris Call. They commit not only to providing advanced training for their workforce but also for business and society.They also continue to firmly anchor cybersecurity on the agenda at the highest political level - locally and globally. 
 
 [Charter of Trust](https://www.charteroftrust.com)
