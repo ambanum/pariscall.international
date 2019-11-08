@@ -6,4 +6,4 @@ Cornerstone of the Web, the Domain Name System (DNS) serves as the Internet dire
 
 It is crucial to guarantee the protection and availability of DNS. A new protocol, DNSSEC, has thus been developed with the support of ICANN to address vulnerabilities in the DNS. Other solutions can help ensure identity resilience, such as Registry Lock or SSL certificates. By protecting data on domain name identity cards and providing a high availability service, Nameshield contributes to the second principle of the Paris Call and protects the public core of the Internet.
 
-[Nameshield]()
+[Nameshield](https://www.nameshield.com/)
