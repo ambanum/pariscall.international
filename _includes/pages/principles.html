@@ -1,45 +1,45 @@
 <div class="container">
-	<div class="page-title">
-		<h1>{{ site.data.translations.principles.title[page.lang] }}</h1>
-		<h2>{{ site.data.translations.principles.subtitle[page.lang] }}</h2>
-	</div>
+  <div class="page-title">
+    <h1>{{ site.data.translations.principles.title[page.lang] }}</h1>
+    <h2>{{ site.data.translations.principles.subtitle[page.lang] }}</h2>
+  </div>
 </div>
 
 <section class="section is-medium bg-blue-50" id="full-text">
-	<div class="container content is-size-5">
-		<div class="columns">
-			<div class="column">
-				{% capture paris-call-first-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-first-part.md %}{% endcapture %}
-				{{ paris-call-first-part_text | markdownify }}
-			</div>
-			<div class="column">
-				{% capture paris-call-second-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-second-part.md %}{% endcapture %}
-				{{ paris-call-second-part_text | markdownify }}
-			</div>
-		</div>
-	</div>
+  <div class="container content is-size-5">
+    <div class="columns">
+      <div class="column">
+        {% capture paris-call-first-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-first-part.md %}{% endcapture %}
+        {{ paris-call-first-part_text | markdownify }}
+      </div>
+      <div class="column">
+        {% capture paris-call-second-part_text %}{% include pages/texts/{{ page.lang }}/principles/paris-call-second-part.md %}{% endcapture %}
+        {{ paris-call-second-part_text | markdownify }}
+      </div>
+    </div>
+  </div>
 </section>
 
 {% for number in (1..9) %}
 {% capture principle_id %}principle-{{ number }}{% endcapture %}
-<section class="section is-medium bg-blue-800 principle">
-	<div class="container">
-		<div class="index is-hidden-touch">
-			<span class="index__prefix">{{ site.data.translations.principles.principle[page.lang] }}</span>
-			<span class="index__number">{{ number }}</span>
-		</div>
-		<div class="columns">
-			<div class="column is-offset-3 is-7">
-				<h4 class="index-mobile title is-4 is-hidden-desktop">{{ site.data.translations.principles.principle[page.lang] }}&nbsp;{{ number }}</h4>
-				<h2 class="title is-3 is-spaced">
-					{{ site.data.translations.principles[principle_id].short[page.lang] }}
-				</h2>
-				<h3 class="subtitle is-4">
-					{{ site.data.translations.principles[principle_id].full[page.lang] }}
-				</h3>
-			</div>
-		</div>
-	</div>
+<section class="section is-medium bg-blue-800 principle" id="{% if forloop.first %}principles{% endif %}">
+  <div class="container">
+    <div class="index is-hidden-touch">
+      <span class="index__prefix">{{ site.data.translations.principles.principle[page.lang] }}</span>
+      <span class="index__number">{{ number }}</span>
+    </div>
+    <div class="columns">
+      <div class="column is-offset-3 is-7">
+        <h4 class="index-mobile title is-4 is-hidden-desktop">{{ site.data.translations.principles.principle[page.lang] }}&nbsp;{{ number }}</h4>
+        <h2 class="title is-3 is-spaced">
+          {{ site.data.translations.principles[principle_id].short[page.lang] }}
+        </h2>
+        <h3 class="subtitle is-4">
+          {{ site.data.translations.principles[principle_id].full[page.lang] }}
+        </h3>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="section is-medium bg-blue-200 case-study">
@@ -71,3 +71,5 @@
   </div>
 </section>
 {% endfor %}
+
+{% include support-cta.html %}
