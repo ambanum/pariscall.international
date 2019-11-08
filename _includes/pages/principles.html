@@ -22,7 +22,7 @@
 
 {% for number in (1..9) %}
 {% capture principle_id %}principle-{{ number }}{% endcapture %}
-<section class="section is-medium bg-blue-800 principle" id="{% if forloop.first %}principles{% endif %}">
+<section class="section is-medium bg-blue-800 principle" {% if forloop.first %}id="principles"{% endif %}>
   <div class="container">
     <div class="index is-hidden-touch">
       <span class="index__prefix">{{ site.data.translations.principles.principle[page.lang] }}</span>
