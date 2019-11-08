@@ -6,4 +6,4 @@ The European Emergency Number Association (EENA) believes that, for the safety o
 
 After the WannaCry ransomware attacks in 2017, EENA launched its Cybersecurity Working Group to help share best practices and develop a set of concrete, specific recommendations for emergency response organisations. The group held a dedicated webinar and published cybersecurity guidelines. The importance of this issue has been highlighted at the annual EENA Conference for several years and during the EENA Members Workshop 2018. Recommendations include the need to include cybersecurity as part of general risk assessment, train employees, implement technological solutions, and perform vulnerability tests and cyber incident exercises.
 
-[European Emergency Number Association (EENA)](http://example.com)
+[European Emergency Number Association (EENA)](https://eena.org/)
