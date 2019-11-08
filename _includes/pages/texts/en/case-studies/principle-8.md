@@ -1,4 +1,4 @@
-### Tech Accord: hack-back, active defense, and countermeasures – what does it all mean? 
+### The Cybersecurity Tech Accord on hack-back, active defense, and countermeasures: what does it all mean? 
 
 As the frequency and severity of global cyber threats grow, defenders are investing in new and innovative techniques to protect themselves. However, not all measures being developed are purely defensive: increasingly talk has been around more intrusive “active defense” techniques – with hack back the most prominent example. 
 
