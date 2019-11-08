@@ -91,10 +91,20 @@
 .bg-purple-50:before { background: $purple-50; }
 .bg-purple-100:before { background: linear-gradient(138deg, $purple-100 75%, $purple-200) $purple-100; }
 .bg-purple-200:before { background: linear-gradient(138deg, $purple-200 75%, $purple-300) $purple-200; }
-.bg-purple-300:before { background: linear-gradient(138deg, $purple-300 75%, $purple-400) $purple-300; }
+.bg-purple-300:before { background: linear-gradient(138deg, $purple-300 75%, $purple-300) $purple-300; }
 .bg-purple-400:before { background: linear-gradient(138deg, $purple-400 75%, $purple-500) $purple-400; }
 .bg-purple-500:before { background: linear-gradient(138deg, $purple-500 75%, $purple-600) $purple-500; }
 .bg-purple-600:before { background: linear-gradient(138deg, $purple-600 75%, $purple-700) $purple-600; }
 .bg-purple-700:before { background: linear-gradient(138deg, $purple-700 75%, $purple-800) $purple-700; }
 .bg-purple-800:before { background: linear-gradient(138deg, $purple-800 75%, $purple-900) $purple-800; }
 .bg-purple-900:before { background: linear-gradient(138deg, $purple-900 75%, $purple-900) $purple-900; }
+
+.bg-purple-200,
+.bg-purple-300,
+.bg-purple-400 {
+  color: #fff;
+
+  h1, h2, h3, h4, h5, strong, a {
+    color: inherit;
+  }
+}
