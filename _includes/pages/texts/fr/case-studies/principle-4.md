@@ -1,4 +1,4 @@
-### Garantir l'équilibre entre protection et accès face aux nouvelles menaces numériques : le Centre indien pour Internet et la société participe aux négociations internationales sur la propriété intellectuelle
+### Vers un équilibre entre protection et accès face aux nouvelles menaces numériques : le Centre indien pour Internet et la société participe aux négociations internationales sur la propriété intellectuelle
 
 La gestion de la propriété intellectuelle (PI) dans le cyberespace pose de nombreux défis. Il est nécessaire que les entreprises et les auteurs protègent la propriété intellectuelle dans le monde numérique, qui favorise l'innovation, la différenciation et les revenus. Les droits d'auteur, les brevets et les marques de commerce constituent une partie importante du paysage numérique.
 
