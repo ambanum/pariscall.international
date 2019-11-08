@@ -10,13 +10,13 @@
     bottom: 0;
     transform: translateY(100%);
 
-    span:first-child {
+    &__prefix {
       font-size: 2em;
       font-weight: 400;
       font-variant: all-small-caps;
       vertical-align: middle;
     }
-    span:last-child {
+    &__number {
       font-weight: 700;
       font-size: 10em;
       vertical-align: middle;
