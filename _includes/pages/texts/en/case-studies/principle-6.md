@@ -18,4 +18,4 @@ After two years of work, members have achieved a lot, especially regarding the s
 
 Members of the Charter of Trust are committed to build capacity on this important matter, as well as on other principles outlined in the Paris Call. They commit not only to providing advanced training for our workforce but also for business and society.They also continue to firmly anchor cybersecurity on the agenda at the highest political level - locally and globally. 
 
-[Charter of Trust](www.charteroftrust.com)
+[Charter of Trust](https://www.charteroftrust.com)
