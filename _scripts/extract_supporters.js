@@ -62,15 +62,25 @@ const supportersXLSX = XLSX.readFile(SOURCE_FILE);  // this source file contains
 
 const supporters = XLSX.utils.sheet_to_json(supportersXLSX.Sheets[supportersXLSX.SheetNames[0]]);
 
-supporters.forEach((supporter) => {
+let usedNames = {};
+supporters.forEach((supporter, index) => {
     if (typeof supporter.Nom === 'string') {
         const filename = `${diacritics.remove(changeCase.snakeCase(sanitize(supporter.Nom)))}.md`;
         const path = `${DEST_FOLDER}/${filename}`;
+
+        if (usedNames[filename]) {
+            console.error(`Collision detected on ${filename}`);
+        }
+
+        usedNames[filename] = true;
 
         fs.writeFile(path, generateContent(supporter), function(err) {
             if (err) {
                 return console.log(err);
             }
         });
+    } else {
+        console.log(`Entry ignored: ${supporter.Nom}`);
     }
 });
+
