@@ -31,7 +31,7 @@
           {% if include.event.address contains '://' %}
           <a class="location" target="_blank"
             href="{{ include.event.address }}">
-            <i class="location__icon icon icon-globe"></i>
+            <i class="location__icon icon icon-network"></i>
             <span class="location__text">
               {{ site.data.translations.events.event-online[page.lang] }}
             </span>
@@ -51,7 +51,7 @@
         </div>
         {% if include.event.type == 'invitation' %}
         <div class="level-right">
-          <span class="tag is-warning">{{ site.data.translations.events.by-invitation-only[page.lang] }}</span>
+          <span class="tag">{{ site.data.translations.events.by-invitation-only[page.lang] }}</span>
         </div>
         {% endif %}
       </div>

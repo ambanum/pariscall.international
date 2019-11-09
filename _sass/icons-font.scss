@@ -38,9 +38,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-map:before {
-  content: "\62";
-}
 .icon-angle-down:before {
   content: "\61";
 }
@@ -59,9 +56,6 @@
 .icon-marker:before {
   content: "\67";
 }
-.icon-pin:before {
-  content: "\68";
-}
-.icon-globe:before {
-  content: "\69";
+.icon-network:before {
+  content: "\6a";
 }
