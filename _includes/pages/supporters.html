@@ -22,13 +22,13 @@
     <div class="cards columns">
       {% for category in site.supporter_categories %}
       {% assign supporterLang = 'supporters' | append: '_' | append: page.lang %}
-      {% assign supporters_by_category = site[supporterLang] | where: "category", category %}
+      {% assign supporters_by_category = site[supporterLang] | where: 'category', category %}
       {% for supporter in supporters_by_category %}
       <div class="column is-4" data-supporter-name="{{ supporter.name | escape }}">
         <div class="card">
           <div class="card-content">
             <p class="title">
-              {% if supporter.category == 'state' %}{% include country_name.html supporter=supporter %}{% else %}{{ supporter.name }}{% endif %}
+              {% if supporter.category == 'state' %}{% include country_name.html supporter=supporter %}{% else %}{{ supporter.name | escape }}{% endif %}
             </p>
             <p class="subtitle">
               {{ supporter.nature }}
