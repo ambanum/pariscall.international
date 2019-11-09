@@ -38,7 +38,7 @@
             <p class="card-footer-item">
               <span>
                 {{ site.data.translations.supporters[supporter.category][page.lang] }}
-                {% if supporter.nationality %}&nbsp;({% include country_name.html supporter=supporter %}){% endif %}
+                {% if supporter.nationality and supporter.category != 'state' %}&nbsp;({% include country_name.html supporter=supporter %}){% endif %}
               </span>
             </p>
           </footer>
