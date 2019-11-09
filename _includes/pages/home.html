@@ -150,13 +150,11 @@
         <h3 class="title is-4">
           {{ site.data.translations.home.last-supporters-title[page.lang] }}
         </h3>
-        {% assign last_month_date = 'now' | date: '%s' | minus : 2629743 | date: '%s' %}
         {% assign count = 0 %}
-        {% assign supporterLang = 'supporters' | append: '_' | append: page.lang %}
-        {% assign supportersSorted = (site[supporterLang] | sort: 'date_signed') | reverse %}
-        {% for supporter in supportersSorted %}
+        {% assign supporter_lang = 'supporters' | append: '_' | append: page.lang %}
+        {% assign supporters_sorted = (site[supporter_lang] | sort: 'date_signed') | reverse %}
+        {% for supporter in supporters_sorted %}
         {% assign supporter_date = supporter.date_signed | date: '%s' %}
-        {% if supporter_date > last_month_date %}
         {% if count < 5 %}
         {% assign count = count | plus: 1 %}
         <article class="media new-supporter">
@@ -180,7 +178,6 @@
             </div>
           </div>
         </article>
-        {% endif %}
         {% endif %}
         {% endfor %}
       </div>
