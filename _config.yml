@@ -16,14 +16,10 @@ typeform_urls:
     fr: https://ambanum.typeform.com/to/OYvfQd
 
 collections:
-  supporters_en:
-    output: true
-    permalink: en/supporter/:path/
-  supporters_fr:
-    output: true
-    permalink: fr/supporter/:path/
   events:
     output: true
+  supporters_en:
+  supporters_fr:
 
 defaults:
   - scope:
@@ -51,16 +47,6 @@ defaults:
       path: _pages/fr/by-email
     values:
       layout: by-email
-  - scope:
-      path: _supporters_fr
-    values:
-      layout: supporter
-      lang: fr
-  - scope:
-      path: _supporters_en
-    values:
-      layout: supporter
-      lang: en
 
 sass:
   style: compact # possible values: nested expanded compact compressed

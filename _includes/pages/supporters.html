@@ -28,7 +28,7 @@
         <div class="card">
           <div class="card-content">
             <p class="title">
-              <a href="{{ supporter.url | relative_url }}">{% if supporter.category == 'state' %}{% include country_name.html supporter=supporter %}{% else %}{{ supporter.name }}{% endif %}</a>
+              {% if supporter.category == 'state' %}{% include country_name.html supporter=supporter %}{% else %}{{ supporter.name }}{% endif %}
             </p>
             <p class="subtitle">
               {{ supporter.nature }}
