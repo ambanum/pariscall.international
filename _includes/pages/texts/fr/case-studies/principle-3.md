@@ -1,4 +1,4 @@
-### La Transatlantic Commission on Election Integrity (TCEI) promeut des solutions pour garantir l’intégrité des élections démocratiques
+### Intégrité des élections démocratiques: la Transatlantic Commission on Election Integrity (TCEI) promeut des solutions pour garantir les processus électoraux
 
 Les interférences dans les élections font peser une lourde menace sur le droit universel des personnes à prendre part à des processus démocratiques. Les gouvernements démocratiques et les entreprises du secteur des technologies du monde entier s’efforcent pourtant de résoudre les problèmes soulevés par les tactiques et technologies d’ingérence les plus récentes. Il s’agit d’un phénomène d’ampleur mondiale et des cas d’interférence dans les élections ont été observés au Mexique, en Macédoine du Nord, en Ukraine, au Kenya, à Taïwan ou encore en Turquie.
 
@@ -8,7 +8,7 @@ La TCEI rassemble d’éminentes personnalités engagées, issues d’horizons v
 
 [Transatlantic Commission on Election Integrity (TCEI)](https://www.allianceofdemocracies.org/transatlantic-commission-on-election-integrity/)
 
-### La Communauté de l'Appel de Paris sur la lutte contre l'ingérence électorale : un projet multipartite axé sur la mise en œuvre du Principe 3 de l'Appel
+### La Communauté de l'Appel de Paris sur la lutte contre l'ingérence électorale : un projet multipartite voit le jour pour prévenir les interférences malignes d'acteurs étrangers
 
 Microsoft et l'Alliance for Securing Democracy ont le plaisir d'annoncer la formation de la Communauté de l'Appel de Paris sur la lutte contre les interférences électorales, une communauté de partisans de l'Appel de Paris rassemblant trois catégories de parties prenantes - gouvernements, entreprises et société civile - qui vont renforcer la capacité à prévenir les interférences malignes d'acteurs étrangers dans le processus électoral, conformément au principe 3 de l'Appel de Paris.
 

@@ -1,4 +1,4 @@
-### The European Emergency Number Association provides emergency services with cybersecurity guidelines for the safety of citizens
+### Emergency services: the European Emergency Number Association provides cybersecurity guidelines to ensure the safety of citizens
 
 Recent cyberattacks around the world, including against hospitals, remind us about the need to be better prepared. Public safety organizations are not exempt from these ever-evolving cyber risks. When emergency call centers suffer cyberattacks, interference with first response from rescue organizations can result in the death of individuals.
 

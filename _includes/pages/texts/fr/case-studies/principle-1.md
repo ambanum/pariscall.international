@@ -1,4 +1,4 @@
-### L’Association européenne du numéro d’appel d’urgence propose aux services d’intervention d’urgence des recommandations en matière de cybersécurité pour la sécurité des citoyens
+### Services d'intervention d'urgence : l’Association européenne du numéro d’appel d’urgence propose des recommandations en matière de cybersécurité pour assurer la sécurité des citoyens
 
 Les cyberattaques perpétrées récemment dans le monde entier, notamment contre des hôpitaux, nous rappellent qu’il est nécessaire d’être mieux préparés à ces événements. Les organisations de sécurité publique ne sont pas épargnées par ces risques informatiques, qui évoluent constamment. Lorsque des centres d’appel d’urgence sont touchés par des cyberattaques, la perturbation des premiers secours qui en résulte peut provoquer des décès.
 

@@ -1,4 +1,4 @@
-### Protecting the Domain Name System, cornerstone of the web: how French company Nameshield ensures identity integrity and resilience
+### Protecting the Domain Name System: French company Nameshield ensures identity integrity and resilience
 
 Protecting the availability and the integrity of the public core of the Internet requires close cooperation between different types of actors, including non-profit organization ICANN (Internet Corporation for Assigned Names and Numbers) and private companies such as Nameshield. An independent French company, Nameshield ensures identity integrity and resilience on the Internet with its own caste-based, resilient DNS infrastructures.
 
