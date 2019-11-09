@@ -9,11 +9,11 @@ supporter_categories: [ private_sector, civil_society, state ]
 available_languages: [ en, fr ]
 typeform_urls:
   support:
-    en: https://nicolasdupont.typeform.com/to/qjm1oJ
-    fr: https://nicolasdupont.typeform.com/to/Y5eTGr
+    en: https://ambanum.typeform.com/to/qjm1oJ
+    fr: https://ambanum.typeform.com/to/Y5eTGr
   event:
-    en: https://nicolasdupont.typeform.com/to/Gqi5uB
-    fr: https://nicolasdupont.typeform.com/to/OYvfQd
+    en: https://ambanum.typeform.com/to/Gqi5uB
+    fr: https://ambanum.typeform.com/to/OYvfQd
 
 collections:
   supporters_en:
