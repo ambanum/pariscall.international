@@ -33,20 +33,20 @@ Duplicate `_supporters_en` content in `_supporters_$language_code`.
 Copy and paste the following code into your HTML page where you want the counters:
 
 ```html
-<iframe id="paris-call-iframe-counters" src="https://pariscall.diplomatie.fr/en/embed/counters" style="width:100%;border:none;"></iframe>
+<iframe id="paris-call-iframe-counters" src="https://pariscall.international/en/embed/counters" style="width:100%;border:none;"></iframe>
 ```
 
 You can choose the language by modifying the URL of the iframe. For example:
 
-- French: `https://pariscall.diplomatie.fr/en/embed/counters`
-- English: `https://pariscall.diplomatie.fr/fr/embed/counters`
+- French: `https://pariscall.international/en/embed/counters`
+- English: `https://pariscall.international/fr/embed/counters`
 
 The list of available languages is available [here](https://github.com/ambanum/ParisCall/blob/master/_config.yml#L9).
 
 In order to make the iframe reactive (i.e. to correctly size its height according to the size of the screen), uou can add the following script in the host page, for example right after the closing `</iframe>`:
 
 ```html
-<script>window.addEventListener('message',function(e){e.origin==="https://pariscall.diplomatie.fr"&&e.data.hasOwnProperty("parisCallFrameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.parisCallFrameHeight}px`)});</script>
+<script>window.addEventListener('message',function(e){e.origin==="https://pariscall.international"&&e.data.hasOwnProperty("parisCallFrameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.parisCallFrameHeight}px`)});</script>
 ```
 
 ## Comment intégrer les compteurs de signataires dans son site Web
@@ -54,18 +54,18 @@ In order to make the iframe reactive (i.e. to correctly size its height accordin
 Copiez et collez le code suivant dans votre page HTML à l'endroit ou vous souhaitez faire apparaître les compteurs :
 
 ```html
-<iframe id="paris-call-iframe-counters" src="https://pariscall.diplomatie.fr/fr/embed/counters" style="width:100%;border:none;"></iframe>
+<iframe id="paris-call-iframe-counters" src="https://pariscall.international/fr/embed/counters" style="width:100%;border:none;"></iframe>
 ```
 
 Vous pouvez choisir la langue en modifiant l'URL de l'iframe, par exemple :
 
-- français : `https://pariscall.diplomatie.fr/en/embed/counters`
-- anglais : `https://pariscall.diplomatie.fr/fr/embed/counters`
+- français : `https://pariscall.international/en/embed/counters`
+- anglais : `https://pariscall.international/fr/embed/counters`
 
 La liste des langues disponibles est disponible [ici](https://github.com/ambanum/ParisCall/blob/master/_config.yml#L9).
 
 Pour rendre l'iframe réactive (çàd la dimensionner correctement en hauteur en fonction de la taille de l'écran), vous pouvez ajouter le script suivant dans la page hôte, par exemple immédiatement après le tag fermant `</iframe>` :
 
 ```html
-<script>window.addEventListener('message',function(e){e.origin==="https://pariscall.diplomatie.fr"&&e.data.hasOwnProperty("parisCallFrameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.parisCallFrameHeight}px`)});</script>
+<script>window.addEventListener('message',function(e){e.origin==="https://pariscall.international"&&e.data.hasOwnProperty("parisCallFrameHeight")&&(document.getElementById("paris-call-iframe-counters").style.height=`${e.data.parisCallFrameHeight}px`)});</script>
 ```

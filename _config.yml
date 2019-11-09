@@ -3,7 +3,7 @@
 include: ['_pages']
 
 baseurl: ""
-url: https://pariscall.diplomatie.fr/
+url: https://pariscall.international/
 
 supporter_categories: [ private_sector, civil_society, state ]
 available_languages: [ en, fr ]
