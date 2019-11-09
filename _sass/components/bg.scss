@@ -22,7 +22,7 @@
 
   &:before {
     position: absolute;
-    transform: skewY(-3deg);
+    transform: skewY(-3deg) translateY(-0.75em);
     bottom: 0vw;
     right: 0;
     width: 100%;
