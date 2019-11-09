@@ -30,18 +30,6 @@ const COUNTRY_CODES = getCountryCodes();
 
 
 function generateContent(supporter) {
-    supporter.alliance = [];
-
-    if (supporter.Nom.includes('**')) {
-        supporter.alliance.push('Cyber Tech Accord');
-        supporter.Nom = supporter.Nom.replace('\*\*', '');
-    }
-
-    if (supporter.Nom.includes('*')) {
-        supporter.alliance.push('Charter of Trust');
-        supporter.Nom = supporter.Nom.replace('\*', '');
-    }
-
     if (! CATEGORIES[supporter.Catégorie]) {
         console.log(`Missing catégorie for ${ supporter.Nom }`);
     }
@@ -66,7 +54,6 @@ name: "${ supporter.Nom }"
 category: ${ CATEGORIES[supporter.Catégorie] }
 nature: "${ supporter.Nature || '' }"
 nationality: ${ COUNTRY_CODES[supporter.Nationalité] || '' }
-alliance: ${ supporter.alliance.join(', ') }
 date_signed: '2018-11-12'
 ---
     `;

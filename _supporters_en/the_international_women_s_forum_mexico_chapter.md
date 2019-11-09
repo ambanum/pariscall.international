@@ -3,7 +3,6 @@ name: "The International Women´s Forum Mexico Chapter"
 category: civil_society
 nature: "Association"
 nationality: MEX
-alliance: 
 date_signed: '2018-11-12'
 ---
     

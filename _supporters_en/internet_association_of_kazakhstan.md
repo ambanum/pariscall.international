@@ -3,7 +3,6 @@ name: "Internet Association of Kazakhstan"
 category: civil_society
 nature: "ONG"
 nationality: KAZ
-alliance: 
 date_signed: '2018-11-12'
 ---
     

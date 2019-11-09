@@ -3,7 +3,6 @@ name: "Center for International Law and Governance, Fletcher School of Law and D
 category: civil_society
 nature: "Université"
 nationality: USA
-alliance: 
 date_signed: '2018-11-12'
 ---
     
