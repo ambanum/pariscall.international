@@ -1,8 +1,8 @@
 ---
-name: ETNO
-category: private_sector
-nature: Association professionnelle 
-nationality: UE
+name: "ETNO"
+category: civil_society
+nature: "Organisation à but non lucratif"
+nationality: BEL
 alliance: 
 date_signed: '2018-11-12'
 ---

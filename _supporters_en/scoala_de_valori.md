@@ -1,9 +1,9 @@
 ---
-name: Școala de Valori
+name: "Școala de Valori"
 category: civil_society
-nature: Fondation 
-nationality: Roumanie
+nature: "Fondation "
+nationality: ROM
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

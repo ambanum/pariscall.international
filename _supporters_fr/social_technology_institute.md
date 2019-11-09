@@ -1,8 +1,8 @@
 ---
-name: Social Technology Institute 
+name: "Social Technology Institute "
 category: civil_society
-nature: ONG
-nationality: Thailande
+nature: "ONG"
+nationality: THA
 alliance: 
 date_signed: '2018-11-12'
 ---

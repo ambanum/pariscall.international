@@ -1,8 +1,8 @@
 ---
-name: Malte
+name: "Malte"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: MLT
 alliance: 
 date_signed: '2018-11-12'
 ---

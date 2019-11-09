@@ -1,8 +1,8 @@
 ---
-name: Middlebury Institute of International Studies at Monterey 
+name: "Middlebury Institute of International Studies at Monterey "
 category: civil_society
-nature: Université
-nationality: Etats-Unis
+nature: "Université"
+nationality: USA
 alliance: 
 date_signed: '2018-11-12'
 ---

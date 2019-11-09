@@ -1,8 +1,8 @@
 ---
-name: Deutsche Bank AG
+name: "Deutsche Bank AG"
 category: private_sector
-nature: Entreprise
-nationality: Allemagne
+nature: "Entreprise"
+nationality: DEU
 alliance: 
 date_signed: '2018-11-12'
 ---

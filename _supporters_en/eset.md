@@ -1,9 +1,9 @@
 ---
-name: ESET
+name: "ESET"
 category: private_sector
-nature: Entreprise
-nationality: Slovaquie
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: SVK
+alliance: 
 date_signed: '2018-11-12'
 ---
     

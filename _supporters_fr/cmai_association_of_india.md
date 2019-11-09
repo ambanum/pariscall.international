@@ -1,8 +1,8 @@
 ---
-name: CMAI Association of India
+name: "CMAI Association of India"
 category: private_sector
-nature: Association professionnelle 
-nationality: Inde
+nature: "Association professionnelle "
+nationality: IND
 alliance: 
 date_signed: '2018-11-12'
 ---

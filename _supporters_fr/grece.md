@@ -1,8 +1,8 @@
 ---
-name: Grèce
+name: "Grèce"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: GRC
 alliance: 
 date_signed: '2018-11-12'
 ---

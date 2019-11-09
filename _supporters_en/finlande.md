@@ -1,8 +1,8 @@
 ---
-name: Finlande
+name: "Finlande"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: FIN
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,8 +1,8 @@
 ---
-name: Quad9
-category: private_sector
-nature: 
-nationality: Etats-Unis
+name: "Quad9"
+category: civil_society
+nature: "Organisation à but non lucratif"
+nationality: USA
 alliance: 
 date_signed: '2018-11-12'
 ---

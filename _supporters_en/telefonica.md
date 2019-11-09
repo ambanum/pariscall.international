@@ -1,9 +1,9 @@
 ---
-name: Telefonica
+name: "Telefonica"
 category: private_sector
-nature: Entreprise
-nationality: Espagne
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: ESP
+alliance: 
 date_signed: '2018-11-12'
 ---
     

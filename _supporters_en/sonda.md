@@ -1,9 +1,9 @@
 ---
-name: Sonda
+name: "Sonda"
 category: private_sector
-nature: Entreprise
-nationality: Chili
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: CHL
+alliance: 
 date_signed: '2018-11-12'
 ---
     

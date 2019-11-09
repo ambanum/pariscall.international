@@ -1,8 +1,8 @@
 ---
-name: Syntec Numérique
+name: "Syntec Numérique"
 category: private_sector
-nature: Syndicat 
-nationality: France
+nature: "Association professionnelle "
+nationality: FRA
 alliance: 
 date_signed: '2018-11-12'
 ---

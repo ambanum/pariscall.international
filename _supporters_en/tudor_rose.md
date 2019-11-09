@@ -1,8 +1,8 @@
 ---
-name: Tudor Rose
+name: "Tudor Rose"
 category: private_sector
-nature: Entreprise
-nationality: Royaume-Uni
+nature: "Entreprise"
+nationality: GBR
 alliance: 
 date_signed: '2018-11-12'
 ---

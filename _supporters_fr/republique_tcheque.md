@@ -1,8 +1,8 @@
 ---
-name: République tchèque
+name: "République tchèque"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: CZE
 alliance: 
 date_signed: '2018-11-12'
 ---

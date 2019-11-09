@@ -1,0 +1,9 @@
+---
+name: "Czech Telecommunication Office"
+category: local_authority
+nature: "Autorité indépendante"
+nationality: CZE
+alliance: 
+date_signed: '2018-11-12'
+---
+    

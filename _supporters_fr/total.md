@@ -1,9 +1,9 @@
 ---
-name: Total
+name: "Total"
 category: private_sector
-nature: Entreprise
-nationality: France
-alliance: Charter of Trust
+nature: "Entreprise"
+nationality: FRA
+alliance: 
 date_signed: '2018-11-12'
 ---
     

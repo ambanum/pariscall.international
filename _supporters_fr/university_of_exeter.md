@@ -1,8 +1,8 @@
 ---
-name: University of Exeter
+name: "University of Exeter"
 category: civil_society
-nature: Université
-nationality: Royaume-Uni
+nature: "Université"
+nationality: GBR
 alliance: 
 date_signed: '2018-11-12'
 ---

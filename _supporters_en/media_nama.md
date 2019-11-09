@@ -1,8 +1,8 @@
 ---
-name: MediaNama
+name: "MediaNama"
 category: private_sector
-nature: Entreprise
-nationality: Inde
+nature: "Entreprise"
+nationality: IND
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,8 +1,8 @@
 ---
-name: Energy Policy Group (EPG)
+name: "Energy Policy Group (EPG)"
 category: civil_society
-nature: Think-tank
-nationality: Roumanie
+nature: "Think tank"
+nationality: ROM
 alliance: 
 date_signed: '2018-11-12'
 ---

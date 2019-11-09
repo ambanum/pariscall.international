@@ -1,9 +1,9 @@
 ---
-name: Federación Iberoamericana de Asociaciones de Derecho e Informática, A.C.
+name: "Federación Iberoamericana de Asociaciones de Derecho e Informática, A.C."
 category: civil_society
-nature: Fédération
-nationality: Uruguay
+nature: "Fédération"
+nationality: URY
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

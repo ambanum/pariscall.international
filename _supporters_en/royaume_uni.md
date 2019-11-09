@@ -1,8 +1,8 @@
 ---
-name: Royaume-Uni
+name: "Royaume-Uni"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: GBR
 alliance: 
 date_signed: '2018-11-12'
 ---

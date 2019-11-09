@@ -1,8 +1,8 @@
 ---
-name: Albanie
+name: "Albanie"
 category: state
-nature: 
-nationality: 
+nature: ""
+nationality: ALB
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,9 +1,9 @@
 ---
-name: Salvador
+name: "Salvador"
 category: state
-nature: 
-nationality: Salvador
+nature: ""
+nationality: SLV
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

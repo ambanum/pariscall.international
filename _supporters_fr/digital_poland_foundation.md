@@ -1,8 +1,8 @@
 ---
-name: Digital Poland Foundation
+name: "Digital Poland Foundation"
 category: civil_society
-nature: Fondation 
-nationality: Pologne
+nature: "Fondation "
+nationality: POL
 alliance: 
 date_signed: '2018-11-12'
 ---

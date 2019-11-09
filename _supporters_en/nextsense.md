@@ -1,8 +1,8 @@
 ---
-name: Nextsense
+name: "Nextsense"
 category: private_sector
-nature: Entreprise
-nationality: Macédoine
+nature: "Entreprise"
+nationality: MKD
 alliance: 
 date_signed: '2018-11-12'
 ---

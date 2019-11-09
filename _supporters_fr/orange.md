@@ -1,9 +1,9 @@
 ---
-name: Orange
+name: "Orange"
 category: private_sector
-nature: 
-nationality: 
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: FRA
+alliance: 
 date_signed: '2018-11-12'
 ---
     

@@ -1,8 +1,8 @@
 ---
-name: Institute for Economics and Peace
+name: "Institute for Economics and Peace"
 category: civil_society
-nature: Think-tank
-nationality: International
+nature: "Think tank"
+nationality: AUS
 alliance: 
 date_signed: '2018-11-12'
 ---

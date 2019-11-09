@@ -1,8 +1,8 @@
 ---
-name: Croatie
+name: "Croatie"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: HRV
 alliance: 
 date_signed: '2018-11-12'
 ---

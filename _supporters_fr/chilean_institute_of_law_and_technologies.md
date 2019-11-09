@@ -1,8 +1,8 @@
 ---
-name: Chilean Institute of Law and Technologies
+name: "Chilean Institute of Law and Technologies"
 category: civil_society
-nature: 
-nationality: Chili
+nature: ""
+nationality: CHL
 alliance: 
 date_signed: '2018-11-12'
 ---

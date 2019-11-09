@@ -1,9 +1,9 @@
 ---
-name: American Chamber of Commerce of El Salvador
+name: "American Chamber of Commerce of El Salvador"
 category: private_sector
-nature: Fédération
-nationality: Salvador
+nature: "Chambre de commerce"
+nationality: SLV
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

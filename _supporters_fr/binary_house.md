@@ -1,9 +1,9 @@
 ---
-name: Binary House
+name: "Binary House"
 category: private_sector
-nature: 
-nationality: 
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: SVK
+alliance: 
 date_signed: '2018-11-12'
 ---
     

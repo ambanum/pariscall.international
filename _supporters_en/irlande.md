@@ -1,8 +1,8 @@
 ---
-name: Irlande
+name: "Irlande"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: IRL
 alliance: 
 date_signed: '2018-11-12'
 ---

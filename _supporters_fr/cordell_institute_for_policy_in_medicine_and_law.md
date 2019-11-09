@@ -1,8 +1,8 @@
 ---
-name: Cordell Institute for Policy in Medicine and Law
+name: "Cordell Institute for Policy in Medicine and Law"
 category: civil_society
-nature: Université
-nationality: Etats-Unis
+nature: "Université"
+nationality: USA
 alliance: 
 date_signed: '2018-11-12'
 ---

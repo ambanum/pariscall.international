@@ -1,8 +1,8 @@
 ---
-name: Canada
+name: "Canada"
 category: state
-nature: 
-nationality: 
+nature: ""
+nationality: CAN
 alliance: 
 date_signed: '2018-11-12'
 ---

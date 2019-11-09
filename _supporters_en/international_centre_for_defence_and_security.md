@@ -1,8 +1,8 @@
 ---
-name: International Centre for Defence and Security 
+name: "International Centre for Defence and Security "
 category: civil_society
-nature: Think-tank
-nationality: Estonie
+nature: "Think tank"
+nationality: EST
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,9 +1,9 @@
 ---
-name: IBM
+name: "IBM"
 category: private_sector
-nature: Entreprise
-nationality: Etats-Unis
-alliance: Charter of Trust
+nature: "Entreprise"
+nationality: USA
+alliance: 
 date_signed: '2018-11-12'
 ---
     

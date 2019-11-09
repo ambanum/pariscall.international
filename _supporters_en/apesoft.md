@@ -1,9 +1,9 @@
 ---
-name: Apesoft
+name: "Apesoft"
 category: private_sector
-nature: Entreprise
-nationality: Pérou
+nature: "Entreprise"
+nationality: PER
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

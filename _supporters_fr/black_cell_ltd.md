@@ -1,8 +1,8 @@
 ---
-name: Black Cell ltd
+name: "Black Cell ltd"
 category: private_sector
-nature: Entreprise
-nationality: Hongrie
+nature: "Entreprise"
+nationality: HUN
 alliance: 
 date_signed: '2018-11-12'
 ---

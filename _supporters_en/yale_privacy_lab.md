@@ -1,8 +1,8 @@
 ---
-name: Yale Privacy Lab 
+name: "Yale Privacy Lab "
 category: civil_society
-nature: Université
-nationality: Etats-Unis
+nature: "Université"
+nationality: USA
 alliance: 
 date_signed: '2018-11-12'
 ---

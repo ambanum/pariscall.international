@@ -1,8 +1,8 @@
 ---
-name: Telenor Group
+name: "Telenor Group"
 category: private_sector
-nature: Entreprise
-nationality: Norvège
+nature: "Entreprise"
+nationality: NOR
 alliance: 
 date_signed: '2018-11-12'
 ---

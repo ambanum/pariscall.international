@@ -1,8 +1,8 @@
 ---
-name: Islande
+name: "Islande"
 category: state
-nature: 
-nationality: 
+nature: ""
+nationality: ISL
 alliance: 
 date_signed: '2018-11-12'
 ---

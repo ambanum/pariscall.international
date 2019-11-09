@@ -1,8 +1,8 @@
 ---
-name: Estonie
+name: "Estonie"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: EST
 alliance: 
 date_signed: '2018-11-12'
 ---

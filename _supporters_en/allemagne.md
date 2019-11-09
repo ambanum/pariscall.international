@@ -1,8 +1,8 @@
 ---
-name: Allemagne
+name: "Allemagne"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: DEU
 alliance: 
 date_signed: '2018-11-12'
 ---

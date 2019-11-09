@@ -1,9 +1,9 @@
 ---
-name: GREYCORTEX
+name: "GREYCORTEX"
 category: private_sector
-nature: 
-nationality: 
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: CZE
+alliance: 
 date_signed: '2018-11-12'
 ---
     

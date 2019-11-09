@@ -1,8 +1,8 @@
 ---
-name: Europol
-category: civil_society
-nature: Organisation Internationale
-nationality: UE
+name: "Europol"
+category: local_authority
+nature: "Agence"
+nationality: NLD
 alliance: 
 date_signed: '2018-11-12'
 ---

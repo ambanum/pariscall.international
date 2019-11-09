@@ -1,9 +1,9 @@
 ---
-name: Center for Complexity Science (C3) of the National University of Mexico (UNAM)
+name: "Center for Complexity Science (C3) of the National University of Mexico (UNAM)"
 category: civil_society
-nature: Université
-nationality: Mexique
+nature: "Université"
+nationality: MEX
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

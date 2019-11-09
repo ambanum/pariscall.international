@@ -1,8 +1,8 @@
 ---
-name: Alster Legal 
+name: "Alster Legal "
 category: private_sector
-nature: Entreprise
-nationality: Chili
+nature: "Entreprise"
+nationality: CHL
 alliance: 
 date_signed: '2018-11-12'
 ---

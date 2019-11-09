@@ -1,8 +1,8 @@
 ---
-name: Costa Group
+name: "Costa Group"
 category: private_sector
-nature: Entreprise
-nationality: Italie
+nature: "Entreprise"
+nationality: ITA
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,8 +1,8 @@
 ---
-name: KONE Corporation
+name: "KONE Corporation"
 category: private_sector
-nature: Entreprise
-nationality: 
+nature: "Entreprise"
+nationality: FIN
 alliance: 
 date_signed: '2018-11-12'
 ---

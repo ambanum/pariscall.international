@@ -1,8 +1,8 @@
 ---
-name: Number Resource Organization (NRO)
+name: "Number Resource Organization (NRO)"
 category: civil_society
-nature:  Internet Address Registry
-nationality: International
+nature: "Association"
+nationality: 
 alliance: 
 date_signed: '2018-11-12'
 ---

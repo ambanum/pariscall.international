@@ -1,9 +1,9 @@
 ---
-name: FUNDETIC BOLIVIA
+name: "FUNDETIC BOLIVIA"
 category: civil_society
-nature: Fondation 
-nationality: Bolivie
+nature: "Fondation "
+nationality: BOL
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

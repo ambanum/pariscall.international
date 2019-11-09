@@ -1,8 +1,8 @@
 ---
-name: Chili
+name: "Chili"
 category: state
-nature: 
-nationality: 
+nature: ""
+nationality: CHL
 alliance: 
 date_signed: '2018-11-12'
 ---

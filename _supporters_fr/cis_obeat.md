@@ -1,9 +1,9 @@
 ---
-name: CISObeat
+name: "CISObeat"
 category: civil_society
-nature: Association
-nationality: Pérou
+nature: "Association"
+nationality: PER
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

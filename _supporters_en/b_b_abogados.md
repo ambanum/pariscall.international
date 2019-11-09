@@ -1,9 +1,9 @@
 ---
-name: B&B Abogados
+name: "B&B Abogados"
 category: private_sector
-nature: Entreprise
-nationality: Colombie
+nature: "Entreprise"
+nationality: COL
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

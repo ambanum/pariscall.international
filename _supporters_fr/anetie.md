@@ -1,8 +1,8 @@
 ---
-name: ANETIE
+name: "ANETIE"
 category: private_sector
-nature: Association professionnelle 
-nationality: Portugal
+nature: "Association professionnelle "
+nationality: PRT
 alliance: 
 date_signed: '2018-11-12'
 ---

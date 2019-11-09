@@ -1,8 +1,8 @@
 ---
-name: Yes Europe Lab
+name: "Yes Europe Lab"
 category: civil_society
-nature: Association à but non lucratif
-nationality: 
+nature: "Organisation à but non lucratif"
+nationality: NLD
 alliance: 
 date_signed: '2018-11-12'
 ---

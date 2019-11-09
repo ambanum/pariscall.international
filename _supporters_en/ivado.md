@@ -1,8 +1,8 @@
 ---
-name: IVADO
+name: "IVADO"
 category: civil_society
-nature: Centre de recherche
-nationality: Canada
+nature: "Centre de recherche"
+nationality: CAN
 alliance: 
 date_signed: '2018-11-12'
 ---

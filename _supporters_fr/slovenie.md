@@ -1,8 +1,8 @@
 ---
-name: Slovénie
+name: "Slovénie"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: SVN
 alliance: 
 date_signed: '2018-11-12'
 ---

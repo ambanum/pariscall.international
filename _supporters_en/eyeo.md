@@ -1,9 +1,9 @@
 ---
-name: Eyeo
+name: "Eyeo"
 category: private_sector
-nature: 
-nationality: 
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: DEU
+alliance: 
 date_signed: '2018-11-12'
 ---
     

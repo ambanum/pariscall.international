@@ -1,8 +1,8 @@
 ---
-name: Infinitum Humanitarian Systems
+name: "Infinitum Humanitarian Systems"
 category: private_sector
-nature: Entreprise
-nationality: Etats-Unis
+nature: "Entreprise"
+nationality: USA
 alliance: 
 date_signed: '2018-11-12'
 ---

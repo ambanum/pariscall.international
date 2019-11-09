@@ -1,8 +1,8 @@
 ---
-name: Asociación de Constitucionalistas
+name: "Asociación de Constitucionalistas"
 category: civil_society
-nature: Fondation 
-nationality: Espagne
+nature: "Fondation "
+nationality: ESP
 alliance: 
 date_signed: '2018-11-12'
 ---

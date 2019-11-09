@@ -1,8 +1,8 @@
 ---
-name: Convergence Partners 
+name: "Convergence Partners "
 category: private_sector
-nature: Entreprise
-nationality: Afrique du Sud
+nature: "Entreprise"
+nationality: ZAF
 alliance: 
 date_signed: '2018-11-12'
 ---

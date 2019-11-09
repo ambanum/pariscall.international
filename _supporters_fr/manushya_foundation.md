@@ -1,9 +1,9 @@
 ---
-name: Manushya Foundation
+name: "Manushya Foundation"
 category: civil_society
-nature: Fondation 
-nationality: Thaïlande
+nature: "Fondation "
+nationality: THA
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

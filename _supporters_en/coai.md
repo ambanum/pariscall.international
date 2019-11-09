@@ -1,8 +1,8 @@
 ---
-name: COAI
+name: "COAI"
 category: civil_society
-nature: ONG
-nationality: Inde
+nature: "ONG"
+nationality: IND
 alliance: 
 date_signed: '2018-11-12'
 ---

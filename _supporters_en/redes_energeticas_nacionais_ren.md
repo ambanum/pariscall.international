@@ -1,8 +1,8 @@
 ---
-name: Redes Energéticas Nacionais (REN)
+name: "Redes Energéticas Nacionais (REN)"
 category: private_sector
-nature: Entreprise
-nationality: Portugal
+nature: "Entreprise"
+nationality: PRT
 alliance: 
 date_signed: '2018-11-12'
 ---

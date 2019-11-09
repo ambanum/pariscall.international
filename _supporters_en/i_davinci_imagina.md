@@ -1,8 +1,8 @@
 ---
-name: iDavinci Imagina
+name: "iDavinci Imagina"
 category: private_sector
-nature: Entreprise
-nationality: Espagne
+nature: "Entreprise"
+nationality: ESP
 alliance: 
 date_signed: '2018-11-12'
 ---

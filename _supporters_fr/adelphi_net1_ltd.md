@@ -1,0 +1,9 @@
+---
+name: "Adelphi Net1 Ltd "
+category: private_sector
+nature: "Entreprise"
+nationality: IRL
+alliance: 
+date_signed: '2018-11-12'
+---
+    

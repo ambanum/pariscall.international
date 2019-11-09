@@ -1,8 +1,8 @@
 ---
-name: Asia Pacific Network Information Centre (APNIC)
+name: "Asia Pacific Network Information Centre (APNIC)"
 category: civil_society
-nature: Regional Internet Address Registry
-nationality: International
+nature: "Organisation à but non lucratif"
+nationality: AUS
 alliance: 
 date_signed: '2018-11-12'
 ---

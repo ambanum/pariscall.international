@@ -1,8 +1,8 @@
 ---
-name: Cyber Test Systems
+name: "Cyber Test Systems"
 category: private_sector
-nature: Entreprise
-nationality: France
+nature: "Entreprise"
+nationality: FRA
 alliance: 
 date_signed: '2018-11-12'
 ---

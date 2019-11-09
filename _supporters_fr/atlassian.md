@@ -1,9 +1,9 @@
 ---
-name: Atlassian
+name: "Atlassian"
 category: private_sector
-nature: Entreprise
-nationality: Australie
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: AUS
+alliance: 
 date_signed: '2018-11-12'
 ---
     

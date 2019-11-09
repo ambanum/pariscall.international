@@ -1,8 +1,8 @@
 ---
-name: Espagne
+name: "Espagne"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: ESP
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,9 +1,9 @@
 ---
-name: DREN & ROVŠEK 
+name: "DREN & ROVŠEK "
 category: private_sector
-nature: Entreprise
-nationality: Slovénie
+nature: "Entreprise"
+nationality: SVN
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

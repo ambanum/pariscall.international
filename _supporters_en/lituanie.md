@@ -1,8 +1,8 @@
 ---
-name: Lituanie
+name: "Lituanie"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: LTU
 alliance: 
 date_signed: '2018-11-12'
 ---

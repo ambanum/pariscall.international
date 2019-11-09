@@ -1,9 +1,9 @@
 ---
-name: Integrity partners
+name: "Integrity Partners"
 category: private_sector
-nature: Entreprise
-nationality: Pologne
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: POL
+alliance: 
 date_signed: '2018-11-12'
 ---
     

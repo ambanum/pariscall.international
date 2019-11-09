@@ -1,8 +1,8 @@
 ---
-name: Institute for Reporters' Freedom and Safety(IRFS) 
+name: "Institute for Reporters' Freedom and Safety(IRFS) "
 category: civil_society
-nature: ONG
-nationality: Azerbaïdjan
+nature: "ONG"
+nationality: AZE
 alliance: 
 date_signed: '2018-11-12'
 ---

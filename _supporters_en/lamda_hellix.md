@@ -1,8 +1,8 @@
 ---
-name: Lamda Hellix
+name: "Lamda Hellix"
 category: private_sector
-nature: Entreprise
-nationality: Grèce
+nature: "Entreprise"
+nationality: GRC
 alliance: 
 date_signed: '2018-11-12'
 ---

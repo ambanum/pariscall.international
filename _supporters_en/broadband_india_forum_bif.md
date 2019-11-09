@@ -1,8 +1,8 @@
 ---
-name: Broadband India Forum (BIF) 
+name: "Broadband India Forum (BIF) "
 category: civil_society
-nature: Think-tank
-nationality: Inde
+nature: "Think tank"
+nationality: IND
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,8 +1,8 @@
 ---
-name: World Economic Forum
+name: "World Economic Forum"
 category: civil_society
-nature: Organisation Internationale
-nationality: International
+nature: "Organisation internationale"
+nationality: CHE
 alliance: 
 date_signed: '2018-11-12'
 ---

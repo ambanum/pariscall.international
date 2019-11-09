@@ -1,9 +1,9 @@
 ---
-name: Cognizant
+name: "Cognizant"
 category: private_sector
-nature: Entreprise
-nationality: Etats-Unis
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: USA
+alliance: 
 date_signed: '2018-11-12'
 ---
     

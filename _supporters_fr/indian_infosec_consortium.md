@@ -1,8 +1,8 @@
 ---
-name: Indian Infosec Consortium 
+name: "Indian Infosec Consortium "
 category: civil_society
-nature: Centre de recherche
-nationality: Inde
+nature: "Centre de recherche"
+nationality: IND
 alliance: 
 date_signed: '2018-11-12'
 ---

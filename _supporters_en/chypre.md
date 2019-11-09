@@ -1,8 +1,8 @@
 ---
-name: Chypre
+name: "Chypre"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: CYP
 alliance: 
 date_signed: '2018-11-12'
 ---

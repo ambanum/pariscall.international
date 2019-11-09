@@ -1,9 +1,9 @@
 ---
-name: Cyber services
+name: "Cyber Services"
 category: private_sector
-nature: Entreprise
-nationality: Hongrie
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: HUN
+alliance: 
 date_signed: '2018-11-12'
 ---
     

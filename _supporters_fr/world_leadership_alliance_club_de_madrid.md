@@ -1,8 +1,8 @@
 ---
-name: World Leadership Alliance - Club de Madrid 
+name: "World Leadership Alliance - Club de Madrid "
 category: civil_society
-nature: ONG
-nationality: International
+nature: "ONG"
+nationality: ESP
 alliance: 
 date_signed: '2018-11-12'
 ---

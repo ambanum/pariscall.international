@@ -1,8 +1,8 @@
 ---
-name: Suisse
+name: "Suisse"
 category: state
-nature: 
-nationality: 
+nature: ""
+nationality: CHE
 alliance: 
 date_signed: '2018-11-12'
 ---

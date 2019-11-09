@@ -1,8 +1,8 @@
 ---
-name: Internet Service Providers Austria (ISPA) 
+name: "Internet Service Providers Austria (ISPA) "
 category: private_sector
-nature: Association professionnelle 
-nationality: Autriche
+nature: "Association professionnelle "
+nationality: AUT
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,8 +1,8 @@
 ---
-name: Mujeres Tech
+name: "Mujeres Tech"
 category: civil_society
-nature: ONG
-nationality: Espagne
+nature: "ONG"
+nationality: ESP
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,8 +1,8 @@
 ---
-name: Clifford Chance CIS Limited 
+name: "Clifford Chance CIS Limited "
 category: private_sector
-nature: Entreprise
-nationality: Russie
+nature: "Entreprise"
+nationality: RUS
 alliance: 
 date_signed: '2018-11-12'
 ---

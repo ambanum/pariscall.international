@@ -1,9 +1,9 @@
 ---
-name: Trendmicro
+name: "Trendmicro"
 category: private_sector
-nature: Entreprise
-nationality: Japon
-alliance: Cyber Tech Accord
+nature: "Entreprise"
+nationality: JPN
+alliance: 
 date_signed: '2018-11-12'
 ---
     

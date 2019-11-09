@@ -1,8 +1,8 @@
 ---
-name: Thai Netizen Network 
+name: "Thai Netizen Network "
 category: civil_society
-nature: Fondation 
-nationality: Thailande
+nature: "Fondation "
+nationality: THA
 alliance: 
 date_signed: '2018-11-12'
 ---

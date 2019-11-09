@@ -1,8 +1,8 @@
 ---
-name: Get Safe Online
+name: "Get Safe Online"
 category: private_sector
-nature: Entreprise
-nationality: Royaume-Uni
+nature: "Entreprise"
+nationality: GBR
 alliance: 
 date_signed: '2018-11-12'
 ---

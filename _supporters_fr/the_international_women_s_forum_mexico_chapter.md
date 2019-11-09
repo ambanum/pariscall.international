@@ -1,9 +1,9 @@
 ---
-name: the International Women´s Forum Mexico Chapter
+name: "The International Women´s Forum Mexico Chapter"
 category: civil_society
-nature: Association
-nationality: Mexique
+nature: "Association"
+nationality: MEX
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

@@ -1,8 +1,8 @@
 ---
-name: Pays-Bas
+name: "Pays-Bas"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: NLD
 alliance: 
 date_signed: '2018-11-12'
 ---

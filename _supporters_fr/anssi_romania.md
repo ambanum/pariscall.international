@@ -1,8 +1,8 @@
 ---
-name: ANSSI Romania
+name: "ANSSI Romania"
 category: civil_society
-nature: Groupement d’intérêt public
-nationality: Roumanie
+nature: "Organisation à but non lucratif"
+nationality: ROM
 alliance: 
 date_signed: '2018-11-12'
 ---

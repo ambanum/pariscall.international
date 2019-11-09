@@ -1,8 +1,8 @@
 ---
-name: Korea CPO Forum 
+name: "Korea CPO Forum "
 category: civil_society
-nature: 
-nationality: Corée du Sud
+nature: ""
+nationality: KOR
 alliance: 
 date_signed: '2018-11-12'
 ---

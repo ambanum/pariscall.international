@@ -1,8 +1,8 @@
 ---
-name: Renaissance Numérique
+name: "Renaissance Numérique"
 category: civil_society
-nature: Think-tank
-nationality: France
+nature: "Think tank"
+nationality: FRA
 alliance: 
 date_signed: '2018-11-12'
 ---

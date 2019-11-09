@@ -1,8 +1,8 @@
 ---
-name: Mongolie
+name: "Mongolie"
 category: state
-nature: 
-nationality: 
+nature: ""
+nationality: MNG
 alliance: 
 date_signed: '2018-11-12'
 ---

@@ -1,9 +1,9 @@
 ---
-name: Step by Step Center for Education and Professional Development
+name: "Step by Step Center for Education and Professional Development"
 category: civil_society
-nature: Association
-nationality: Roumanie
+nature: "Association"
+nationality: ROM
 alliance: 
-date_signed: '2019-10-10'
+date_signed: '2018-11-12'
 ---
     

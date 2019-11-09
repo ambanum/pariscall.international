@@ -1,8 +1,8 @@
 ---
-name: SPCSS
+name: "SPCSS"
 category: private_sector
-nature: Entreprise
-nationality: République tchèque
+nature: "Entreprise"
+nationality: CZE
 alliance: 
 date_signed: '2018-11-12'
 ---

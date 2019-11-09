@@ -1,8 +1,8 @@
 ---
-name: Bittium
+name: "Bittium"
 category: private_sector
-nature: Entreprise
-nationality: Finlande
+nature: "Entreprise"
+nationality: FIN
 alliance: 
 date_signed: '2018-11-12'
 ---

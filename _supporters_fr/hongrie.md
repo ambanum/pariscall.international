@@ -1,8 +1,8 @@
 ---
-name: Hongrie
+name: "Hongrie"
 category: state
-nature: 
-nationality: UE
+nature: "UE"
+nationality: HUN
 alliance: 
 date_signed: '2018-11-12'
 ---

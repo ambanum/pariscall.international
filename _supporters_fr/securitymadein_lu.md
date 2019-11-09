@@ -1,8 +1,8 @@
 ---
-name: SECURITYMADEIN.LU
+name: "SECURITYMADEIN.LU"
 category: civil_society
-nature: 
-nationality: Luxembourg
+nature: ""
+nationality: LUX
 alliance: 
 date_signed: '2018-11-12'
 ---
