@@ -16,7 +16,7 @@ organizations:
 state:
   en: State
   fr: État
-organization:
+civil_society:
   en: Organization
   fr: Organisation
 and-members-of-civil-society:
@@ -25,7 +25,7 @@ and-members-of-civil-society:
 companies:
   en: Companies
   fr: Entreprises
-company:
+private_sector:
   en: Company
   fr: Entreprise
 and-private-sector-entities:

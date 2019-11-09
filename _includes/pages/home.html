@@ -150,35 +150,33 @@
         <h3 class="title is-4">
           {{ site.data.translations.home.last-supporters-title[page.lang] }}
         </h3>
-        {% assign count = 0 %}
-        {% assign supporter_lang = 'supporters' | append: '_' | append: page.lang %}
-        {% assign supporters_sorted = (site[supporter_lang] | sort: 'date_signed') | reverse %}
+
+        {% capture collection_name %}supporters_{{ page.lang }}{% endcapture %}
+        {% assign supporters_sorted = site[collection_name] | where_exp: 'supporter', 'supporter.date_signed' | sort: 'date_signed' | reverse %}
         {% for supporter in supporters_sorted %}
-        {% assign supporter_date = supporter.date_signed | date: '%s' %}
-        {% if count < 5 %}
-        {% assign count = count | plus: 1 %}
-        <article class="media new-supporter">
-          <div class="media-content">
-            <header class="media-header">
-              <h4 class="title is-6">{{ supporter.name }}</h4>
-            </header>
-            <div class="content">
-              <div class="tags has-addons is-size-7">
-                <span class="tag">
-                  {{ site.data.translations.home.joined[page.lang] }}&nbsp;{{ supporter.date_signed | date: "%d/%m/%Y" }}
-                </span>
-                <span class="tag is-{{ supporter.category | replace: '_', '-' }}">
-                  {% if supporter.nature %}
-                  {{ supporter.nature }}
-                  {% else %}
-                  {{ supporter.category | replace: 'state', site.data.translations.home.state[page.lang] | replace: 'private_sector', site.data.translations.home.company[page.lang] | replace: 'civil_society', site.data.translations.home.organization[page.lang] }}
-                  {% endif %}
-                </span>
+          {% if forloop.index <= 5 %}
+          <article class="media new-supporter">
+            <div class="media-content">
+              <header class="media-header">
+                <h4 class="title is-6">{{ supporter.name }}</h4>
+              </header>
+              <div class="content">
+                <div class="tags has-addons is-size-7">
+                  <span class="tag">
+                    {{ site.data.translations.home.joined[page.lang] }}&nbsp;{{ supporter.date_signed | date: "%d/%m/%Y" }}
+                  </span>
+                  <span class="tag is-{{ supporter.category | replace: '_', '-' }}">
+                    {% if supporter.nature %}
+                      {{ supporter.nature }}
+                    {% else %}
+                      {{ site.data.translations.home[supporter.category][page.lang] }}
+                    {% endif %}
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-        </article>
-        {% endif %}
+          </article>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
