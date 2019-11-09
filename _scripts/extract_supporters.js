@@ -54,7 +54,6 @@ name: "${ supporter.Nom }"
 category: ${ CATEGORIES[supporter.Catégorie] }
 nature: "${ supporter.Nature || '' }"
 nationality: ${ COUNTRY_CODES[supporter.Nationalité] || '' }
-date_signed: '2018-11-12'
 ---
     `;
 }

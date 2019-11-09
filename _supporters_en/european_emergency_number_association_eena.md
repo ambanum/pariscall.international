@@ -3,6 +3,5 @@ name: "European Emergency Number Association (EENA)"
 category: civil_society
 nature: "Association"
 nationality: BEL
-date_signed: '2018-11-12'
 ---
     

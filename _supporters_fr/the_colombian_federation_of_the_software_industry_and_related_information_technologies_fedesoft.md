@@ -3,6 +3,5 @@ name: "The Colombian Federation of the Software Industry and Related Information
 category: private_sector
 nature: "Association professionnelle "
 nationality: COL
-date_signed: '2018-11-12'
 ---
     

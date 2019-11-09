@@ -3,6 +3,5 @@ name: "Advanced Cyber Security Engineering Research Centre (ACSRC), The Universi
 category: civil_society
 nature: "Université"
 nationality: AUS
-date_signed: '2018-11-12'
 ---
     

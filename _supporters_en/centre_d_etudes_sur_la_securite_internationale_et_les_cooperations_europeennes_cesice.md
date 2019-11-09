@@ -3,6 +3,5 @@ name: "Centre d'Etudes sur la Sécurité Internationale et les Coopérations Eur
 category: civil_society
 nature: "Centre de recherche"
 nationality: FRA
-date_signed: '2018-11-12'
 ---
     

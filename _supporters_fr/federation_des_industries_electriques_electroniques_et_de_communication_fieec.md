@@ -3,6 +3,5 @@ name: "Fédération des Industries Electriques, Electroniques et de Communicatio
 category: private_sector
 nature: "Association professionnelle "
 nationality: FRA
-date_signed: '2018-11-12'
 ---
     
