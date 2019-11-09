@@ -29,9 +29,9 @@
       <span class="index__number">{{ number }}</span>
     </div>
     <div class="columns">
-      <div class="column is-offset-3 is-7">
+      <div class="column is-offset-3-desktop is-7-desktop">
         <h4 class="index-mobile title is-4 is-hidden-desktop">{{ site.data.translations.principles.principle[page.lang] }}&nbsp;{{ number }}</h4>
-        <h2 class="title is-3 is-spaced">
+        <h2 class="title is-2 is-spaced">
           {{ site.data.translations.principles[principle_id].short[page.lang] }}
         </h2>
         <h3 class="subtitle is-4">
@@ -41,7 +41,7 @@
     </div>
   </div>
 </section>
-
+{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
 <section class="section is-medium bg-blue-200 case-study">
   <div class="container">
     <div class="columns">
@@ -56,17 +56,26 @@
         {% endif %}
       {% endfor %}
 
-      {% if image_path != '' %}
-      <div class="column is-5">
-        <div class="duotone">
-          <img alt="" src="{{ image_path | relative_url }}" />
+      {% if thecycle == 'odd' %}
+        {% if image_path != '' %}
+        <div class="column is-5 is-hidden-mobile">
+          <div class="duotone">
+            <img alt="" src="{{ image_path | relative_url }}" />
+          </div>
         </div>
-      </div>
+        {% endif %}
       {% endif %}
       <div class="column content">
         {% capture case_study %}{% include pages/texts/{{ page.lang }}/case-studies/principle-{{ number }}.md %}{% endcapture %}
         {{ case_study | markdownify }}
       </div>
+      {% if image_path != '' %}
+      <div class="column is-5 {% if thecycle == 'odd' %}is-hidden-tablet{% endif %}">
+        <div class="duotone">
+          <img alt="" src="{{ image_path | relative_url }}" />
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>

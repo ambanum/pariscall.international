@@ -1,6 +1,13 @@
 .principles-page {
   .principle {
-    margin-top: 0.5em;
+    margin-top: 1em;
+    @media screen and (min-width: 1024px) {
+      padding: 7rem 1.5rem;
+    }
+
+    &:before {
+      border-top: 1px solid darken($blue-900, 5%);
+    }
   }
 
   .index {
@@ -8,7 +15,11 @@
     position: absolute;
     left: 1.5rem;
     bottom: 0;
-    transform: translateY(95%);
+    transform: translateY(10.5em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     &__prefix {
       font-size: 2em;
@@ -17,9 +28,10 @@
       vertical-align: middle;
     }
     &__number {
-      font-weight: 700;
-      font-size: 10em;
+      font-weight: 400;
+      font-size: 21em;
       vertical-align: middle;
+      line-height: 0.9;
     }
   }
 
