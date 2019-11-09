@@ -28,7 +28,7 @@
         <div class="card">
           <div class="card-content">
             <p class="title">
-              <a href="{{ supporter.url | relative_url }}">{{ supporter.name | escape }}</a>
+              <a href="{{ supporter.url | relative_url }}">{% if supporter.category == 'state' %}{% include country_name.html supporter=supporter %}{% else %}{{ supporter.name }}{% endif %}</a>
             </p>
             <p class="subtitle">
               {{ supporter.nature }}
@@ -38,7 +38,7 @@
             <p class="card-footer-item">
               <span>
                 {{ site.data.translations.supporters[supporter.category][page.lang] }}
-                {%- if supporter.nationality -%}&nbsp;({{ supporter.nationality }}){%- endif -%}
+                {% if supporter.nationality %}&nbsp;({% include country_name.html supporter=supporter %}){% endif %}
               </span>
             </p>
           </footer>

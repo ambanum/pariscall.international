@@ -1,0 +1,7 @@
+{% capture requested_lang %}usual-{{ page.lang }}{% endcapture %}
+{% capture usual-fr-name %}{% if supporter.category == 'state' %}{{ supporter.name }}{% else %}{{ supporter.nationality }}{% endif %}{% endcapture %}
+{%- for country in site.data.country-codes -%}
+	{%- if usual-fr-name == country.usual-fr -%}
+		{{ country[requested_lang] | escape }}
+	{%- endif -%}
+{%- endfor -%}
