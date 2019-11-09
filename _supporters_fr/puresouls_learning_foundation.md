@@ -1,5 +1,5 @@
 ---
-name: "Puresouls Learning Foundation "
+name: "Puresouls Learning Foundation"
 category: civil_society
 nature: "Fondation "
 nationality: NGA

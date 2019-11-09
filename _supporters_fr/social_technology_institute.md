@@ -1,5 +1,5 @@
 ---
-name: "Social Technology Institute "
+name: "Social Technology Institute"
 category: civil_society
 nature: "ONG"
 nationality: THA

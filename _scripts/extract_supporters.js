@@ -50,7 +50,7 @@ function generateContent(supporter) {
 
 
     return `---
-name: "${ supporter.Nom }"
+name: "${ supporter.Nom.trim() }"
 category: ${ CATEGORIES[supporter.Catégorie] }
 nature: "${ supporter.Nature || '' }"
 nationality: ${ COUNTRY_CODES[supporter.Nationalité] || '' }

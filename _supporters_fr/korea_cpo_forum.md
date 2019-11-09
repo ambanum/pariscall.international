@@ -1,5 +1,5 @@
 ---
-name: "Korea CPO Forum "
+name: "Korea CPO Forum"
 category: civil_society
 nature: ""
 nationality: KOR

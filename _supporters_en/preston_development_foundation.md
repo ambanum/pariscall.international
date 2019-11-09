@@ -1,5 +1,5 @@
 ---
-name: "Preston Development Foundation "
+name: "Preston Development Foundation"
 category: civil_society
 nature: "Fondation "
 nationality: NGA

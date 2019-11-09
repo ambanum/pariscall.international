@@ -1,5 +1,5 @@
 ---
-name: "Rohde & Schwarz Cybersecurity  "
+name: "Rohde & Schwarz Cybersecurity"
 category: private_sector
 nature: "Entreprise"
 nationality: FRA

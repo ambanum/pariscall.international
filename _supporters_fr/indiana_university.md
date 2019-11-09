@@ -1,5 +1,5 @@
 ---
-name: "Indiana University "
+name: "Indiana University"
 category: civil_society
 nature: "Université"
 nationality: USA

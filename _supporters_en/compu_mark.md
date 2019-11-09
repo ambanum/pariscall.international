@@ -1,5 +1,5 @@
 ---
-name: "Compu-Mark "
+name: "Compu-Mark"
 category: private_sector
 nature: "Entreprise"
 nationality: HUN

@@ -1,5 +1,5 @@
 ---
-name: "JK Lakshmipat University "
+name: "JK Lakshmipat University"
 category: civil_society
 nature: "Université"
 nationality: IND

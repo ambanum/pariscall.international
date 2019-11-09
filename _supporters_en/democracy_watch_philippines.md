@@ -1,5 +1,5 @@
 ---
-name: "Democracy Watch Philippines "
+name: "Democracy Watch Philippines"
 category: civil_society
 nature: "Association"
 nationality: PHL

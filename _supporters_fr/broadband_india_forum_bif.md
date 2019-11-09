@@ -1,5 +1,5 @@
 ---
-name: "Broadband India Forum (BIF) "
+name: "Broadband India Forum (BIF)"
 category: civil_society
 nature: "Think tank"
 nationality: IND
