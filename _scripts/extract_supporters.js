@@ -28,6 +28,9 @@ function getCountryCodes() {
 
 const COUNTRY_CODES = getCountryCodes();
 
+const EMAIL_REGEXP = /(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})/i;
+
+
 function normalizeSupporter(supporter) {
     if (! CATEGORIES[supporter.Catégorie]) {
         console.log(`Missing catégorie for ${ supporter.Nom }`);
@@ -51,6 +54,14 @@ function normalizeSupporter(supporter) {
     supporter.Nom = supporter.Nom.trim();
     supporter.Catégorie = CATEGORIES[supporter.Catégorie];
 
+    supporter.email = EMAIL_REGEXP.exec(supporter['Point de contact']);
+
+    if (! supporter.email) {
+        console.log(`Missing email for ${ supporter.Nom } (raw: ${supporter['Point de contact']})`);
+        supporter.email = '';
+    } else {
+        supporter.email = supporter.email[0];
+    }
 
     return supporter;
 }
