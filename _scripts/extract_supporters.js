@@ -28,8 +28,7 @@ function getCountryCodes() {
 
 const COUNTRY_CODES = getCountryCodes();
 
-
-function generateContent(supporter) {
+function normalizeSupporter(supporter) {
     if (! CATEGORIES[supporter.Catégorie]) {
         console.log(`Missing catégorie for ${ supporter.Nom }`);
     }
@@ -43,19 +42,27 @@ function generateContent(supporter) {
     }
 
     supporter.Nationalité = (supporter['Pays - FRA'] || '').trim();
+    supporter.Nationalité = COUNTRY_CODES[supporter.Nationalité] || '';
 
-    if (! COUNTRY_CODES[supporter.Nationalité]) {
+    if (! supporter.Nationalité) {
         console.log(`Missing nationality for ${ supporter.Nom }`);
     }
 
+    supporter.Nom = supporter.Nom.trim();
+    supporter.Catégorie = CATEGORIES[supporter.Catégorie];
 
+
+    return supporter;
+}
+
+function generateContent(normalizedSupporter) {
     return `---
-name: "${ supporter.Nom.trim() }"
-category: ${ CATEGORIES[supporter.Catégorie] }
-nature: "${ supporter.Nature || '' }"
-nationality: ${ COUNTRY_CODES[supporter.Nationalité] || '' }
+name: "${ normalizedSupporter.Nom }"
+category: ${ normalizedSupporter.Catégorie }
+nature: "${ normalizedSupporter.Nature || '' }"
+nationality: ${ normalizedSupporter.Nationalité }
 ---
-    `;
+`;
 }
 
 const supportersXLSX = XLSX.readFile(SOURCE_FILE);  // this source file contains private data, it is voluntary not to include it in the repository
@@ -65,7 +72,9 @@ const supporters = XLSX.utils.sheet_to_json(supportersXLSX.Sheets[supportersXLSX
 let usedNames = {};
 supporters.forEach((supporter, index) => {
     if (typeof supporter.Nom === 'string') {
-        const filename = `${diacritics.remove(changeCase.snakeCase(sanitize(supporter.Nom)))}.md`;
+        let normalizedSupporter = normalizeSupporter(supporter);
+
+        const filename = `${diacritics.remove(changeCase.snakeCase(sanitize(supporter.Nom)))}-${ supporter.Catégorie}-${ supporter.Nationalité }.md`;
         const path = `${DEST_FOLDER}/${filename}`;
 
         if (usedNames[filename]) {
@@ -74,7 +83,7 @@ supporters.forEach((supporter, index) => {
 
         usedNames[filename] = true;
 
-        fs.writeFile(path, generateContent(supporter), function(err) {
+        fs.writeFile(path, generateContent(normalizedSupporter), function(err) {
             if (err) {
                 return console.log(err);
             }
