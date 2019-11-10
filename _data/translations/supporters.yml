@@ -13,6 +13,9 @@ civil-society:
 private-sector:
   en: Private sector
   fr: Secteur privé
+public-authority:
+  en: Public authority
+  fr: Organisme public
 state:
   en: State
   fr: État

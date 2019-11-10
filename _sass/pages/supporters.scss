@@ -33,9 +33,10 @@
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
 
-    &.private_sector { background: $private-sector-color; }
-    &.civil_society { background: $civil-society-color; }
+    &.private-sector { background: $private-sector-color; }
+    &.civil-society { background: $civil-society-color; }
     &.state { background: $state-color; }
+    &.public-authority { background: $public-authority-color; }
   }
 
   .card-footer-item {

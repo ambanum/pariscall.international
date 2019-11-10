@@ -49,9 +49,10 @@ $text: $grey-darker;
 
 $dropdown-menu-min-width: 6rem;
 
-$state-color: #DEECFF;
+$state-color: #FEE4A5;
 $civil-society-color: #EEC1E9;
-$private-sector-color: #FEE4A5;
+$private-sector-color: #DEECFF;
+$public-authority-color: #F9E3CA;
 
 @charset "utf-8";
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
@@ -143,6 +144,7 @@ $private-sector-color: #FEE4A5;
   &.is-state { background: $state-color; }
   &.is-civil-society { background: $civil-society-color; }
   &.is-private-sector { background: $private-sector-color; }
+  &.is-public-authority { background: $public-authority-color; }
 }
 
 iframe { height: 100%; }

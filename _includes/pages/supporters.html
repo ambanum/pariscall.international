@@ -21,16 +21,13 @@
     </div>
     <div class="cards columns">
       {% for category in site.supporter_categories %}
-      {% assign supporterLang = 'supporters' | append: '_' | append: page.lang %}
-      {% assign supporters_by_category = site[supporterLang] | where: "category", category %}
+      {% assign supporters_by_category = site.supporters | where: 'category', category %}
       {% for supporter in supporters_by_category %}
-      {%- if supporter.name -%}
-
       <div class="column is-4" data-supporter-name="{{ supporter.name | escape }}">
         <div class="card">
           <div class="card-content">
             <p class="title">
-              <a href="{{ supporter.url | relative_url }}">{{ supporter.name | escape }}</a>
+              {% if supporter.category == 'state' %}{% include country_name.html supporter=supporter %}{% else %}{{ supporter.name | escape }}{% endif %}
             </p>
             <p class="subtitle">
               {{ supporter.nature }}
@@ -39,14 +36,13 @@
           <footer class="card-footer {{ supporter.category }}">
             <p class="card-footer-item">
               <span>
-                {{ supporter.category | replace: "civil_society", site.data.translations.supporters.civil-society[page.lang] | replace: "private_sector", site.data.translations.supporters.private-sector[page.lang] | replace: "state", site.data.translations.supporters.state[page.lang] }}
-                {%- if supporter.nationality -%}&nbsp;({{ supporter.nationality }}){%- endif -%}
+                {{ site.data.translations.supporters[supporter.category][page.lang] }}
+                {% if supporter.nationality and supporter.category != 'state' %}&nbsp;({% include country_name.html supporter=supporter %}){% endif %}
               </span>
             </p>
           </footer>
         </div>
       </div>
-      {%- endif -%}
       {% endfor %}
       {% endfor %}
     </div>
