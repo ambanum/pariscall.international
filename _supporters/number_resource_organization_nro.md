@@ -1,6 +1,6 @@
 ---
 name: "Number Resource Organization (NRO)"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: 
 ---

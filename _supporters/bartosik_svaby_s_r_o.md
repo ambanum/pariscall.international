@@ -1,6 +1,6 @@
 ---
 name: "Bartosik Svaby s.r.o."
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: SVK
 ---

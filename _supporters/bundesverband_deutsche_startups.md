@@ -1,6 +1,6 @@
 ---
 name: "Bundesverband Deutsche Startups"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: DEU
 ---

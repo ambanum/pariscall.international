@@ -1,6 +1,6 @@
 ---
 name: "Https Card - Internet Identity Card"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: GBR
 ---

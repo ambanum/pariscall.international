@@ -1,6 +1,6 @@
 ---
 name: "Școala de Valori"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: ROM
 ---

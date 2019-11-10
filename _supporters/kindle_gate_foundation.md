@@ -1,6 +1,6 @@
 ---
 name: "Kindle Gate Foundation"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: NGA
 ---

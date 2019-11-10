@@ -1,6 +1,6 @@
 ---
 name: "Migros"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: CHE
 ---

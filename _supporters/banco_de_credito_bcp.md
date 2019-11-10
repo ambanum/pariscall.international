@@ -1,6 +1,6 @@
 ---
 name: "Banco de Crédito BCP"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: PER
 ---

@@ -1,6 +1,6 @@
 ---
 name: "University College Cork"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: IRL
 ---

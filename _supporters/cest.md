@@ -1,6 +1,6 @@
 ---
 name: "CEST"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: BRA
 ---

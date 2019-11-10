@@ -1,6 +1,6 @@
 ---
 name: "THINKTANK - Centre for Dialogue and Analysis"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: POL
 ---

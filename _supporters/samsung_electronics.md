@@ -1,6 +1,6 @@
 ---
 name: "Samsung Electronics"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: KOR
 ---

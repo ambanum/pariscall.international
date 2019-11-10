@@ -1,6 +1,6 @@
 ---
 name: "Equatorian Cybersecurity Association (AECI)"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: ECU
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Korean Association for Artificial Intelligence and Law (KAAIL)"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: KOR
 ---

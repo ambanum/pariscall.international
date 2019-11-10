@@ -1,6 +1,6 @@
 ---
 name: "CMAI Association of India"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: IND
 ---

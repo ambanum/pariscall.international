@@ -1,6 +1,6 @@
 ---
 name: "Bulgarian Association of information Technologies (BAIT)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: BGR
 ---

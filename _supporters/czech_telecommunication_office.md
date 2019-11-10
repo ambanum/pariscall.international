@@ -1,6 +1,6 @@
 ---
 name: "Czech Telecommunication Office"
-category: local_authority
+category: public-authority
 nature: "Autorité indépendante"
 nationality: CZE
 ---

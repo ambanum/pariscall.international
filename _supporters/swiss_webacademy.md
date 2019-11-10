@@ -1,6 +1,6 @@
 ---
 name: "Swiss Webacademy"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: CHE
 ---

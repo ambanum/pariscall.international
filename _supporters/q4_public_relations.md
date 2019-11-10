@@ -1,6 +1,6 @@
 ---
 name: "Q4 Public Relations"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IRL
 ---

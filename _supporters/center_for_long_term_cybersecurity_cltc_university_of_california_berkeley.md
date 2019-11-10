@@ -1,6 +1,6 @@
 ---
 name: "Center For Long Term Cybersecurity (CLTC) (University of California, Berkeley)"
-category: civil_society
+category: civil-society
 nature: "Centre de recherche"
 nationality: USA
 ---

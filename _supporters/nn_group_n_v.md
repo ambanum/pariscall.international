@@ -1,6 +1,6 @@
 ---
 name: "NN Group N.V."
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: NLD
 ---

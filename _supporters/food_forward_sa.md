@@ -1,6 +1,6 @@
 ---
 name: "FoodForward SA"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: ZAF
 ---

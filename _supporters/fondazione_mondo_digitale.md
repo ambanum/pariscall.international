@@ -1,6 +1,6 @@
 ---
 name: "Fondazione Mondo Digitale"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: ITA
 ---

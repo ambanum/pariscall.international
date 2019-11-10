@@ -1,6 +1,6 @@
 ---
 name: "Cryptelo"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: CZE
 ---

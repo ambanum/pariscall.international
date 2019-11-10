@@ -1,6 +1,6 @@
 ---
 name: "Commonwealth of Virginia"
-category: local_authority
+category: public-authority
 nature: "Etat fédéré"
 nationality: USA
 ---

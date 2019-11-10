@@ -1,6 +1,6 @@
 ---
 name: "CEC Government Relations"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: POL
 ---

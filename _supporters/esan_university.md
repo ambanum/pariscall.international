@@ -1,6 +1,6 @@
 ---
 name: "ESAN University"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: PER
 ---

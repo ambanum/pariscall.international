@@ -1,6 +1,6 @@
 ---
 name: "ACYMA - Cybermalveillance.gouv.fr"
-category: local_authority
+category: public-authority
 nature: "Groupement d’intérêt public"
 nationality: FRA
 ---

@@ -1,6 +1,6 @@
 ---
 name: "DigitalES"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: ESP
 ---

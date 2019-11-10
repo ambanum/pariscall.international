@@ -1,6 +1,6 @@
 ---
 name: "Das Progressive Zentrum"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: DEU
 ---

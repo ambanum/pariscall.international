@@ -1,6 +1,6 @@
 ---
 name: "Renaissance Numérique"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: FRA
 ---

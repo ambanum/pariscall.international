@@ -1,6 +1,6 @@
 ---
 name: "Instituto Nacional de Ciberseguridad (INCIBE)"
-category: local_authority
+category: public-authority
 nature: "Organisme public"
 nationality: MEX
 ---

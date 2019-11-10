@@ -1,6 +1,6 @@
 ---
 name: "Novsiac Expression"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: GHA
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Nextsense"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MKD
 ---

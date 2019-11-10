@@ -1,6 +1,6 @@
 ---
 name: "University of Exeter"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: GBR
 ---

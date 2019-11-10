@@ -1,6 +1,6 @@
 ---
 name: "Accenture"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: FRA
 ---

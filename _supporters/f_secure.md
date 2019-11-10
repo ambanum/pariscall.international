@@ -1,6 +1,6 @@
 ---
 name: "F-Secure"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: FIN
 ---

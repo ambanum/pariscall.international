@@ -1,6 +1,6 @@
 ---
 name: "PwC Norway"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: NOR
 ---

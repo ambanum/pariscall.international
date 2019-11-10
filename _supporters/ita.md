@@ -1,6 +1,6 @@
 ---
 name: "ITA"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: PAK
 ---

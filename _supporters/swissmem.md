@@ -1,6 +1,6 @@
 ---
 name: "Swissmem"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: CHE
 ---

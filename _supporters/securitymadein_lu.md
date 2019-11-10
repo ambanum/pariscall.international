@@ -1,6 +1,6 @@
 ---
 name: "SECURITYMADEIN.LU"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: LUX
 ---

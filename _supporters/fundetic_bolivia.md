@@ -1,6 +1,6 @@
 ---
 name: "FUNDETIC BOLIVIA"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: BOL
 ---

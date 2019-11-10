@@ -1,6 +1,6 @@
 ---
 name: "Europol"
-category: local_authority
+category: public-authority
 nature: "Agence"
 nationality: NLD
 ---

@@ -1,6 +1,6 @@
 ---
 name: "CNIL"
-category: local_authority
+category: public-authority
 nature: "Autorité indépendante"
 nationality: FRA
 ---

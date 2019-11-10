@@ -1,6 +1,6 @@
 ---
 name: "Save the Children Romania"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: ROM
 ---

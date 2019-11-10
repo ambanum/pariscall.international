@@ -1,6 +1,6 @@
 ---
 name: "Ville de Agios Dimitrios"
-category: local_authority
+category: public-authority
 nature: "Collectivité locale"
 nationality: GRC
 ---

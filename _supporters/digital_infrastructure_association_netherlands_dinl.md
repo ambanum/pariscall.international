@@ -1,6 +1,6 @@
 ---
 name: "Digital Infrastructure Association Netherlands (DINL)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: NLD
 ---

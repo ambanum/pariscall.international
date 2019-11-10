@@ -1,6 +1,6 @@
 ---
 name: "Nuclear Threat Initiative"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: USA
 ---

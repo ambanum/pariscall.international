@@ -1,6 +1,6 @@
 ---
 name: "ISSA France Security Tuesday"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: FRA
 ---

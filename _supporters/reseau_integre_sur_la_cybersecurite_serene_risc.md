@@ -1,6 +1,6 @@
 ---
 name: "Réseau intégré sur la cybersécurité (SERENE-RISC)"
-category: civil_society
+category: civil-society
 nature: "Centre de recherche "
 nationality: CAN
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Yale Privacy Lab"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: USA
 ---

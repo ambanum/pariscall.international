@@ -1,6 +1,6 @@
 ---
 name: "Adelphi Net1 Ltd"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IRL
 ---

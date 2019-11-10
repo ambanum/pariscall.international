@@ -11,9 +11,9 @@ const COUNTRY_CODES_FILE = `${__dirname}/country-codes.xlsx`;
 
 const CATEGORIES = {
     'Etat'          : 'state',
-    'Secteur privé' : 'private_sector',
-    'Société civile': 'civil_society',
-    'Secteur public': 'local_authority',
+    'Secteur privé' : 'private-sector',
+    'Société civile': 'civil-society',
+    'Secteur public': 'public-authority',
 };
 
 function getCountryCodes() {

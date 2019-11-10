@@ -1,6 +1,6 @@
 ---
 name: "Divisas San Jorge Casa de Cambio"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MEX
 ---

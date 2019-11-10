@@ -1,6 +1,6 @@
 ---
 name: "Cyprus Cybersecurity Organization (CyCSO)"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: CYP
 ---

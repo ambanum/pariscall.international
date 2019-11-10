@@ -1,6 +1,6 @@
 ---
 name: "ePaństwo Foundation"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: POL
 ---

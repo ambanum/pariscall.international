@@ -1,6 +1,6 @@
 ---
 name: "B&B Abogados"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: COL
 ---

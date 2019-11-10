@@ -1,6 +1,6 @@
 ---
 name: "Aggreg8"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: HUN
 ---

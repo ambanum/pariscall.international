@@ -1,6 +1,6 @@
 ---
 name: "CoderDojo Bucuresti"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: ROM
 ---

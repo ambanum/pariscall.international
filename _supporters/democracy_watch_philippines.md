@@ -1,6 +1,6 @@
 ---
 name: "Democracy Watch Philippines"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: PHL
 ---

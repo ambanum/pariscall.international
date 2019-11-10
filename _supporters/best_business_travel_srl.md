@@ -1,6 +1,6 @@
 ---
 name: "Best Business Travel SRL"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: ROM
 ---

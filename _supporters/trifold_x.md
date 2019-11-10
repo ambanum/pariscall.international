@@ -1,6 +1,6 @@
 ---
 name: "Trifold X"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MYS
 ---

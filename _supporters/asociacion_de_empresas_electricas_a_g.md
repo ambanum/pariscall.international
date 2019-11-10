@@ -1,6 +1,6 @@
 ---
 name: "Asociación de Empresas Eléctricas A.G."
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: CHL
 ---

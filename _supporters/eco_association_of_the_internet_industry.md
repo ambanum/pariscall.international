@@ -1,6 +1,6 @@
 ---
 name: "Eco - Association of the Internet Industry"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: DEU
 ---

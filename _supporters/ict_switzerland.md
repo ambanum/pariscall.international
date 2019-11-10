@@ -1,6 +1,6 @@
 ---
 name: "ICT Switzerland"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: CHE
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Comtrade Solutions"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: SVN
 ---

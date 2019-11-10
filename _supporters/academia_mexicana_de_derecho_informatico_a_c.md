@@ -1,6 +1,6 @@
 ---
 name: "Academia Mexicana de Derecho Informático, A.C."
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: MEX
 ---

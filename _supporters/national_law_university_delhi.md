@@ -1,6 +1,6 @@
 ---
 name: "National Law University Delhi"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: IND
 ---

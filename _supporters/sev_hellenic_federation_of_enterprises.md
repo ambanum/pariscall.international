@@ -1,6 +1,6 @@
 ---
 name: "SEV – Hellenic Federation of Enterprises"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: GRC
 ---

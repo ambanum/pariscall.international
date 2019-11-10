@@ -1,6 +1,6 @@
 ---
 name: "Cyberwayfinder"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: BEL
 ---

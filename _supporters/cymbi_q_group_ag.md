@@ -1,6 +1,6 @@
 ---
 name: "CymbiQ Group AG"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: DEU
 ---

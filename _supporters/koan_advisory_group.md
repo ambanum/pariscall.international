@@ -1,6 +1,6 @@
 ---
 name: "Koan Advisory Group"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IND
 ---

@@ -1,6 +1,6 @@
 ---
 name: "ZIPSEE Digital Poland"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: POL
 ---

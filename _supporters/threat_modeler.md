@@ -1,6 +1,6 @@
 ---
 name: "Threat Modeler"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: USA
 ---

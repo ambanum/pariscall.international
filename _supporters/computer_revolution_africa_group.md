@@ -1,6 +1,6 @@
 ---
 name: "Computer Revolution Africa Group"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: KEN
 ---

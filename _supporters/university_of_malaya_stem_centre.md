@@ -1,6 +1,6 @@
 ---
 name: "University of Malaya STEM Centre"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: MYS
 ---

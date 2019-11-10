@@ -1,6 +1,6 @@
 ---
 name: "CyRadar Information Security Joint Stock Company"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: VNM
 ---

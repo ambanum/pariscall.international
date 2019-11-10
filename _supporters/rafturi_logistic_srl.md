@@ -1,6 +1,6 @@
 ---
 name: "Rafturi Logistic SRL"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: ROM
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Telelink Business Service"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: BGR
 ---

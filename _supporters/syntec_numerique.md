@@ -1,6 +1,6 @@
 ---
 name: "Syntec Numérique"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: FRA
 ---

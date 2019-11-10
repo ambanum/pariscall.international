@@ -1,6 +1,6 @@
 ---
 name: "KL Partners"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: KOR
 ---

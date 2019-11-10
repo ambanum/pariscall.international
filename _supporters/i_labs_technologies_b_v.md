@@ -1,6 +1,6 @@
 ---
 name: "iLabs Technologies b.v."
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: NLD
 ---

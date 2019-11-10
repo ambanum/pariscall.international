@@ -1,6 +1,6 @@
 ---
 name: "Shardul Amarchand Mangaldas & Co"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IND
 ---

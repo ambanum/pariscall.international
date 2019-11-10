@@ -1,6 +1,6 @@
 ---
 name: "Nipman Foundation"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: IND
 ---

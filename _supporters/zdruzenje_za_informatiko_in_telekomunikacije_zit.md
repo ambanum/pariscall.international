@@ -1,6 +1,6 @@
 ---
 name: "Združenje za informatiko in telekomunikacije (ZIT)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: SVN
 ---

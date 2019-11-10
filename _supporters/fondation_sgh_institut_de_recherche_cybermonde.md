@@ -1,6 +1,6 @@
 ---
 name: "Fondation SGH – Institut de recherche Cybermonde"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: CHE
 ---

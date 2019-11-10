@@ -1,6 +1,6 @@
 ---
 name: "US-India Strategic Partnership Forum (USISPF)"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: IND
 ---

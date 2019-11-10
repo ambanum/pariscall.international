@@ -1,6 +1,6 @@
 ---
 name: "Temple University"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: USA
 ---

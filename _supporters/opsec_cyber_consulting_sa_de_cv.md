@@ -1,6 +1,6 @@
 ---
 name: "OPSEC CYBER CONSULTING SA DE CV"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MEX
 ---

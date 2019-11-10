@@ -1,6 +1,6 @@
 ---
 name: "ABB"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: SWE
 ---

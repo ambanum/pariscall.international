@@ -1,6 +1,6 @@
 ---
 name: "European Union Institute for Security Studies (EUISS)"
-category: local_authority
+category: public-authority
 nature: "Agence"
 nationality: FRA
 ---

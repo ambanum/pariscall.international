@@ -1,6 +1,6 @@
 ---
 name: "El-Borai & Partners Law Firm"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: EGY
 ---

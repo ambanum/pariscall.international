@@ -1,6 +1,6 @@
 ---
 name: "Universidad Panamericana (México)"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: MEX
 ---

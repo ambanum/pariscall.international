@@ -1,6 +1,6 @@
 ---
 name: "Cabinet Vaughan Avocats"
-category: civil_society
+category: civil-society
 nature: "Entreprise"
 nationality: FRA
 ---

@@ -1,6 +1,6 @@
 ---
 name: "The Vedica Scholars Programme for Women"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: IND
 ---

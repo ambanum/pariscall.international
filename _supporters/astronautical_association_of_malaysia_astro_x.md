@@ -1,6 +1,6 @@
 ---
 name: "Astronautical Association of Malaysia (AstroX)"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: MYS
 ---

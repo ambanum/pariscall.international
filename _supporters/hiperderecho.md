@@ -1,6 +1,6 @@
 ---
 name: "Hiperderecho"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: PER
 ---

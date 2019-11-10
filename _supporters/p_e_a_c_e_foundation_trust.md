@@ -1,6 +1,6 @@
 ---
 name: "P.E.A.C.E. Foundation Trust"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: ZAF
 ---

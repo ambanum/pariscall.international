@@ -1,6 +1,6 @@
 ---
 name: "Asociación de Internet .MX"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: MEX
 ---

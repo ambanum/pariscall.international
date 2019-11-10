@@ -1,6 +1,6 @@
 ---
 name: "Foundation For Moral Value Reorientation"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: NGA
 ---

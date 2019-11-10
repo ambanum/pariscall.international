@@ -1,6 +1,6 @@
 ---
 name: "AmazoOn du web"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: CIV
 ---

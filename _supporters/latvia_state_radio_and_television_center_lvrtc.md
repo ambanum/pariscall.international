@@ -1,6 +1,6 @@
 ---
 name: "Latvia State radio and television center (LVRTC)"
-category: local_authority
+category: public-authority
 nature: "Opérateur"
 nationality: LVA
 ---

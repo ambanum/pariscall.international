@@ -10,7 +10,7 @@
   <div class="counter aspect-ratio-box">
     <div class="counter__content">
       <div class="counter__header"></div>
-      <div class="counter__number">{{ supporters | where: "category", "civil_society" | size }}</div>
+      <div class="counter__number">{{ supporters | where: "category", "civil-society" | size }}</div>
       <footer class="counter__footer">
         <strong>{{ site.data.translations.home.organizations[page.lang] }}</strong>{{ site.data.translations.home.and-members-of-civil-society[page.lang] }}
       </footer>
@@ -19,7 +19,7 @@
   <div class="counter aspect-ratio-box">
     <div class="counter__content">
       <div class="counter__header"></div>
-      <div class="counter__number">{{ supporters | where: "category", "private_sector" | size }}</div>
+      <div class="counter__number">{{ supporters | where: "category", "private-sector" | size }}</div>
       <footer class="counter__footer">
         <strong>{{ site.data.translations.home.companies[page.lang] }}</strong>{{ site.data.translations.home.and-private-sector-entities[page.lang] }}
       </footer>

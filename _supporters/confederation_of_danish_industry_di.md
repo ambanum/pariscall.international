@@ -1,6 +1,6 @@
 ---
 name: "Confederation of Danish Industry (DI)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: DNK
 ---

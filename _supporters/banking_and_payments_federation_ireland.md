@@ -1,6 +1,6 @@
 ---
 name: "Banking and Payments Federation Ireland"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: IRL
 ---

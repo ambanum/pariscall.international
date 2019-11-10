@@ -1,6 +1,6 @@
 ---
 name: "techUK"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: GBR
 ---

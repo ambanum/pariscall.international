@@ -1,6 +1,6 @@
 ---
 name: "Palo Alto Networks"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: USA
 ---

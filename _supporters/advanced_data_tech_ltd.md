@@ -1,6 +1,6 @@
 ---
 name: "Advanced Data Tech Ltd."
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: BGR
 ---

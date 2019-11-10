@@ -1,6 +1,6 @@
 ---
 name: "Brite Digital Co., LTD"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: KHM
 ---

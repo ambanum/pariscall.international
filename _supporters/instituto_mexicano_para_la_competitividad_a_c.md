@@ -1,6 +1,6 @@
 ---
 name: "Instituto Mexicano para la Competitividad A.C."
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: MEX
 ---

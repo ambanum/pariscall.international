@@ -1,6 +1,6 @@
 ---
 name: "Cyber Security Coalition"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: BEL
 ---

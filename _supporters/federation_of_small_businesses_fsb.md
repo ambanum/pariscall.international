@@ -1,6 +1,6 @@
 ---
 name: "Federation of Small Businesses (FSB)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: GBR
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Saikrishna & Associates, Advocates"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IND
 ---

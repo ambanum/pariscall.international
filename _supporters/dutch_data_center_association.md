@@ -1,6 +1,6 @@
 ---
 name: "Dutch Data Center Association"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: NLD
 ---

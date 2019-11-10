@@ -1,6 +1,6 @@
 ---
 name: "DECO PROTESTE"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: PRT
 ---

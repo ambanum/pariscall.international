@@ -1,6 +1,6 @@
 ---
 name: "Found.ation"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: GRC
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Fide Foundation"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: ESP
 ---

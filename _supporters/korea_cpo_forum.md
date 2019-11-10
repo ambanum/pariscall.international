@@ -1,6 +1,6 @@
 ---
 name: "Korea CPO Forum"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: KOR
 ---

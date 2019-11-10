@@ -1,6 +1,6 @@
 ---
 name: "Technology Industries of Finland"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: FIN
 ---

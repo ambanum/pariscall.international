@@ -1,6 +1,6 @@
 ---
 name: "COAI"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: IND
 ---

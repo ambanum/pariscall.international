@@ -1,6 +1,6 @@
 ---
 name: "Indian School of Development Management"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: IND
 ---

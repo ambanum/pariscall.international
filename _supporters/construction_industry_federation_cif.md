@@ -1,6 +1,6 @@
 ---
 name: "Construction Industry Federation (CIF)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: IRL
 ---

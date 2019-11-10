@@ -1,6 +1,6 @@
 ---
 name: "NumerSpiral – HBG Soluções Informáticas Unip., Lda."
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: PRT
 ---

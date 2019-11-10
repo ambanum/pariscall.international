@@ -1,6 +1,6 @@
 ---
 name: "Mereka"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MYS
 ---

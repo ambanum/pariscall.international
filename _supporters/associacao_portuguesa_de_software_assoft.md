@@ -1,6 +1,6 @@
 ---
 name: "Associação Portuguesa de Software (ASSOFT)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: PRT
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Cork Institute of Technology (CIT)"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: IRL
 ---

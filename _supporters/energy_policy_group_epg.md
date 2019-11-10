@@ -1,6 +1,6 @@
 ---
 name: "Energy Policy Group (EPG)"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: ROM
 ---

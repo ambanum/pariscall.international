@@ -1,6 +1,6 @@
 ---
 name: "Pôle d'Excellence Cyber"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: FRA
 ---

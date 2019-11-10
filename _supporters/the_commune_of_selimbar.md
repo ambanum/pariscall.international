@@ -1,6 +1,6 @@
 ---
 name: "The Commune of Șelimbăr"
-category: local_authority
+category: public-authority
 nature: "Collectivité locale"
 nationality: ROM
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Initiative for Information Technology Capacity Building (I4ITCB)"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: NGA
 ---

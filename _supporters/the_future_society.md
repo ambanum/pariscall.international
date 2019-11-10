@@ -1,6 +1,6 @@
 ---
 name: "The Future Society"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: USA
 ---

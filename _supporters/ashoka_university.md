@@ -1,6 +1,6 @@
 ---
 name: "Ashoka University"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: IND
 ---

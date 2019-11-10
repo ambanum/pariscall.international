@@ -1,6 +1,6 @@
 ---
 name: "CERT.LV"
-category: local_authority
+category: public-authority
 nature: "Opérateur"
 nationality: LVA
 ---

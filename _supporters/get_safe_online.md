@@ -1,6 +1,6 @@
 ---
 name: "Get Safe Online"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: GBR
 ---

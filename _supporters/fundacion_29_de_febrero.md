@@ -1,6 +1,6 @@
 ---
 name: "Fundación 29 de Febrero"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: ESP
 ---

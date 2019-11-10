@@ -1,6 +1,6 @@
 ---
 name: "Vidhi Centre for Legal Policy"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: IND
 ---

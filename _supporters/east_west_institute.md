@@ -1,6 +1,6 @@
 ---
 name: "EastWest Institute"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: USA
 ---

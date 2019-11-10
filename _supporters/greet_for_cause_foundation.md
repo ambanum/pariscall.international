@@ -1,6 +1,6 @@
 ---
 name: "Greet for Cause Foundation"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: PAK
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Colombian Chamber of IT & Telecom (CCIT)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: COL
 ---

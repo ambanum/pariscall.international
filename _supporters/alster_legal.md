@@ -1,6 +1,6 @@
 ---
 name: "Alster Legal"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: CHL
 ---

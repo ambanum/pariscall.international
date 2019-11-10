@@ -1,6 +1,6 @@
 ---
 name: "Acocine"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: COL
 ---

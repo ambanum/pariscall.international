@@ -1,6 +1,6 @@
 ---
 name: "Athena Research Center"
-category: civil_society
+category: civil-society
 nature: "Centre de recherche"
 nationality: GRC
 ---

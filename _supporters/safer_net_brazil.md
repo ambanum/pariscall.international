@@ -1,6 +1,6 @@
 ---
 name: "SaferNet Brazil"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: BRA
 ---

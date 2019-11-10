@@ -1,6 +1,6 @@
 ---
 name: "Step by Step Center for Education and Professional Development"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: ROM
 ---

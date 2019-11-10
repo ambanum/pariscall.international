@@ -1,6 +1,6 @@
 ---
 name: "BritishAmerican Business"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: GBR
 ---

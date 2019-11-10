@@ -1,6 +1,6 @@
 ---
 name: "Swiss Academy of Engineering Sciences SATW"
-category: civil_society
+category: civil-society
 nature: "Centre de recherche"
 nationality: CHE
 ---

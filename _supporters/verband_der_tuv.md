@@ -1,6 +1,6 @@
 ---
 name: "Verband der TÜV"
-category: civil_society
+category: civil-society
 nature: "Fédération"
 nationality: DEU
 ---

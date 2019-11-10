@@ -1,6 +1,6 @@
 ---
 name: "ST DIGITAL"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: CMR
 ---

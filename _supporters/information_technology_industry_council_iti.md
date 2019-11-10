@@ -1,6 +1,6 @@
 ---
 name: "Information Technology Industry Council (ITI)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: USA
 ---

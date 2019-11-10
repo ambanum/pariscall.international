@@ -1,6 +1,6 @@
 ---
 name: "All India Management Association"
-category: civil_society
+category: civil-society
 nature: "Fédération"
 nationality: IND
 ---

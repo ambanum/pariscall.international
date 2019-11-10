@@ -1,6 +1,6 @@
 ---
 name: "Brazilian Association of Software Companies"
-category: civil_society
+category: civil-society
 nature: "Fédération"
 nationality: BRA
 ---

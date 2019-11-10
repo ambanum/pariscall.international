@@ -1,6 +1,6 @@
 ---
 name: "E-Civis Association"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: ROM
 ---

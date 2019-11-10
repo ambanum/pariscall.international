@@ -1,6 +1,6 @@
 ---
 name: "Plunge Smile Foundation"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: NGA
 ---

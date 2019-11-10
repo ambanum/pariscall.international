@@ -1,6 +1,6 @@
 ---
 name: "Simion & Baciu Law Firm"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: ROM
 ---

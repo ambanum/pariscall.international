@@ -1,6 +1,6 @@
 ---
 name: "iRespond Global"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: USA
 ---

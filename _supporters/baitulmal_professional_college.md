@@ -1,6 +1,6 @@
 ---
 name: "Baitulmal Professional College"
-category: civil_society
+category: civil-society
 nature: "université"
 nationality: MYS
 ---

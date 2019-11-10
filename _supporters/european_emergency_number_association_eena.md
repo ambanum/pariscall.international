@@ -1,6 +1,6 @@
 ---
 name: "European Emergency Number Association (EENA)"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: BEL
 ---

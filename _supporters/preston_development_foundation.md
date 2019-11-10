@@ -1,6 +1,6 @@
 ---
 name: "Preston Development Foundation"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: NGA
 ---

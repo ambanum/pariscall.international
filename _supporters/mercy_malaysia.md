@@ -1,6 +1,6 @@
 ---
 name: "MERCY Malaysia"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: MYS
 ---

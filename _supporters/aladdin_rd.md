@@ -1,6 +1,6 @@
 ---
 name: "Aladdin-RD"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: RUS
 ---

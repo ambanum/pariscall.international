@@ -1,6 +1,6 @@
 ---
 name: "Oort Media Group"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: COL
 ---

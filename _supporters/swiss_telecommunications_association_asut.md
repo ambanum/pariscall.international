@@ -1,6 +1,6 @@
 ---
 name: "Swiss Telecommunications Association (asut)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: CHE
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Bod Commune"
-category: local_authority
+category: public-authority
 nature: "Collectivité locale"
 nationality: ROM
 ---

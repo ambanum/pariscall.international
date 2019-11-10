@@ -1,6 +1,6 @@
 ---
 name: "The KnowledgeFlow Cybersafety Foundation"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: CAN
 ---

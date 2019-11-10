@@ -1,6 +1,6 @@
 ---
 name: "KONE Corporation"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: FIN
 ---

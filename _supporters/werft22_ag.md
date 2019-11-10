@@ -1,6 +1,6 @@
 ---
 name: "Werft22 AG"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: CHE
 ---

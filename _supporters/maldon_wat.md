@@ -1,6 +1,6 @@
 ---
 name: "Maldon&Wat"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: ROM
 ---

@@ -1,6 +1,6 @@
 ---
 name: "IPChain Association"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: RUS
 ---

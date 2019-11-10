@@ -1,6 +1,6 @@
 ---
 name: "Qui Prior Law Associates"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IND
 ---

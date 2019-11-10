@@ -1,6 +1,6 @@
 ---
 name: "Deutsche Post DHL Group"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: DEU
 ---

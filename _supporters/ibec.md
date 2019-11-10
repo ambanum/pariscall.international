@@ -1,6 +1,6 @@
 ---
 name: "Ibec"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: IRL
 ---

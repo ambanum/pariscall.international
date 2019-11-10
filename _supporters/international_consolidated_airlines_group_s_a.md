@@ -1,6 +1,6 @@
 ---
 name: "International Consolidated Airlines Group S.A"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: GBR
 ---

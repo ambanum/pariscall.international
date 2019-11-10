@@ -1,6 +1,6 @@
 ---
 name: "DROG - Bad News"
-category: civil_society
+category: civil-society
 nature: "Centre de recherche"
 nationality: NLD
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Vittorio Dan Segre Foundation"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: CHE
 ---

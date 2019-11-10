@@ -1,6 +1,6 @@
 ---
 name: "Software Legal"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: ARG
 ---

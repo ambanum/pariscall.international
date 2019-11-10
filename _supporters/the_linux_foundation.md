@@ -1,6 +1,6 @@
 ---
 name: "The Linux Foundation"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: USA
 ---

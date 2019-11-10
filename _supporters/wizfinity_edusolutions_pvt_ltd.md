@@ -1,6 +1,6 @@
 ---
 name: "Wizfinity Edusolutions Pvt. Ltd"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IND
 ---

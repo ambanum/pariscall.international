@@ -1,6 +1,6 @@
 ---
 name: "F27 AD"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: BGR
 ---

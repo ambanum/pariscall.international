@@ -1,6 +1,6 @@
 ---
 name: "Udayan Care"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: IND
 ---

@@ -1,6 +1,6 @@
 ---
 name: "spiderSilk"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: ARE
 ---

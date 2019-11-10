@@ -1,6 +1,6 @@
 ---
 name: "Marsh & McLennan Companies"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: USA
 ---

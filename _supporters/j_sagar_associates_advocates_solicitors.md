@@ -1,6 +1,6 @@
 ---
 name: "J. Sagar Associates, Advocates & Solicitors"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IND
 ---

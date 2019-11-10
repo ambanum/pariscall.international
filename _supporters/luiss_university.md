@@ -1,6 +1,6 @@
 ---
 name: "LUISS University"
-category: civil_society
+category: civil-society
 nature: "université"
 nationality: ITA
 ---

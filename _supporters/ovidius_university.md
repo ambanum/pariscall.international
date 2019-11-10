@@ -1,6 +1,6 @@
 ---
 name: "Ovidius university"
-category: civil_society
+category: civil-society
 nature: "université"
 nationality: ROM
 ---

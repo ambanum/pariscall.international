@@ -1,6 +1,6 @@
 ---
 name: "Altice Portugal"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: PRT
 ---

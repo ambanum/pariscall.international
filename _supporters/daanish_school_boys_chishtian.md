@@ -1,6 +1,6 @@
 ---
 name: "Daanish School Boys Chishtian"
-category: civil_society
+category: civil-society
 nature: "Ecole"
 nationality: PAK
 ---

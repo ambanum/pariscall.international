@@ -1,6 +1,6 @@
 ---
 name: "Deutschland sicher im Netz e. V. (DsiN)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: DEU
 ---

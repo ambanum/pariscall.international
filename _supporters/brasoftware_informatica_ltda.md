@@ -1,6 +1,6 @@
 ---
 name: "Brasoftware Informática Ltda."
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: BRA
 ---

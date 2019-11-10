@@ -1,6 +1,6 @@
 ---
 name: "Clifford Chance CIS Limited"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: RUS
 ---

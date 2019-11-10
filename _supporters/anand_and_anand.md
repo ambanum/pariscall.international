@@ -1,6 +1,6 @@
 ---
 name: "Anand and Anand"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IND
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Hubba Thailand"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: THA
 ---

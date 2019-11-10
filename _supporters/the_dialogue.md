@@ -1,6 +1,6 @@
 ---
 name: "The Dialogue"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: IND
 ---

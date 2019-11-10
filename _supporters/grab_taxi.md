@@ -1,6 +1,6 @@
 ---
 name: "Grab Taxi"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: SGP
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Khaitan & Co. LLP"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IND
 ---

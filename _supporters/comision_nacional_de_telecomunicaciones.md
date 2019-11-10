@@ -1,6 +1,6 @@
 ---
 name: "Comision Nacional de Telecomunicaciones"
-category: local_authority
+category: public-authority
 nature: "Organisme public"
 nationality: HND
 ---

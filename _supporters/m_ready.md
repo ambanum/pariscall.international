@@ -1,6 +1,6 @@
 ---
 name: "M'Ready"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MEX
 ---

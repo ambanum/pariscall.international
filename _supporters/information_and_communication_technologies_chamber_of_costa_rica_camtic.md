@@ -1,6 +1,6 @@
 ---
 name: "Information and Communication Technologies Chamber of Costa Rica (CAMTIC)"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: CRI
 ---

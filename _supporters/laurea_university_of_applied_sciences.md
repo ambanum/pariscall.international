@@ -1,6 +1,6 @@
 ---
 name: "Laurea University of Applied Sciences"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: FIN
 ---

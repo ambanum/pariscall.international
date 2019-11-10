@@ -1,6 +1,6 @@
 ---
 name: "IPANDETEC - Central America"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: PAN
 ---

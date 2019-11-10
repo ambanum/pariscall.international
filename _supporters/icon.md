@@ -1,6 +1,6 @@
 ---
 name: "ICON"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: CHE
 ---

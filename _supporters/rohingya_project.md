@@ -1,6 +1,6 @@
 ---
 name: "Rohingya Project"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: MYS
 ---

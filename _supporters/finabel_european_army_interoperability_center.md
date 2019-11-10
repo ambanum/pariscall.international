@@ -1,6 +1,6 @@
 ---
 name: "Finabel - European Army Interoperability Center"
-category: civil_society
+category: civil-society
 nature: "Organisation internationale"
 nationality: BEL
 ---

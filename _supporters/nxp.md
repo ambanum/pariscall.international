@@ -1,6 +1,6 @@
 ---
 name: "NXP"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: NLD
 ---

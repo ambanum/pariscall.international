@@ -1,6 +1,6 @@
 ---
 name: "Canadian Institute for Cybersecurity (University of New Brunswick)"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: CAN
 ---

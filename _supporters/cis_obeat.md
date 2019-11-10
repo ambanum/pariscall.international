@@ -1,6 +1,6 @@
 ---
 name: "CISObeat"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: PER
 ---

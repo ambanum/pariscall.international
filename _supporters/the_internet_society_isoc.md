@@ -1,6 +1,6 @@
 ---
 name: "The Internet Society (ISOC)"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: USA
 ---

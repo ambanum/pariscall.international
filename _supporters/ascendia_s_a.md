@@ -1,6 +1,6 @@
 ---
 name: "Ascendia S.A."
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: ROM
 ---

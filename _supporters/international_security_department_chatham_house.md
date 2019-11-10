@@ -1,6 +1,6 @@
 ---
 name: "International Security Department, Chatham House"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: GBR
 ---

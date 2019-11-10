@@ -1,6 +1,6 @@
 ---
 name: "Westcon Comstor Mexico"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MEX
 ---

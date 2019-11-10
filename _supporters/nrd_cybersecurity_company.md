@@ -1,6 +1,6 @@
 ---
 name: "NRD cybersecurity company"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: LTU
 ---

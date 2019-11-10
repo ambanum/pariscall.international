@@ -1,6 +1,6 @@
 ---
 name: "Banco del Bajio"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MEX
 ---

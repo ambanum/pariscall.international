@@ -1,6 +1,6 @@
 ---
 name: "Vancouver SecSIG"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: CAN
 ---

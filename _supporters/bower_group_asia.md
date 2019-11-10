@@ -1,6 +1,6 @@
 ---
 name: "BowerGroupAsia"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: IDN
 ---

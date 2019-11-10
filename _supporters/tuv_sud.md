@@ -1,6 +1,6 @@
 ---
 name: "TUV SUD"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: DEU
 ---

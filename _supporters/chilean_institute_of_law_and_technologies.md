@@ -1,6 +1,6 @@
 ---
 name: "Chilean Institute of Law and Technologies"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: CHL
 ---

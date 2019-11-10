@@ -1,6 +1,6 @@
 ---
 name: "Drzavljan D"
-category: civil_society
+category: civil-society
 nature: "ONG"
 nationality: SVN
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Digital Gateway to Europe"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: NLD
 ---

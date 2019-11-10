@@ -1,6 +1,6 @@
 ---
 name: "City of Louisville, Kentucky"
-category: local_authority
+category: public-authority
 nature: "Collectivité locale"
 nationality: USA
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Lamda Hellix"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: GRC
 ---

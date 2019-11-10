@@ -1,6 +1,6 @@
 ---
 name: "ITS Rio"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: BRA
 ---

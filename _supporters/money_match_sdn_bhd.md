@@ -1,6 +1,6 @@
 ---
 name: "MoneyMatch Sdn. Bhd"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MYS
 ---

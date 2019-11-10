@@ -1,6 +1,6 @@
 ---
 name: "Universidad Católica de Santa María"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: PER
 ---

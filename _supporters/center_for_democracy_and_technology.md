@@ -1,6 +1,6 @@
 ---
 name: "Center for Democracy and Technology"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: USA
 ---

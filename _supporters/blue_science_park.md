@@ -1,6 +1,6 @@
 ---
 name: "Blue Science Park"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: SWE
 ---

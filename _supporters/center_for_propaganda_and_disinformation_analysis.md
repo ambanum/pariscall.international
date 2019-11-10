@@ -1,6 +1,6 @@
 ---
 name: "Center for Propaganda and Disinformation Analysis"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: POL
 ---

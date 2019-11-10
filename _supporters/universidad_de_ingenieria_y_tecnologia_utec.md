@@ -1,6 +1,6 @@
 ---
 name: "Universidad de Ingeniería y Tecnología (UTEC)"
-category: civil_society
+category: civil-society
 nature: "université"
 nationality: PER
 ---

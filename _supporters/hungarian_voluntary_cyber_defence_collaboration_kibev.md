@@ -1,6 +1,6 @@
 ---
 name: "Hungarian Voluntary Cyber Defence Collaboration (KIBEV)"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: HUN
 ---

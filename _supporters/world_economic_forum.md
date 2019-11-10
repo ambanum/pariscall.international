@@ -1,6 +1,6 @@
 ---
 name: "World Economic Forum"
-category: civil_society
+category: civil-society
 nature: "Organisation internationale"
 nationality: CHE
 ---

@@ -1,6 +1,6 @@
 ---
 name: "PERSATUAN GURU STEM MALAYSIA"
-category: civil_society
+category: civil-society
 nature: "Association"
 nationality: MYS
 ---

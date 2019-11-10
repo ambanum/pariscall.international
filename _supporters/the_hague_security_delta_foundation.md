@@ -1,6 +1,6 @@
 ---
 name: "The Hague Security Delta Foundation"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: NLD
 ---

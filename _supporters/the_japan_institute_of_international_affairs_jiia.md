@@ -1,6 +1,6 @@
 ---
 name: "The Japan Institute of International Affairs (JIIA)"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: JPN
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Tecnología Especializada Asociada de México"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: MEX
 ---

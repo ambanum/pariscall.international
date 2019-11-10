@@ -1,6 +1,6 @@
 ---
 name: "Top Value Service Sole Co."
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: LAO
 ---

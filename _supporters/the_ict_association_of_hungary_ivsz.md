@@ -1,6 +1,6 @@
 ---
 name: "The ICT Association of Hungary – IVSZ"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: HUN
 ---

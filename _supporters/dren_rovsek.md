@@ -1,6 +1,6 @@
 ---
 name: "DREN & ROVŠEK"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: SVN
 ---

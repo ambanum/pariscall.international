@@ -1,6 +1,6 @@
 ---
 name: "Intensity Analytics Corporation"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: USA
 ---

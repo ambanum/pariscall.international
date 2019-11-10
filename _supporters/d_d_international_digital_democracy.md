@@ -1,6 +1,6 @@
 ---
 name: "D&D International - Digital Democracy"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: PER
 ---

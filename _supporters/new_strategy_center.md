@@ -1,6 +1,6 @@
 ---
 name: "New Strategy Center"
-category: civil_society
+category: civil-society
 nature: ""
 nationality: ROM
 ---

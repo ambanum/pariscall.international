@@ -1,6 +1,6 @@
 ---
 name: "Thai Netizen Network"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: THA
 ---

@@ -1,6 +1,6 @@
 ---
 name: "Match Group"
-category: private_sector
+category: private-sector
 nature: "Association professionnelle "
 nationality: USA
 ---

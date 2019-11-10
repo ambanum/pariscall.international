@@ -1,6 +1,6 @@
 ---
 name: "Lagos State University"
-category: civil_society
+category: civil-society
 nature: "Université"
 nationality: NGA
 ---

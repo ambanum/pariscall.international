@@ -1,6 +1,6 @@
 ---
 name: "Sharkawy & Sarhan Law Firm"
-category: private_sector
+category: private-sector
 nature: "Entreprise"
 nationality: EGY
 ---

@@ -1,6 +1,6 @@
 ---
 name: "The Zariah Elizabeth Foundation."
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: NGA
 ---

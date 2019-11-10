@@ -1,6 +1,6 @@
 ---
 name: "TIARCENTER"
-category: civil_society
+category: civil-society
 nature: "Think tank"
 nationality: RUS
 ---

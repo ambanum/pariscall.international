@@ -1,6 +1,6 @@
 ---
 name: "TAP India"
-category: civil_society
+category: civil-society
 nature: "Fondation "
 nationality: IND
 ---
