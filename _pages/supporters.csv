@@ -8,6 +8,7 @@ properties:
   - nature
   - website
   - twitter
+  - date_signed
 ---
 {%- for property in page.properties -%}
   {{ property }}{% unless forloop.last %},{% endunless %}
