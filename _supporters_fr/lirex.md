@@ -1,7 +1,0 @@
----
-name: "Lirex"
-category: private_sector
-nature: "Entreprise"
-nationality: BGR
----
-    

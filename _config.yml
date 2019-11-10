@@ -18,8 +18,7 @@ typeform_urls:
 collections:
   events:
     output: true
-  supporters_en:
-  supporters_fr:
+  supporters:
 
 defaults:
   - scope:

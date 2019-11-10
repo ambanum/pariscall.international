@@ -1,7 +1,0 @@
----
-name: "Open Consent"
-category: private_sector
-nature: "Entreprise"
-nationality: CAN
----
-    

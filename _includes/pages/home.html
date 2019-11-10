@@ -151,8 +151,7 @@
           {{ site.data.translations.home.last-supporters-title[page.lang] }}
         </h3>
 
-        {% capture collection_name %}supporters_{{ page.lang }}{% endcapture %}
-        {% assign supporters_sorted = site[collection_name] | where_exp: 'supporter', 'supporter.date_signed' | sort: 'date_signed' | reverse %}
+        {% assign supporters_sorted = site.supporters | where_exp: 'supporter', 'supporter.date_signed' | sort: 'date_signed' | reverse %}
         {% for supporter in supporters_sorted %}
           {% if forloop.index <= 5 %}
           <article class="media new-supporter">

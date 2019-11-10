@@ -6,7 +6,7 @@ const fs = require('fs');
 
 
 const SOURCE_FILE = `${__dirname}/supporters.xlsx`;
-const DEST_FOLDER = `${__dirname}/../_supporters_fr`;
+const DEST_FOLDER = `${__dirname}/../_supporters`;
 const COUNTRY_CODES_FILE = `${__dirname}/country-codes.xlsx`;
 
 const CATEGORIES = {
