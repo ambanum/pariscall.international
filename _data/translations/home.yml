@@ -10,6 +10,12 @@ counter-section-title:
 states:
   en: States
   fr: États
+public-authorities:
+  en: Public authorities
+  fr: Organismes publics
+and-local-governments:
+  en: and local governments
+  fr: et administrations territoriales
 organizations:
   en: Organizations
   fr: Organisations

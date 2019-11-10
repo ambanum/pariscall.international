@@ -5,7 +5,7 @@ include: ['_pages']
 baseurl: ""
 url: https://pariscall.international/
 
-supporter_categories: [ private-sector, civil-society, state ]
+supporter_categories: [ private-sector, civil-society, state, public-authority ]
 available_languages: [ en, fr ]
 typeform_urls:
   support:
