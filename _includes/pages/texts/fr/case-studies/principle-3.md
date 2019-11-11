@@ -10,7 +10,7 @@ La TCEI rassemble d’éminentes personnalités engagées, issues d’horizons v
 
 ### Lutte contre l’ingérence électorale : Microsoft et l'Alliance for Securing Democracy s'associent pour prévenir les interférences malignes d’acteurs étrangers
 
-Microsoft et l’Alliance for Securing Democracy ont le plaisir d’annoncer la formation d'une communauté sur la lutte contre les interférences électorales, qui rassemblera des soutiens gouvernementaux, privés et issus de la société civile dans le but de renforcer la capacité à prévenir les interférences malignes d’acteurs étrangers dans les processus électoraux.
+Microsoft et l’Alliance for Securing Democracy mettent en place une communauté sur la lutte contre les interférences électorales, qui rassemblera des soutiens gouvernementaux, privés et issus de la société civile dans le but de renforcer la capacité à prévenir les interférences malignes d’acteurs étrangers dans les processus électoraux.
 
 Microsoft et l’Alliance for Securing Democracy estiment que les défis croissants qu’entraînent les cybermenaces pour les processus électoraux s’inscivent dans le cadre d’une menace plus large et protéiforme pour les institutions démocratiques. Les deux organisations, de concert avec un partenaire gouvernemental, ont donc choisi de formaliser leur collaboration en s'associant au sein d'une communauté dédiée à ces sujets.
 
