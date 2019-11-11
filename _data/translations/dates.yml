@@ -1,3 +1,6 @@
+formats:
+  fr: '%d/%m/%Y'
+  en: '%e %b %Y'
 days:
   short:
     Sunday:
