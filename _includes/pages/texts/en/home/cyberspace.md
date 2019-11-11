@@ -1,6 +1,6 @@
 ## Ensuring international cyberspace security
 
-**The digital revolution has sped up the emergence of a global digital space**. This digital space, or “cyberspace” is the communication space made up of network infrastructure (such as servers and cables), digital devices (like computers and telephones), software (human-machine interfaces and communication protocols between machines) and data carried by the network.
+**The digital revolution has sped up the emergence of a global digital space**. This digital space, or “cyberspace”, is the communication space made up of network infrastructure (such as servers and cables), digital devices (like computers and telephones), software (human-machine interfaces and communication protocols between machines) and data carried by the network.
 
 The digital space provides major opportunities for innovation, economic progress, cultural development and access to information. While its quick development has proved hugely useful for many human activities, it also brings new threats.
 
