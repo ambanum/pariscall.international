@@ -37,8 +37,7 @@
             </span>
           </a>
           {% else %}
-          <a class="location" target="_blank"
-            href="https://www.openstreetmap.org/search?query={{ include.event.address | append: ' ' | append: include.event.city | append: ' '  | append: include.event.country | url_encode }}">
+          <span class="location">
             <i class="location__icon icon icon-marker"></i>
             <span class="location__text">{{ include.event.address }}<br />
               <small>
@@ -46,7 +45,7 @@
                 {%if include.event.country %}{{ include.event.country }}{% endif %}
               </small>
             </span>
-          </a>
+          </span>
           {% endif %}
         </div>
         {% if include.event.type == 'invitation' %}
