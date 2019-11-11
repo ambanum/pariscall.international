@@ -164,7 +164,7 @@
               <div class="content">
                 <div class="tags has-addons is-size-7">
                   <span class="tag">
-                    {{ site.data.translations.home.joined[page.lang] }}&nbsp;{{ supporter.date_signed | date: "%d/%m/%Y" }}
+                    {{ site.data.translations.home.joined[page.lang] }}&nbsp;{{ supporter.date_signed | date: site.data.translations.dates.formats[page.lang] }}
                   </span>
                   <span class="tag is-{{ supporter.category | replace: '_', '-' }}">
                     {% if supporter.nature and supporter.nature != '' %}
