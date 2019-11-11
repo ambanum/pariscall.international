@@ -18,6 +18,7 @@
           </a>
         </div>
       </div>
+      <p class="content has-text-right">{{ site.data.translations.supporters.you-can-download-a[page.lang] }} <a download="paris-call-supporters-{{ site.time | date: '%Y-%m-%d' }}.csv" href="{{ '/supporters.csv' | relative_url }}">{{ site.data.translations.supporters.supporters-spreadsheet[page.lang] }}</a>.</p>
     </div>
     <div class="cards columns">
       {% for category in site.supporter_categories %}
