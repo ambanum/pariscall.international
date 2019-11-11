@@ -1,19 +1,18 @@
 .page-title {
   text-align: center;
-  margin: 5em auto;
+  margin: 5em auto 7.5em;
   max-width: 80%;
 
   h1 {
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     font-size: $size-1;
     margin-bottom: 0.75em;
-    color: $primary;
-
-    @include is-underline;
+    color: $purple-500;
   }
 
   h2 {
     font-size: $size-3;
+    margin-top: $subtitle-negative-margin;
   }
 }
