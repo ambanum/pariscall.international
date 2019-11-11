@@ -5,8 +5,8 @@ city: Paris
 country: France
 link: https://parispeaceforum.org
 link_title: parispeaceforum.org
-start_date: '2019-11-11'
-end_date: '2019-11-13'
+start_date: 2019-11-11
+end_date: 2019-11-13
 time:
 ---
 As the crisis of the international system worsens, global cooperation is slowing with states competing

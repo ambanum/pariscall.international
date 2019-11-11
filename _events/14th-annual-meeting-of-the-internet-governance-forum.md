@@ -5,8 +5,8 @@ city: Berlin
 country: Germany
 link: https://www.igf2019.berlin/IGF/Navigation/DE/Home/home.html
 link_title: www.igf2019.berlin
-start_date: '2019-11-25'
-end_date: '2019-11-29'
+start_date: 2019-11-25
+end_date: 2019-11-29
 time:
 ---
 The Internet Governance Forum (IGF) is a multi-stakeholder forum for policy dialogue on issues of
