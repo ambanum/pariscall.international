@@ -1,6 +1,6 @@
 ### ICT/OT supply chain integrity: Carnegie Endowment for International Peace presents government and corporations with recommendations
 
-In line with the sixth principle of the Paris Call, the Carnegie Endowment has released a report on ICT supply chain integrity authored by Ariel E. Levite. It calls for urgent action to arrest the current trends undermining trust in digital products and services and fracturing the global ICT supply chain.
+The Carnegie Endowment has released a report on ICT supply chain integrity authored by Ariel E. Levite. It calls for urgent action to arrest the current trends undermining trust in digital products and services and fracturing the global ICT supply chain.
 
 Strengthening the security of digital products and services throughout their supply chain is a key principle of the Paris Call as malicious actors can threaten governments, industry and individuals by attacking the weakest point on the chain, with negative consequences in terms of geopolitics, espionage, trade, and consumer protection. Cooperative efforts are needed to restore confidence in the integrity of supply chains.
 
