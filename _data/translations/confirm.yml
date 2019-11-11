@@ -11,17 +11,17 @@ supporter:
       en: Something went wrong
       fr: Quelque chose s'est mal passé
     subtitle:
-      en: Your email could not be confirmed, please try again later. If you keep seeing this error, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Cannot%20confirm%20my%20email">send us an email</a>.
-      fr: Votre adresse n’a pas pu être confirmée, veuillez réessayer plus tard ou <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Impossible%20de%20confirmer%20mon%20email">envoyez-nous un courriel</a>.
+      en: Your email could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Cannot%20confirm%20my%20email">send us an email</a>.
+      fr: Votre adresse n’a pas pu être confirmée, veuillez réessayer dans quelques minutes. Si cette erreur se répète, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Impossible%20de%20confirmer%20mon%20courriel">envoyez-nous un courriel</a>.
   expired:
     title:
       en: Confirmation link expired
       fr: Lien de confirmation expiré
     subtitle-before-link:
-      en: Please re-fill
+      en: Please fill again
       fr: Veuillez remplir à nouveau
     subtitle-link:
-      en: registration form
+      en: the registration form
       fr: le formulaire d'inscription
 event:
   success:
@@ -43,7 +43,7 @@ event:
       en: Confirmation link expired
       fr: Lien de confirmation expiré
     subtitle-before-link:
-      en: Please re-fill
+      en: Please fill again
       fr: Veuillez remplir à nouveau
     subtitle-link:
       en: the form
