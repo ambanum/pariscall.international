@@ -85,6 +85,7 @@ $public-authority-color: #F9E3CA;
 
 // Pages
 @import 'pages/home';
+@import 'pages/call';
 @import 'pages/principles';
 @import 'pages/supporters';
 @import 'pages/supporter';
@@ -157,4 +158,8 @@ iframe { height: 100%; }
 
 .section + .footer {
   margin-top: 5em;
+}
+
+.main-navbar + .section {
+  margin-top: 5vw;
 }
