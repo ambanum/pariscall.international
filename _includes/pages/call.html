@@ -1,0 +1,17 @@
+<section class="section is-small bg-blue-50">
+  <div class="container content is-size-5">
+    <div class="columns">
+      <div class="column is-6 is-offset-3">
+        {% capture paris-call_text %}{% include pages/texts/{{ page.lang }}/call/paris-call.md %}{% endcapture %}
+        {{ paris-call_text | markdownify }}
+      </div>
+    </div>
+    <p class="has-text-centered">
+      <a class="button is-primary is-rounded download-button" download href="/assets/files/{% if page.lang == 'fr' %}appel-de-paris{% else %}paris-call{% endif %}.pdf">
+        {{ site.data.translations.call.download[page.lang] }}
+      </a>
+    </p>
+  </div>
+</section>
+
+{% include support-cta.html %}

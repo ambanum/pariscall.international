@@ -2,8 +2,11 @@ home:
   en: Home
   fr: Accueil
 call:
-  en: The call and the 9 principles
-  fr: L’appel et les 9 principes
+  en: The call
+  fr: L'Appel
+principles:
+  en: The 9 principles
+  fr: Les 9 principes
 supporters:
   en: The supporters
   fr: Les soutiens

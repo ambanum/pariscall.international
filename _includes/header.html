@@ -15,7 +15,11 @@
 
         {% assign principlesUrl = '/principles' | prepend: page.lang | prepend: '/' %}
         <a class="navbar-item {% if page.url == principlesUrl %}is-active{% endif %}"
-          href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
+          href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.principles[page.lang] }}</a>
+
+        {% assign callUrl = '/call' | prepend: page.lang | prepend: '/' %}
+        <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}"
+          href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
       </div>
 
       <div class="navbar-center is-hidden-touch">
