@@ -4,3 +4,6 @@ title:
 subtitle:
   en: "States, local governments, companies, civil society organizations: join us!"
   fr: "États, collectivités locales, entreprises, organisations de la société civile : rejoignez-nous !"
+typeform-fallback-link:
+  en: If the registration form does not appear, you can still <a href="%href">register with this form.</a>
+  fr: Si le formulaire d'inscription n'apparaît pas, vous pouvez toujours <a href="%href">vous inscrire avec ce formulaire</a>.
