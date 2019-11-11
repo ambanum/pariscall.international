@@ -31,7 +31,7 @@ Lorsque vous visitez ce site web, nous laissons un petit fichier texte (un « c
 
 ### Pourquoi ce site n’affiche-t-il pas une bannière de consentement aux cookies ?
 
-Le logiciel de suivi que nous utilisons, [Matomo](https://www.matomo.org), est libre, auto-hébergé et configuré pour anonymiser correctement vos données et est donc exempté de consentement préalable d’après les [recommendations](https://www.cnil.fr/fr/solutions-pour-la-mesure-daudience) de la CNIL (l’autorité française de protection des données).
+Le logiciel de suivi que nous utilisons, [Matomo](https://www.matomo.org), est libre, auto-hébergé et configuré pour anonymiser correctement vos données et est donc exempté de consentement préalable d’après les [recommandations](https://www.cnil.fr/fr/solutions-pour-la-mesure-daudience) de la CNIL (l’autorité française de protection des données).
 
 ### Je contribue à vos données, puis-je y accéder ?
 
