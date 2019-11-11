@@ -20,7 +20,7 @@ _Veuillez noter que si la suppression de vos adresses électroniques de contact 
 
 ### Partage de données
 
-Nous pouvons partager vos informations de contact avec les équipes en charge de la gestion d'événements que nous organisons, telles que le Forum de la paix à Paris, afin qu'elles puissent inviter votre organisation.
+Nous pouvons partager vos informations de contact avec les équipes en charge de la gestion des événements que nous organisons, comme le Forum de Paris sur la Paix, afin qu'elles puissent inviter votre organisation.
 
 
 ## Suivi des visites
