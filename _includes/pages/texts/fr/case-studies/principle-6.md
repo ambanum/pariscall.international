@@ -6,7 +6,7 @@ Accroître la sécurité des produits et services numériques d’un bout à l�
 
 Le rapport souligne notamment l’importance pour les pouvoirs publics et les entreprises de prendre des mesures complémentaires pour renforcer l’intégrité de la chaîne d’approvisionnement dans le domaine des TIC et des technologies opérationnelles. Il précise les obligations concrètes que les pouvoirs publics et les entreprises doivent accepter à cet égard. Le rapport définit également un ensemble de critères objectifs pour identifier les fournisseurs de confiance et propose des mécanismes pour vérifier le respect de ces critères de confiance, ainsi qu’une structure incitative pour récompenser ceux qui assument et respectent leurs engagements.
 
-[Le rapport de la Fondation Carnegie pour la paix internationale - Carnegie Endowment for International Peace](https://carnegieendowment.org/files/Levite_SupplyChain_final.pdf)
+[Le rapport de la Fondation Carnegie pour la paix internationale – Carnegie Endowment for International Peace](https://carnegieendowment.org/files/Levite_SupplyChain_final.pdf)
 
 ### Charter of Trust : les entreprises membres renforcent la cybersécurité de leurs produits et services tout au long de la chaîne d’approvisionnement
 

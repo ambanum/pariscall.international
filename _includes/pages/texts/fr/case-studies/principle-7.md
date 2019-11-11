@@ -6,4 +6,4 @@ L’Association équatorienne pour la cybersécurité (Asociación Ecuatoriana d
 
 La sensibilisation, la culture et la prévention sont les trois piliers sur lesquels l’AECI souhaite créer un écosystème de programmes de sécurité numérique, en coordination avec les établissements d’enseignement et les organisations publiques et privées.
 
-[Association équatorienne pour la cybersécurité - Asociación Ecuatoriana de Ciberseguridad (AECI)](https://aeci.org.ec/proyectos/)
+[Association équatorienne pour la cybersécurité – Asociación Ecuatoriana de Ciberseguridad (AECI)](https://aeci.org.ec/proyectos/)

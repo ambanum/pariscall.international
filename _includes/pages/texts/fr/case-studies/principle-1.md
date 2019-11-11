@@ -8,4 +8,4 @@ Après les attaques du logiciel rançonneur WannaCry en 2017, l’Association eu
 
 Ces recommandations portent notamment sur la nécessité de prendre en compte la cybersécurité dans l’évaluation générale des risques, de former les employés, de mettre en œuvre des solutions technologiques et de réaliser des tests de vulnérabilité et des exercices de réaction aux incidents informatiques.
 
-[Association européenne du numéro d’appel d’urgence - European Emergency Number Association (EENA)](https://eena.org/)
+[Association européenne du numéro d’appel d’urgence – European Emergency Number Association (EENA)](https://eena.org/)

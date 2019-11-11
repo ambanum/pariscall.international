@@ -1,6 +1,6 @@
 ### Hack-back, défense active et contre-mesures : le Tech Accord réfléchit à des définitions et bonnes pratiques
 
-Alors que la fréquence et la gravité des cybermenaces mondiales augmentent, les organisations investissent dans de nouvelles techniques innovantes pour se protéger. Cependant, toutes les mesures développées ne sont pas purement défensives : on parle de plus en plus de techniques de « défense active » plus intrusives - l’exemple le plus important étant le hack-back.
+Alors que la fréquence et la gravité des cybermenaces mondiales augmentent, les organisations investissent dans de nouvelles techniques innovantes pour se protéger. Cependant, toutes les mesures développées ne sont pas purement défensives : on parle de plus en plus de techniques de « défense active » plus intrusives – l’exemple le plus important étant le hack-back.
 
 Les signataires du Tech Accord ont fermement soutenu la décision d’inclure le Principe 8 dans l’Appel de Paris, qui envisage des mesures pour empêcher les acteurs non étatiques de mener des actions cyber offensives en réponse à une attaque. Toutefois, il s’agit là d’un domaine ambigu, et les signataires souhaitent approfondir la question pour établir des limites claires en matière d’intention, d’autorité et d’intrusion afin que les gouvernements et les acteurs privés puissent mettre en oeuvre ce principe.
 

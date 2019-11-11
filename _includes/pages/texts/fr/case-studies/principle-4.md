@@ -16,4 +16,4 @@ Au fur et à mesure que des pratiques et logiciels malveillants se développent,
 
 En Inde, le Centre pour Internet et la société défend la position selon laquelle cet équilibre doit être réétalonné dans le cyberespace. Le Centre a ainsi participé à des négociations aux niveaux régional et international dans le cadre de l’Accord de partenariat économique global régional (RCEP) et du Comité permanent du droit d’auteur et des droits connexes de l’Organisation mondiale de la propriété intellectuelle (OMPI-SCCR). En outre, le Centre mène ses propres recherches empiriques sur la propriété intellectuelle et les TIC.
 
-[Centre indien pour Internet et la société - Centre for Internet & Society India](https://cis-india.org/)
+[Centre indien pour Internet et la société – Centre for Internet & Society India](https://cis-india.org/)

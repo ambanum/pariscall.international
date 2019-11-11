@@ -6,7 +6,7 @@ One of these measures requires that participating States nominate a contact poin
 
 Regional organizations such as the OSCE are ideal platforms for building confidence in cyberspace, as they have often been conceived for conflict prevention and offer practical expertise with CBMs. So far, some successful “comcheck” exercises have been launched by the OSCE secretariat, which underline the utility of such measures in order to reinforce stability in cyberspace through a continuous dialogue between States.
 
-[OSCE - Cyber/ICT Security](https://www.osce.org/secretariat/cyber-ict-security)
+[OSCE – Cyber/ICT Security](https://www.osce.org/secretariat/cyber-ict-security)
 
 ### Preventing the ultimate realization of the cyber risk: the Nuclear Threat Initiative gathers technicians from the nuclear industry so they can equip themselves
 

@@ -10,7 +10,7 @@ The TCEI brings together committed and eminent persons from different background
 
 ### The Paris Call Community on Countering Election Interference: a multistakeholder project focuses on preventing malign interference by foreign actors
 
-Microsoft and the Alliance for Securing Democracy are pleased to announce the formation of the Paris Call Community on Countering Election Interference, a community of concerned Paris Call supporters across three stakeholder groups – governments, industry, and civil society – that will strengthen the capacity to prevent malign interference by foreign actors in electoral processes in line with Principle 3 of the Paris Call.
+Microsoft and the Alliance for Securing Democracy are pleased to announce the formation of the Paris Call Community on Countering Election Interference, a community of concerned Paris Call supporters across three stakeholder groups –governments, industry, and civil society– that will strengthen the capacity to prevent malign interference by foreign actors in electoral processes in line with Principle 3 of the Paris Call.
 
 When it was announced last year, the Paris Call invited governments, industry and civil society to work together to build increased trust in cyberspace. Recognizing that the growing challenge that cyber threats pose to electoral processes is part of a broader, multifaceted threat to democratic institutions, Microsoft and the Alliance for Securing Democracy, together with a government partner to be announced shortly, have chosen to formalize this collaboration as co-champions of the Community.
 

@@ -12,10 +12,10 @@ In particular, the new report underscores the importance of complimentary govern
 
 The digital world is changing everything. Today, billions of devices are connected through the Internet of Things. While this creates great opportunities, it also harbors great risks. To make the digital world more secure, partners from industry have joined forces with the Charter of Trust.
 
-The Charter of Trust is a unique initiative now gathering 16 leading global companies - with a cooperation that has reached significant milestones toward cybersecurity and has ambitious goals for the future. The Charter calls for binding rules and standards to build trust in cybersecurity and further advance digitalization.
+The Charter of Trust is a unique initiative now gathering 16 leading global companies –with a cooperation that has reached significant milestones toward cybersecurity and has ambitious goals for the future. The Charter calls for binding rules and standards to build trust in cybersecurity and further advance digitalization.
 
 After two years of work, members have achieved a lot, especially regarding the security of digital processes, products and services. In their businesses, they successfully strengthened cybersecurity along the entire supply chain and established “Security by Default” as a must-have product feature. The Charter of Trust provides its members with an aligned view on security along the digital supply chain and has defined 12 baseline cybersecurity supply chain requirements.
 
-Members of the Charter of Trust are committed to build capacity on this important matter, as well as on other principles outlined in the Paris Call. They commit not only to providing advanced training for their workforce but also for business and society.They also continue to firmly anchor cybersecurity on the agenda at the highest political level - locally and globally.
+Members of the Charter of Trust are committed to build capacity on this important matter, as well as on other principles outlined in the Paris Call. They commit not only to providing advanced training for their workforce but also for business and society.They also continue to firmly anchor cybersecurity on the agenda at the highest political level –locally and globally.
 
 [Charter of Trust](https://www.charteroftrust.com)
