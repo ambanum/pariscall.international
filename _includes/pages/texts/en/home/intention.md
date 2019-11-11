@@ -4,4 +4,4 @@ The Paris Call for Trust and Security in Cyberspace of 12 November 2018 is a cal
 
 The Paris Call invites all cyberspace actors to work together and encourage States to cooperate with private sector partners, the world of research and civil society. The supporters of the Paris Call are committed to working together to adopt responsible behaviour and implement within cyberspace the fundamental principles which apply in the physical world.
 
-The Paris Call was launched in 2018 by the President of the French Republic, Emmanuel Macron, at the meeting at UNESCO of the Internet Governance Forum (IGF) and Paris Peace Forum. 
+The Paris Call was launched in 2018 by the President of the French Republic, Emmanuel Macron, during the Internet Governance Forum (IGF) held at UNESCO and the Paris Peace Forum. 
