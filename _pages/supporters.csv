@@ -1,0 +1,17 @@
+---
+layout: none
+permalink: /supporters.csv
+properties:
+  - name
+  - category
+  - nationality
+  - nature
+  - website
+  - twitter
+  - date_signed
+---
+{%- for property in page.properties -%}
+  {{ property }}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+{% for supporter in site.supporters %}
+{% for property in page.properties %}"{{ supporter[property] }}"{% unless forloop.last %},{% endunless %}{% endfor %}{% endfor %}
