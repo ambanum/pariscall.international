@@ -167,7 +167,7 @@
                     {{ site.data.translations.home.joined[page.lang] }}&nbsp;{{ supporter.date_signed | date: "%d/%m/%Y" }}
                   </span>
                   <span class="tag is-{{ supporter.category | replace: '_', '-' }}">
-                    {% if supporter.nature %}
+                    {% if supporter.nature and supporter.nature != '' %}
                       {{ supporter.nature }}
                     {% else %}
                       {{ site.data.translations.home[supporter.category][page.lang] }}
