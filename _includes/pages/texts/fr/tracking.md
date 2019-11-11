@@ -1,18 +1,18 @@
 ## Collecte de données personnelles
 
-Si vous choisissez de le faire, vous pouvez nous envoyer des informations via des formulaires interactifs, par exemple pour suggérer qu'une organisation ou un événement soit répertorié sur ce site. Les seules données personnelles qui peuvent être envoyées par ce biais sont des adresses électroniques.
+Si vous choisissez de le faire, vous pouvez nous envoyer des informations via des formulaires interactifs, par exemple pour suggérer qu’une organisation ou un événement soit répertorié sur ce site. Les seules données personnelles qui peuvent être envoyées par ce biais sont des adresses électroniques.
 
 ### Contrôleur de données
 
-L'entité responsable de la gestion de vos données est le ministère de l'Europe et des Affaires étrangères.
+L’entité responsable de la gestion de vos données est le ministère de l’Europe et des Affaires étrangères.
 
-### L'utilisation de données
+### L’utilisation de données
 
 Les adresses électroniques que vous transmettez sont utilisées uniquement aux fins spécifiées dans les formulaires :
 
 - pour confirmer vos suggestions d’ajout ;
-- pour des discussions concernant spécifiquement votre soutien à l'Appel ;
-- pour vous envoyer régulièrement des informations sur l'Appel.
+- pour des discussions concernant spécifiquement votre soutien à l’Appel ;
+- pour vous envoyer régulièrement des informations sur l’Appel.
 
 Vous pouvez demander que vos données personnelles vous soient envoyées, mises à jour ou supprimées à tout moment par [en nous envoyant un courrier électronique](mailto:paris.call@diplomatie.gouv.fr?subject=Donnees%20personnelles).
 
@@ -20,7 +20,7 @@ _Veuillez noter que si la suppression de vos adresses électroniques de contact 
 
 ### Partage de données
 
-Nous pouvons partager vos informations de contact avec les équipes en charge de la gestion des événements que nous organisons, comme le Forum de Paris sur la Paix, afin qu'elles puissent inviter votre organisation.
+Nous pouvons partager vos informations de contact avec les équipes en charge de la gestion des événements que nous organisons, comme le Forum de Paris sur la Paix, afin qu’elles puissent inviter votre organisation.
 
 
 ## Suivi des visites
@@ -29,9 +29,9 @@ Lorsque vous visitez ce site web, nous laissons un petit fichier texte (un « c
 
 <iframe src="https://stats.data.gouv.fr/index.php?module=CoreAdminHome&action=optOut&language={{ page.lang }}&backgroundColor=&fontColor=1a0d50&fontSize=&fontFamily=Avenir%20Next" style="height: 150px; width: 100%; margin: -8px" ></iframe>
 
-### Pourquoi ce site n'affiche-t-il pas une bannière de consentement aux cookies ?
+### Pourquoi ce site n’affiche-t-il pas une bannière de consentement aux cookies ?
 
-Le logiciel de suivi que nous utilisons, [Matomo](https://www.matomo.org), est libre, auto-hébergé et configuré pour anonymiser correctement vos données et est donc exempté de consentement préalable d'après les [recommendations](https://www.cnil.fr/fr/solutions-pour-la-mesure-daudience) de la CNIL (l’autorité française de protection des données).
+Le logiciel de suivi que nous utilisons, [Matomo](https://www.matomo.org), est libre, auto-hébergé et configuré pour anonymiser correctement vos données et est donc exempté de consentement préalable d’après les [recommendations](https://www.cnil.fr/fr/solutions-pour-la-mesure-daudience) de la CNIL (l’autorité française de protection des données).
 
 ### Je contribue à vos données, puis-je y accéder ?
 

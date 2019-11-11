@@ -4,7 +4,7 @@ L’Organisation pour la sécurité et la coopération en Europe (OSCE) lutte co
 
 L’une de ces mesures oblige les États participants à nommer un point de contact pour faciliter les communications et le dialogue sur les incidents liés aux TIC, ainsi que pour coordonner les réactions. La France est l’un des pays responsables de la mise en œuvre de cette mesure, notamment grâce à des contrôles et des exercices de communication. Les échanges d’informations et la communication entre États peuvent empêcher un conflit non souhaité, en apaisant les possibles tensions et en interrompant ou en freinant l’engrenage de l’escalade.
 
-Les organisations régionales comme l’OSCE sont des enceintes privilégiées pour renforcer la confiance dans le cyberespace, parce qu’elles ont souvent été conçues pour la prévention des conflits et disposent d’une expérience concrète des mesures de développement de la confiance. Jusqu’à présent, le secrétariat de l’OSCE a lancé avec succès des exercices de "comcheck", ce qui souligne l’utilité de telles mesures pour renforcer la stabilité dans le cyberespace par un dialogue permanent entre les Etats.
+Les organisations régionales comme l’OSCE sont des enceintes privilégiées pour renforcer la confiance dans le cyberespace, parce qu’elles ont souvent été conçues pour la prévention des conflits et disposent d’une expérience concrète des mesures de développement de la confiance. Jusqu’à présent, le secrétariat de l’OSCE a lancé avec succès des exercices de « comcheck », ce qui souligne l’utilité de telles mesures pour renforcer la stabilité dans le cyberespace par un dialogue permanent entre les États.
 
 [OSCE - Cybersécurité/sécurité des TIC](https://www.osce.org/fr/cyber-ict-security)
 

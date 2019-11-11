@@ -6,7 +6,7 @@ Strengthening the security of digital products and services throughout their sup
 
 In particular, the new report underscores the importance of complimentary governmental and corporate actions to enhance the integrity of the ICT/OT supply chain through a combination of commission and omission, elaborating on practical obligations both should undertake toward that end. It sets up comprehensive objective criteria for qualification of Trustworthy Suppliers, and proposes mechanisms to verify compliance with the trustworthiness criteria and an incentive structure to reward those who assume and fulfill their commitments.
 
-[Read the Carnegie Endowment's report](https://carnegieendowment.org/files/Levite_SupplyChain_final.pdf)
+[Read the Carnegie Endowment’s report](https://carnegieendowment.org/files/Levite_SupplyChain_final.pdf)
 
 ### Charter of Trust: member companies strengthen cybersecurity along the entire supply chain of their products and services
 
