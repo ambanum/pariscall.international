@@ -26,18 +26,18 @@ supporter:
 event:
   success:
     title:
-      en: Thank you for confirming your address
-      fr: Merci d'avoir confirmé votre adresse
+      en: Thank you for confirming your event
+      fr: Merci d'avoir confirmé votre événement
     subtitle:
-      en: Your event has been taken into account! You will receive an email as soon as it becomes publicly visible.
-      fr: Votre évènement a bien été pris en compte ! Vous recevrez un courriel dès qu'il sera visible publiquement.
+      en: We have received your event suggestion. We will review it and send you an email as soon as it becomes publicly visible.
+      fr: Nous avons reçu votre suggestion d’événement. Nous allons l’étudier et vous envoyer un courriel dès qu'il sera visible publiquement.
   error:
     title:
       en: Something went wrong
       fr: Quelque chose s'est mal passé
     subtitle:
-      en: Your email could not be confirmed, please try again later. If you keep seeing this error, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Cannot%20confirm%20my%20email">send us an email</a>.
-      fr: Votre adresse n’a pas pu être confirmée, veuillez réessayer plus tard ou <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Impossible%20de%20confirmer%20mon%20email">envoyez-nous un courriel</a>.
+      en: Your event could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Cannot%20confirm%20my%20email">send us an email</a>.
+      fr: Votre événement n’a pas pu être confirmé, veuillez réessayer dans quelques minutes. Si cette erreur se répète, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Impossible%20de%20confirmer%20mon%20evenement">envoyez-nous un courriel</a>.
   expired:
     title:
       en: Confirmation link expired
