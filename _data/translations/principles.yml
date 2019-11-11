@@ -15,8 +15,8 @@ principle-1:
     en: Protect individuals and infrastructure
     fr: Protéger les individus et les infrastructures
   full:
-    fr: Empêcher les cyberactivités malveillantes qui menacent des individus et des infrastructures critiques ou qui leur causent des dommages importants, sans discernement ou systémiques, et d’y remédier.
     en: Prevent and recover from malicious cyber activities that threaten or cause significant, indiscriminate or systemic harm to individuals and critical infrastructure.
+    fr: Empêcher les cyberactivités malveillantes qui menacent des individus et des infrastructures critiques ou qui leur causent des dommages importants, sans discernement ou systémiques, et y remédier.
 principle-2:
   short:
     en: Protect the Internet
@@ -36,8 +36,8 @@ principle-4:
     en: Defend intellectual property
     fr: Défendre la propriété intellectuelle
   full:
-    fr: Empêcher le vol de propriété intellectuelle à l’aide des TIC, notamment des secrets industriels ou autres informations commerciales confidentielles, dans l’intention de procurer des avantages concurrentiels à des entreprises ou à un secteur commercial
     en: Prevent ICT-enabled theft of intellectual property, including trade secrets or other confidential business information, with the intent of providing competitive advantages to companies or commercial sector.
+    fr: Empêcher le vol de propriété intellectuelle à l’aide des technologies de l’information et de communication, notamment des secrets industriels ou autres informations commerciales confidentielles, dans l’intention de procurer des avantages concurrentiels à des entreprises ou à un secteur commercial.
 principle-5:
   short:
     en: Non-proliferation
@@ -48,7 +48,7 @@ principle-5:
 principle-6:
   short:
     en: Lifecycle security
-    fr: Sécurité tout au long du cycle de vie
+    fr: Sécurité de tout le cycle de vie
   full:
     en: Strengthen the security of digital processes, products and services, throughout their lifecycle and supply chain.
     fr: Accroître la sécurité des processus, produits et services numériques tout au long de leur cycle de vie et d’un bout à l’autre de la chaîne d’approvisionnement.
