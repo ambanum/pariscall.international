@@ -53,16 +53,7 @@
 </section>
 <section class="section is-medium bg-blue-50">
   <div class="container content is-size-5">
-    <h3 class="title is-3 has-text-centered">{{ site.data.translations.home.counter-section-title[page.lang] }}</h3>
-
     {% include counters.html %}
-
-    <p class="has-text-centered">
-      <a href="{{ '/supporters' | prepend: page.lang | relative_url }}"
-         class="button is-primary is-rounded is-large">
-        {{ site.data.translations.global.see-supporters[page.lang] }}
-      </a>
-    </p>
   </div>
 </section>
 

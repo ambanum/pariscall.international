@@ -37,11 +37,6 @@
 
 <section class="section call">
   <div class="container content is-size-5">
-    <p class="has-text-centered">
-      <a href="{{ '/supporters' | prepend: page.lang | relative_url }}"
-         class="button is-primary is-rounded is-large">
-        {{ site.data.translations.global.see-supporters[page.lang] }}
-      </a>
-    </p>
+    {% include counters.html %}
   </div>
 </section>

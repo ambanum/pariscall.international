@@ -1,17 +1,19 @@
+<h3 class="title is-3 has-text-centered">{{ site.data.translations.counters.already-supported-by[page.lang] }}</h3>
+
 {% assign supporters = site.supporters %}
 <div class="counters">
   <div class="counter aspect-ratio-box">
     <div class="counter__content">
       <div class="counter__header"></div>
       <div class="counter__number">{{ supporters | where: "category", "state" | size }}</div>
-      <footer class="counter__footer"><strong>{{ site.data.translations.home.states[page.lang] }}</strong></footer>
+      <footer class="counter__footer"><strong>{{ site.data.translations.counters.states[page.lang] }}</strong></footer>
     </div>
   </div>
   <div class="counter aspect-ratio-box">
     <div class="counter__content">
       <div class="counter__header"></div>
       <div class="counter__number">{{ supporters | where: "category", "public-authority" | size }}</div>
-      <footer class="counter__footer"><strong>{{ site.data.translations.home.public-authorities[page.lang] }}</strong>{{ site.data.translations.home.and-local-governments[page.lang] }}</footer>
+      <footer class="counter__footer"><strong>{{ site.data.translations.counters.public-authorities[page.lang] }}</strong>{{ site.data.translations.counters.and-local-governments[page.lang] }}</footer>
     </div>
   </div>
   <div class="counter aspect-ratio-box">
@@ -19,7 +21,7 @@
       <div class="counter__header"></div>
       <div class="counter__number">{{ supporters | where: "category", "civil-society" | size }}</div>
       <footer class="counter__footer">
-        <strong>{{ site.data.translations.home.organizations[page.lang] }}</strong>{{ site.data.translations.home.and-members-of-civil-society[page.lang] }}
+        <strong>{{ site.data.translations.counters.organizations[page.lang] }}</strong>{{ site.data.translations.counters.and-members-of-civil-society[page.lang] }}
       </footer>
     </div>
   </div>
@@ -28,8 +30,15 @@
       <div class="counter__header"></div>
       <div class="counter__number">{{ supporters | where: "category", "private-sector" | size }}</div>
       <footer class="counter__footer">
-        <strong>{{ site.data.translations.home.companies[page.lang] }}</strong>{{ site.data.translations.home.and-private-sector-entities[page.lang] }}
+        <strong>{{ site.data.translations.counters.companies[page.lang] }}</strong>{{ site.data.translations.counters.and-private-sector-entities[page.lang] }}
       </footer>
     </div>
   </div>
 </div>
+
+<p class="has-text-centered">
+  <a href="{{ '/supporters' | prepend: page.lang | relative_url }}"
+      class="button is-primary is-rounded">
+    {{ site.data.translations.counters.see-supporters[page.lang] }}
+  </a>
+</p>
