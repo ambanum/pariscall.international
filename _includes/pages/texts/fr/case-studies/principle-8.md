@@ -1,4 +1,4 @@
-### Hack-back, défense active et contre-mesures : le Tech Accord réfléchit à des définitions et bonnes pratiques
+### Hack-back, défense active et contre-mesures : le Tech Accord lance une conversation sur des définitions et bonnes pratiques
 
 Alors que la fréquence et la gravité des cybermenaces mondiales augmentent, les organisations investissent dans de nouvelles techniques innovantes pour se protéger. Cependant, toutes les mesures développées ne sont pas purement défensives : on parle de plus en plus de techniques de « défense active » plus intrusives – l’exemple le plus important étant le hack-back.
 
