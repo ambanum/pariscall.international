@@ -1,6 +1,8 @@
 ---
 name: "Cybersecurity, Human Rights, and the Prospects for Cyber Peace - A Joint Research & Policy Workshop"
-address: "NYU School of Professional Studies, Center for Global Affairs Woolworth Building, 15 Barclay Street, New York, NY"
+address: "NYU School of Professional Studies"
+city: "New York"
+country: "USA"
 link: "https://docs.google.com/forms/d/e/1FAIpQLSdioVpaFwSITXvFp_Iu7JZgymTlroSg3C8auAW5RZBSfcoNRQ/viewform"
 link_title: "docs.google.com"
 start_date: 2019-11-22
