@@ -7,3 +7,13 @@ One of these measures requires that participating States nominate a contact poin
 Regional organizations such as the OSCE are ideal platforms for building confidence in cyberspace, as they have often been conceived for conflict prevention and offer practical expertise with CBMs. So far, some successful “comcheck” exercises have been launched by the OSCE secretariat, which underline the utility of such measures in order to reinforce stability in cyberspace through a continuous dialogue between States.
 
 [OSCE - Cyber/ICT Security](https://www.osce.org/secretariat/cyber-ict-security)
+
+### Preventing the ultimate realization of the cyber risk: the Nuclear Threat Initiative gathers technicians from the nuclear industry so they can equip themselves
+
+Nuclear systems, be they civilian or military, contain digital components. The risk of them being compromised is thus present. A successful cyberattack on nuclear weapons or related systems could have catastrophic consequences. Among scenarios studied by the Nuclear Threat Initiative are those in which a cyberattack could lead to a nuclear launch as a result of false warnings or miscalculation, increase the risk of unauthorized use of a nuclear weapon, and undermine confidence in the nuclear deterrent, affecting strategic stability.
+
+The Nuclear Threat Initiative NGO aims at improving and reinforcing cybersecurity practices at nuclear facilities, by bringing together the global technical cyber-nuclear community in the Cyber Nuclear Forum to facilitate information exchange and foster a network of relationships upon which nuclear operators can draw for advice and assistance.
+
+It also supports studies aiming at providing recommendations for cybersecurity practices at nuclear facilities. For instance, through a comparison of regulatory requirements necessary to protect nuclear facilities against cyber attacks in five nuclear-armed countries. But also through forward-looking approaches for protecting nuclear facilities from cyber attacks that could lead to the theft of weapons-usable nuclear materials or an act of radiological sabotage.
+
+[CyberNuclearForum — Nuclear Threat Initiative](https://www.nti.org/about/projects/addressing-cyber-nuclear-security-threats/)
