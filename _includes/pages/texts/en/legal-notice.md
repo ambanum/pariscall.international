@@ -1,7 +1,7 @@
 ## Editor
 
 French Ministry for Europe and Foreign Affairs<br>
-37 Quai d'Orsay, 75007 Paris, France
+37 Quai d’Orsay, 75007 Paris, France
 
 ## Editorial director
 
@@ -18,7 +18,7 @@ Inc88 Colin P Kelly Jr St, San Francisco, CA 94107, United States<br>
 ### Email interactions
 
 [CloudWatt private cloud](https://www.cloudwatt.com/fr/solutions/cloudprivevirtuel.html)<br>
-DSI, Ministère de l'Europe et des affaires étrangères, 48 rue de Javel, 75015 Paris, France<br>
+DSI, Ministère de l’Europe et des affaires étrangères, 48 rue de Javel, 75015 Paris, France<br>
 +33 1 43 17 53 53
 
 ### Forms
