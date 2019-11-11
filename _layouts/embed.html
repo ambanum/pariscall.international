@@ -9,8 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="{{ site.baseurl }}/assets/css/embed-counters.css" rel="stylesheet">
   <script>
-    let height;
-    const sendPostMessage = () => {
+    var height;
+    function sendPostMessage() {
       if (height !== document.getElementById('container').offsetHeight) {
         height = document.getElementById('container').offsetHeight;
         window.parent.postMessage({
@@ -18,8 +18,8 @@
         }, '*');
       }
     }
-    window.onload = () => sendPostMessage();
-    window.onresize = () => sendPostMessage();
+    window.onload = sendPostMessage;
+    window.onresize = sendPostMessage;
   </script>
 </head>
 
