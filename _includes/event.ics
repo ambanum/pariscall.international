@@ -1,5 +1,5 @@
 BEGIN:VEVENT
-UID:{{ event.start_date | date: "%Y%m%d" }}{{ event.and_date | date: "%Y%m%d" }}{{ event.name | replace: ' ', '-' }}
+UID:{{ event.start_date | date: "%Y%m%d" }}{{ event.end_date | date: "%Y%m%d" }}{{ event.name | replace: ' ', '-' }}
 SUMMARY:{{ event.name }}
 DESCRIPTION:{{ event.content | strip_html | strip_newlines }}
 LOCATION:{{ event.address }}
