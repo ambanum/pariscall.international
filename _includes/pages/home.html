@@ -88,11 +88,6 @@
                 </div>
                 <div class="dropdown-menu" id="calendar-dropdown-menu" role="menu">
                   <div class="dropdown-content">
-                    <a href="{{ calendarUrl }}" class="dropdown-item">
-                      <span class="icon is-small"><i class="icon icon-arrow-circle-o-down" aria-hidden="true"></i></span>
-                      <span>{{ site.data.translations.events.download-calendar-dropdown-item[page.lang] }}</span>
-                    </a>
-                    <hr class="dropdown-divider">
                     <a href="{{ calendarWebcalUrl }}" class="dropdown-item">
                       <span class="icon is-small"><i class="icon icon-rss" aria-hidden="true"></i></span>
                       <span>{{ site.data.translations.events.subscribe-to-calendar-dropdown-item[page.lang] }}</span>
@@ -101,6 +96,11 @@
                       <p>{{ site.data.translations.events.subscribe-alternative-dropdown-item[page.lang] }}</p>
                       <p><strong>{{ calendarWebcalUrl }}</strong></p>
                     </div>
+                    <hr class="dropdown-divider">
+                    <a href="{{ calendarUrl }}" class="dropdown-item">
+                      <span class="icon is-small"><i class="icon icon-arrow-circle-o-down" aria-hidden="true"></i></span>
+                      <span>{{ site.data.translations.events.download-calendar-dropdown-item[page.lang] }}</span>
+                    </a>
                   </div>
                 </div>
               </div>
