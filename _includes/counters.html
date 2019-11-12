@@ -37,7 +37,7 @@
 </div>
 
 <p class="has-text-centered">
-  <a href="{{ '/supporters' | prepend: page.lang | relative_url }}"
+  <a {% if page.layout == 'embed' %}target="_blank"{% endif %} href="{{ '/supporters' | prepend: page.lang | relative_url }}"
       class="button is-primary is-rounded{% if page.layout != 'embed' %} is-large{% endif %}">
     {{ site.data.translations.counters.see-supporters[page.lang] }}
   </a>
