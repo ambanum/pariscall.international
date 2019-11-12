@@ -2,7 +2,7 @@ BEGIN:VEVENT
 UID:{{ event.start_date | date: "%Y%m%d" }}{{ event.end_date | date: "%Y%m%d" }}{{ event.name | replace: ' ', '-' }}
 SUMMARY:{{ event.name }}
 DESCRIPTION:{{ event.content | strip_html | strip_newlines }}
-LOCATION:{{ event.address }}
+LOCATION:{{ event.address }}\, {{ event.city }}\, {{ event.country }}
 CLASS:PUBLIC
 DTSTART:{{ event.start_date | date: "%Y%m%d" }}
 DTEND:{{ event.end_date | date: "%Y%m%d" }}
