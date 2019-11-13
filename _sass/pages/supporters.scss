@@ -1,22 +1,39 @@
 .supporters-page {
-  .call-to-action {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .box {
+    margin-bottom: 1em;
 
-    .button {
-      padding-left: 4em;
-      padding-right: 4em;
-      box-shadow: 0 1px 1px rgba(0,0,0,0.11),
-              0 2px 2px rgba(0,0,0,0.11),
-              0 4px 4px rgba(0,0,0,0.11),
-              0 6px 8px rgba(0,0,0,0.11),
-              0 8px 16px rgba(0,0,0,0.11);
+    .field.has-addons {
+      @include touch {
+        flex-direction: column;
+        align-items: stretch;
+        flex-direction: column;
+
+        .control {
+          margin-right: 0;
+
+          &:not(:last-child) {
+            margin-bottom: -1px;
+          }
+
+          &:first-child > * {
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 0;
+          }
+          &:last-child > * {
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+            border-top-right-radius: 0;
+          }
+        }
+      }
+    }
+
+    a:not(.button):before {
+      background-color: $blue-200;
     }
   }
 
-  .box { margin-bottom: 1em; }
+
 
   .cards { flex-wrap: wrap; }
 
