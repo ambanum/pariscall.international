@@ -39,4 +39,12 @@
     font-variant: all-small-caps;
     color: darken($blue-900, 15%);
   }
+
+  .case-study {
+    @include desktop {
+      &:nth-child(4n) .columns {
+        flex-direction: row-reverse;
+      }
+    }
+  }
 }

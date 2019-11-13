@@ -40,21 +40,12 @@
         {% endif %}
       {% endfor %}
 
-      {% if thecycle == 'odd' %}
-        {% if image_path != '' %}
-        <div class="column is-5 is-hidden-mobile">
-          <div class="duotone">
-            <img alt="" src="{{ image_path | relative_url }}" />
-          </div>
-        </div>
-        {% endif %}
-      {% endif %}
       <div class="column content">
         {% capture case_study %}{% include pages/texts/{{ page.lang }}/case-studies/principle-{{ number }}.md %}{% endcapture %}
         {{ case_study | markdownify }}
       </div>
       {% if image_path != '' %}
-      <div class="column is-5 {% if thecycle == 'odd' %}is-hidden-tablet{% endif %}">
+      <div class="column is-5">
         <div class="duotone">
           <img alt="" src="{{ image_path | relative_url }}" />
         </div>
