@@ -30,7 +30,7 @@ Nous pouvons partager vos informations de contact avec les équipes en charge de
 
 ### Réclamations
 
-Si vous rencontriez des difficultés à faire valoir vos droits sur le traitement des adresses électroniques après [nous avoir sollicité](](mailto:contact@pariscall.international?subject=Donnees%20personnelles), vous pouvez introduire une réclamation auprès de la [CNIL](https://www.cnil.fr/fr/cnil-direct/question/adresser-une-reclamation-plainte-la-cnil-quelles-conditions-et-comment).
+Si vous rencontriez des difficultés à faire valoir vos droits sur le traitement des adresses électroniques après [nous avoir sollicité](mailto:contact@pariscall.international?subject=Donnees%20personnelles), vous pouvez introduire une réclamation auprès de la [CNIL](https://www.cnil.fr/fr/cnil-direct/question/adresser-une-reclamation-plainte-la-cnil-quelles-conditions-et-comment).
 
 
 ## Suivi des visites
