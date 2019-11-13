@@ -2,11 +2,11 @@
 
 Si vous choisissez de le faire, vous pouvez nous envoyer des informations via des formulaires interactifs, par exemple pour suggérer qu’une organisation ou un événement soit répertorié sur ce site. Les seules données personnelles qui peuvent être envoyées par ce biais sont des adresses électroniques.
 
-### Contrôleur de données
+### Responsable du traitement
 
 L’entité responsable de la gestion de vos données est le ministère de l’Europe et des Affaires étrangères.
 
-### L’utilisation de données
+### Utilisation des données
 
 Les adresses électroniques que vous transmettez sont utilisées uniquement aux fins spécifiées dans les formulaires :
 
