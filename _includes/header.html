@@ -1,23 +1,39 @@
+{% assign homeUrl = '/' | prepend: page.lang | prepend: '/' %}
+{% assign principlesUrl = '/principles' | prepend: page.lang | prepend: '/' %}
+{% assign callUrl = '/call' | prepend: page.lang | prepend: '/' %}
+{% assign supportersUrl = '/supporters' | prepend: page.lang | prepend: '/' %}
+{% assign supportUrl = '/support' | prepend: page.lang | prepend: '/' %}
+
 <nav class="main-navbar navbar" role="navigation" aria-label="main navigation">
   <div class="container">
-    <div class="navbar-brand">
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+    <div class="tabs is-fullwidth is-hidden-desktop">
+      <ul>
+        <li class="{% if page.url == homeUrl %}is-active{% endif %}">
+          <a href="{{ homeUrl | relative_url }}" aria-label="{{ site.data.translations.menu.home[page.lang] }}"><i class="icon icon-home" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="{% if page.url == principlesUrl %}is-active{% endif %}">
+          <a href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.principles[page.lang] }}</a>
+        </li>
+        <li class="{% if page.url == callUrl %}is-active{% endif %}">
+          <a href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
+        </li>
+        <li class="{% if page.url == supportersUrl %}is-active{% endif %}">
+          <a href="{{ supportersUrl | relative_url }}">{{ site.data.translations.menu.supporters[page.lang] }}</a>
+        </li>
+        <li class="{% if page.url == supportUrl %}is-active{% endif %}">
+          <a href="{{ supportUrl | relative_url }}">{{ site.data.translations.menu.support[page.lang] }}</a>
+        </li>
+      </ul>
     </div>
-    <div id="navbar-menu" class="navbar-menu is-size-5">
+    <div id="navbar-menu" class="navbar-menu is-size-5 is-hidden-touch">
       <div class="navbar-start">
-        {% assign homeUrl = '/' | prepend: page.lang | prepend: '/' %}
         <a class="navbar-item {% if page.url == homeUrl %}is-active{% endif %}"
           href="{{ homeUrl | relative_url }}">{{ site.data.translations.menu.home[page.lang] }}</a>
 
-        {% assign principlesUrl = '/principles' | prepend: page.lang | prepend: '/' %}
         <a class="navbar-item {% if page.url == principlesUrl %}is-active{% endif %}"
           href="{{ principlesUrl | relative_url }}">{{ site.data.translations.menu.principles[page.lang] }}</a>
 
-        {% assign callUrl = '/call' | prepend: page.lang | prepend: '/' %}
         <a class="navbar-item {% if page.url == callUrl %}is-active{% endif %}"
           href="{{ callUrl | relative_url }}">{{ site.data.translations.menu.call[page.lang] }}</a>
       </div>
@@ -29,11 +45,9 @@
       </div>
 
       <div class="navbar-end">
-        {% assign supportersUrl = '/supporters' | prepend: page.lang | prepend: '/' %}
         <a class="navbar-item {% if page.url == supportersUrl %}is-active{% endif %}"
           href="{{ supportersUrl | relative_url }}">{{ site.data.translations.menu.supporters[page.lang] }}</a>
 
-        {% assign supportUrl = '/support' | prepend: page.lang | prepend: '/' %}
         <a class="navbar-item button is-primary is-rounded is-medium"
           href="{{ supportUrl | relative_url }}">{{ site.data.translations.menu.support[page.lang] }}</a>
 

@@ -1,9 +1,7 @@
 .main-navbar {
-  padding-top: 1em;
-
-  .navbar-menu { align-items: center; }
-
   @include desktop {
+    padding-top: 1em;
+
     .navbar-start,
     .navbar-end {
       min-width: 35%;
@@ -13,6 +11,7 @@
     }
   }
 
+  .navbar-menu { align-items: center; }
   .navbar-center {
     a {
       display: flex;
@@ -62,6 +61,55 @@
           transform: scaleX(1);
         }
       }
+    }
+  }
+
+  .container {
+    @include touch {
+      position: relative;
+
+      &:before,
+      &:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        width: 30px;
+        height: 70%;
+        z-index: 1;
+      }
+
+      &:before {
+        right: 0;
+        box-shadow: inset -30px 0px 10px -10px #fff;
+      }
+
+      &:after {
+        left: 0;
+        box-shadow: inset 30px 0px 10px -10px #fff;
+      }
+    }
+  }
+
+  .tabs {
+    .icon {
+      margin: 0;
+    }
+
+    ul {
+      padding: 0 20px;
+      justify-content: space-between;
+      border-bottom-color: $tabs-border-bottom-color;
+      border-bottom-style: $tabs-border-bottom-style;
+      border-bottom-width: $tabs-border-bottom-width;
+      font-variant: all-small-caps;
+    }
+
+    a {
+      font-weight: 500;
+    }
+
+    .is-active a {
+      font-weight: 600;
     }
   }
 
