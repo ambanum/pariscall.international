@@ -8,8 +8,8 @@
   <div class="container content">
     <div class="columns">
       <div class="column is-half is-offset-one-quarter">
-        {% capture intention_text %}{% include pages/texts/{{ page.lang }}/tracking.md %}{% endcapture %}
-        {{ intention_text | markdownify }}
+        {% capture tracking_text %}{% include pages/texts/{{ page.lang }}/tracking.md %}{% endcapture %}
+        {{ tracking_text | markdownify }}
       </div>
     </div>
   </div>
