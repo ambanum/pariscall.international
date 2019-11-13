@@ -4,11 +4,15 @@
   </div>
   <div class="hero-body">
     <div class="container has-text-centered">
-      <h1 class="title is-1 is-underline">
+      <h1 aria-label="{{ site.data.translations.global.paris-call[page.lang] }}" class="title is-1 is-underline is-hidden-touch">
         <img class="logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}"
           src="{{site.baseurl}}/assets/images/logo-title-{{ page.lang }}.png" />
       </h1>
-      <h2 class="subtitle is-2">
+      <h1 aria-label="{{ site.data.translations.global.paris-call[page.lang] }}" class="title is-hidden-desktop">
+        <img class="logo" alt="{{ site.data.translations.global.paris-call[page.lang] }}"
+          src="{{site.baseurl}}/assets/images/logo-circle-{{ page.lang }}.png" />
+      </h1>
+      <h2 class="subtitle is-size-2-desktop is-size-3-touch">
         {{ site.data.translations.home.subtitle[page.lang] }}
       </h2>
     </div>

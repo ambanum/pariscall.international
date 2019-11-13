@@ -5,7 +5,11 @@
     .title {
       max-width: 960px;
       position: relative;
-      margin: 1em auto 0.75em auto;
+      margin: 0 auto 0.75em auto;
+
+      @include desktop {
+        margin-top: 1em;
+      }
     }
 
     .subtitle {
@@ -15,11 +19,21 @@
     }
 
     .logo {
-      max-height: 2em;
+      max-height: 6em;
+
+      @include desktop {
+        max-height: 2em;
+      }
     }
   }
 
-  .button-in-text { padding-top: 2em; }
+  .button-in-text {
+    padding: 2em 0;
+
+    @include desktop {
+      padding-bottom: 0;
+    }
+  }
 
   .counters {
     @include tablet {
