@@ -28,6 +28,11 @@ Please note that if through removal of all contact email addresses, we do not ha
 
 We may share your contact information with event organisers for gatherings we organise, such as the Paris Peace Forum, so that they can invite your organisation.
 
+### Complaints
+
+If you encountered difficulties in enforcing your rights on the treatment of email addresses after [having contacted us](](mailto:paris.call@diplomatie.gouv.fr?subject=Personal%20data), you could file a complaint with the French data protection authority [CNIL](https://www.cnil.fr/fr/cnil-direct/question/adresser-une-reclamation-plainte-la-cnil-quelles-conditions-et-comment).
+
+
 ## Visits tracking
 
 When you visit this website, we leave a small text file (a “cookie”) on your computer. This allows us to measure how many visits we’ve had and which pages are most viewed.

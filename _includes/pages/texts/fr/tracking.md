@@ -28,6 +28,10 @@ Veuillez noter que si la suppression de vos adresses électroniques de contact n
 
 Nous pouvons partager vos informations de contact avec les équipes en charge de la gestion des événements que nous organisons, comme le Forum de Paris sur la Paix, afin qu’elles puissent inviter votre organisation.
 
+### Réclamations
+
+Si vous rencontriez des difficultés à faire valoir vos droits sur le traitement des adresses électroniques après [nous avoir sollicité](](mailto:paris.call@diplomatie.gouv.fr?subject=Donnees%20personnelles), vous pouvez introduire une réclamation auprès de la [CNIL](https://www.cnil.fr/fr/cnil-direct/question/adresser-une-reclamation-plainte-la-cnil-quelles-conditions-et-comment).
+
 
 ## Suivi des visites
 
