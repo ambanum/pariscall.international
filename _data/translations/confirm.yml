@@ -11,8 +11,8 @@ supporter:
       en: Something went wrong
       fr: Quelque chose s’est mal passé
     subtitle:
-      en: Your email could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Cannot%20confirm%20my%20email">send us an email</a>.
-      fr: Votre adresse n’a pas pu être confirmée, veuillez réessayer dans quelques minutes. Si cette erreur se répète, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Impossible%20de%20confirmer%20mon%20courriel">envoyez-nous un courriel</a>.
+      en: Your email could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:contact@pariscall.international?subject=Cannot%20confirm%20my%20email">send us an email</a>.
+      fr: Votre adresse n’a pas pu être confirmée, veuillez réessayer dans quelques minutes. Si cette erreur se répète, <a href="mailto:contact@pariscall.international?subject=Impossible%20de%20confirmer%20mon%20courriel">envoyez-nous un courriel</a>.
 event:
   success:
     title:
@@ -26,8 +26,8 @@ event:
       en: Something went wrong
       fr: Quelque chose s’est mal passé
     subtitle:
-      en: Your event could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Cannot%20confirm%20my%20email">send us an email</a>.
-      fr: Votre événement n’a pas pu être confirmé, veuillez réessayer dans quelques minutes. Si cette erreur se répète, <a href="mailto:paris.call@diplomatie.gouv.fr?subject=Impossible%20de%20confirmer%20mon%20evenement">envoyez-nous un courriel</a>.
+      en: Your event could not be confirmed, please try again in a few minutes. If you keep seeing this error, <a href="mailto:contact@pariscall.international?subject=Cannot%20confirm%20my%20email">send us an email</a>.
+      fr: Votre événement n’a pas pu être confirmé, veuillez réessayer dans quelques minutes. Si cette erreur se répète, <a href="mailto:contact@pariscall.international?subject=Impossible%20de%20confirmer%20mon%20evenement">envoyez-nous un courriel</a>.
 expired:
   title:
     en: Confirmation link expired
