@@ -27,11 +27,18 @@
     }
   }
 
+  .principles-section .columns {
+    @include touch {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
   .button-in-text {
-    padding: 2em 0;
+    padding: 1em 0;
 
     @include desktop {
-      padding-bottom: 0;
+      padding: 2em 0 0;
     }
   }
 

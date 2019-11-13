@@ -26,8 +26,7 @@
         {% capture cyberspace_text %}{% include pages/texts/{{ page.lang }}/home/cyberspace.md %}{% endcapture %}
         {{ cyberspace_text | markdownify }}
       </div>
-      <div class="column is-1"></div>
-      <div class="column is-5">
+      <div class="column is-5 is-hidden-touch">
         <div class="duotone is-full-height">
           <img alt="" src="{{site.baseurl}}/assets/images/devices.jpg" />
         </div>
@@ -35,15 +34,14 @@
     </div>
   </div>
 </section>
-<section class="section is-medium">
+<section class="section is-medium principles-section">
   <div class="container content is-size-5">
     <div class="columns">
-      <div class="column is-5">
+      <div class="column is-5 is-hidden-touch">
         <div class="duotone is-full-height">
           <img alt="" src="{{site.baseurl}}/assets/images/united.jpg" />
         </div>
       </div>
-      <div class="column is-1"></div>
       <div class="column">
         {% capture intention_text %}{% include pages/texts/{{ page.lang }}/home/intention.md %}{% endcapture %}
         {{ intention_text | markdownify }}
