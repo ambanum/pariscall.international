@@ -16,7 +16,7 @@ Les adresses électroniques que vous transmettez sont utilisées uniquement aux 
 
 Vous pouvez demander que vos données personnelles vous soient envoyées, soient mises à jour ou supprimées à tout moment par [en nous envoyant un courrier électronique](mailto:paris.call@diplomatie.gouv.fr?subject=Donnees%20personnelles) ou par courrier postal adressé à _Délégué général à la protection des données, 27 rue de la Convention, 75732 Paris Cedex 15, France_.
 
-_Veuillez noter que si la suppression de vos adresses électroniques de contact nous mène à ne plus pouvoir contacter votre organisation, nous pourrons supprimer les mentions publiques de votre soutien._
+Veuillez noter que si la suppression de vos adresses électroniques de contact nous mène à ne plus pouvoir contacter votre organisation, nous pourrons supprimer les mentions publiques de votre soutien.
 
 ### Conservation des données
 

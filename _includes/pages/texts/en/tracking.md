@@ -16,7 +16,7 @@ The email addresses you specify are used only for the purpose stated in the form
 
 You can request your personal data to be sent to you, updated or deleted at any time by [sending us an email](mailto:paris.call@diplomatie.gouv.fr?subject=Personal%20data) or by postal mail to _Délégué général à la protection des données, 27 rue de la Convention, 75732 Paris Cedex 15, France_.
 
-_Please note that if through removal of all contact email addresses, we do not have any way to reach your organisation anymore, we may remove public mentions of your support._
+Please note that if through removal of all contact email addresses, we do not have any way to reach your organisation anymore, we may remove public mentions of your support.
 
 ### Data retention
 
