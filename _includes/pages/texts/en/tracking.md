@@ -14,7 +14,7 @@ The email addresses you specify are used only for the purpose stated in the form
 - for discussions regarding specifically your support of the Call;
 - to send regular information about the Call through newsletters.
 
-You can request your personal data to be sent to you, updated or deleted at any time by [sending us an email](mailto:paris.call@diplomatie.gouv.fr?subject=Personal%20data) or by postal mail to _Délégué général à la protection des données, 27 rue de la Convention, 75732 Paris Cedex 15, France_.
+You can request your personal data to be sent to you, updated or deleted at any time by [sending us an email](mailto:contact@pariscall.international?subject=Personal%20data) or by postal mail to _Délégué général à la protection des données, 27 rue de la Convention, 75732 Paris Cedex 15, France_.
 
 Please note that if through removal of all contact email addresses, we do not have any way to reach your organisation anymore, we may remove public mentions of your support.
 
@@ -27,6 +27,11 @@ Please note that if through removal of all contact email addresses, we do not ha
 ### Data sharing
 
 We may share your contact information with event organisers for gatherings we organise, such as the Paris Peace Forum, so that they can invite your organisation.
+
+### Complaints
+
+If you encountered difficulties in enforcing your rights on the treatment of email addresses after [having contacted us](](mailto:contact@pariscall.international?subject=Personal%20data), you could file a complaint with the French data protection authority [CNIL](https://www.cnil.fr/fr/cnil-direct/question/adresser-une-reclamation-plainte-la-cnil-quelles-conditions-et-comment).
+
 
 ## Visits tracking
 

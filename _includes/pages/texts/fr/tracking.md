@@ -14,7 +14,7 @@ Les adresses électroniques que vous transmettez sont utilisées uniquement aux 
 - pour des discussions concernant spécifiquement votre soutien à l’Appel ;
 - pour vous envoyer régulièrement des informations sur l’Appel.
 
-Vous pouvez demander que vos données personnelles vous soient envoyées, soient mises à jour ou supprimées à tout moment par [en nous envoyant un courrier électronique](mailto:paris.call@diplomatie.gouv.fr?subject=Donnees%20personnelles) ou par courrier postal adressé à _Délégué général à la protection des données, 27 rue de la Convention, 75732 Paris Cedex 15, France_.
+Vous pouvez demander que vos données personnelles vous soient envoyées, soient mises à jour ou supprimées à tout moment par [en nous envoyant un courrier électronique](mailto:contact@pariscall.international?subject=Donnees%20personnelles) ou par courrier postal adressé à _Délégué général à la protection des données, 27 rue de la Convention, 75732 Paris Cedex 15, France_.
 
 Veuillez noter que si la suppression de vos adresses électroniques de contact nous mène à ne plus pouvoir contacter votre organisation, nous pourrons supprimer les mentions publiques de votre soutien.
 
@@ -27,6 +27,10 @@ Veuillez noter que si la suppression de vos adresses électroniques de contact n
 ### Partage de données
 
 Nous pouvons partager vos informations de contact avec les équipes en charge de la gestion des événements que nous organisons, comme le Forum de Paris sur la Paix, afin qu’elles puissent inviter votre organisation.
+
+### Réclamations
+
+Si vous rencontriez des difficultés à faire valoir vos droits sur le traitement des adresses électroniques après [nous avoir sollicité](](mailto:contact@pariscall.international?subject=Donnees%20personnelles), vous pouvez introduire une réclamation auprès de la [CNIL](https://www.cnil.fr/fr/cnil-direct/question/adresser-une-reclamation-plainte-la-cnil-quelles-conditions-et-comment).
 
 
 ## Suivi des visites
