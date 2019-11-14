@@ -95,8 +95,15 @@
       margin: 0;
     }
 
+    ul:first-child {
+      padding-left: 20px;
+    }
+
+    ul:last-child {
+      padding-right: 30px;
+    }
+
     ul {
-      padding: 0 20px;
       justify-content: space-between;
       border-bottom-color: $tabs-border-bottom-color;
       border-bottom-style: $tabs-border-bottom-style;
@@ -110,6 +117,19 @@
 
     .is-active a {
       font-weight: 600;
+    }
+
+    .lang-item {
+      border-left: 1px solid $tabs-border-bottom-color;
+
+      &:last-child {
+        border-right: 1px solid $tabs-border-bottom-color;
+      }
+
+      a.is-active {
+        color: $primary;
+        font-weight: 600;
+      }
     }
   }
 

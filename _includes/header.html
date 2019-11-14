@@ -25,6 +25,15 @@
           <a href="{{ supportUrl | relative_url }}">{{ site.data.translations.menu.support[page.lang] }}</a>
         </li>
       </ul>
+      <ul>
+        {% for lang in site.available_languages %}
+        <li class="lang-item">
+          <a href="{{ page.url | replace_first: page.lang, lang | relative_url }}" class="{% if lang == page.lang %}is-active{% endif %}">
+            {{ site.data.translations.lang[lang] }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
     <div id="navbar-menu" class="navbar-menu is-size-5 is-hidden-touch">
       <div class="navbar-start">
