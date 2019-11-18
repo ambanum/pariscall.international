@@ -1,6 +1,6 @@
 ---
 name: "Université Bretagne Sud"
-category: public-authority
+category: civil-society
 nature:
 nationality: FRA
 website: "https://www.univ-ubs.fr"
