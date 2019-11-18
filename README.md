@@ -25,6 +25,26 @@ menu:
 Duplicate `_pages/en` content in `_pages/$language_code` and translate its content.
 Change all `permalink` attributes in front matters.
 
+Create assets `assets/images/logo-circle-$language_code.png`, `assets/images/full-logo-$language_code.png` and `assets/images/logo-title-$language_code.png` for the new language.
+
+Create forms for the new language in Typeform interface. Duplicate the english version of the form to ensure structure and questions references are the same.
+
+Add webhooks on theses new forms to connect them to the server. In the admin typeform interface when you are on your form, click on the tab `CONNECT` then the tab `WEBHOOKS` and on the button `Add a webhook`. Enter the url after replacing `$event_or_supporter` and `$language_code` with the proper values: `https://pariscall.international/api/webhook/$event_or_supporter?lang=$language_code`. Also add the secret key in the corresponding field.
+
+Add the newly created Typeforms forms urls in `_config.yml`:
+
+```
+typeform_urls:
+  support:
+    en: https://ambanum.typeform.com/to/nsd98d
+    fr: https://ambanum.typeform.com/to/Kg6GFs
+  event:
+    en: https://ambanum.typeform.com/to/BSLKjs
+    fr: https://ambanum.typeform.com/to/jkHAEH
+```
+
+See [ambanum/pariscall.international-backend](https://github.com/ambanum/pariscall.international-backend) readme for adding new language support also on the backend side.
+
 - - -
 
 ## How to embed supporters counters in your website
