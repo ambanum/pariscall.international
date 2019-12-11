@@ -68,6 +68,9 @@ jobs:
 
     steps:
       - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "Gemfile" }}
+
       - run:
           name: Update bundler
           command: gem install bundler -v 2.0.1
@@ -75,9 +78,17 @@ jobs:
       - run:
           name: Install Ruby dependencies
           command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+
+      - save_cache:
+          key: dependency-cache-{{ checksum "Gemfile" }}
+          paths:
+            - ./vendor/bundle
+            - $HOME/.local
+
       - run:
           name: Compile website
           command: bundle exec jekyll build --safe
+
       - run:
           name: Deploy site to GitHub
           command: bash .circleci/deploy.sh
