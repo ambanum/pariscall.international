@@ -63,6 +63,8 @@ jobs:
             do sleep 1
             done
   deploy:
+    machine:
+      enabled: true
     steps:
       - run:
           name: Deploy site to GitHub
