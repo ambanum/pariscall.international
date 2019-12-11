@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 REPO="https://${GITHUB_BOT_TOKEN}@github.com/ambanum/pariscall.international.git"
 
 git checkout gh-pages
