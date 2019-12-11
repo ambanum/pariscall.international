@@ -61,15 +61,3 @@ jobs:
             while ! curl --silent http://localhost:4000
             do sleep 1
             done
-      - deploy:
-          name: Deploy Release to GitHub
-          command: |
-            if [ $CIRCLE_BRANCH == 'master' ]; then
-              bash .circleci/deploy.sh
-            fi
-
-workflows:
-  version: 2
-  build:
-    jobs:
-      - deploy
