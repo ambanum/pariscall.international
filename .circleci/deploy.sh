@@ -6,6 +6,8 @@ REPO="https://${GITHUB_BOT_TOKEN}@github.com/ambanum/pariscall.international.git
 git config user.name "AmbNum-Bot"
 git config user.email "pariscall-tech.dgp-asd-asc@diplomatie.gouv.fr"
 
+git checkout -- Gemfile.lock
+
 git checkout gh-pages
 git pull origin gh-pages
 
