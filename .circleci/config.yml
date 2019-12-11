@@ -66,6 +66,13 @@ jobs:
     machine:
       enabled: true
     steps:
+      - checkout
+      - run:
+          name: Install Ruby dependencies
+          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - run:
+          name: Compile website
+          command: bundle exec jekyll build --safe
       - run:
           name: Deploy site to GitHub
           command: bash .circleci/deploy.sh
