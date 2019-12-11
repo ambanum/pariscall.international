@@ -63,8 +63,9 @@ jobs:
             do sleep 1
             done
   deploy:
-    machine:
-      enabled: true
+    docker:
+       - image: circleci/ruby:2.5.3-browsers  # use the same docker image used for testing
+
     steps:
       - checkout
       - run:
