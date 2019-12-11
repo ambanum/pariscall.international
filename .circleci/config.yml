@@ -55,12 +55,14 @@ jobs:
           name: Start server
           command: bundle exec jekyll serve --no-watch --skip-initial-build
           background: true
+
       - run:
           name: Wait for server to start
           command: |
             while ! curl --silent http://localhost:4000
             do sleep 1
             done
+
       - deploy:
           name: Deploy Release to GitHub
           command: |
