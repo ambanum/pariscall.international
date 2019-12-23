@@ -19,3 +19,15 @@ Après deux ans de travail, les membres ont réalisé beaucoup de choses, notamm
 Les membres de Charter of Trust se sont engagés à renforcer leurs capacités sur cette question importante, ainsi que sur les autres principes énoncés dans l’Appel de Paris. Ils s’engagent non seulement à offrir une formation avancée à leur main-d’œuvre, mais aussi au secteur privé et à la société en général, et à continuer d’ancrer fermement le sujet de la cybersécurité au plus haut niveau politique, local et mondial.
 
 [Charter of Trust](https://www.charteroftrust.com)
+
+### Global Transparency Initiative : l’entreprise Kaspersky, spécialisée dans la sécurité des systèmes d’information, s’engage pour plus de confiance et de transparence dans la cybersécurité
+ 
+Les utilisateurs doivent pouvoir être assurés de la sécurité des produits et services numériques qu’ils utilisent – un smartphone, un ordinateur, une application mobile ou une solution de cybersécurité – et avoir confiance dans la protection de leurs données personnelles. Afin de gagner la confiance des utilisateurs et de les guider dans leur choix d’achat, les entreprises doivent constamment renforcer leurs efforts de transparence et adopter un comportement responsable dans le cyberespace. 
+ 
+La Global Transparency Initiative (GTI) de Kaspersky consiste en un ensemble de mesures claires de vérification et de réduction des risques visant à accroître la confiance des utilisateurs et à garantir que les solutions de cybersécurité proposées par l’entreprise respectent les principes de sécurité et de protection des données. 
+ 
+Les mesures mises en place par Kaspersky vont de la gestion des données (transfert du traitement et du stockage des données en Suisse pour une protection et une sécurité maximales des données) à la vérification (mise en place de processus internes sûrs et fiables évalués par un tiers indépendant) et la gestion des vulnérabilités (coopération avec des chercheurs en sécurité par le biais de programmes de bug bounty, dont les prix peuvent atteindre 100 000 dollars pour les failles de sécurité les plus critiques). 
+ 
+La GTI prévoit également l’ouverture de Centres de Transparence, des centres de sécurité visant à offrir une meilleure connaissance des produits de cybersécurité grâce à une approche à trois niveaux, spécialement développée pour les briefings de sécurité et les revues externes du code source de l'entreprise, des mises à jour logicielles et des règles de détection des menaces. 
+ 
+[Centres de Transparence](https://www.kaspersky.com/transparency-center)
