@@ -19,3 +19,15 @@ After two years of work, members have achieved a lot, especially regarding the s
 Members of the Charter of Trust are committed to build capacity on this important matter, as well as on other principles outlined in the Paris Call. They commit not only to providing advanced training for their workforce but also for business and society.They also continue to firmly anchor cybersecurity on the agenda at the highest political level –locally and globally.
 
 [Charter of Trust](https://www.charteroftrust.com)
+
+### Global Transparency Initiative: cybersecurity and anti-virus provider Kaspersky implements a unique approach for higher transparency and verifiable trust in cybersecurity
+ 
+Users need to know that their data will be protected and that they can trust the security of the digital products and services they purchase – whether it is a smartphone, a laptop, a mobile application, or a cybersecurity solution. In order to earn their customers’ trust, companies need to constantly improve their transparency and accountability in the cyberspace. 
+ 
+Kaspersky’s Global Transparence Initiative (GTI) puts into effect a set of clear verification and risk-minimization measures to increase users’ confidence and ensure that cybersecurity solutions meet and exceed corporate data security and protection standards.
+ 
+Measures implemented by Kaspersky range from data care (relocation of data processing and data storage to Switzerland for the utmost data protection and security) to verification (secure and reliable engineering practices confirmed through independent third-party assessment) and vulnerabilities management (responsible cooperation with security researchers through Kaspersky’s Bug Bounty Program with awards of up to $100k for the most critical security flaws). 
+ 
+The GTI also puts into place Transparency Centers, dedicated security facilities for greater confidence in and knowledge of cybersecurity products through Kaspersky’s specifically developed ‘three-layer’ approach to security briefings and external reviews of the company’s source code, software updates and threat detection rules.
+
+[Transparency Centers](https://www.kaspersky.com/transparency-center)
