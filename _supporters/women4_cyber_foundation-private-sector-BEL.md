@@ -1,6 +1,6 @@
 ---
 name: "Women4Cyber Foundation"
-category: private-sector
+category: civil-society
 nature:
 nationality: BEL
 website: "https://www.women4cyber.eu"
