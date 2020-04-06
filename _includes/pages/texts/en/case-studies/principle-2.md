@@ -8,7 +8,7 @@ It is crucial to guarantee the protection and availability of DNS. A new protoco
 
 [Nameshield](https://www.nameshield.com/)
 
-## Public Core CoI: the Hague Centre for Strategic Studies will lead a community of interest on protecting the public core of the Internet
+### Public Core CoI: the Hague Centre for Strategic Studies will lead a community of interest on protecting the public core of the Internet
 
 Responding to threats against the core protocols and services of the global Internet requires the cooperation of the full range of stakeholders. Most of the infrastructure, services, and products underpinning it are privately-owned, or governed and maintained by the civil society functioning as the technical community.
 
