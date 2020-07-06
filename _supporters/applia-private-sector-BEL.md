@@ -1,7 +1,7 @@
 ---
 name: "APPLiA"
-category: 
-nature:
+category: private-sector
+nature: "Association professionnelle"
 nationality: BEL
 website: "https://applia-europe.eu/"
 twitter: "@APPLiA_Europe"
