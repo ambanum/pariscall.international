@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-       - image: circleci/ruby:2.5.8-browsers  # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
+       - image: circleci/ruby:2.7.1-browsers  # use the browsers variant image to have Java preinstalled as it is a dependency of html5validator
 
     steps:
       - checkout
@@ -12,7 +12,7 @@ jobs:
 
       - run:
           name: Update bundler
-          command: gem install bundler -v 2.0.1
+          command: gem install bundler -v 2.1.4
 
       - run:
           name: Install Ruby dependencies
@@ -64,7 +64,7 @@ jobs:
             done
   deploy:
     docker:
-       - image: circleci/ruby:2.5.8-browsers  # use the same docker image used for testing
+       - image: circleci/ruby:2.7.1-browsers  # use the same docker image used for testing
 
     steps:
       - checkout
@@ -73,7 +73,7 @@ jobs:
 
       - run:
           name: Update bundler
-          command: gem install bundler -v 2.0.1
+          command: gem install bundler -v 2.1.4
 
       - run:
           name: Install Ruby dependencies
