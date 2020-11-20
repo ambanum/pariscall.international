@@ -1,5 +1,5 @@
 ---
-name: "Penta Hospitals CZ, s.r.o."
+name: "Penta Hospitals CZ"
 category: private-sector
 nature: ""
 nationality: CZE
