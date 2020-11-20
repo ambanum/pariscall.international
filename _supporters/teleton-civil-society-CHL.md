@@ -1,6 +1,6 @@
 ---
 name: "Teletón"
-category: private-sector
+category: civil-society
 nature:
 nationality: CHL
 website: "https://www.teleton.cl/"
