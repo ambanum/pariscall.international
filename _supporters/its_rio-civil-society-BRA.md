@@ -1,6 +1,6 @@
 ---
 name: "ITS Rio"
 category: civil-society
-nature: ""
+nature: "association"
 nationality: BRA
 ---
