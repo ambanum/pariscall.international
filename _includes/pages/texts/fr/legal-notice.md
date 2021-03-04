@@ -3,10 +3,6 @@
 Ministère de l’Europe et des Affaires étrangères<br>
 37 Quai d’Orsay, 75007 Paris, France
 
-## Direction de rédaction
-
-Sous-directeur des Affaires Stratégiques et de la Cybersécurité (Florian Escudié)
-
 ## Hébergeurs
 
 ### Contenu du site
