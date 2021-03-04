@@ -3,10 +3,6 @@
 French Ministry for Europe and Foreign Affairs<br>
 37 Quai d’Orsay, 75007 Paris, France
 
-## Editorial director
-
-Head of Strategic Affairs and Cybersecurity Department (Florian Escudié)
-
 ## Hosting providers
 
 ### Website content
