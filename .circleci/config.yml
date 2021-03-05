@@ -16,7 +16,7 @@ jobs:
 
       - run:
           name: Install Ruby dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+          command: LOCALLY_UPDATE_DEPENDENCIES=true bundle install --jobs=4 --retry=3 --path vendor/bundle
 
       - run:
           name: Install html5validator
@@ -77,7 +77,7 @@ jobs:
 
       - run:
           name: Install Ruby dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+          command: LOCALLY_UPDATE_DEPENDENCIES=true bundle install --jobs=4 --retry=3 --path vendor/bundle
 
       - save_cache:
           key: dependency-cache-{{ checksum "Gemfile" }}

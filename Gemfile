@@ -12,12 +12,12 @@ begin
 
   # Prevent CircleCI to push to Github if the Ruby version is not the GitHub Pages one.
   # See <https://circleci.com/docs/unrecognized-ruby-version/>
-  ruby versions['ruby'] if ENV['CI']
+  ruby versions['ruby'] if ENV['CI'] && ! ENV['LOCALLY_UPDATE_DEPENDENCIES']
 
 # If the GitHub Pages versions endpoint is unreacheable, we assume offline development.
 rescue SocketError => socket_error
   # If in CI, this means we can't validate version match, and there is no reason to be offline. Abort.
-  raise socket_error if ENV['CI']
+  raise socket_error if ENV['CI'] && ! ENV['LOCALLY_UPDATE_DEPENDENCIES']
 
   puts <<-MESSAGE
     Couldn't reach #{versions_url.to_s}, assuming you're offline.
@@ -29,7 +29,7 @@ rescue SocketError => socket_error
 # If for any other reason the production versions check fails, we still provide a fallback scenario.
 rescue => standard_error
   # If in CI, this means we can't validate version match. Abort.
-  raise standard_error if ENV['CI']
+  raise standard_error if ENV['CI'] && ! ENV['LOCALLY_UPDATE_DEPENDENCIES']
 
   puts <<-MESSAGE
     Something went wrong trying to parse production versions.
