@@ -272,7 +272,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 212)
+  github-pages (~> 212)
   html-proofer
   jekyll-environment-variables
 

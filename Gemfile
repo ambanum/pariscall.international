@@ -8,12 +8,10 @@ begin
   versions_url = 'https://pages.github.com/versions.json'
   versions     = JSON.parse(Net::HTTP.get(URI(versions_url)))
 
-  # Ensure matching of the local gems with the production version of Github Pages.
-  gem 'github-pages', versions['github-pages'], group: :jekyll_plugins
-
-  # Ensure matching of the local Ruby version with the production version of GitHub Pages.
+  # Ensure matching of the local Ruby and gem versions with the production version of GitHub Pages.
   # Maintenance mode: ignore this check in CI so that non-tech users don't get blocked by a potential change in Ruby versions that they can't fix and that most likely has no impact.
   ruby versions['ruby'] if ! ENV['CI']
+  gem 'github-pages', '~> 212', group: :jekyll_plugins
 
 # If the GitHub Pages versions endpoint is unreacheable, assume offline development.
 rescue SocketError => socket_error
