@@ -12,12 +12,13 @@ begin
   gem 'github-pages', versions['github-pages'], group: :jekyll_plugins
 
   # Ensure matching of the local Ruby version with the production version of GitHub Pages.
-  ruby versions['ruby'] if ENV['CI'] && ! ENV['LOCALLY_UPDATE_DEPENDENCIES']
+  # Maintenance mode: ignore this check in CI so that non-tech users don't get blocked by a potential change in Ruby versions that they can't fix and that most likely has no impact.
+  ruby versions['ruby'] if ! ENV['CI']
 
 # If the GitHub Pages versions endpoint is unreacheable, assume offline development.
 rescue SocketError => socket_error
   # If in CI, this means we can't validate version match, and there is no reason to be offline. Abort.
-  raise socket_error if ENV['CI'] && ! ENV['LOCALLY_UPDATE_DEPENDENCIES']
+  raise socket_error if ENV['CI']
 
   puts "Couldn't reach #{versions_url}, assuming you're offline."
 
@@ -27,7 +28,8 @@ rescue SocketError => socket_error
 # Provide a fallback scenario if for any other reason the production versions check fails.
 rescue => standard_error
   # If in CI, this means we can't validate version match. Abort.
-  raise standard_error if ENV['CI'] && ! ENV['LOCALLY_UPDATE_DEPENDENCIES']
+  # Maintenance mode: ignore this check in CI so that non-tech users don't get blocked by a potential change in gem versions that they can't fix.
+  # raise standard_error if ENV['CI']
 
   puts <<-MESSAGE
     Something went wrong trying to parse production versions: #{standard_error.class.name}
