@@ -20,7 +20,7 @@ jobs:
 
       - run:
           name: Install Ruby dependencies
-          command: LOCALLY_UPDATE_DEPENDENCIES=true bundle install --jobs=4 --retry=3
+          command: LOCALLY_UPDATE_DEPENDENCIES=true bundle update --jobs=4 --retry=3
 
       - run:
           name: Install html5validator
