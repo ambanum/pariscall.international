@@ -16,7 +16,7 @@ jobs:
 
       - run:
           name: Update bundler
-          command: gem install bundler -v 2.1.4  # if you go back to actively developing this website, you should remove the version specification to always update to the latest version of bundler
+          command: gem install bundler -v 2.1.4  # if you go back to actively developing this website, you should remove this version lock to always update to the latest version of bundler
 
       - run:
           name: Install Ruby dependencies
@@ -82,7 +82,7 @@ jobs:
 
       - run:
           name: Update bundler
-          command: gem install bundler -v 2.1.4  # if you go back to actively developing this website, you should remove the version specification to always update to the latest version of bundler
+          command: gem install bundler -v 2.1.4  # if you go back to actively developing this website, you should remove this version lock to always update to the latest version of bundler
 
       - run:
           name: Install Ruby dependencies
