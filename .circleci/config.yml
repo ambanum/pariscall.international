@@ -8,15 +8,19 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: dependency-cache-{{ checksum "Gemfile" }}
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: Restore bundle cache
+          command: bundle config set path vendor/bundle
 
       - run:
           name: Update bundler
-          command: gem install bundler -v 2.1.4
+          command: gem install bundler -v 2.1.4  # if you go back to actively developing this website, you should remove this version lock to always update to the latest version of bundler
 
       - run:
           name: Install Ruby dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+          command: bundle install --jobs=4 --retry=3
 
       - run:
           name: Install html5validator
@@ -26,7 +30,7 @@ jobs:
             pip install --user --upgrade html5validator  # will install in $HOME/.local
 
       - save_cache:
-          key: dependency-cache-{{ checksum "Gemfile" }}
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
           paths:
             - ./vendor/bundle
             - $HOME/.local
@@ -36,8 +40,8 @@ jobs:
           command: bundle exec jekyll doctor
 
       - run:
-          name: Compile website
-          command: bundle exec jekyll build --safe
+          name: Compile website with GitHub Pages options
+          command: bundle exec jekyll build --safe --strict_front_matter
 
       - run:
           name: Check homepage was compiled
@@ -45,7 +49,7 @@ jobs:
 
       - run:
           name: Check HTML common mistakes
-          command: bundle exec htmlproofer ./_site --assume-extension --check-html --disable-external --empty-alt-ignore --check-img-http
+          command: bundle exec htmlproofer ./_site --assume-extension --check-html --report_eof_tags --report_invalid_tags --report_mismatched_tags --report_missing_doctype --disable-external --empty-alt-ignore --check-img-http --check_opengraph --check_sri
 
       - run:
           name: Validate HTML spec compliance
@@ -62,6 +66,7 @@ jobs:
             while ! curl --silent http://localhost:4000
             do sleep 1
             done
+
   deploy:
     docker:
        - image: circleci/ruby:2.7.1-browsers  # use the same docker image used for testing
@@ -69,29 +74,32 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: dependency-cache-{{ checksum "Gemfile" }}
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
+
+      - run:
+          name: Restore bundle cache
+          command: bundle config set path vendor/bundle
 
       - run:
           name: Update bundler
-          command: gem install bundler -v 2.1.4
+          command: gem install bundler -v 2.1.4  # if you go back to actively developing this website, you should remove this version lock to always update to the latest version of bundler
 
       - run:
           name: Install Ruby dependencies
-          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+          command: bundle install --jobs=4 --retry=3
 
       - save_cache:
-          key: dependency-cache-{{ checksum "Gemfile" }}
+          key: dependency-cache-{{ checksum "Gemfile.lock" }}
           paths:
             - ./vendor/bundle
-            - $HOME/.local
 
       - run:
           name: Compile website
-          command: bundle exec jekyll build --safe
+          command: bundle exec jekyll build
 
       - run:
-          name: Deploy site to GitHub
-          command: bash .circleci/deploy.sh
+          name: Deploy site to GitHub Pages
+          command: bash ../_scripts/deploy.sh
 
 workflows:
   version: 2

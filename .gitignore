@@ -1,7 +1,12 @@
-_scripts/node_modules
-
+# Build artifacts
 _site
 .sass-cache
 .jekyll-metadata
 
+# Dependencies
+.bundle
+vendor
+_scripts/node_modules
+
+# OS-specific
 .DS_Store
