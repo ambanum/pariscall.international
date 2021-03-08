@@ -16,11 +16,11 @@ jobs:
 
       - run:
           name: Update bundler
-          command: gem install bundle
+          command: gem install bundler -v 2.1.4  # if you go back to actively developing this website, you should remove the version specification to always update to the latest version of bundler
 
       - run:
           name: Install Ruby dependencies
-          command: bundle update --jobs=4 --retry=3
+          command: bundle install --jobs=4 --retry=3
 
       - run:
           name: Install html5validator
@@ -82,7 +82,7 @@ jobs:
 
       - run:
           name: Update bundler
-          command: gem install bundle
+          command: gem install bundler -v 2.1.4  # if you go back to actively developing this website, you should remove the version specification to always update to the latest version of bundler
 
       - run:
           name: Install Ruby dependencies
