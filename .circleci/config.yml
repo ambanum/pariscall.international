@@ -99,7 +99,7 @@ jobs:
 
       - run:
           name: Deploy site to GitHub Pages
-          command: bash ../_scripts/deploy.sh
+          command: bash _scripts/deploy.sh
 
 workflows:
   version: 2
