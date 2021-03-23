@@ -8,12 +8,14 @@ The TCEI brings together committed and eminent persons from different background
 
 [Transatlantic Commission on Election Integrity](https://www.allianceofdemocracies.org/transatlantic-commission-on-election-integrity/)
 
-### Countering election interference: Microsoft and the Alliance for Securing Democracy partner to prevent malign interference by foreign actors
+### Countering election interference:the Alliance for Securing Democracy, the Government of Canada and Microsoft are working to prevent malign interference by foreign actors
 
-Microsoft and the Alliance for Securing Democracy are building a community of partners to counter election interference, which will bring together representatives from government, industry and civil society in order to strengthen the capacity to prevent malign interference by foreign actors in electoral processes.
+The Alliance for Securing Democracy (ASD), the Government of Canada, and Microsoft are working together to strenghten the collective capacity to prevent malign interference by foreign actors aimed at undermining electoral processes through malicious cyber activities.
 
-Recognizing that the growing challenge that cyber threats pose to electoral processes is part of a broader, multifaceted threat to democratic institutions, Microsoft and the Alliance for Securing Democracy, together with a government partner, have chosen to formalize their collaboration by partnering in a community dedicated to these topics.
+Throughout 2020, they brought the global community together through the organization of multistakeholder workshops, each one addressing a critical topic related to preventing interference in electoral processes. During these workshops, key observations, ideas and effective practices were collected from a diverse group of experts, practitioners and stakeholders. 
 
-Together, the two organizations will work to raise global awareness of the threat cyberattacks pose to elections and democratic institutions and convene key stakeholders to advance thinking on what constitutes foreign interference in elections, track the tools and tactics used to undermine democratic institutions and processes, and develop best practices and policy responses to secure elections and other democratic processes from cyber-enabled threats. Microsoft and the Alliance for Securing Democracy will also assist likeminded partners in capacity building by developing mechanisms to facilitate information sharing on emerging trends, driving industry collaboration to support smaller organizations that lack resources to develop their own capabilities, and conducting threat simulation exercises designed to produce actionable solutions.
+Summaries of these practices are available here: https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html. 
 
-[Microsoft](https://www.microsoft.com/) and the [Alliance for Securing Democracy](https://securingdemocracy.gmfus.org/)
+A more in-depth compendium is planned for the first quarter of 2021.
+
+[Microsoft](https://www.microsoft.com/), the [Alliance for Securing Democracy](https://securingdemocracy.gmfus.org/) and the Government of Canada
