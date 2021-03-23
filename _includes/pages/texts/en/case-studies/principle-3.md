@@ -14,7 +14,7 @@ The Alliance for Securing Democracy (ASD), the Government of Canada, and Microso
 
 Throughout 2020, they brought the global community together through the organization of multistakeholder workshops, each one addressing a critical topic related to preventing interference in electoral processes. During these workshops, key observations, ideas and effective practices were collected from a diverse group of experts, practitioners and stakeholders. 
 
-Summaries of these practices are available here: https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html. 
+Summaries of these practices are available here: [https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html](https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html). 
 
 A more in-depth compendium is planned for the first quarter of 2021.
 
