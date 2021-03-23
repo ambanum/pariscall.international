@@ -8,12 +8,14 @@ La TCEI rassemble d’éminentes personnalités engagées, issues d’horizons v
 
 [Transatlantic Commission on Election Integrity (TCEI)](https://www.allianceofdemocracies.org/transatlantic-commission-on-election-integrity/)
 
-### Lutte contre l’ingérence électorale : Microsoft et l'Alliance for Securing Democracy s'associent pour prévenir les interférences malignes d’acteurs étrangers
+### Lutte contre l’ingérence électorale : l'Alliance for Securing Democracy, le Canada et Microsoft travaillent à prévenir les interférences malignes d’acteurs étrangers
 
-Microsoft et l’Alliance for Securing Democracy mettent en place une communauté sur la lutte contre les interférences électorales, qui rassemblera des soutiens gouvernementaux, privés et issus de la société civile dans le but de renforcer la capacité à prévenir les interférences malignes d’acteurs étrangers dans les processus électoraux.
+L’Alliance for Securing Democracy (ASD), le gouvernement du Canada et Microsoft collaborent pour renforcer notre capacité collective à prévenir les ingérences malveillantes d'acteurs étrangers visant à saper les processus électoraux par le biais de cyberactivités malveillantes.
 
-Microsoft et l’Alliance for Securing Democracy estiment que les défis croissants qu’entraînent les cybermenaces pour les processus électoraux s’inscivent dans le cadre d’une menace plus large et protéiforme pour les institutions démocratiques. Les deux organisations, de concert avec un partenaire gouvernemental, ont donc choisi de formaliser leur collaboration en s'associant au sein d'une communauté dédiée à ces sujets.
+Tout au long de l'année 2020, ils ont rassemblé des membres de la communauté mondiale travaillent sur ce sujet lors d'ateliers multipartites, chacun abordant un sujet essentiel lié à la prévention des ingérences dans les processus électoraux. Au cours de ces ateliers, des observations, des idées et des bonnes pratiques ont été recueillies auprès d'un groupe divers d'experts, de praticiens et de parties prenantes de différents secteurs.
 
-Ensemble, les deux organisations s’efforceront de sensibiliser l’opinion mondiale à la menace que les cyberattaques font peser sur les élections et les institutions démocratiques et de réunir les principales parties prenantes pour faire avancer la réflexion autour de la définition des ingérences étrangères dans les élections, suivre les outils et tactiques utilisés pour saper les institutions et processus démocratiques, et élaborer les meilleures pratiques et réponses politiques pour assurer la tenue des élections et autres processus démocratiques en fonction des menaces informatiques. Les organisations aideront également les partenaires partageant les mêmes idées à renforcer leurs capacités en élaborant des mécanismes pour faciliter l’échange d’information sur les nouvelles tendances, en encourageant la collaboration au sein de l’industrie pour soutenir les petites organisations qui manquent de ressources pour développer leurs propres capacités et en menant des exercices de simulation de menaces visant à produire des solutions réalisables.
+Des synthèses de ces bonnes pratiques sont disponibles ici : https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html.
 
-[Microsoft](https://www.microsoft.com/fr-fr/) et [The Alliance for Securing Democracy](https://securingdemocracy.gmfus.org/)
+Un rapport plus approfondi est prévu pour le premier trimestre 2021.
+
+[Microsoft](https://www.microsoft.com/fr-fr/), [The Alliance for Securing Democracy](https://securingdemocracy.gmfus.org/) et le gouvernement du Canada
