@@ -1,6 +1,6 @@
 ---
 name: "Observer Research Foundation America (ORF America)"
 category: civil-society
-nature: "ONG"
+nature: "Think tank"
 nationality: USA
 ---
