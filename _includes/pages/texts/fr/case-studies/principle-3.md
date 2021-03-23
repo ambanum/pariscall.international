@@ -14,7 +14,7 @@ L’Alliance for Securing Democracy (ASD), le gouvernement du Canada et Microsof
 
 Tout au long de l'année 2020, ils ont rassemblé des membres de la communauté mondiale travaillent sur ce sujet lors d'ateliers multipartites, chacun abordant un sujet essentiel lié à la prévention des ingérences dans les processus électoraux. Au cours de ces ateliers, des observations, des idées et des bonnes pratiques ont été recueillies auprès d'un groupe divers d'experts, de praticiens et de parties prenantes de différents secteurs.
 
-Des synthèses de ces bonnes pratiques sont disponibles ici : https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html.
+Des synthèses de ces bonnes pratiques sont disponibles ici : [https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html](https://www.canada.ca/en/democratic-institutions/services/paris-call-trust-security-cyberspace.html).
 
 Un rapport plus approfondi est prévu pour le premier trimestre 2021.
 
