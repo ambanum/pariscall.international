@@ -1,6 +1,6 @@
 ---
 name: "Royaume-Uni"
 category: state
-nature: "UE"
+nature: ""
 nationality: GBR
 ---
