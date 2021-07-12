@@ -1,6 +1,6 @@
 ---
 name: "StrategEast"
-category: 
+category: civil-society
 nature:
 nationality: USA
 website: "https://www.strategeast.org"
