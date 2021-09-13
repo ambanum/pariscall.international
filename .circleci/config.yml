@@ -100,6 +100,7 @@ jobs:
       - run:
           name: Deploy site to GitHub Pages
           command: bash _scripts/deploy.sh
+          no_output_timeout: 1200
 
 workflows:
   version: 2
