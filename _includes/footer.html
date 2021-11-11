@@ -19,6 +19,12 @@
         <a href="{{ legalNoticeUrl | relative_url }}">
         {{ site.data.translations.legal-notice.title[page.lang] }}
         </a>
+        <span class="footer__dot">∙</span>
+        <a href="{{ site.typeform_urls.event[page.lang] }}"
+            data-mode="drawer_right" data-hide-headers=true data-hide-footer=true data-submit-close-delay="1"
+            target="_blank" id="suggestEvent">
+            {{ site.data.translations.home.suggest-event[page.lang] }}
+          </a>
       </div>
     </div>
     <div class="columns">
