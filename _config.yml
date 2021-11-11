@@ -7,13 +7,14 @@ url: https://pariscall.international/
 
 supporter_categories: [ state, public-authority, private-sector, civil-society ]
 available_languages: [ en, fr ]
-typeform_urls:
+typeform_ids:
   support:
-    en: https://ambanum.typeform.com/to/qjm1oJ
-    fr: https://ambanum.typeform.com/to/Y5eTGr
+    en: qjm1oJ
+    fr: Y5eTGr
+typeform_urls:
   event:
-    en: https://ambanum.typeform.com/to/Gqi5uB
-    fr: https://ambanum.typeform.com/to/OYvfQd
+    en: https://form.typeform.com/to/Gqi5uB
+    fr: https://form.typeform.com/to/OYvfQd
 
 collections:
   events:
