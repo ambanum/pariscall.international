@@ -31,16 +31,22 @@ Create forms for the new language in Typeform interface. Duplicate the english v
 
 Add webhooks on theses new forms to connect them to the server. In the admin typeform interface when you are on your form, click on the tab `CONNECT` then the tab `WEBHOOKS` and on the button `Add a webhook`. Enter the url after replacing `$event_or_supporter` and `$language_code` with the proper values: `https://pariscall.international/api/webhook/$event_or_supporter?lang=$language_code`. Also add the secret key in the corresponding field.
 
-Add the newly created Typeforms forms urls in `_config.yml`:
+If you want to embed Typeforms forms you need to add the newly created Typeforms forms id in `_config.yml`: 
+
+```
+typeform_ids:
+  support:
+    en: qjm1oJ
+    fr: Y5eTGr
+```
+
+If you want to add links to Typeforms forms, add the newly created Typeforms forms urls in `_config.yml`:
 
 ```
 typeform_urls:
-  support:
-    en: https://ambanum.typeform.com/to/nsd98d
-    fr: https://ambanum.typeform.com/to/Kg6GFs
   event:
-    en: https://ambanum.typeform.com/to/BSLKjs
-    fr: https://ambanum.typeform.com/to/jkHAEH
+    en: https://form.typeform.com/to/Gqi5uB
+    fr: https://form.typeform.com/to/OYvfQd
 ```
 
 See [ambanum/pariscall.international-backend](https://github.com/ambanum/pariscall.international-backend) readme for adding new language support also on the backend side.
