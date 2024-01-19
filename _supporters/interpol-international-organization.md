@@ -1,6 +1,6 @@
 ---
-name: "Europol"
+name: "INTERPOL"
 category: public-authority
-nature: "Agence"
-nationality: NLD
+nature: "International Organization"
+nationality:
 ---
